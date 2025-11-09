@@ -4,7 +4,7 @@
 <main class="main-content">
   <section class="story-hero">
     <div class="container container-narrow">
-      <a href="/" class="back-link">
+      <a href="/library" class="back-link">
         <span aria-hidden="true">&#8592;</span>
         <span data-i18n-key="story.backLink">Zur&uuml;ck zur Bibliothek</span>
       </a>
@@ -22,7 +22,11 @@
     </div>
   </section>
 
-  <article class="story-detail" data-story-language="<%= story.language || 'auto' %>">
+  <article
+    class="story-detail"
+    data-story-language="<%= story.language || 'auto' %>"
+    data-story-id="<%= story.id %>"
+  >
     <div class="container container-narrow">
       <div class="story-translation">
         <p class="translation-hint" id="translation-hint" data-i18n-key="story.translationHint">
@@ -138,5 +142,6 @@
   </article>
 </main>
 
+<script src="/js/library-progress.js" defer></script>
 <script src="/js/story.js" defer></script>
 <%- include('partials/footer') %>

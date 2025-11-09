@@ -1,0 +1,48 @@
+<article class="profile-card">
+  <header class="profile-card__header">
+    <h2 data-i18n-key="profile.tabs.progress">Lernfortschritt</h2>
+  </header>
+
+  <section class="progress-overview">
+    <h3 data-i18n-key="profile.progress.overview">Überblick</h3>
+    <div class="progress-stats">
+      <div class="progress-stat">
+        <span class="progress-stat__value"><%= profile.overview.started %></span>
+        <span class="progress-stat__label" data-i18n-key="profile.progress.started">Gestartete Stories</span>
+      </div>
+      <div class="progress-stat">
+        <span class="progress-stat__value"><%= profile.overview.finished %></span>
+        <span class="progress-stat__label" data-i18n-key="profile.progress.finished">Abgeschlossen</span>
+      </div>
+      <div class="progress-stat">
+        <span class="progress-stat__value"><%= profile.overview.minutes || 0 %></span>
+        <span class="progress-stat__label" data-i18n-key="profile.progress.time">Lesezeit (Min.)</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="progress-table">
+    <h3 data-i18n-key="profile.progress.continue">Weiterlesen</h3>
+    <% if (profile.inProgress && profile.inProgress.length) { %>
+      <ul class="progress-list">
+        <% profile.inProgress.forEach((item) => { %>
+          <li class="progress-list__item">
+            <div>
+              <p class="progress-list__title"><%= item.title %></p>
+              <p class="progress-list__meta">
+                <span class="level-badge level-<%= item.level.toLowerCase() %>"><%= item.level %></span>
+                <span><%= item.percentage %>%</span>
+                <span><%= item.last_read_at %></span>
+              </p>
+            </div>
+            <a href="/story/<%= item.story_id %>" class="button button-secondary" data-i18n-key="profile.progress.resume">
+              Fortsetzen
+            </a>
+          </li>
+        <% }) %>
+      </ul>
+    <% } else { %>
+      <p class="progress-empty" data-i18n-key="profile.progress.empty">Keine laufenden Geschichten.</p>
+    <% } %>
+  </section>
+</article>

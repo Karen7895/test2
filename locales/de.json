@@ -3834,6 +3834,79 @@
       ]
     }
   ],
+  "profile": {
+    "title": "Dein Profil",
+    "subtitle": "Verwalte deine Einstellungen, dein Abo und deinen Lernfortschritt.",
+    "tabs": {
+      "user": "Nutzerinfo",
+      "subscription": "Abonnement",
+      "progress": "Lernfortschritt",
+      "settings": "Einstellungen",
+      "support": "Support"
+    },
+    "user": {
+      "avatar": "Avatar",
+      "upload": "Hochladen",
+      "name": "Name",
+      "email": "E-Mail",
+      "registered": "Mitglied seit",
+      "level": "Level",
+      "avatarHint": "Max. 200 KB · PNG/JPG/WEBP"
+    },
+    "subscription": {
+      "currentPlan": "Aktueller Plan",
+      "basic": "Basic",
+      "medium": "Medium",
+      "advanced": "Advanced",
+      "renewal": "Verlängert am",
+      "upgrade": "Upgrade",
+      "downgrade": "Downgrade",
+      "cancel": "Abo kündigen",
+      "manageInPaypal": "In PayPal verwalten",
+      "history": "Zahlungsverlauf",
+      "noPayments": "Noch keine Zahlungen erfasst."
+    },
+    "progress": {
+      "overview": "Überblick",
+      "started": "Gestartete Stories",
+      "finished": "Abgeschlossene Stories",
+      "continue": "Weiterlesen",
+      "resume": "Fortsetzen",
+      "time": "Lesezeit (Minuten)",
+      "empty": "Noch keine angefangenen Geschichten."
+    },
+    "settings": {
+      "language": "Interface-Sprache",
+      "theme": "Theme",
+      "themeDark": "Dunkel",
+      "themeLight": "Hell",
+      "level": "Dein Level",
+      "aiTeacher": "Bevorzugter KI-Lehrer",
+      "changeOnAiPage": "Auf AI Teacher Seite ändern",
+      "save": "Einstellungen speichern",
+      "saved": "Einstellungen gespeichert"
+    },
+    "support": {
+      "contact": "Support kontaktieren",
+      "faq": "FAQ",
+      "report": "Problem melden",
+      "description": "Beschreibung",
+      "send": "Senden"
+    }
+  },
+  "library": {
+    "title": "Bibliothek",
+    "subtitle": "Durchsuche unsere Sammlung nach deinem aktuellen Sprachniveau.",
+    "filters": {
+      "all": "Alle",
+      "ariaLabel": "Nach Level filtern"
+    },
+    "continue": {
+      "title": "Weiterlesen"
+    },
+    "readTime": "Lesedauer: ~%s Min",
+    "read": "Lesen"
+  },
   "menu": {
     "library": "Bibliothek",
     "learning": "Lernen",
@@ -3842,6 +3915,7 @@
     "vocabulary": "Vokabeln",
     "pronunciation": "Aussprache",
     "test": "Deutschtest",
-    "ai_teacher": "KI-Lehrer"
+    "ai_teacher": "KI-Lehrer",
+    "profile": "Profil"
   }
 }

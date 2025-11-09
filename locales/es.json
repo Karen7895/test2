@@ -3834,6 +3834,79 @@
       ]
     }
   ],
+  "profile": {
+    "title": "Tu perfil",
+    "subtitle": "Gestiona tu configuración, suscripción y progreso de aprendizaje.",
+    "tabs": {
+      "user": "Información del usuario",
+      "subscription": "Suscripción",
+      "progress": "Progreso de aprendizaje",
+      "settings": "Configuración",
+      "support": "Soporte"
+    },
+    "user": {
+      "avatar": "Avatar",
+      "upload": "Subir",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "registered": "Miembro desde",
+      "level": "Nivel",
+      "avatarHint": "200 KB máx · PNG/JPG/WEBP"
+    },
+    "subscription": {
+      "currentPlan": "Plan actual",
+      "basic": "Básico",
+      "medium": "Medio",
+      "advanced": "Avanzado",
+      "renewal": "Renueva el",
+      "upgrade": "Mejorar plan",
+      "downgrade": "Cambiar a un plan inferior",
+      "cancel": "Cancelar suscripción",
+      "manageInPaypal": "Gestionar en PayPal",
+      "history": "Historial de pagos",
+      "noPayments": "Aún no hay pagos registrados."
+    },
+    "progress": {
+      "overview": "Resumen",
+      "started": "Historias iniciadas",
+      "finished": "Historias finalizadas",
+      "continue": "Seguir leyendo",
+      "resume": "Reanudar",
+      "time": "Tiempo de lectura (min)",
+      "empty": "Todavía no tienes historias en curso."
+    },
+    "settings": {
+      "language": "Idioma de la interfaz",
+      "theme": "Tema",
+      "themeDark": "Oscuro",
+      "themeLight": "Claro",
+      "level": "Tu nivel",
+      "aiTeacher": "Profesor IA preferido",
+      "changeOnAiPage": "Cambiar en la página de Profesor IA",
+      "save": "Guardar ajustes",
+      "saved": "Ajustes guardados"
+    },
+    "support": {
+      "contact": "Contactar con soporte",
+      "faq": "FAQ",
+      "report": "Informar de un problema",
+      "description": "Descripción",
+      "send": "Enviar"
+    }
+  },
+  "library": {
+    "title": "Biblioteca",
+    "subtitle": "Explora nuestra colección según tu nivel actual de dominio.",
+    "filters": {
+      "all": "Todos",
+      "ariaLabel": "Filtrar por nivel"
+    },
+    "continue": {
+      "title": "Seguir leyendo"
+    },
+    "readTime": "Tiempo de lectura: ~%s min",
+    "read": "Leer"
+  },
   "menu": {
     "library": "Biblioteca",
     "learning": "Aprendizaje",
@@ -3842,6 +3915,7 @@
     "vocabulary": "Vocabulario",
     "pronunciation": "Pronunciación",
     "test": "Examen de alemán",
-    "ai_teacher": "Profesor IA"
+    "ai_teacher": "Profesor IA",
+    "profile": "Perfil"
   }
 }

@@ -1,0 +1,77 @@
+<article class="profile-card">
+  <header class="profile-card__header">
+    <h2 data-i18n-key="profile.tabs.settings">Einstellungen</h2>
+  </header>
+
+  <form id="profile-settings-form" class="profile-settings" method="post" action="/profile/settings">
+    <!-- Interface language -->
+    <div class="form-field">
+      <label for="profile-language" data-i18n-key="profile.settings.language">Interface-Sprache</label>
+      <select id="profile-language" name="language">
+        <% (settingsOptions?.languages || []).forEach(lang => { %>
+          <option
+            value="<%= lang %>"
+            <%= currentLanguage === lang ? 'selected' : '' %>
+          >
+            <%= lang.toUpperCase() %>
+          </option>
+        <% }) %>
+      </select>
+    </div>
+
+    <!-- Theme -->
+    <div class="form-field">
+      <label for="profile-theme" data-i18n-key="profile.settings.theme">Design</label>
+      <select id="profile-theme" name="theme">
+        <% (settingsOptions?.themes || ['dark','light']).forEach(theme => { %>
+          <% const labelKey = theme === 'dark'
+                ? 'profile.settings.themeDark'
+                : 'profile.settings.themeLight'; %>
+          <option
+            value="<%= theme %>"
+            <%= (profile.settings?.ui_theme || 'dark') === theme ? 'selected' : '' %>
+            data-i18n-key="<%= labelKey %>"
+          >
+            <%= theme === 'dark' ? 'Dunkel' : 'Hell' %>
+          </option>
+        <% }) %>
+      </select>
+    </div>
+
+    <!-- Level -->
+    <div class="form-field">
+      <label for="profile-level" data-i18n-key="profile.settings.level">Dein Level</label>
+      <select id="profile-level" name="level">
+        <option value="" <%= !profile.settings?.level ? 'selected' : '' %>>—</option>
+        <% (settingsOptions?.levels || []).forEach(level => { %>
+          <option
+            value="<%= level %>"
+            <%= profile.settings?.level === level ? 'selected' : '' %>
+          >
+            <%= level %>
+          </option>
+        <% }) %>
+      </select>
+    </div>
+
+    <!-- AI teacher -->
+    <div class="form-field">
+      <label data-i18n-key="profile.settings.aiTeacher">Bevorzugter KI-Lehrer</label>
+      <div class="ai-teacher-field">
+        <span class="ai-teacher-field__value"><%= aiTeacherId || '—' %></span>
+        <a class="button button-ghost" href="/ai-teacher" data-i18n-key="profile.settings.changeOnAiPage">
+          Auf AI Teacher Seite ändern
+        </a>
+      </div>
+    </div>
+
+    <!-- Save button -->
+    <button class="button button-primary" type="submit" data-i18n-key="profile.settings.save">
+      Einstellungen speichern
+    </button>
+
+    <p class="profile-settings__status" id="profile-settings-status" data-i18n-key="profile.settings.saved" hidden>
+      Einstellungen gespeichert
+    </p>
+  </form>
+</article>

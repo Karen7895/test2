@@ -1,0 +1,108 @@
+<%- include('../partials/head', { pageTitle }) %>
+<%- include('../partials/header') %>
+
+<main class="main-content library-page">
+  <section class="library-hero">
+    <div class="container">
+      <header class="library-header">
+        <div>
+          <h1 class="section-title" data-i18n-key="library.title">Bibliothek</h1>
+          <p class="section-subtitle" data-i18n-key="library.subtitle">
+            Durchsuche unsere Sammlung nach deinem aktuellen Sprachniveau.
+          </p>
+        </div>
+        <div
+          class="filter-group"
+          role="group"
+          aria-label="Level filtern"
+          data-i18n-attr="aria-label:library.filters.ariaLabel"
+        >
+          <a
+            href="/library"
+            class="filter-chip <%= activeLevel === 'all' ? 'is-active' : '' %>"
+            data-i18n-key="library.filters.all"
+          >
+            Alle
+          </a>
+          <% storyLevels.forEach((level) => { %>
+            <a
+              href="/library?level=<%= level %>"
+              class="filter-chip <%= activeLevel === level ? 'is-active' : '' %>"
+            >
+              <%= level %>
+            </a>
+          <% }) %>
+        </div>
+      </header>
+
+      <% if (continueReading && continueReading.length) { %>
+        <section
+          class="continue-strip"
+          aria-label="Continue reading"
+          data-i18n-attr="aria-label:library.continue.title"
+        >
+          <h2 data-i18n-key="library.continue.title">Weiterlesen</h2>
+          <div class="continue-strip__list">
+            <% continueReading.forEach((item) => { %>
+              <article class="continue-card">
+                <div>
+                  <h3 class="continue-card__title"><%= item.title %></h3>
+                  <p class="continue-card__meta">
+                    <span class="level-badge level-<%= item.level.toLowerCase() %>"><%= item.level %></span>
+                    <span><%= item.last_read_at %></span>
+                    <span><%= item.percentage %>%</span>
+                  </p>
+                </div>
+                <a href="/story/<%= item.story_id %>" class="button button-secondary" data-i18n-key="profile.progress.resume">
+                  Fortsetzen
+                </a>
+              </article>
+            <% }) %>
+          </div>
+        </section>
+      <% } %>
+    </div>
+  </section>
+
+  <section class="library-grid">
+    <div class="container">
+      <% if (!stories.length) { %>
+        <div class="empty-state">
+          <div class="empty-icon">📚</div>
+          <h3 data-i18n-key="home.emptyTitle">Noch keine Geschichten</h3>
+          <p data-i18n-key="home.emptyCopy">Sobald die erste Geschichte veröffentlicht ist, erscheint sie hier.</p>
+        </div>
+      <% } else { %>
+        <div class="story-grid">
+          <% stories.forEach((story) => { %>
+            <article class="story-card" data-level="<%= story.level %>">
+              <header class="story-card-header">
+                <span class="level-badge level-<%= story.level.toLowerCase() %>"><%= story.level %></span>
+                <% if (story.created_at) { %>
+                  <time datetime="<%= story.created_at %>"><%= story.created_at %></time>
+                <% } %>
+              </header>
+              <h3 class="story-card-title"><%= story.title %></h3>
+              <p class="story-card-summary"><%= story.summary %></p>
+              <div class="story-card-footer">
+                <% if (story.estimated_minutes) { %>
+                  <span class="story-card-readtime" data-i18n-key="library.readTime" data-i18n-args="<%= story.estimated_minutes %>">
+                    Lesedauer: ~<%= story.estimated_minutes %> Min
+                  </span>
+                <% } %>
+                <a href="/story/<%= story.id %>" class="button button-secondary" data-i18n-key="library.read">Lesen</a>
+              </div>
+              <% if (progressMap && progressMap[story.id]) { %>
+                <div class="story-progress-bar">
+                  <div class="story-progress-bar__fill" style="width: <%= progressMap[story.id] %>%"></div>
+                </div>
+              <% } %>
+            </article>
+          <% }) %>
+        </div>
+      <% } %>
+    </div>
+  </section>
+</main>
+
+<%- include('../partials/footer') %>

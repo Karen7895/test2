@@ -1,0 +1,87 @@
+<%- include('../partials/head', { pageTitle }) %>
+<%- include('../partials/header') %>
+
+<main class="main-content profile-page">
+  <div class="container container-narrow">
+    <header class="profile-hero">
+      <h1 class="profile-title" data-i18n-key="profile.title">Dein Profil</h1>
+      <p class="profile-subtitle" data-i18n-key="profile.subtitle">
+        Verwalte deine Einstellungen, dein Abo und deinen Lernfortschritt.
+      </p>
+    </header>
+
+    <div class="profile-tabs" role="tablist">
+      <button
+        class="profile-tab is-active"
+        type="button"
+        role="tab"
+        aria-selected="true"
+        data-profile-tab="user"
+        data-i18n-key="profile.tabs.user"
+      >
+        Nutzerinfo
+      </button>
+      <button
+        class="profile-tab"
+        type="button"
+        role="tab"
+        aria-selected="false"
+        data-profile-tab="subscription"
+        data-i18n-key="profile.tabs.subscription"
+      >
+        Abonnement
+      </button>
+      <button
+        class="profile-tab"
+        type="button"
+        role="tab"
+        aria-selected="false"
+        data-profile-tab="progress"
+        data-i18n-key="profile.tabs.progress"
+      >
+        Lernfortschritt
+      </button>
+      <button
+        class="profile-tab"
+        type="button"
+        role="tab"
+        aria-selected="false"
+        data-profile-tab="settings"
+        data-i18n-key="profile.tabs.settings"
+      >
+        Einstellungen
+      </button>
+      <button
+        class="profile-tab"
+        type="button"
+        role="tab"
+        aria-selected="false"
+        data-profile-tab="support"
+        data-i18n-key="profile.tabs.support"
+      >
+        Support
+      </button>
+    </div>
+
+    <div class="profile-panels">
+      <section class="profile-panel is-active" data-profile-panel="user" role="tabpanel">
+        <%- include('_user', { profile, settingsOptions }) %>
+      </section>
+      <section class="profile-panel" data-profile-panel="subscription" role="tabpanel" hidden>
+        <%- include('_subscription', { profile }) %>
+      </section>
+      <section class="profile-panel" data-profile-panel="progress" role="tabpanel" hidden>
+        <%- include('_progress', { profile }) %>
+      </section>
+      <section class="profile-panel" data-profile-panel="settings" role="tabpanel" hidden>
+        <%- include('_settings', { profile, settingsOptions, aiTeacherId, currentLanguage }) %>
+      </section>
+      <section class="profile-panel" data-profile-panel="support" role="tabpanel" hidden>
+        <%- include('_support') %>
+      </section>
+    </div>
+  </div>
+</main>
+
+<%- include('../partials/footer') %>
+<script src="/js/profile.js" defer></script>

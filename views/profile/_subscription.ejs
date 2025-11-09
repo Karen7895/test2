@@ -1,0 +1,52 @@
+<article class="profile-card">
+  <header class="profile-card__header">
+    <h2 data-i18n-key="profile.tabs.subscription">Abonnement</h2>
+  </header>
+
+  <div class="subscription-summary">
+    <div class="subscription-summary__plan">
+      <span class="subscription-badge" data-plan="<%= profile.subscription.plan %>">
+        <% if (profile.subscription.plan === 'advanced') { %>
+          <span data-i18n-key="profile.subscription.advanced">Advanced</span>
+        <% } else if (profile.subscription.plan === 'medium') { %>
+          <span data-i18n-key="profile.subscription.medium">Medium</span>
+        <% } else { %>
+          <span data-i18n-key="profile.subscription.basic">Basic</span>
+        <% } %>
+      </span>
+      <p class="subscription-summary__label" data-i18n-key="profile.subscription.currentPlan">Aktueller Plan</p>
+      <p class="subscription-summary__renewal">
+        <% if (profile.subscription.renewal) { %>
+          <span data-i18n-key="profile.subscription.renewal">Verlängert am</span>
+          <time datetime="<%= profile.subscription.renewal %>"><%= profile.subscription.renewal %></time>
+        <% } else { %>
+          <span data-i18n-key="profile.subscription.manageInPaypal">Verwalte deine Zahlung über PayPal</span>
+        <% } %>
+      </p>
+    </div>
+    <div class="subscription-summary__actions">
+      <a class="button button-secondary" href="/pricing" data-i18n-key="profile.subscription.upgrade">Upgrade</a>
+      <a class="button button-ghost" href="/pricing" data-i18n-key="profile.subscription.downgrade">Downgrade</a>
+      <form id="subscription-cancel-form" action="/profile/subscription/cancel" method="post">
+        <button class="button button-ghost" type="submit" data-i18n-key="profile.subscription.cancel">Abo kündigen</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="subscription-payments">
+    <h3 data-i18n-key="profile.subscription.history">Zahlungsverlauf</h3>
+    <% if (profile.subscription.payments && profile.subscription.payments.length) { %>
+      <ul class="subscription-payments__list">
+        <% profile.subscription.payments.slice(0, 3).forEach((payment) => { %>
+          <li>
+            <span><%= payment.reference %></span>
+            <span><%= payment.date %></span>
+            <span><%= payment.amount %></span>
+          </li>
+        <% }) %>
+      </ul>
+    <% } else { %>
+      <p class="subscription-payments__empty" data-i18n-key="profile.subscription.noPayments">Noch keine Zahlungen erfasst.</p>
+    <% } %>
+  </div>
+</article>

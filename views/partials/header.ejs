@@ -9,7 +9,7 @@
     </a>
 
     <nav class="navbar__menu" aria-label="Primary navigation">
-      <a href="/" class="navbar__link" data-nav-match="/" data-i18n-key="menu.library">Bibliothek</a>
+      <a href="/library" class="navbar__link" data-nav-match="/library" data-i18n-key="menu.library">Bibliothek</a>
       <div class="navbar__item navbar__dropdown">
         <button
           type="button"
@@ -104,20 +104,22 @@
         <% const userInitial = normalizedEmail ? normalizedEmail.charAt(0).toUpperCase() : 'U'; %>
         <% const avatarAlt = currentUser.name || normalizedEmail || 'User avatar'; %>
         <div class="navbar__user">
-          <% if (currentUser.photo) { %>
-            <img
-              src="<%= currentUser.photo %>"
-              alt="<%= avatarAlt %>"
-              class="navbar__avatar navbar__avatar--image"
-              loading="lazy"
-              decoding="async"
-              width="32"
-              height="32"
-            />
-          <% } else { %>
-            <span class="navbar__avatar" aria-hidden="true"><%= userInitial %></span>
-          <% } %>
-          <span class="navbar__user-email"><%= currentUser.email %></span>
+          <a href="/profile" class="nav-avatar" aria-label="<%= avatarAlt %>">
+            <% if (currentUser.avatar || currentUser.photo) { %>
+              <img
+                src="<%= currentUser.avatar || currentUser.photo %>"
+                alt="<%= avatarAlt %>"
+                class="navbar__avatar navbar__avatar--image"
+                loading="lazy"
+                decoding="async"
+                width="32"
+                height="32"
+              />
+            <% } else { %>
+              <span class="navbar__avatar" aria-hidden="true"><%= userInitial %></span>
+            <% } %>
+          </a>
+          <a href="/profile" class="navbar__user-email"><%= currentUser.email %></a>
         </div>
       <% } %>
 
@@ -139,7 +141,7 @@
   <div class="navbar__overlay" data-nav-overlay></div>
   <div class="navbar__panel" id="navbarPanel" aria-hidden="true" tabindex="-1">
     <nav class="navbar__panel-menu" aria-label="Mobile navigation">
-      <a href="/" class="navbar__panel-link" data-nav-match="/" data-i18n-key="menu.library">Bibliothek</a>
+      <a href="/library" class="navbar__panel-link" data-nav-match="/library" data-i18n-key="menu.library">Bibliothek</a>
       <div class="navbar__panel-section">
         <span class="navbar__panel-heading" data-i18n-key="menu.learning">Lernen</span>
         <div class="navbar__panel-submenu" role="menu">
@@ -403,3 +405,6 @@
     })
   })()
 </script>
+      <% if (currentUser) { %>
+        <a href="/profile" class="navbar__panel-link" data-nav-match="/profile" data-i18n-key="menu.profile">Profil</a>
+      <% } %>

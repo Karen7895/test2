@@ -1,0 +1,30 @@
+<article class="profile-card">
+  <header class="profile-card__header">
+    <h2 data-i18n-key="profile.tabs.support">Support</h2>
+  </header>
+
+  <div class="support-options">
+    <p>
+      <a class="support-link" href="mailto:support@learndeutsch.com" data-i18n-key="profile.support.contact">
+        Support kontaktieren
+      </a>
+    </p>
+    <p>
+      <a class="support-link" href="/faq" data-i18n-key="profile.support.faq">FAQ durchsuchen</a>
+    </p>
+  </div>
+
+  <form class="support-form" action="/support/ticket" method="post">
+    <div class="form-field">
+      <label for="support-subject" data-i18n-key="profile.support.report">Problem melden</label>
+      <input type="text" id="support-subject" name="subject" required />
+    </div>
+    <div class="form-field">
+      <label class="sr-only" for="support-description" data-i18n-key="profile.support.description">
+        Beschreibung
+      </label>
+      <textarea id="support-description" name="description" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="button button-primary" data-i18n-key="profile.support.send">Senden</button>
+  </form>
+</article>

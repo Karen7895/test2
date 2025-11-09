@@ -217,3 +217,20 @@ CREATE TABLE IF NOT EXISTS grammar_topics (
 5. Add automated tests for auth and story creation workflows.
 
 Mit viel Erfolg beim Deutschlernen!
+
+## Schema changes (Profile & Library progress)
+- Added table `user_settings`:
+  - ui_language (VARCHAR 8), ui_theme (ENUM dark/light), level (ENUM A1–C2), ai_teacher_id (VARCHAR 16), avatar_path (VARCHAR 255)
+- Added table `reading_progress`:
+  - user_id, story_id, percentage TINYINT 0–100, last_read_at TIMESTAMP
+
+Endpoints:
+- GET /profile
+- POST /profile/avatar
+- POST /profile/settings
+- GET /library
+- POST /library/progress
+
+Notes:
+- “Continue reading” strip shows up to 5 latest in-progress stories for the logged-in user.
+- Users select their AI Teacher on the /ai-teacher page; the current selection is displayed in Profile → Settings.

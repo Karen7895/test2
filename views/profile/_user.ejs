@@ -1,0 +1,49 @@
+<article class="profile-card">
+  <header class="profile-card__header">
+    <h2 data-i18n-key="profile.tabs.user">Nutzerinfo</h2>
+  </header>
+
+  <div class="profile-user">
+    <div class="profile-user__avatar">
+      <p class="profile-user__avatar-label" data-i18n-key="profile.user.avatar">Avatar</p>
+      <img
+        src="<%= profile.avatar || (currentUser && currentUser.avatar) || '/images/default-avatar.png' %>"
+        alt="Avatar"
+        width="96"
+        height="96"
+        class="profile-user__avatar-image"
+        data-profile-avatar
+      />
+      <form id="profile-avatar-form" class="profile-avatar-form" action="/profile/avatar" method="post" enctype="multipart/form-data">
+        <label class="button button-secondary" for="profile-avatar-input" data-i18n-key="profile.user.upload">Hochladen</label>
+        <input
+          id="profile-avatar-input"
+          name="avatar"
+          type="file"
+          accept="image/png,image/jpeg,image/webp"
+          hidden
+        />
+      </form>
+      <p class="profile-avatar-hint" data-i18n-key="profile.user.avatarHint">200 KB · PNG/JPG/WEBP</p>
+    </div>
+
+    <dl class="profile-user__details">
+      <div>
+        <dt data-i18n-key="profile.user.name">Name</dt>
+        <dd><%= currentUser?.name || '-' %></dd>
+      </div>
+      <div>
+        <dt data-i18n-key="profile.user.email">E-Mail</dt>
+        <dd><%= profile.user?.email || currentUser?.email %></dd>
+      </div>
+      <div>
+        <dt data-i18n-key="profile.user.registered">Mitglied seit</dt>
+        <dd><%= profile.user?.joined_at || '—' %></dd>
+      </div>
+      <div>
+        <dt data-i18n-key="profile.user.level">Level</dt>
+        <dd><%= profile.settings?.level || currentUser?.level || '—' %></dd>
+      </div>
+    </dl>
+  </div>
+</article>

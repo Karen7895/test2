@@ -3834,6 +3834,79 @@
       ]
     }
   ],
+  "profile": {
+    "title": "Your profile",
+    "subtitle": "Manage your settings, subscription, and learning progress.",
+    "tabs": {
+      "user": "User info",
+      "subscription": "Subscription",
+      "progress": "Learning progress",
+      "settings": "Settings",
+      "support": "Support"
+    },
+    "user": {
+      "avatar": "Avatar",
+      "upload": "Upload",
+      "name": "Name",
+      "email": "Email",
+      "registered": "Member since",
+      "level": "Level",
+      "avatarHint": "200 KB max · PNG/JPG/WEBP"
+    },
+    "subscription": {
+      "currentPlan": "Current plan",
+      "basic": "Basic",
+      "medium": "Medium",
+      "advanced": "Advanced",
+      "renewal": "Renews on",
+      "upgrade": "Upgrade",
+      "downgrade": "Downgrade",
+      "cancel": "Cancel subscription",
+      "manageInPaypal": "Manage in PayPal",
+      "history": "Payment history",
+      "noPayments": "No payments recorded yet."
+    },
+    "progress": {
+      "overview": "Overview",
+      "started": "Stories started",
+      "finished": "Stories finished",
+      "continue": "Continue reading",
+      "resume": "Resume",
+      "time": "Reading time (min)",
+      "empty": "No in-progress stories yet."
+    },
+    "settings": {
+      "language": "Interface language",
+      "theme": "Theme",
+      "themeDark": "Dark",
+      "themeLight": "Light",
+      "level": "Your level",
+      "aiTeacher": "Preferred AI teacher",
+      "changeOnAiPage": "Change on AI Teacher page",
+      "save": "Save settings",
+      "saved": "Settings saved"
+    },
+    "support": {
+      "contact": "Contact support",
+      "faq": "FAQ",
+      "report": "Report a problem",
+      "description": "Description",
+      "send": "Send"
+    }
+  },
+  "library": {
+    "title": "Library",
+    "subtitle": "Browse our collection by your current proficiency level.",
+    "filters": {
+      "all": "All",
+      "ariaLabel": "Filter by level"
+    },
+    "continue": {
+      "title": "Continue reading"
+    },
+    "readTime": "Reading time: ~%s min",
+    "read": "Read"
+  },
   "menu": {
     "library": "Library",
     "learning": "Learning",
@@ -3842,6 +3915,7 @@
     "vocabulary": "Vocabulary",
     "pronunciation": "Pronunciation",
     "test": "German Test",
-    "ai_teacher": "AI Teacher"
+    "ai_teacher": "AI Teacher",
+    "profile": "Profile"
   }
 }

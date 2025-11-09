@@ -19,9 +19,11 @@ const ADMIN_EMAIL = "karen12389033@gmail.com"
 const STORY_LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"]
 const AUDIO_UPLOAD_DIR = path.join(__dirname, "public", "uploads", "questions")
 const WORD_PHOTO_DIR = path.join(__dirname, "wordsPhotos")
+const AVATAR_UPLOAD_DIR = path.join(__dirname, "public", "uploads", "avatars")
 
 fs.mkdirSync(AUDIO_UPLOAD_DIR, { recursive: true })
 fs.mkdirSync(WORD_PHOTO_DIR, { recursive: true })
+fs.mkdirSync(AVATAR_UPLOAD_DIR, { recursive: true })
 
 const audioUpload = multer({
   storage: multer.diskStorage({
@@ -114,7 +116,11 @@ function asyncHandler(handler) {
 
 async function findUserByEmail(email) {
   const rows = await db.query(
-    "SELECT id, email, password_hash FROM users WHERE email = ? LIMIT 1",
+    `SELECT u.id, u.email, u.password_hash, us.ui_language, us.ui_theme, us.level, us.avatar_path, us.ai_teacher_id
+     FROM users u
+     LEFT JOIN user_settings us ON us.user_id = u.id
+     WHERE u.email = ?
+     LIMIT 1`,
     [email]
   )
   return rows[0] || null
@@ -122,7 +128,11 @@ async function findUserByEmail(email) {
 
 async function findUserById(id) {
   const rows = await db.query(
-    "SELECT id, email, password_hash FROM users WHERE id = ? LIMIT 1",
+    `SELECT u.id, u.email, u.password_hash, us.ui_language, us.ui_theme, us.level, us.avatar_path, us.ai_teacher_id
+     FROM users u
+     LEFT JOIN user_settings us ON us.user_id = u.id
+     WHERE u.id = ?
+     LIMIT 1`,
     [id]
   )
   return rows[0] || null
@@ -151,17 +161,33 @@ function setLoggedInUser(req, user, extras = {}) {
 
   const displayName = extras.name || user.name
   const photo = extras.photo || user.photo
+  const avatarPath = extras.avatar || user.avatar_path
 
   if (displayName) {
     sessionUser.name = displayName
   }
 
-  if (photo) {
+  const normalizedAvatar = avatarPath
+    ? avatarPath.startsWith("/")
+      ? avatarPath
+      : `/${avatarPath}`
+    : null
+
+  if (normalizedAvatar) {
+    sessionUser.avatar = normalizedAvatar
+    sessionUser.photo = normalizedAvatar
+  } else if (photo) {
     sessionUser.photo = photo
   }
 
   req.session.user = sessionUser
   req.user = Object.assign({}, req.user, sessionUser)
+
+  const preferredLanguage = extras.ui_language || user.ui_language
+  const normalizedLanguage = grammarI18n.normalizeLanguage(preferredLanguage)
+  if (normalizedLanguage && req.session) {
+    req.session.locale = normalizedLanguage
+  }
 }
 
 function isAdmin(user) {
@@ -188,6 +214,77 @@ function requireAdmin(req, res, next) {
 }
 
 configureGoogleAuth()
+
+async function ensureProfileSchema() {
+  await db.pool.execute(
+    `CREATE TABLE IF NOT EXISTS user_settings (
+      user_id INT PRIMARY KEY,
+      ui_language VARCHAR(8) NULL,
+      ui_theme ENUM('dark','light') DEFAULT 'dark',
+      level ENUM('A1','A2','B1','B2','C1','C2') NULL,
+      ai_teacher_id VARCHAR(16) NULL,
+      avatar_path VARCHAR(255) NULL,
+      updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+      CONSTRAINT fk_user_settings_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`
+  )
+
+  await db.pool.execute(
+    `CREATE TABLE IF NOT EXISTS reading_progress (
+      user_id INT NOT NULL,
+      story_id INT NOT NULL,
+      percentage TINYINT UNSIGNED NOT NULL DEFAULT 0,
+      last_read_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+      PRIMARY KEY (user_id, story_id),
+      CONSTRAINT fk_reading_progress_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+      CONSTRAINT fk_reading_progress_story FOREIGN KEY (story_id) REFERENCES stories(id) ON DELETE CASCADE
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`
+  )
+}
+
+ensureProfileSchema().catch((error) => {
+  console.error("Failed to ensure profile schema:", error)
+})
+
+const profileRouter = require("./routes/profile")({
+  requireAuth,
+  asyncHandler,
+  db,
+  storyLevels: STORY_LEVELS,
+  supportedLanguages: grammarI18n.SUPPORTED_LANGUAGES,
+  avatarUploadDir: AVATAR_UPLOAD_DIR,
+  normalizeLanguage: grammarI18n.normalizeLanguage,
+})
+
+const libraryRouter = require("./routes/library")({
+  requireAuth,
+  asyncHandler,
+  db,
+  storyLevels: STORY_LEVELS,
+})
+
+app.use("/profile", profileRouter)
+app.use("/library", libraryRouter)
+
+app.post(
+  "/support/ticket",
+  requireAuth,
+  asyncHandler(async (req, res) => {
+    const subject = (req.body?.subject || "").slice(0, 255)
+    const description = (req.body?.description || "").slice(0, 2000)
+
+    if (!subject && !description) {
+      return res.status(400).json({ success: false, message: "Missing content" })
+    }
+
+    res.json({
+      success: true,
+      subject,
+      description,
+      message: "Support request received.",
+    })
+  })
+)
 
 passport.serializeUser((user, done) => {
   done(null, user.id)
