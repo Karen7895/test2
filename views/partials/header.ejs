@@ -1,0 +1,405 @@
+<header class="navbar" role="banner">
+  <div class="navbar__inner">
+    <a href="/" class="navbar__brand brand">
+      <span class="brand-mark">DL</span>
+      <span class="brand-copy navbar__brand-copy">
+        <strong data-i18n-key="brand.title">Deutsch Leseecke</strong>
+        <small data-i18n-key="brand.tagline">Deine Bibliothek f&uuml;r Kurzgeschichten</small>
+      </span>
+    </a>
+
+    <nav class="navbar__menu" aria-label="Primary navigation">
+      <a href="/" class="navbar__link" data-nav-match="/" data-i18n-key="menu.library">Bibliothek</a>
+      <div class="navbar__item navbar__dropdown">
+        <button
+          type="button"
+          class="navbar__dropdown-toggle"
+          data-i18n-key="menu.learning"
+          data-nav-match="/learning/*"
+          aria-haspopup="true"
+          aria-expanded="false"
+          aria-controls="learningMenu"
+        >
+          Lernen
+          <span class="navbar__dropdown-caret" aria-hidden="true"></span>
+        </button>
+        <div class="navbar__dropdown-menu" id="learningMenu" role="menu">
+          <a
+            href="/learning/grammar"
+            class="navbar__dropdown-item"
+            role="menuitem"
+            data-nav-match="/learning/grammar"
+            data-i18n-key="menu.grammar"
+          >Grammatik</a>
+          <a
+            href="/learning/vocabulary"
+            class="navbar__dropdown-item"
+            role="menuitem"
+            data-nav-match="/learning/vocabulary"
+            data-i18n-key="menu.vocabulary"
+          >Vokabeln</a>
+          <a
+            href="/learning/pronunciation"
+            class="navbar__dropdown-item"
+            role="menuitem"
+            data-nav-match="/learning/pronunciation"
+            data-i18n-key="menu.pronunciation"
+          >Aussprache</a>
+          <a
+            href="/learning/test"
+            class="navbar__dropdown-item"
+            role="menuitem"
+            data-nav-match="/learning/test"
+            data-i18n-key="menu.test"
+          >Deutschtest</a>
+        </div>
+      </div>
+      <a href="/ai-teacher" class="navbar__link" data-nav-match="/ai-teacher" data-i18n-key="menu.ai_teacher">AI Teacher</a>
+      <a href="/about" class="navbar__link" data-nav-match="/about" data-i18n-key="menu.about">About</a>
+      <% if (isAdmin) { %>
+        <a
+          href="/stories/new"
+          class="navbar__link navbar__link--admin"
+          data-nav-match="/stories/new"
+          data-i18n-key="nav.newStory"
+        >Neue Geschichte</a>
+      <% } %>
+    </nav>
+
+    <div class="navbar__right">
+      <button
+        class="navbar__burger"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navbarPanel"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar__burger-box" aria-hidden="true">
+          <span class="navbar__burger-line"></span>
+          <span class="navbar__burger-line"></span>
+          <span class="navbar__burger-line"></span>
+        </span>
+      </button>
+
+      <div class="navbar__right-group" data-lang-slot-desktop>
+        <div class="navbar__lang" data-lang-block>
+          <label class="sr-only" for="site-language" data-i18n-key="nav.languageLabel">Website language</label>
+          <select
+            id="site-language"
+            class="language-select navbar__lang-select"
+            data-language-select
+            aria-label="Website language"
+          >
+            <option value="de" <%= siteLanguage === 'de' ? 'selected' : '' %>>Deutsch</option>
+            <option value="en" <%= siteLanguage === 'en' ? 'selected' : '' %>>English</option>
+            <option value="es" <%= siteLanguage === 'es' ? 'selected' : '' %>>Espa&ntilde;ol</option>
+            <option value="ru" <%= siteLanguage === 'ru' ? 'selected' : '' %>>Russian</option>
+            <option value="hy" <%= siteLanguage === 'hy' ? 'selected' : '' %>>Armenian</option>
+          </select>
+        </div>
+      </div>
+
+      <% if (currentUser) { %>
+        <% const normalizedEmail = currentUser.email ? currentUser.email.trim() : ''; %>
+        <% const userInitial = normalizedEmail ? normalizedEmail.charAt(0).toUpperCase() : 'U'; %>
+        <% const avatarAlt = currentUser.name || normalizedEmail || 'User avatar'; %>
+        <div class="navbar__user">
+          <% if (currentUser.photo) { %>
+            <img
+              src="<%= currentUser.photo %>"
+              alt="<%= avatarAlt %>"
+              class="navbar__avatar navbar__avatar--image"
+              loading="lazy"
+              decoding="async"
+              width="32"
+              height="32"
+            />
+          <% } else { %>
+            <span class="navbar__avatar" aria-hidden="true"><%= userInitial %></span>
+          <% } %>
+          <span class="navbar__user-email"><%= currentUser.email %></span>
+        </div>
+      <% } %>
+
+      <div class="navbar__right-group" data-auth-slot-desktop>
+        <% if (currentUser) { %>
+          <form method="post" action="/logout" class="navbar__logout" data-auth-block>
+            <button type="submit" class="navbar__cta" data-i18n-key="nav.logout">Logout</button>
+          </form>
+        <% } else { %>
+          <div class="navbar__auth-links" data-auth-block>
+            <a href="/login" class="navbar__link navbar__link--auth" data-nav-match="/login" data-i18n-key="nav.login">Login</a>
+            <a href="/signup" class="button button-primary navbar__cta" data-nav-match="/signup" data-i18n-key="nav.signup">Sign up</a>
+          </div>
+        <% } %>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar__overlay" data-nav-overlay></div>
+  <div class="navbar__panel" id="navbarPanel" aria-hidden="true" tabindex="-1">
+    <nav class="navbar__panel-menu" aria-label="Mobile navigation">
+      <a href="/" class="navbar__panel-link" data-nav-match="/" data-i18n-key="menu.library">Bibliothek</a>
+      <div class="navbar__panel-section">
+        <span class="navbar__panel-heading" data-i18n-key="menu.learning">Lernen</span>
+        <div class="navbar__panel-submenu" role="menu">
+          <a
+            href="/learning/grammar"
+            class="navbar__panel-link"
+            role="menuitem"
+            data-nav-match="/learning/grammar"
+            data-i18n-key="menu.grammar"
+          >Grammatik</a>
+          <a
+            href="/learning/vocabulary"
+            class="navbar__panel-link"
+            role="menuitem"
+            data-nav-match="/learning/vocabulary"
+            data-i18n-key="menu.vocabulary"
+          >Vokabeln</a>
+          <a
+            href="/learning/pronunciation"
+            class="navbar__panel-link"
+            role="menuitem"
+            data-nav-match="/learning/pronunciation"
+            data-i18n-key="menu.pronunciation"
+          >Aussprache</a>
+          <a
+            href="/learning/test"
+            class="navbar__panel-link"
+            role="menuitem"
+            data-nav-match="/learning/test"
+            data-i18n-key="menu.test"
+          >Deutschtest</a>
+        </div>
+      </div>
+      <a href="/ai-teacher" class="navbar__panel-link" data-nav-match="/ai-teacher" data-i18n-key="menu.ai_teacher">AI Teacher</a>
+      <a href="/about" class="navbar__panel-link" data-nav-match="/about" data-i18n-key="menu.about">About</a>
+      <% if (isAdmin) { %>
+        <a href="/stories/new" class="navbar__panel-link" data-nav-match="/stories/new" data-i18n-key="nav.newStory">Neue Geschichte</a>
+      <% } %>
+    </nav>
+    <div class="navbar__panel-lang" data-lang-slot-panel></div>
+    <div class="navbar__panel-auth" data-auth-slot-panel></div>
+  </div>
+</header>
+
+<script>
+  ;(function () {
+    const navbar = document.querySelector('.navbar')
+    if (!navbar) return
+
+    const burger = navbar.querySelector('.navbar__burger')
+    const panel = document.getElementById('navbarPanel')
+    const overlay = navbar.querySelector('[data-nav-overlay]')
+    const dropdown = navbar.querySelector('.navbar__dropdown')
+    const dropdownToggle = navbar.querySelector('.navbar__dropdown-toggle')
+    const langBlock = navbar.querySelector('[data-lang-block]')
+    const desktopLangSlot = navbar.querySelector('[data-lang-slot-desktop]')
+    const panelLangSlot = navbar.querySelector('[data-lang-slot-panel]')
+    const authBlock = navbar.querySelector('[data-auth-block]')
+    const desktopAuthSlot = navbar.querySelector('[data-auth-slot-desktop]')
+    const panelAuthSlot = navbar.querySelector('[data-auth-slot-panel]')
+    const focusableSelector = 'a[href], button:not([disabled]), select:not([disabled]), textarea, input, [tabindex]:not([tabindex="-1"])'
+    const mediaQuery = window.matchMedia('(max-width: 768px)')
+    let lastFocusedElement = null
+
+    function moveResponsiveBlocks() {
+      if (mediaQuery.matches) {
+        if (langBlock && panelLangSlot && !panelLangSlot.contains(langBlock)) {
+          panelLangSlot.appendChild(langBlock)
+        }
+        if (authBlock && panelAuthSlot && !panelAuthSlot.contains(authBlock)) {
+          panelAuthSlot.appendChild(authBlock)
+        }
+      } else {
+        if (langBlock && desktopLangSlot && !desktopLangSlot.contains(langBlock)) {
+          desktopLangSlot.appendChild(langBlock)
+        }
+        if (authBlock && desktopAuthSlot && !desktopAuthSlot.contains(authBlock)) {
+          desktopAuthSlot.appendChild(authBlock)
+        }
+        closePanel({ restoreFocus: false })
+      }
+    }
+
+    function openPanel() {
+      if (!panel) return
+      lastFocusedElement = document.activeElement instanceof HTMLElement ? document.activeElement : null
+      panel.classList.add('is-open')
+      panel.removeAttribute('aria-hidden')
+      burger?.setAttribute('aria-expanded', 'true')
+      overlay?.classList.add('is-active')
+      document.body.classList.add('has-nav-open')
+      const focusable = panel.querySelectorAll(focusableSelector)
+      if (focusable.length) {
+        focusable[0].focus()
+      } else {
+        panel.focus()
+      }
+    }
+
+    function closePanel({ restoreFocus = true } = {}) {
+      if (!panel) return
+      if (!panel.classList.contains('is-open')) return
+      panel.classList.remove('is-open')
+      panel.setAttribute('aria-hidden', 'true')
+      burger?.setAttribute('aria-expanded', 'false')
+      overlay?.classList.remove('is-active')
+      document.body.classList.remove('has-nav-open')
+      if (restoreFocus && lastFocusedElement) {
+        lastFocusedElement.focus()
+      }
+    }
+
+    function openDropdown() {
+      if (!dropdown) return
+      dropdown.classList.add('is-open')
+      dropdownToggle?.setAttribute('aria-expanded', 'true')
+    }
+
+    function closeDropdown() {
+      if (!dropdown) return
+      dropdown.classList.remove('is-open')
+      dropdownToggle?.setAttribute('aria-expanded', 'false')
+    }
+
+    burger?.addEventListener('click', () => {
+      if (!panel) return
+      if (panel.classList.contains('is-open')) {
+        closePanel()
+      } else {
+        openPanel()
+      }
+    })
+
+    overlay?.addEventListener('click', () => {
+      closePanel()
+    })
+
+    document.addEventListener('click', (event) => {
+      if (!panel?.classList.contains('is-open')) return
+      if (!panel.contains(event.target) && !burger?.contains(event.target)) {
+        closePanel()
+      }
+    })
+
+    document.addEventListener('click', (event) => {
+      if (!dropdown?.classList.contains('is-open')) return
+      if (dropdown.contains(event.target) || dropdownToggle?.contains(event.target)) {
+        return
+      }
+      if (!mediaQuery.matches) {
+        closeDropdown()
+      }
+    })
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        if (panel?.classList.contains('is-open')) {
+          closePanel()
+        }
+        if (dropdown?.classList.contains('is-open')) {
+          closeDropdown()
+        }
+      }
+    })
+
+    panel?.addEventListener('keydown', (event) => {
+      if (event.key !== 'Tab') return
+      const focusable = panel.querySelectorAll(focusableSelector)
+      if (!focusable.length) return
+      const first = focusable[0]
+      const last = focusable[focusable.length - 1]
+      if (event.shiftKey) {
+        if (document.activeElement === first) {
+          event.preventDefault()
+          last.focus()
+        }
+      } else if (document.activeElement === last) {
+        event.preventDefault()
+        first.focus()
+      }
+    })
+
+    panel?.addEventListener('click', (event) => {
+      const target = event.target
+      if (!target || typeof target.closest !== 'function') return
+      if (target.closest('a') || target.closest('button')) {
+        closePanel({ restoreFocus: false })
+      }
+    })
+
+    if (dropdownToggle) {
+      dropdownToggle.addEventListener('click', (event) => {
+        if (mediaQuery.matches) {
+          event.preventDefault()
+        }
+        if (dropdown?.classList.contains('is-open')) {
+          closeDropdown()
+        } else {
+          openDropdown()
+        }
+      })
+
+      dropdownToggle.addEventListener('focus', () => {
+        if (!mediaQuery.matches) {
+          openDropdown()
+        }
+      })
+    }
+
+    dropdown?.addEventListener('mouseleave', () => {
+      if (!mediaQuery.matches) {
+        closeDropdown()
+      }
+    })
+
+    dropdown?.addEventListener('focusout', () => {
+      if (mediaQuery.matches) return
+      setTimeout(() => {
+        if (!dropdown.contains(document.activeElement)) {
+          closeDropdown()
+        }
+      }, 50)
+    })
+
+    const handleMediaChange = () => {
+      moveResponsiveBlocks()
+      if (!mediaQuery.matches) {
+        closeDropdown()
+      }
+    }
+
+    if (typeof mediaQuery.addEventListener === 'function') {
+      mediaQuery.addEventListener('change', handleMediaChange)
+    } else if (typeof mediaQuery.addListener === 'function') {
+      mediaQuery.addListener(handleMediaChange)
+    }
+
+    moveResponsiveBlocks()
+
+    const activePath = window.location.pathname
+    const matchElements = navbar.querySelectorAll('[data-nav-match]')
+    matchElements.forEach((element) => {
+      const pattern = element.getAttribute('data-nav-match')
+      if (!pattern) return
+      let isActive = false
+      if (pattern.endsWith('/*')) {
+        const base = pattern.slice(0, -1)
+        isActive = activePath.startsWith(base)
+        if (!isActive && activePath === base.slice(0, -1)) {
+          isActive = true
+        }
+      } else {
+        isActive = activePath === pattern
+      }
+      if (isActive) {
+        element.classList.add('is-active')
+        if (element.tagName === 'A') {
+          element.setAttribute('aria-current', 'page')
+        }
+      }
+    })
+  })()
+</script>

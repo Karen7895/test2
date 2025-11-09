@@ -1,0 +1,3847 @@
+{
+  "locale": "de",
+  "grammar": {
+    "title": "Grammatikstudio",
+    "overview": {
+      "introTitle": "Beherrsche die deutsche Grammatik Schritt für Schritt",
+      "introBody": "Jede Lektion kombiniert verständliche Erklärungen, kompakte Tabellen und kurze Quizze, damit du knifflige Themen gezielt wiederholen kannst.",
+      "highlightTitle": "So funktioniert es",
+      "highlightBody": "Wähle links einen Bereich, lies die Erklärungen und schließe mit dem Quiz ab, um deinen Lernstand zu prüfen."
+    },
+    "breadcrumbs": {
+      "learning": "Lernen",
+      "grammar": "Grammatik"
+    },
+    "sidebarLabel": "Bereiche",
+    "ui": {
+      "backToSections": "Zurück zu den Bereichen",
+      "startQuiz": "Quiz starten",
+      "checkAnswers": "Antworten prüfen",
+      "tryAgain": "Noch einmal versuchen",
+      "showSolutions": "Lösungen anzeigen",
+      "closeSidebar": "Sidebar schließen",
+      "score": "Dein Ergebnis",
+      "outOf": "von",
+      "correct": "richtig",
+      "quizIntro": "Teste dich",
+      "quizReview": "Sieh dir die Erklärungen noch einmal an, bevor du einen neuen Versuch startest.",
+      "lessonsLabel": "Lektionen",
+      "takeawaysLabel": "Merksätze"
+    },
+    "sections": {
+      "verbs": {
+        "slug": "verbs",
+        "title": "Verben (Verbs)",
+        "description": "Erkunde, wie sich deutsche Verben verändern – vom Infinitiv bis zu Fragen und Modalverben."
+      },
+      "adjectives": {
+        "slug": "adjectives",
+        "title": "Adjektive (Adjectives)",
+        "description": "Beschreibe Personen und Dinge mit Adjektiven – von Steigerungsformen bis zum Gebrauch als Prädikativ."
+      },
+      "adverbsPrepositions": {
+        "slug": "adverbs-prepositions",
+        "title": "Adverbien & Präpositionen (Adverbs & Prepositions)",
+        "description": "Erkunde Temporal- und Lokaladverbien sowie zentrale Präpositionen, die zwischen Dativ und Akkusativ wechseln."
+      },
+      "sentenceStructure": {
+        "slug": "sentence-structure",
+        "title": "Satzbau (Sentence Structure)",
+        "description": "Baue natürliche deutsche Sätze mit Verbzweitstellung, klaren Fragen und sicheren Aufforderungen."
+      }
+    }
+  },
+  "sections": [
+    {
+      "slug": "nouns",
+      "title": "Nomen (Nouns)",
+      "description": "Verstehe Genus, Pluralbildung, Fälle und Possessivformen für die Kommunikation im Alltag.",
+      "subtopics": [
+        {
+          "slug": "gender-of-nouns",
+          "title": "Genus der Nomen (der, die, das)",
+          "summary": "Erkenne zuverlässige Endungen und präge dir häufige Ausnahmen ein.",
+          "lesson": {
+            "intro": "Jedes deutsche Substantiv hat ein Genus, das den Artikel und die Adjektivendungen bestimmt. Mit den wichtigsten Endungen kannst du den Artikel sicher erschließen.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Viele Wortendungen deuten klar auf ein bestimmtes Genus hin. Nutze diese Muster, um schnell den richtigen Artikel zu wählen."
+              },
+              {
+                "type": "rules",
+                "title": "Häufige Genus-Signale",
+                "rules": [
+                  {
+                    "label": "die + Nomen auf -ung",
+                    "examples": [
+                      "die Wohnung",
+                      "die Bedeutung"
+                    ]
+                  },
+                  {
+                    "label": "die + Nomen auf -keit / -heit",
+                    "examples": [
+                      "die Freundlichkeit",
+                      "die Freiheit"
+                    ]
+                  },
+                  {
+                    "label": "die + Nomen auf -tion / -tät",
+                    "examples": [
+                      "die Situation",
+                      "die Universität"
+                    ]
+                  },
+                  {
+                    "label": "der + Personen auf -er (Tätigkeit)",
+                    "examples": [
+                      "der Bäcker",
+                      "der Fahrer"
+                    ]
+                  },
+                  {
+                    "label": "der + Nomen auf -ismus",
+                    "examples": [
+                      "der Optimismus",
+                      "der Tourismus"
+                    ]
+                  },
+                  {
+                    "label": "das + Verkleinerungsformen auf -chen / -lein",
+                    "examples": [
+                      "das Mädchen",
+                      "das Häuschen"
+                    ]
+                  },
+                  {
+                    "label": "das + Nomen auf -ment / -um",
+                    "examples": [
+                      "das Instrument",
+                      "das Zentrum"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Achte auf Ausnahmen",
+                "text": "Einige Wörter folgen trotz ähnlicher Endung einer anderen Regel. Klassiker sind das Mädchen (sächlich, obwohl es sich um ein Mädchen handelt) oder der Name (maskulin trotz -e). Merke dir den Artikel immer gleich mit."
+              },
+              {
+                "type": "examples",
+                "title": "Beispielsätze",
+                "items": [
+                  {
+                    "sentence": "Der Bäcker verkauft frisches Brot.",
+                    "translation": "The baker sells fresh bread."
+                  },
+                  {
+                    "sentence": "Die Entscheidung ist sehr wichtig.",
+                    "translation": "The decision is very important."
+                  },
+                  {
+                    "sentence": "Das Instrument klingt wunderschön.",
+                    "translation": "The instrument sounds wonderful."
+                  },
+                  {
+                    "sentence": "Die Universität liegt im Zentrum der Stadt.",
+                    "translation": "The university is located in the center of the city."
+                  },
+                  {
+                    "sentence": "Das Mädchen liest eine Geschichte.",
+                    "translation": "The girl is reading a story."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Lerne Substantiv und Artikel gemeinsam, besonders wenn kein klares Muster erkennbar ist.",
+              "Endungen wie -ung, -heit, -keit und -tion verlangen fast immer die.",
+              "Personen auf -er sind meist maskulin, Verkleinerungen auf -chen oder -lein sächlich.",
+              "Klassische Ausnahmen wie das Mädchen oder der See solltest du dir gesondert merken."
+            ],
+            "quiz": {
+              "title": "Artikel testen",
+              "intro": "Wähle den passenden Artikel zu jedem Nomen.",
+              "items": [
+                {
+                  "id": "gender-q1",
+                  "type": "multiple-choice",
+                  "question": "Welcher Artikel passt zu „Zeitung“?",
+                  "choices": [
+                    "der",
+                    "die",
+                    "das"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "gender-q2",
+                  "type": "multiple-choice",
+                  "question": "Ergänze den Artikel: ___ Instrument ist neu.",
+                  "choices": [
+                    "Der",
+                    "Die",
+                    "Das"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "gender-q3",
+                  "type": "text",
+                  "question": "Trage den Artikel ein: ___ Bäcker öffnet um sechs Uhr.",
+                  "answer": [
+                    "Der",
+                    "der"
+                  ]
+                },
+                {
+                  "id": "gender-q4",
+                  "type": "text",
+                  "question": "Trage den Artikel ein: ___ Mädchen spielt im Park.",
+                  "answer": [
+                    "Das",
+                    "das"
+                  ]
+                },
+                {
+                  "id": "gender-q5",
+                  "type": "match",
+                  "question": "Ordne jedem Nomen den richtigen Artikel zu.",
+                  "pairs": [
+                    {
+                      "id": "gender-pair-1",
+                      "prompt": "__ Freundlichkeit",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "die"
+                    },
+                    {
+                      "id": "gender-pair-2",
+                      "prompt": "__ Tourismus",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "der"
+                    },
+                    {
+                      "id": "gender-pair-3",
+                      "prompt": "__ Häuschen",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "das"
+                    }
+                  ]
+                },
+                {
+                  "id": "gender-q6",
+                  "type": "multiple-choice",
+                  "question": "Welches Wort ist eine bekannte Ausnahme?",
+                  "choices": [
+                    "die Bedeutung",
+                    "das Mädchen",
+                    "der Fahrer"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "singular-and-plural",
+          "title": "Singular und Plural",
+          "summary": "Lerne die häufigsten Pluralendungen und üb sie im Kontext.",
+          "lesson": {
+            "intro": "Der Plural entsteht im Deutschen nicht durch eine einzige Endung. Achte auf typische Muster und merke dir den Artikel im Plural (immer die).",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Viele Plurale enden auf -e, -er, -n/-en oder -s. Manche Wörter bekommen zudem einen Umlaut. Notiere dir Singular und Plural immer gemeinsam."
+              },
+              {
+                "type": "table",
+                "title": "Häufige Pluralmuster",
+                "headers": [
+                  "Singular",
+                  "Plural",
+                  "Artikel (Nom.)"
+                ],
+                "rows": [
+                  [
+                    "der Tisch",
+                    "die Tische",
+                    "die"
+                  ],
+                  [
+                    "die Blume",
+                    "die Blumen",
+                    "die"
+                  ],
+                  [
+                    "das Buch",
+                    "die Bücher",
+                    "die"
+                  ],
+                  [
+                    "der Lehrer",
+                    "die Lehrer",
+                    "die"
+                  ],
+                  [
+                    "die Frage",
+                    "die Fragen",
+                    "die"
+                  ],
+                  [
+                    "das Kind",
+                    "die Kinder",
+                    "die"
+                  ],
+                  [
+                    "der Tourist",
+                    "die Touristen",
+                    "die"
+                  ],
+                  [
+                    "die Universität",
+                    "die Universitäten",
+                    "die"
+                  ],
+                  [
+                    "das Auto",
+                    "die Autos",
+                    "die"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Maskuline und neutrale Nomen erhalten oft -e oder -er (häufig mit Umlaut). Feminine Formen enden meist auf -n/-en. Lehnwörter nutzen oft -s."
+              },
+              {
+                "type": "examples",
+                "title": "Plural im Satz",
+                "items": [
+                  {
+                    "sentence": "Die Kinder spielen im Garten.",
+                    "translation": "The children are playing in the garden."
+                  },
+                  {
+                    "sentence": "Wir brauchen neue Stühle für das Büro.",
+                    "translation": "We need new chairs for the office."
+                  },
+                  {
+                    "sentence": "Im Museum hängen viele Bilder.",
+                    "translation": "Many pictures hang in the museum."
+                  },
+                  {
+                    "sentence": "Die Studenten schreiben ihre Prüfungen.",
+                    "translation": "The students are taking their exams."
+                  },
+                  {
+                    "sentence": "Sie sammelt alte Bücher und Zeitungen.",
+                    "translation": "She collects old books and newspapers."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Im Nominativ Plural steht immer der Artikel die.",
+              "Feminine Nomen enden meist auf -n oder -en, neutrale häufig auf -er mit Umlaut.",
+              "Lehnwörter und Abkürzungen bilden den Plural oft mit -s.",
+              "Notiere dir in deinen Vokabeln immer auch die Pluralform."
+            ],
+            "quiz": {
+              "title": "Pluraltraining",
+              "intro": "Wähle oder bilde die passende Pluralform.",
+              "items": [
+                {
+                  "id": "plural-q1",
+                  "type": "multiple-choice",
+                  "question": "Wie lautet der Plural von der Tisch?",
+                  "choices": [
+                    "die Tischs",
+                    "die Tische",
+                    "die Tischer"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "plural-q2",
+                  "type": "text",
+                  "question": "Ergänze den Plural: die Blume → die _____.",
+                  "answer": [
+                    "Blumen",
+                    "blumen"
+                  ]
+                },
+                {
+                  "id": "plural-q3",
+                  "type": "multiple-choice",
+                  "question": "Welche Form ist richtig für das Kind?",
+                  "choices": [
+                    "die Kinden",
+                    "die Kinder",
+                    "die Kinds"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "plural-q4",
+                  "type": "text",
+                  "question": "Ergänze den Artikel: ___ Autos stehen vor dem Haus.",
+                  "answer": [
+                    "Die",
+                    "die"
+                  ]
+                },
+                {
+                  "id": "plural-q5",
+                  "type": "match",
+                  "question": "Ordne das Nomen der Pluralendung zu.",
+                  "pairs": [
+                    {
+                      "id": "plural-pair-1",
+                      "prompt": "der Lehrer",
+                      "options": [
+                        "keine Endung",
+                        "-e",
+                        "-er",
+                        "-en"
+                      ],
+                      "answer": "keine Endung"
+                    },
+                    {
+                      "id": "plural-pair-2",
+                      "prompt": "die Universität",
+                      "options": [
+                        "-e",
+                        "-en",
+                        "-n",
+                        "-s"
+                      ],
+                      "answer": "-en"
+                    },
+                    {
+                      "id": "plural-pair-3",
+                      "prompt": "das Buch",
+                      "options": [
+                        "-e",
+                        "-er",
+                        "-s",
+                        "-n"
+                      ],
+                      "answer": "-er"
+                    }
+                  ]
+                },
+                {
+                  "id": "plural-q6",
+                  "type": "multiple-choice",
+                  "question": "Welcher Satz verwendet den Plural korrekt?",
+                  "choices": [
+                    "Die Studenten warten vor der Bibliothek.",
+                    "Der Studenten warten vor der Bibliothek.",
+                    "Die Studentes warten vor der Bibliothek."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "declension-of-articles",
+          "title": "Deklination der Artikel",
+          "summary": "Sieh dir an, wie bestimmte, unbestimmte und verneinte Artikel in den Fällen wechseln.",
+          "lesson": {
+            "intro": "Artikel zeigen Genus, Numerus und Kasus eines Nomens. Bestimmte Artikel (der/die/das), unbestimmte Artikel (ein/eine/ein) und die Verneinung (kein/keine/kein) folgen festen Tabellen.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Der Artikel passt sich daran an, ob das Nomen Subjekt (Nominativ), direktes Objekt (Akkusativ) oder indirektes Objekt (Dativ) ist. Präge dir die wiederkehrenden Endungen ein."
+              },
+              {
+                "type": "table",
+                "title": "Bestimmte Artikel",
+                "headers": [
+                  "Kasus",
+                  "Maskulin",
+                  "Feminin",
+                  "Neutrum",
+                  "Plural"
+                ],
+                "rows": [
+                  [
+                    "Nominativ",
+                    "der",
+                    "die",
+                    "das",
+                    "die"
+                  ],
+                  [
+                    "Akkusativ",
+                    "den",
+                    "die",
+                    "das",
+                    "die"
+                  ],
+                  [
+                    "Dativ",
+                    "dem",
+                    "der",
+                    "dem",
+                    "den"
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Unbestimmte Artikel",
+                "headers": [
+                  "Kasus",
+                  "Maskulin",
+                  "Feminin",
+                  "Neutrum"
+                ],
+                "rows": [
+                  [
+                    "Nominativ",
+                    "ein",
+                    "eine",
+                    "ein"
+                  ],
+                  [
+                    "Akkusativ",
+                    "einen",
+                    "eine",
+                    "ein"
+                  ],
+                  [
+                    "Dativ",
+                    "einem",
+                    "einer",
+                    "einem"
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Verneinung (kein)",
+                "headers": [
+                  "Kasus",
+                  "Maskulin",
+                  "Feminin",
+                  "Neutrum",
+                  "Plural"
+                ],
+                "rows": [
+                  [
+                    "Nominativ",
+                    "kein",
+                    "keine",
+                    "kein",
+                    "keine"
+                  ],
+                  [
+                    "Akkusativ",
+                    "keinen",
+                    "keine",
+                    "kein",
+                    "keine"
+                  ],
+                  [
+                    "Dativ",
+                    "keinem",
+                    "keiner",
+                    "keinem",
+                    "keinen"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Im Nominativ und Akkusativ bleibt das Nomen meist unverändert. Im Dativ Plural erhält das Nomen zusätzlich ein -n, sofern es nicht bereits darauf endet."
+              },
+              {
+                "type": "examples",
+                "title": "Artikel im Einsatz",
+                "items": [
+                  {
+                    "sentence": "Der Student liest ein Buch.",
+                    "translation": "The student is reading a book."
+                  },
+                  {
+                    "sentence": "Ich sehe den Bahnhof schon von hier.",
+                    "translation": "I can already see the station from here."
+                  },
+                  {
+                    "sentence": "Wir helfen dem Kind bei den Hausaufgaben.",
+                    "translation": "We help the child with the homework."
+                  },
+                  {
+                    "sentence": "Sie hat keinen Termin heute.",
+                    "translation": "She has no appointment today."
+                  },
+                  {
+                    "sentence": "Gibt es eine Frage zur Grammatik?",
+                    "translation": "Is there a question about grammar?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Der wird im Akkusativ zu den und im Dativ zu dem.",
+              "Unbestimmte und Possessivartikel teilen sich die gleichen Endungen (einem, einer, keinen).",
+              "Im Dativ Plural steht den und das Nomen bekommt meist ein zusätzliches -n.",
+              "Meist zeigt vor allem der Artikel den Kasus an, das Nomen bleibt gleich."
+            ],
+            "quiz": {
+              "title": "Artikelendungen",
+              "intro": "Wähle die passende Artikelform für jeden Satz.",
+              "items": [
+                {
+                  "id": "articles-q1",
+                  "type": "multiple-choice",
+                  "question": "___ Mann kauft ein Ticket. (Nominativ)",
+                  "choices": [
+                    "Der",
+                    "Den",
+                    "Dem"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "articles-q2",
+                  "type": "multiple-choice",
+                  "question": "Ich kenne ___ Lehrer gut. (Akkusativ)",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "articles-q3",
+                  "type": "text",
+                  "question": "Fülle die Lücke: Wir danken ___ Frau. (Dativ)",
+                  "answer": [
+                    "der",
+                    "Der"
+                  ]
+                },
+                {
+                  "id": "articles-q4",
+                  "type": "multiple-choice",
+                  "question": "Welche Form passt? Wir haben ___ Zeit.",
+                  "choices": [
+                    "keinen",
+                    "kein",
+                    "keinem"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "articles-q5",
+                  "type": "match",
+                  "question": "Ordne den Kasus der richtigen Form von \"ein\" (maskulin) zu.",
+                  "pairs": [
+                    {
+                      "id": "articles-pair-1",
+                      "prompt": "Nominativ",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "ein"
+                    },
+                    {
+                      "id": "articles-pair-2",
+                      "prompt": "Akkusativ",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "einen"
+                    },
+                    {
+                      "id": "articles-pair-3",
+                      "prompt": "Dativ",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "einem"
+                    }
+                  ]
+                },
+                {
+                  "id": "articles-q6",
+                  "type": "text",
+                  "question": "Setze ein: Sie hilft ___ Kindern. (Dativ Plural)",
+                  "answer": [
+                    "den",
+                    "Den"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "case-declension-of-nouns",
+          "title": "Kasus von Nomen",
+          "summary": "Verstehe, wann Nominativ, Akkusativ und Dativ gebraucht werden.",
+          "lesson": {
+            "intro": "Fälle zeigen die Funktion eines Nomens im Satz: Der Nominativ steht für das Subjekt, der Akkusativ für das direkte Objekt und der Dativ für den Empfänger oder Nutznießer.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Bestimme die Rolle jedes Nomens: Wer handelt (Nominativ)? Was ist direkt betroffen (Akkusativ)? Wer erhält etwas oder profitiert (Dativ)? Auch Präpositionen verlangen bestimmte Fälle."
+              },
+              {
+                "type": "table",
+                "title": "Häufige Verben und ihre Fälle",
+                "headers": [
+                  "Verb",
+                  "Bedeutung",
+                  "Kasus"
+                ],
+                "rows": [
+                  [
+                    "sehen",
+                    "to see",
+                    "Akkusativ"
+                  ],
+                  [
+                    "brauchen",
+                    "to need",
+                    "Akkusativ"
+                  ],
+                  [
+                    "haben",
+                    "to have",
+                    "Akkusativ"
+                  ],
+                  [
+                    "helfen",
+                    "to help",
+                    "Dativ"
+                  ],
+                  [
+                    "danken",
+                    "to thank",
+                    "Dativ"
+                  ],
+                  [
+                    "gehören",
+                    "to belong",
+                    "Dativ"
+                  ],
+                  [
+                    "sein",
+                    "to be",
+                    "Nominativ"
+                  ],
+                  [
+                    "heißen",
+                    "to be called",
+                    "Nominativ"
+                  ],
+                  [
+                    "werden",
+                    "to become",
+                    "Nominativ"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Kasus im Satz",
+                "items": [
+                  {
+                    "sentence": "Der Lehrer erklärt die Regel.",
+                    "translation": "The teacher explains the rule."
+                  },
+                  {
+                    "sentence": "Meine Schwester braucht einen neuen Laptop.",
+                    "translation": "My sister needs a new laptop."
+                  },
+                  {
+                    "sentence": "Wir geben dem Freund ein Geschenk.",
+                    "translation": "We give the friend a present."
+                  },
+                  {
+                    "sentence": "Kannst du mir bitte helfen?",
+                    "translation": "Can you help me, please?"
+                  },
+                  {
+                    "sentence": "Das Kind heißt Lukas.",
+                    "translation": "The child is called Lukas."
+                  },
+                  {
+                    "sentence": "Die Blumen gehören der Nachbarin.",
+                    "translation": "The flowers belong to the neighbor (female)."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Der Nominativ kennzeichnet Subjekte und Prädikate nach sein, werden, heißen.",
+              "Viele Handlungsverben verlangen ein Akkusativobjekt (sehen, brauchen, kaufen).",
+              "Der Dativ steht für den Empfänger, häufig bei geben, helfen, danken, gehören.",
+              "Präpositionen wie mit, zu, nach ziehen den Dativ; durch, für erfordern den Akkusativ."
+            ],
+            "quiz": {
+              "title": "Welcher Kasus passt?",
+              "intro": "Entscheide, welcher Kasus und welcher Artikel benötigt wird.",
+              "items": [
+                {
+                  "id": "cases-q1",
+                  "type": "multiple-choice",
+                  "question": "Welche Form passt? Ich sehe ___ Film.",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "cases-q2",
+                  "type": "text",
+                  "question": "Ergänze: Wir helfen ___ Nachbarn.",
+                  "answer": [
+                    "dem",
+                    "Dem"
+                  ]
+                },
+                {
+                  "id": "cases-q3",
+                  "type": "multiple-choice",
+                  "question": "Welcher Kasus folgt auf „mit“?",
+                  "choices": [
+                    "Nominativ",
+                    "Akkusativ",
+                    "Dativ"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "cases-q4",
+                  "type": "text",
+                  "question": "Setze ein: Sie bedankt sich bei ___ Lehrerin.",
+                  "answer": [
+                    "der",
+                    "Der"
+                  ]
+                },
+                {
+                  "id": "cases-q5",
+                  "type": "match",
+                  "question": "Ordne das Verb dem passenden Kasus zu.",
+                  "pairs": [
+                    {
+                      "id": "cases-pair-1",
+                      "prompt": "helfen",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Dativ"
+                    },
+                    {
+                      "id": "cases-pair-2",
+                      "prompt": "sehen",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Akkusativ"
+                    },
+                    {
+                      "id": "cases-pair-3",
+                      "prompt": "sein",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Nominativ"
+                    }
+                  ]
+                },
+                {
+                  "id": "cases-q6",
+                  "type": "multiple-choice",
+                  "question": "Welche Option ist korrekt? Wir schenken ___ Kind ein Buch.",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "possessive-pronouns",
+          "title": "Possessivpronomen",
+          "summary": "Nutze mein, dein, sein, ihr und Co. mit den richtigen Endungen.",
+          "lesson": {
+            "intro": "Possessivpronomen verhalten sich wie der unbestimmte Artikel ein. Sie passen ihre Endungen an Genus, Kasus und Numerus an.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Hänge die Endungen an, die du von ein/eine/ein kennst. Achte auf die Grundform (mein, dein, sein, ihr, unser, euer, Ihr)."
+              },
+              {
+                "type": "table",
+                "title": "Endungen der Possessivpronomen (Beispiel: mein)",
+                "headers": [
+                  "Kasus",
+                  "Maskulin",
+                  "Feminin",
+                  "Neutrum",
+                  "Plural"
+                ],
+                "rows": [
+                  [
+                    "Nominativ",
+                    "mein",
+                    "meine",
+                    "mein",
+                    "meine"
+                  ],
+                  [
+                    "Akkusativ",
+                    "meinen",
+                    "meine",
+                    "mein",
+                    "meine"
+                  ],
+                  [
+                    "Dativ",
+                    "meinem",
+                    "meiner",
+                    "meinem",
+                    "meinen"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Possessivpronomen im Kontext",
+                "items": [
+                  {
+                    "sentence": "Mein Bruder arbeitet in Berlin.",
+                    "translation": "My brother works in Berlin."
+                  },
+                  {
+                    "sentence": "Ich sehe deine Tasche nicht.",
+                    "translation": "I don’t see your bag."
+                  },
+                  {
+                    "sentence": "Wir helfen unserem Freund beim Umzug.",
+                    "translation": "We help our friend with the move."
+                  },
+                  {
+                    "sentence": "Ihre Eltern kommen morgen zu Besuch.",
+                    "translation": "Her parents are coming to visit tomorrow."
+                  },
+                  {
+                    "sentence": "Ist das euer Auto vor der Tür?",
+                    "translation": "Is that your car in front of the door?"
+                  },
+                  {
+                    "sentence": "Ich telefoniere mit meiner Schwester.",
+                    "translation": "I am calling my sister."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Possessivpronomen teilen sich die Endungen mit den Ein-Wörtern (ein, kein, mein).",
+              "Im Akkusativ bekommt die maskuline Form ein -en, im Dativ -em/-er/-en.",
+              "Euer verliert vor Endungen das zweite e: euer → euren, eurem, eurer.",
+              "Das formelle Ihr wird immer großgeschrieben (Ihre, Ihren …)."
+            ],
+            "quiz": {
+              "title": "Possessivendungen",
+              "intro": "Ergänze die richtigen Possessivformen.",
+              "items": [
+                {
+                  "id": "possessive-q1",
+                  "type": "multiple-choice",
+                  "question": "___ Bruder studiert in München. (mein)",
+                  "choices": [
+                    "Mein",
+                    "Meine",
+                    "Meinen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "possessive-q2",
+                  "type": "text",
+                  "question": "Welche Form passt? Wir besuchen ___ Großeltern. (unser)",
+                  "answer": [
+                    "unsere",
+                    "Unsere"
+                  ]
+                },
+                {
+                  "id": "possessive-q3",
+                  "type": "multiple-choice",
+                  "question": "Siehst du ___ Freundin? (sein)",
+                  "choices": [
+                    "seine",
+                    "sein",
+                    "seiner"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "possessive-q4",
+                  "type": "text",
+                  "question": "Fülle ein: Ich gebe ___ Bruder das Buch zurück. (dein, Singular)",
+                  "answer": [
+                    "deinem",
+                    "Deinem"
+                  ]
+                },
+                {
+                  "id": "possessive-q5",
+                  "type": "match",
+                  "question": "Ordne die Person dem Possessivpronomen zu.",
+                  "pairs": [
+                    {
+                      "id": "possessive-pair-1",
+                      "prompt": "wir",
+                      "options": [
+                        "mein",
+                        "dein",
+                        "sein",
+                        "unser"
+                      ],
+                      "answer": "unser"
+                    },
+                    {
+                      "id": "possessive-pair-2",
+                      "prompt": "sie (Singular)",
+                      "options": [
+                        "ihr",
+                        "sein",
+                        "euer",
+                        "Ihr"
+                      ],
+                      "answer": "ihr"
+                    },
+                    {
+                      "id": "possessive-pair-3",
+                      "prompt": "Sie (formell)",
+                      "options": [
+                        "mein",
+                        "Ihr",
+                        "euer",
+                        "sein"
+                      ],
+                      "answer": "Ihr"
+                    }
+                  ]
+                },
+                {
+                  "id": "possessive-q6",
+                  "type": "multiple-choice",
+                  "question": "Welche Form passt? Wir danken ___ Lehrerin.",
+                  "choices": [
+                    "unser",
+                    "unserer",
+                    "unserem"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "verbs",
+      "title": "Verben (Verbs)",
+      "description": "Lerne, wie sich deutsche Verben im Alltag verändern: vom Infinitiv über die Konjugation bis hin zu Fragen, Verneinung und Modalverben.",
+      "subtopics": [
+        {
+          "slug": "infinitive-and-conjugation",
+          "title": "Infinitiv und Konjugation regelmäßiger und unregelmäßiger Verben",
+          "summary": "Erkenne Infinitive und die wichtigsten Präsensmuster für regelmäßige und unregelmäßige Verben.",
+          "lesson": {
+            "intro": "Deutsche Infinitive enden meist auf -en oder -n. Im Präsens folgen regelmäßige Verben festen Endungen, während eine kleinere Gruppe den Stammvokal in einigen Formen verändert.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Um ein regelmäßiges Verb zu konjugieren, entfernst du die Endung -en und ergänzt die Personalendungen. Unregelmäßige Verben behalten die Endungen, verändern jedoch oft den Stammvokal oder fügen im Du- und Er/Sie/Es-Form eine Silbe ein."
+              },
+              {
+                "type": "table",
+                "title": "Regelmäßige Endungen am Beispiel spielen",
+                "headers": [
+                  "Person",
+                  "Ending",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "ich",
+                    "-e",
+                    "ich spiele"
+                  ],
+                  [
+                    "du",
+                    "-st",
+                    "du spielst"
+                  ],
+                  [
+                    "er/sie/es",
+                    "-t",
+                    "er spielt"
+                  ],
+                  [
+                    "wir",
+                    "-en",
+                    "wir spielen"
+                  ],
+                  [
+                    "ihr",
+                    "-t",
+                    "ihr spielt"
+                  ],
+                  [
+                    "sie/Sie",
+                    "-en",
+                    "sie spielen"
+                  ]
+                ]
+              },
+              {
+                "type": "rules",
+                "title": "Häufige Stammwechsel",
+                "rules": [
+                  {
+                    "label": "e → ie (sehen, lesen)",
+                    "examples": [
+                      "ich sehe",
+                      "du siehst",
+                      "er liest"
+                    ]
+                  },
+                  {
+                    "label": "a → ä (fahren, laufen)",
+                    "examples": [
+                      "du fährst",
+                      "er läuft"
+                    ]
+                  },
+                  {
+                    "label": "e → i (sprechen, nehmen)",
+                    "examples": [
+                      "du sprichst",
+                      "er nimmt"
+                    ]
+                  },
+                  {
+                    "label": "Add -e- for stems ending in -d/-t (arbeiten)",
+                    "examples": [
+                      "du arbeitest",
+                      "ihr arbeitet"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Beispielsätze",
+                "items": [
+                  {
+                    "sentence": "Ich lerne jeden Abend Deutsch.",
+                    "translation": "I study German every evening."
+                  },
+                  {
+                    "sentence": "Du arbeitest heute im Büro.",
+                    "translation": "You are working at the office today."
+                  },
+                  {
+                    "sentence": "Er sieht den neuen Film im Kino.",
+                    "translation": "He is watching the new film at the cinema."
+                  },
+                  {
+                    "sentence": "Wir fahren am Wochenende nach Köln.",
+                    "translation": "We are driving to Cologne at the weekend."
+                  },
+                  {
+                    "sentence": "Ihr sprecht sehr gut Deutsch.",
+                    "translation": "You (plural) speak German very well."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Die meisten Infinitive enden auf -en; entferne sie, um den Stamm zu finden.",
+              "Regelmäßige Verben fügen die Endungen -e, -st, -t, -en, -t, -en an den Stamm an.",
+              "Unregelmäßige Verben behalten die Endungen, verändern jedoch den Stammvokal in den Formen du/er/sie/es.",
+              "Stämme auf -d oder -t erhalten zur leichteren Aussprache ein eingeschobenes -e- vor -st und -t."
+            ],
+            "quiz": {
+              "title": "Prüfe dein Verständnis",
+              "items": [
+                {
+                  "id": "verbs-inf-q1",
+                  "type": "multiple-choice",
+                  "question": "Wir ___ (lernen) Deutsch.",
+                  "choices": [
+                    "lerne",
+                    "lernen",
+                    "lernt"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-inf-q2",
+                  "type": "multiple-choice",
+                  "question": "Er ___ (fahren) zur Arbeit.",
+                  "choices": [
+                    "fahrt",
+                    "fährt",
+                    "fahre"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-inf-q3",
+                  "type": "text",
+                  "question": "Du ___ (arbeiten) am Samstag.",
+                  "answer": [
+                    "arbeitest"
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q4",
+                  "type": "text",
+                  "question": "Ich ___ (sehen) den Film.",
+                  "answer": [
+                    "sehe"
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q5",
+                  "type": "match",
+                  "question": "Ordne den Infinitiv der ich-Form zu.",
+                  "pairs": [
+                    {
+                      "id": "verbs-inf-p1",
+                      "prompt": "laufen",
+                      "options": [
+                        "laufe",
+                        "läuft",
+                        "lief"
+                      ],
+                      "answer": "laufe"
+                    },
+                    {
+                      "id": "verbs-inf-p2",
+                      "prompt": "sprechen",
+                      "options": [
+                        "spreche",
+                        "spriche",
+                        "sprach"
+                      ],
+                      "answer": "spreche"
+                    },
+                    {
+                      "id": "verbs-inf-p3",
+                      "prompt": "nehmen",
+                      "options": [
+                        "nehme",
+                        "nahme",
+                        "nehmt"
+                      ],
+                      "answer": "nehme"
+                    }
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q6",
+                  "type": "multiple-choice",
+                  "question": "Welche Endung gehört bei regelmäßigen Verben zu „ihr“?",
+                  "choices": [
+                    "-e",
+                    "-en",
+                    "-t"
+                  ],
+                  "answer": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "sein-haben-werden",
+          "title": "Die Verben sein, haben, werden",
+          "summary": "Setze die wichtigen unregelmäßigen Verben sein, haben und werden sicher im Alltag ein.",
+          "lesson": {
+            "intro": "Die Verben sein, haben und werden brauchst du ständig. Sie sind unregelmäßig und müssen gelernt werden, bilden aber die Grundlage vieler Grundsätze.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Sein beschreibt Identität und Zustände, haben drückt Besitz und Beziehungen aus, und werden bedeutet entweder ‚werden‘ oder dient als Hilfsverb für Zukunft und Passiv."
+              },
+              {
+                "type": "table",
+                "title": "Konjugation im Präsens",
+                "headers": [
+                  "Person",
+                  "sein",
+                  "haben",
+                  "werden"
+                ],
+                "rows": [
+                  [
+                    "ich",
+                    "bin",
+                    "habe",
+                    "werde"
+                  ],
+                  [
+                    "du",
+                    "bist",
+                    "hast",
+                    "wirst"
+                  ],
+                  [
+                    "er/sie/es",
+                    "ist",
+                    "hat",
+                    "wird"
+                  ],
+                  [
+                    "wir",
+                    "sind",
+                    "haben",
+                    "werden"
+                  ],
+                  [
+                    "ihr",
+                    "seid",
+                    "habt",
+                    "werdet"
+                  ],
+                  [
+                    "sie/Sie",
+                    "sind",
+                    "haben",
+                    "werden"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "So setzt du sie ein",
+                "text": "Nutze sein für Beschreibungen und Orte, haben für Besitz und Beziehungen und werden für Entwicklungen oder als Hilfsverb für Zukunft und Passiv."
+              },
+              {
+                "type": "examples",
+                "title": "Beispielsätze",
+                "items": [
+                  {
+                    "sentence": "Ich bin müde.",
+                    "translation": "I am tired."
+                  },
+                  {
+                    "sentence": "Wir sind heute im Büro.",
+                    "translation": "We are at the office today."
+                  },
+                  {
+                    "sentence": "Sie hat zwei Geschwister.",
+                    "translation": "She has two siblings."
+                  },
+                  {
+                    "sentence": "Habt ihr noch Fragen?",
+                    "translation": "Do you still have questions?"
+                  },
+                  {
+                    "sentence": "Er wird nächstes Jahr Lehrer.",
+                    "translation": "He is becoming a teacher next year."
+                  },
+                  {
+                    "sentence": "Morgen werden wir in Berlin sein.",
+                    "translation": "Tomorrow we will be in Berlin."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Sein, haben, and werden are completely irregular—memorise each form.",
+              "Sein states what something is or where it is.",
+              "Haben talks about what someone owns or experiences.",
+              "Werden expresses becoming and also builds the future tense together with an infinitive."
+            ],
+            "quiz": {
+              "title": "Übe die wichtigsten Verben",
+              "items": [
+                {
+                  "id": "verbs-shw-q1",
+                  "type": "multiple-choice",
+                  "question": "Er ___ müde nach der Arbeit.",
+                  "choices": [
+                    "ist",
+                    "bist",
+                    "sein"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-shw-q2",
+                  "type": "text",
+                  "question": "Wir ___ Freunde.",
+                  "answer": [
+                    "sind"
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q3",
+                  "type": "text",
+                  "question": "Ich ___ Zeit für ein Treffen.",
+                  "answer": [
+                    "habe"
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q4",
+                  "type": "multiple-choice",
+                  "question": "Sie ___ morgen Arzt.",
+                  "choices": [
+                    "werden",
+                    "werdet",
+                    "werde"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-shw-q5",
+                  "type": "match",
+                  "question": "Ordne das Pronomen der passenden Form von werden zu.",
+                  "pairs": [
+                    {
+                      "id": "verbs-shw-p1",
+                      "prompt": "ich",
+                      "options": [
+                        "werdet",
+                        "werde",
+                        "wird"
+                      ],
+                      "answer": "werde"
+                    },
+                    {
+                      "id": "verbs-shw-p2",
+                      "prompt": "du",
+                      "options": [
+                        "werdet",
+                        "wirst",
+                        "werden"
+                      ],
+                      "answer": "wirst"
+                    },
+                    {
+                      "id": "verbs-shw-p3",
+                      "prompt": "ihr",
+                      "options": [
+                        "werden",
+                        "werdet",
+                        "werde"
+                      ],
+                      "answer": "werdet"
+                    }
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q6",
+                  "type": "multiple-choice",
+                  "question": "Welcher Satz bildet das Futur richtig?",
+                  "choices": [
+                    "Wir werden nach Hause.",
+                    "Wir werden nach Hause gehen.",
+                    "Wir gehen nach Hause."
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "word-order-simple-sentences",
+          "title": "Wortstellung im einfachen Hauptsatz",
+          "summary": "Halte das gebeugte Verb in Position zwei und ordne Zeit, Art und Ort in natürlicher Reihenfolge an.",
+          "lesson": {
+            "intro": "German main clauses follow the verb-second rule (V2). The conjugated verb stands in second position, even if another element like time or place comes first.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Du kannst Informationen vor das Verb stellen, um sie zu betonen, doch das gebeugte Verb bleibt auf Position zwei. Weitere Verben, Infinitive und trennbare Präfixe stehen am Satzende."
+              },
+              {
+                "type": "rules",
+                "title": "Verlässliche Satzordnung",
+                "rules": [
+                  {
+                    "label": "Position 1",
+                    "examples": [
+                      "Heute",
+                      "In Berlin",
+                      "Nach der Arbeit"
+                    ]
+                  },
+                  {
+                    "label": "Position 2",
+                    "examples": [
+                      "steht das finite Verb"
+                    ]
+                  },
+                  {
+                    "label": "Mittelfeld",
+                    "examples": [
+                      "Subjekt",
+                      "Zeit",
+                      "Art",
+                      "Ort"
+                    ]
+                  },
+                  {
+                    "label": "Satzende",
+                    "examples": [
+                      "weitere Verben",
+                      "Infinitive",
+                      "Partizip"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Beispielsätze",
+                "items": [
+                  {
+                    "sentence": "Heute lerne ich zu Hause.",
+                    "translation": "Today I study at home."
+                  },
+                  {
+                    "sentence": "Im Sommer reisen wir oft nach Spanien.",
+                    "translation": "In summer we often travel to Spain."
+                  },
+                  {
+                    "sentence": "Nach dem Essen liest er ein Buch.",
+                    "translation": "After dinner he reads a book."
+                  },
+                  {
+                    "sentence": "Morgens trinkt sie zuerst Kaffee.",
+                    "translation": "In the morning she drinks coffee first."
+                  },
+                  {
+                    "sentence": "Abends sehen wir einen Film.",
+                    "translation": "In the evening we watch a film."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Das gebeugte Verb steht im Hauptsatz immer an zweiter Stelle.",
+              "Ein einzelnes Satzelement kann zur Betonung vor dem Verb stehen.",
+              "Weitere Verben und Infinitive wandern ans Satzende.",
+              "Mit der Reihenfolge Zeit – Art – Ort klingt der Satz natürlich."
+            ],
+            "quiz": {
+              "title": "Baue korrekte Sätze",
+              "items": [
+                {
+                  "id": "verbs-wordorder-q1",
+                  "type": "multiple-choice",
+                  "question": "Wähle die richtige Reihenfolge: Morgen / wir / fahren / nach Leipzig.",
+                  "choices": [
+                    "Wir fahren morgen nach Leipzig.",
+                    "Morgen fahren wir nach Leipzig.",
+                    "Morgen wir fahren nach Leipzig."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-wordorder-q2",
+                  "type": "text",
+                  "question": "___ spielen die Kinder im Garten. (Heute)",
+                  "answer": [
+                    "Heute"
+                  ]
+                },
+                {
+                  "id": "verbs-wordorder-q3",
+                  "type": "multiple-choice",
+                  "question": "Wo steht der Infinitiv? ‚Er muss ___ das Formular.‘",
+                  "choices": [
+                    "ausfüllen",
+                    "ausfüllt",
+                    "füllt aus"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-wordorder-q4",
+                  "type": "text",
+                  "question": "Im Büro ___ wir oft Meetings. (haben)",
+                  "answer": [
+                    "haben"
+                  ]
+                },
+                {
+                  "id": "verbs-wordorder-q5",
+                  "type": "match",
+                  "question": "Ordne dem ersten Satzteil die passende Verb-zweite-Fortsetzung zu.",
+                  "pairs": [
+                    {
+                      "id": "verbs-wordorder-p1",
+                      "prompt": "Am Abend",
+                      "options": [
+                        "lesen wir ein Buch.",
+                        "Wir lesen ein Buch.",
+                        "Ein Buch lesen wir."
+                      ],
+                      "answer": "lesen wir ein Buch."
+                    },
+                    {
+                      "id": "verbs-wordorder-p2",
+                      "prompt": "In der Stadt",
+                      "options": [
+                        "kauft sie frisches Brot.",
+                        "Sie kauft frisches Brot.",
+                        "Frisches Brot kauft sie."
+                      ],
+                      "answer": "kauft sie frisches Brot."
+                    },
+                    {
+                      "id": "verbs-wordorder-p3",
+                      "prompt": "Nach dem Training",
+                      "options": [
+                        "essen sie gemeinsam.",
+                        "Sie essen gemeinsam.",
+                        "Gemeinsam essen sie."
+                      ],
+                      "answer": "essen sie gemeinsam."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "questions-yes-no-w",
+          "title": "Ja/Nein-Fragen und W-Fragen",
+          "summary": "Bilde Ja/Nein-Fragen mit dem Verb an erster Stelle und W-Fragen mit einem Fragewort plus Verb.",
+          "lesson": {
+            "intro": "Deutsche Fragen beginnen entweder mit dem gebeugten Verb (Ja/Nein-Fragen) oder mit einem Fragewort (wer, was, wo, wann, warum, wie, wohin), gefolgt vom Verb auf Position zwei.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Ja/Nein-Fragen vertauschen Verb und Subjekt. W-Fragen stellen das Fragewort an erste Stelle und lassen das Verb an zweiter."
+              },
+              {
+                "type": "table",
+                "title": "Fragemuster",
+                "headers": [
+                  "Type",
+                  "Structure",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "Yes/no",
+                    "Verb + subject + ...?",
+                    "Kommst du heute?"
+                  ],
+                  [
+                    "W-question",
+                    "W-word + verb + subject ...?",
+                    "Wann beginnt der Kurs?"
+                  ],
+                  [
+                    "W-question with preposition",
+                    "W-word + preposition + verb + subject",
+                    "Worauf wartest du?"
+                  ],
+                  [
+                    "Wohin",
+                    "Wohin + verb + subject",
+                    "Wohin fahrt ihr?"
+                  ],
+                  [
+                    "Warum",
+                    "Warum + verb + subject",
+                    "Warum lernt er Deutsch?"
+                  ],
+                  [
+                    "Wie",
+                    "Wie + verb + subject",
+                    "Wie fühlst du dich?"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Beispielfragen",
+                "items": [
+                  {
+                    "sentence": "Kommst du mit?",
+                    "translation": "Are you coming along?"
+                  },
+                  {
+                    "sentence": "Hast du Zeit?",
+                    "translation": "Do you have time?"
+                  },
+                  {
+                    "sentence": "Wer hilft dir?",
+                    "translation": "Who helps you?"
+                  },
+                  {
+                    "sentence": "Wo wohnst du jetzt?",
+                    "translation": "Where do you live now?"
+                  },
+                  {
+                    "sentence": "Wohin fährt der Bus?",
+                    "translation": "Where is the bus going?"
+                  },
+                  {
+                    "sentence": "Warum lernst du Deutsch?",
+                    "translation": "Why are you learning German?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Stelle bei Ja/Nein-Fragen das gebeugte Verb vor das Subjekt.",
+              "W-Fragen beginnen mit einem Fragewort und behalten das Verb auf Position zwei.",
+              "Kombiniere Fragewörter bei Bedarf mit Präpositionen (worauf, womit, wofür).",
+              "Beende Fragen mit steigender Intonation und einem Fragezeichen."
+            ],
+            "quiz": {
+              "title": "Stelle die passende Frage",
+              "items": [
+                {
+                  "id": "verbs-questions-q1",
+                  "type": "multiple-choice",
+                  "question": "Welche Ja/Nein-Frage passt zu ‚du kommst morgen‘?",
+                  "choices": [
+                    "Kommst du morgen?",
+                    "Du kommst morgen?",
+                    "Morgen du kommst?"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-questions-q2",
+                  "type": "text",
+                  "question": "___ lernst du Deutsch? (Warum)",
+                  "answer": [
+                    "Warum"
+                  ]
+                },
+                {
+                  "id": "verbs-questions-q3",
+                  "type": "multiple-choice",
+                  "question": "Welches Fragewort passt: ___ arbeitet sie? (an welchem Ort)",
+                  "choices": [
+                    "Wie",
+                    "Wo",
+                    "Wann"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-questions-q4",
+                  "type": "text",
+                  "question": "___ fährt ihr? (Wohin)",
+                  "answer": [
+                    "Wohin"
+                  ]
+                },
+                {
+                  "id": "verbs-questions-q5",
+                  "type": "match",
+                  "question": "Ordne dem deutschen Fragewort seine Bedeutung zu.",
+                  "pairs": [
+                    {
+                      "id": "verbs-questions-p1",
+                      "prompt": "wer",
+                      "options": [
+                        "who",
+                        "when",
+                        "where"
+                      ],
+                      "answer": "who"
+                    },
+                    {
+                      "id": "verbs-questions-p2",
+                      "prompt": "wann",
+                      "options": [
+                        "how",
+                        "when",
+                        "why"
+                      ],
+                      "answer": "when"
+                    },
+                    {
+                      "id": "verbs-questions-p3",
+                      "prompt": "warum",
+                      "options": [
+                        "why",
+                        "where",
+                        "what"
+                      ],
+                      "answer": "why"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "negation-nicht-kein",
+          "title": "Verneinung (nicht, kein)",
+          "summary": "Entscheide, ob du nicht oder kein brauchst, und setze das Wort an die richtige Stelle.",
+          "lesson": {
+            "intro": "Deutsch nutzt nicht, um Verben, Adjektive, Adverbien oder ganze Sätze zu verneinen, und kein ersetzt den unbestimmten Artikel oder negiert Substantive ohne Artikel.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Behandle kein wie einen Artikel: es dekliniert (kein, keine, keinen, keiner, keinem). Nicht verneint alles andere und steht meist vor dem betroffenen Satzteil oder am Satzende."
+              },
+              {
+                "type": "table",
+                "title": "Wann benutzt du nicht bzw. kein",
+                "headers": [
+                  "Use",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "kein + noun",
+                    "Ich habe keinen Hund."
+                  ],
+                  [
+                    "kein + plural noun",
+                    "Wir haben keine Tickets."
+                  ],
+                  [
+                    "nicht + verb",
+                    "Ich arbeite heute nicht."
+                  ],
+                  [
+                    "nicht + adjective",
+                    "Der Kaffee ist nicht warm."
+                  ],
+                  [
+                    "nicht + adverb",
+                    "Sie kommt nicht oft."
+                  ],
+                  [
+                    "nicht + entire clause",
+                    "Nicht alle verstehen den Witz."
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Beispielsätze",
+                "items": [
+                  {
+                    "sentence": "Ich habe keine Zeit.",
+                    "translation": "I have no time."
+                  },
+                  {
+                    "sentence": "Er isst kein Fleisch.",
+                    "translation": "He does not eat meat."
+                  },
+                  {
+                    "sentence": "Wir fahren heute nicht nach Hause.",
+                    "translation": "We are not driving home today."
+                  },
+                  {
+                    "sentence": "Der Film ist nicht langweilig.",
+                    "translation": "The film is not boring."
+                  },
+                  {
+                    "sentence": "Sie singt nicht gern.",
+                    "translation": "She does not like to sing."
+                  },
+                  {
+                    "sentence": "Ich kaufe das Buch nicht.",
+                    "translation": "I am not buying the book."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Kein replaces ein/eine and negates nouns without a definite article.",
+              "Nicht negates verbs, adjectives, adverbs, or whole clauses.",
+              "Place nicht directly before the element you negate or near the end of the clause.",
+              "Remember that kein declines like ein: kein, keine, keinen, keiner, keinem."
+            ],
+            "quiz": {
+              "title": "Wähle die richtige Verneinung",
+              "items": [
+                {
+                  "id": "verbs-negation-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich habe ___ Geld.",
+                  "choices": [
+                    "nicht",
+                    "kein",
+                    "keine"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-negation-q2",
+                  "type": "text",
+                  "question": "Der Kaffee ist ___ heiß.",
+                  "answer": [
+                    "nicht"
+                  ]
+                },
+                {
+                  "id": "verbs-negation-q3",
+                  "type": "multiple-choice",
+                  "question": "Sie kauft ___ Blumen.",
+                  "choices": [
+                    "keine",
+                    "nicht",
+                    "kein"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-negation-q4",
+                  "type": "text",
+                  "question": "Wir fahren heute ___ nach München.",
+                  "answer": [
+                    "nicht"
+                  ]
+                },
+                {
+                  "id": "verbs-negation-q5",
+                  "type": "match",
+                  "question": "Ordne jedem Satz das passende Verneinungswort zu.",
+                  "pairs": [
+                    {
+                      "id": "verbs-negation-p1",
+                      "prompt": "___ Zeit haben",
+                      "options": [
+                        "kein",
+                        "nicht",
+                        "keine"
+                      ],
+                      "answer": "keine"
+                    },
+                    {
+                      "id": "verbs-negation-p2",
+                      "prompt": "___ arbeiten",
+                      "options": [
+                        "nicht",
+                        "kein",
+                        "keine"
+                      ],
+                      "answer": "nicht"
+                    },
+                    {
+                      "id": "verbs-negation-p3",
+                      "prompt": "___ Auto besitzen",
+                      "options": [
+                        "kein",
+                        "nicht",
+                        "keine"
+                      ],
+                      "answer": "kein"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "modal-verbs",
+          "title": "Modalverben",
+          "summary": "Verbinde Modalverben mit einem Infinitiv und lass das Modalverb auf Position zwei.",
+          "lesson": {
+            "intro": "Modalverben verändern die Aussage des Vollverbs: Sie drücken Fähigkeit, Notwendigkeit, Erlaubnis, Wunsch oder Pflicht aus. Im Hauptsatz wird das Modalverb konjugiert und steht an zweiter Stelle, der Infinitiv wandert ans Satzende.",
+            "blocks": [
+              {
+                "type": "table",
+                "title": "Modalverben im Präsens",
+                "headers": [
+                  "Modal",
+                  "ich",
+                  "du",
+                  "er/sie/es"
+                ],
+                "rows": [
+                  [
+                    "können",
+                    "kann",
+                    "kannst",
+                    "kann"
+                  ],
+                  [
+                    "wollen",
+                    "will",
+                    "willst",
+                    "will"
+                  ],
+                  [
+                    "müssen",
+                    "muss",
+                    "musst",
+                    "muss"
+                  ],
+                  [
+                    "dürfen",
+                    "darf",
+                    "darfst",
+                    "darf"
+                  ],
+                  [
+                    "sollen",
+                    "soll",
+                    "sollst",
+                    "soll"
+                  ],
+                  [
+                    "mögen",
+                    "mag",
+                    "magst",
+                    "mag"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Satzposition",
+                "text": "Modalverben verhalten sich wie unregelmäßige Verben mit eigenen Stammwechseln. Das Vollverb bleibt im Infinitiv und steht am Satzende."
+              },
+              {
+                "type": "examples",
+                "title": "Beispielsätze",
+                "items": [
+                  {
+                    "sentence": "Ich kann gut schwimmen.",
+                    "translation": "I can swim well."
+                  },
+                  {
+                    "sentence": "Wir müssen heute lange arbeiten.",
+                    "translation": "We have to work long hours today."
+                  },
+                  {
+                    "sentence": "Darf ich hier parken?",
+                    "translation": "May I park here?"
+                  },
+                  {
+                    "sentence": "Sie will in Berlin studieren.",
+                    "translation": "She wants to study in Berlin."
+                  },
+                  {
+                    "sentence": "Ihr sollt eure Hausaufgaben machen.",
+                    "translation": "You (plural) should do your homework."
+                  },
+                  {
+                    "sentence": "Magst du Kaffee trinken?",
+                    "translation": "Do you like to drink coffee?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Modalverben drücken Können, Wunsch, Pflicht, Erlaubnis oder Vorlieben aus.",
+              "Das Modalverb wird konjugiert und steht im Hauptsatz an zweiter Stelle.",
+              "Das Vollverb bleibt im Infinitiv und rückt ans Satzende.",
+              "Viele Modalverben verändern den Stammvokal in den Formen du und er/sie/es."
+            ],
+            "quiz": {
+              "title": "Setze Modalverben richtig ein",
+              "items": [
+                {
+                  "id": "verbs-modals-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich ___ heute zu Hause bleiben. (must)",
+                  "choices": [
+                    "muss",
+                    "kann",
+                    "soll"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-modals-q2",
+                  "type": "text",
+                  "question": "Du ___ (können) gut malen.",
+                  "answer": [
+                    "kannst"
+                  ]
+                },
+                {
+                  "id": "verbs-modals-q3",
+                  "type": "multiple-choice",
+                  "question": "Welche Form passt? Wir ___ morgen kommen. (können)",
+                  "choices": [
+                    "kann",
+                    "könnt",
+                    "können"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "verbs-modals-q4",
+                  "type": "text",
+                  "question": "Er ___ (dürfen) hier nicht parken.",
+                  "answer": [
+                    "darf"
+                  ]
+                },
+                {
+                  "id": "verbs-modals-q5",
+                  "type": "match",
+                  "question": "Ordne dem Modalverb die passende Bedeutung zu.",
+                  "pairs": [
+                    {
+                      "id": "verbs-modals-p1",
+                      "prompt": "müssen",
+                      "options": [
+                        "dürfen",
+                        "müssen",
+                        "mögen"
+                      ],
+                      "answer": "müssen"
+                    },
+                    {
+                      "id": "verbs-modals-p2",
+                      "prompt": "dürfen",
+                      "options": [
+                        "dürfen",
+                        "müssen",
+                        "sollen"
+                      ],
+                      "answer": "dürfen"
+                    },
+                    {
+                      "id": "verbs-modals-p3",
+                      "prompt": "wollen",
+                      "options": [
+                        "wollen",
+                        "müssen",
+                        "können"
+                      ],
+                      "answer": "wollen"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "adjectives",
+      "title": "Adjektive (Adjectives)",
+      "description": "Beschreibe Personen und Dinge mit Adjektiven – von Steigerungsformen bis zum Gebrauch als Prädikativ.",
+      "subtopics": [
+        {
+          "slug": "degrees-of-comparison",
+          "title": "Steigerungsstufen (Positiv, Komparativ, Superlativ)",
+          "summary": "Bilde und benutze Positiv, Komparativ und Superlativ sicher im Alltag.",
+          "lesson": {
+            "intro": "Deutsche Adjektive haben eine Grundform (Positiv). Durch Endungen oder Stammänderungen drückst du Vergleiche und den höchsten Grad aus.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Für den Komparativ hängst du -er an das Adjektiv. Viele häufige Adjektive verändern zusätzlich den Stammvokal (a/o/u → ä/ö/ü). Der Superlativ erscheint als am + -sten im Prädikat oder mit -ste vor einem Nomen."
+              },
+              {
+                "type": "rules",
+                "title": "So bildest du die Stufen",
+                "rules": [
+                  {
+                    "label": "Komparativ: + -er",
+                    "examples": [
+                      "schnell → schneller",
+                      "laut → lauter"
+                    ]
+                  },
+                  {
+                    "label": "Umlaut bei a, o, u wenn möglich",
+                    "examples": [
+                      "alt → älter",
+                      "groß → größer"
+                    ]
+                  },
+                  {
+                    "label": "Prädikativer Superlativ: am + -sten",
+                    "examples": [
+                      "am freundlichsten",
+                      "am besten"
+                    ]
+                  },
+                  {
+                    "label": "Attributiver Superlativ: der/die/das + -ste",
+                    "examples": [
+                      "der schnellste Zug",
+                      "die schönste Aussicht"
+                    ]
+                  },
+                  {
+                    "label": "Endungen auf -el/-er verlieren oft das -e",
+                    "examples": [
+                      "teuer → teurer",
+                      "dunkel → dunkler"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Steigerungen im Überblick",
+                "headers": [
+                  "Positiv",
+                  "Komparativ",
+                  "Superlativ (Prädikat)",
+                  "Superlativ (attributiv)"
+                ],
+                "rows": [
+                  [
+                    "klein",
+                    "kleiner",
+                    "am kleinsten",
+                    "der/die/das kleinste"
+                  ],
+                  [
+                    "interessant",
+                    "interessanter",
+                    "am interessantesten",
+                    "der/die/das interessanteste"
+                  ],
+                  [
+                    "hoch",
+                    "höher",
+                    "am höchsten",
+                    "der/die/das höchste"
+                  ],
+                  [
+                    "gut",
+                    "besser",
+                    "am besten",
+                    "der/die/das beste"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Adjektivendungen nicht vergessen",
+                "text": "Steht der Superlativ vor einem Nomen, brauchst du trotzdem die üblichen Adjektivendungen (ein schnellerer Bus, die beste Idee)."
+              },
+              {
+                "type": "examples",
+                "title": "Beispiele",
+                "items": [
+                  {
+                    "sentence": "Anna ist schneller als Ben.",
+                    "translation": "Anna is faster than Ben."
+                  },
+                  {
+                    "sentence": "Das ist das spannendste Kapitel im Buch.",
+                    "translation": "This is the most exciting chapter in the book."
+                  },
+                  {
+                    "sentence": "Mein Kaffee ist wärmer als deiner.",
+                    "translation": "My coffee is warmer than yours."
+                  },
+                  {
+                    "sentence": "Dieses Hotel ist am günstigsten in der Stadt.",
+                    "translation": "This hotel is the cheapest in the city."
+                  },
+                  {
+                    "sentence": "Die Übung wird immer schwieriger.",
+                    "translation": "The exercise is getting more and more difficult."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Der Komparativ erhält meist -er.",
+              "Bei a, o, u kommt häufig ein Umlaut hinzu.",
+              "Für prädikative Superlative nutzt du am + -sten.",
+              "Vor Nomen kombinierst du den Superlativ mit Artikel und Endung.",
+              "Unregelmäßige Formen wie gut → besser solltest du auswendig kennen."
+            ],
+            "quiz": {
+              "title": "Prüfe dein Verständnis",
+              "intro": "Beantworte die Fragen und vergleiche deine Antworten mit den Lösungen.",
+              "items": [
+                {
+                  "id": "adj-comp-q1",
+                  "type": "multiple-choice",
+                  "question": "Welche Form passt? Mein Bruder ist ___ als ich.",
+                  "choices": [
+                    "groß",
+                    "größer",
+                    "am größten"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "adj-comp-q2",
+                  "type": "text",
+                  "question": "Ergänze den Satz: Das Rätsel ist am ___ (schwer) für die Kinder.",
+                  "answer": [
+                    "schwersten",
+                    "Schwersten"
+                  ]
+                },
+                {
+                  "id": "adj-comp-q3",
+                  "type": "multiple-choice",
+                  "question": "Wähle den richtigen Komparativ: Diese Straße ist ___ als die andere.",
+                  "choices": [
+                    "kürzer",
+                    "am kürzesten",
+                    "kurze"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-comp-q4",
+                  "type": "match",
+                  "question": "Ordne jedem Adjektiv den passenden Komparativ zu.",
+                  "pairs": [
+                    {
+                      "id": "adj-comp-p1",
+                      "prompt": "teuer",
+                      "options": [
+                        "teurer",
+                        "teueren",
+                        "teuerste"
+                      ],
+                      "answer": "teurer"
+                    },
+                    {
+                      "id": "adj-comp-p2",
+                      "prompt": "jung",
+                      "options": [
+                        "jüngste",
+                        "jünger",
+                        "jungste"
+                      ],
+                      "answer": "jünger"
+                    },
+                    {
+                      "id": "adj-comp-p3",
+                      "prompt": "ruhig",
+                      "options": [
+                        "ruhiger",
+                        "ruhigsten",
+                        "ruhiges"
+                      ],
+                      "answer": "ruhiger"
+                    }
+                  ]
+                },
+                {
+                  "id": "adj-comp-q5",
+                  "type": "text",
+                  "question": "Fülle die Lücke: Unsere Lehrerin erklärt es am ___ (verständlich).",
+                  "answer": [
+                    "verständlichsten",
+                    "Verständlichsten"
+                  ]
+                },
+                {
+                  "id": "adj-comp-q6",
+                  "type": "multiple-choice",
+                  "question": "Welcher Satz verwendet den prädikativen Superlativ korrekt?",
+                  "choices": [
+                    "Der Kuchen schmeckt am besten.",
+                    "Die beste Kuchen schmeckt.",
+                    "Am besten der Kuchen schmeckt."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "predicate-adjectives",
+          "title": "Prädikative Adjektive (nach sein)",
+          "summary": "Nutze Adjektive nach Verben wie sein, werden oder bleiben ohne zusätzliche Endungen.",
+          "lesson": {
+            "intro": "Prädikative Adjektive folgen Kopulaverben und bleiben in der Grundform. Sie beschreiben das Subjekt direkt, ohne Endungen zu benötigen.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Verben wie sein, werden, bleiben, wirken und scheinen verbinden das Subjekt mit einem Adjektiv. Weil das Adjektiv nicht vor einem Nomen steht, bleibt es ungebeugt."
+              },
+              {
+                "type": "rules",
+                "title": "Häufige Kopulaverben",
+                "rules": [
+                  {
+                    "label": "sein",
+                    "examples": [
+                      "Das Wetter ist warm."
+                    ]
+                  },
+                  {
+                    "label": "werden",
+                    "examples": [
+                      "Die Kinder werden müde."
+                    ]
+                  },
+                  {
+                    "label": "bleiben",
+                    "examples": [
+                      "Die Situation bleibt ruhig."
+                    ]
+                  },
+                  {
+                    "label": "scheinen / wirken",
+                    "examples": [
+                      "Die Antwort scheint einfach.",
+                      "Er wirkt zufrieden."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Prädikative Adjektive tragen keine Kasus-, Numerus- oder Genus-Endungen, weil sie ausschließlich das Subjekt beschreiben."
+              },
+              {
+                "type": "examples",
+                "title": "Beispiele",
+                "items": [
+                  {
+                    "sentence": "Die Suppe ist heiß.",
+                    "translation": "The soup is hot."
+                  },
+                  {
+                    "sentence": "Das Meeting bleibt kurz.",
+                    "translation": "The meeting stays short."
+                  },
+                  {
+                    "sentence": "Die Kinder werden müde.",
+                    "translation": "The children become tired."
+                  },
+                  {
+                    "sentence": "Der Weg ist frei.",
+                    "translation": "The path is clear."
+                  },
+                  {
+                    "sentence": "Der Plan scheint einfach.",
+                    "translation": "The plan seems simple."
+                  }
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Attributive Adjektive funktionieren anders",
+                "text": "Steht das Adjektiv vor einem Nomen (ein kalter Tag), brauchst du die normalen Endungen."
+              }
+            ],
+            "takeaways": [
+              "Prädikative Adjektive folgen Kopulaverben wie sein, werden und bleiben.",
+              "Das Adjektiv bleibt in der Grundform ohne Endungen.",
+              "So beschreibst du das Subjekt direkt und klar.",
+              "Vor einem Nomen musst du wieder attributive Endungen setzen."
+            ],
+            "quiz": {
+              "title": "Prüfe dein Verständnis",
+              "intro": "Starte das Quiz und überprüfe dein Wissen zu prädikativen Adjektiven.",
+              "items": [
+                {
+                  "id": "adj-pred-q1",
+                  "type": "multiple-choice",
+                  "question": "Welcher Satz verwendet ein prädikatives Adjektiv korrekt?",
+                  "choices": [
+                    "Die Suppe ist heiß.",
+                    "Die heiße Suppe ist.",
+                    "Die Suppe ist heiße."
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-pred-q2",
+                  "type": "text",
+                  "question": "Fülle die Lücke: Heute bleibt der Himmel ___ (klar).",
+                  "answer": [
+                    "klar",
+                    "Klar"
+                  ]
+                },
+                {
+                  "id": "adj-pred-q3",
+                  "type": "multiple-choice",
+                  "question": "Welches Verb verlangt typischerweise ein prädikatives Adjektiv ohne Endung?",
+                  "choices": [
+                    "sein",
+                    "sehen",
+                    "kaufen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-pred-q4",
+                  "type": "match",
+                  "question": "Ordne das Verb der passenden Adjektivendung zu.",
+                  "pairs": [
+                    {
+                      "id": "adj-pred-p1",
+                      "prompt": "werden",
+                      "options": [
+                        "wird schwierig",
+                        "wird schwierige",
+                        "wird schwierigen"
+                      ],
+                      "answer": "wird schwierig"
+                    },
+                    {
+                      "id": "adj-pred-p2",
+                      "prompt": "bleiben",
+                      "options": [
+                        "bleibt ruhig",
+                        "bleibt ruhige",
+                        "bleibt ruhigen"
+                      ],
+                      "answer": "bleibt ruhig"
+                    },
+                    {
+                      "id": "adj-pred-p3",
+                      "prompt": "sein",
+                      "options": [
+                        "ist offen",
+                        "ist offene",
+                        "ist offener"
+                      ],
+                      "answer": "ist offen"
+                    }
+                  ]
+                },
+                {
+                  "id": "adj-pred-q5",
+                  "type": "text",
+                  "question": "Ergänze den Satz: Die Antwort scheint ___ (einfach).",
+                  "answer": [
+                    "einfach",
+                    "Einfach"
+                  ]
+                },
+                {
+                  "id": "adj-pred-q6",
+                  "type": "multiple-choice",
+                  "question": "Welcher Satz braucht stattdessen eine Adjektivendung (attributiver Gebrauch)?",
+                  "choices": [
+                    "Ich trinke einen kalten Saft.",
+                    "Der Saft ist kalt.",
+                    "Der Saft bleibt kalt."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "adverbs-prepositions",
+      "title": "Adverbien & Präpositionen (Adverbs & Prepositions)",
+      "description": "Sprich darüber, wann, wo und mit wem etwas passiert – mit wichtigen Adverbien und zentralen Wechselpräpositionen.",
+      "subtopics": [
+        {
+          "slug": "time-adverbs",
+          "title": "Temporaladverbien (heute, morgen, jetzt …)",
+          "summary": "Erzähle, wann etwas geschieht, mit alltäglichen Temporaladverbien.",
+          "lesson": {
+            "intro": "Temporaladverbien verankern deine Aussage auf der Zeitachse. Sie beantworten die Frage „Wann?“ und helfen dir, Vergangenheit, Gegenwart und nahe Zukunft präzise zu beschreiben.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Setze Temporaladverbien für Betonung an den Satzanfang oder ins Mittelfeld hinter das Verb. Sie geben deinem Bericht einen Rhythmus und lassen sich gut mit Uhrzeiten und Datumsangaben kombinieren."
+              },
+              {
+                "type": "rules",
+                "title": "Nützliche Gruppen",
+                "rules": [
+                  {
+                    "label": "Gegenwart oder sofort: heute, jetzt, gleich, sofort",
+                    "examples": []
+                  },
+                  {
+                    "label": "Kommende Tage: morgen, übermorgen, am Wochenende",
+                    "examples": []
+                  },
+                  {
+                    "label": "Jüngste Vergangenheit: gestern, vorgestern, eben, neulich",
+                    "examples": []
+                  },
+                  {
+                    "label": "Häufigkeit: oft, manchmal, selten, immer",
+                    "examples": []
+                  },
+                  {
+                    "label": "Tageszeiten: morgens, mittags, abends, nachts",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Häufige Temporaladverbien im Kontext",
+                "headers": [
+                  "Adverb",
+                  "Bedeutung",
+                  "Beispiel"
+                ],
+                "rows": [
+                  [
+                    "heute",
+                    "heute (am selben Tag)",
+                    "Ich arbeite heute von zu Hause."
+                  ],
+                  [
+                    "jetzt",
+                    "jetzt (in diesem Moment)",
+                    "Wir essen jetzt zu Mittag."
+                  ],
+                  [
+                    "morgen",
+                    "morgen (am nächsten Tag)",
+                    "Morgen besuchen wir Oma."
+                  ],
+                  [
+                    "gestern",
+                    "gestern (am Vortag)",
+                    "Gestern hatte ich frei."
+                  ],
+                  [
+                    "bald",
+                    "bald (in Kürze)",
+                    "Der Bus kommt bald."
+                  ],
+                  [
+                    "manchmal",
+                    "manchmal (regelmäßig, aber nicht immer)",
+                    "Manchmal trainiere ich vor der Arbeit."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Wortstellungs-Tipp",
+                "text": "Temporaladverbien können am Satzanfang stehen (Heute gehe ich …) und erhalten trotzdem Verbzweitstellung. Im Mittelfeld stehen sie meist vor Ortsangaben und vor dem rechten Satzklammerteil."
+              },
+              {
+                "type": "examples",
+                "title": "Beispielsätze",
+                "items": [
+                  {
+                    "sentence": "Heute bleibe ich zu Hause.",
+                    "translation": "Today I am staying at home."
+                  },
+                  {
+                    "sentence": "Jetzt beginnt der Unterricht.",
+                    "translation": "The class starts now."
+                  },
+                  {
+                    "sentence": "Morgen fahren wir nach Leipzig.",
+                    "translation": "Tomorrow we are driving to Leipzig."
+                  },
+                  {
+                    "sentence": "Gestern habe ich lange geschlafen.",
+                    "translation": "Yesterday I slept for a long time."
+                  },
+                  {
+                    "sentence": "Manchmal spielt sie abends Klavier.",
+                    "translation": "Sometimes she plays the piano in the evening."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Temporaladverbien beantworten die Frage „Wann?“ und rahmen deine Aussage.",
+              "Am Satzanfang setzen sie einen Fokus, ohne die Verbzweitregel zu brechen.",
+              "Häufigkeitsadverbien wie oft oder manchmal stehen im Mittelfeld nahe beim Verb.",
+              "Kombiniere sie mit Uhrzeiten oder Datumsangaben für exakte Zeitangaben."
+            ],
+            "quiz": {
+              "title": "Teste dein Wissen",
+              "items": [
+                {
+                  "id": "adverbs-time-q1",
+                  "type": "multiple-choice",
+                  "question": "_____ gehe ich ins Kino. (heute)",
+                  "choices": [
+                    "Heute",
+                    "Gestern",
+                    "Morgens"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-time-q2",
+                  "type": "multiple-choice",
+                  "question": "Wir sehen uns ___ beim Frühstück. (morgen)",
+                  "choices": [
+                    "morgen",
+                    "jetzt",
+                    "gestern"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-time-q3",
+                  "type": "text",
+                  "question": "Ich komme ___ (bald) nach Hause.",
+                  "answer": [
+                    "bald"
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q4",
+                  "type": "match",
+                  "question": "Ordne das Adverb der Bedeutung zu.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-time-p1",
+                      "prompt": "heute",
+                      "options": [
+                        "am selben Tag",
+                        "am nächsten Tag",
+                        "am Vortag"
+                      ],
+                      "answer": "am selben Tag"
+                    },
+                    {
+                      "id": "adverbs-time-p2",
+                      "prompt": "gestern",
+                      "options": [
+                        "bald",
+                        "am Vortag",
+                        "immer"
+                      ],
+                      "answer": "am Vortag"
+                    },
+                    {
+                      "id": "adverbs-time-p3",
+                      "prompt": "manchmal",
+                      "options": [
+                        "manchmal",
+                        "jetzt sofort",
+                        "nie"
+                      ],
+                      "answer": "manchmal"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q5",
+                  "type": "text",
+                  "question": "___ (gestern) habe ich meine Freunde getroffen.",
+                  "answer": [
+                    "gestern"
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q6",
+                  "type": "multiple-choice",
+                  "question": "Welches Adverb drückt eine wiederholte Handlung aus?",
+                  "choices": [
+                    "manchmal",
+                    "jetzt",
+                    "morgen"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "location-adverbs",
+          "title": "Lokaladverbien (hier, da, dort …)",
+          "summary": "Zeige, wo etwas stattfindet und wie weit es entfernt ist.",
+          "lesson": {
+            "intro": "Lokaladverbien beantworten die Fragen „Wo?“ und „Wohin?“. Sie beschreiben den Ort und lenken deine Zuhörerinnen und Zuhörer an die richtige Stelle.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Viele Adverbien treten als Gegensatzpaare auf, etwa hier/da oder hin/her. Damit zeigst du Entfernung, Richtung und ob sich etwas auf den Sprecher zu oder von ihm weg bewegt."
+              },
+              {
+                "type": "rules",
+                "title": "Typische Gegensätze",
+                "rules": [
+                  {
+                    "label": "hier – genau dort, wo der Sprecher ist",
+                    "examples": []
+                  },
+                  {
+                    "label": "da / dort – dort (nah / weiter entfernt)",
+                    "examples": []
+                  },
+                  {
+                    "label": "drinnen vs. draußen – im Innenraum vs. draußen",
+                    "examples": []
+                  },
+                  {
+                    "label": "oben, unten, vorne, hinten – Orientierung im Raum",
+                    "examples": []
+                  },
+                  {
+                    "label": "hin-/her-Kombinationen – hinunter, herüber, hierher, dorthin",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Häufige Lokaladverbien",
+                "headers": [
+                  "Adverb",
+                  "Bedeutung",
+                  "Beispiel"
+                ],
+                "rows": [
+                  [
+                    "hier",
+                    "hier (bei mir)",
+                    "Hier wartet der Bus."
+                  ],
+                  [
+                    "da",
+                    "da (in der Nähe)",
+                    "Da liegt mein Handy."
+                  ],
+                  [
+                    "dort",
+                    "dort (weiter entfernt)",
+                    "Dort steht das Museum."
+                  ],
+                  [
+                    "drinnen",
+                    "drinnen (im Innenraum)",
+                    "Die Kinder spielen drinnen."
+                  ],
+                  [
+                    "draußen",
+                    "draußen (unter freiem Himmel)",
+                    "Wir essen draußen."
+                  ],
+                  [
+                    "oben",
+                    "oben (weiter oben/oben im Haus)",
+                    "Dein Zimmer ist oben."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Position im Satz",
+                "text": "Ortsangaben folgen im Mittelfeld häufig auf die Zeitangabe: Heute bleiben wir hier. Bei Bewegungsverben kombinierst du sie mit der Richtung: Komm hierher!, Geh dort hinauf!"
+              },
+              {
+                "type": "examples",
+                "title": "Beispielsätze",
+                "items": [
+                  {
+                    "sentence": "Hier gibt es frisches Brot.",
+                    "translation": "There is fresh bread here."
+                  },
+                  {
+                    "sentence": "Da drüben steht mein Fahrrad.",
+                    "translation": "My bike is standing over there."
+                  },
+                  {
+                    "sentence": "Wir treffen uns draußen im Park.",
+                    "translation": "We meet outside in the park."
+                  },
+                  {
+                    "sentence": "Die Katze schläft drinnen auf dem Sofa.",
+                    "translation": "The cat sleeps inside on the sofa."
+                  },
+                  {
+                    "sentence": "Komm hierher und sieh dir das an.",
+                    "translation": "Come over here and look at this."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Lokaladverbien beantworten „Wo?“ oder „Wohin?“ und zeigen Entfernung oder Richtung.",
+              "hier/hierher beziehen sich auf den Standort des Sprechers, da/dort/dorthin zeigen weg vom Sprecher.",
+              "Paare wie drinnen/draußen oder oben/unten beschreiben die Lage im Raum.",
+              "hin-Formen zeigen Bewegung weg, her-Formen Bewegung zum Sprecher hin."
+            ],
+            "quiz": {
+              "title": "Kurzer Check",
+              "items": [
+                {
+                  "id": "adverbs-place-q1",
+                  "type": "multiple-choice",
+                  "question": "Der Schlüssel liegt ___ auf dem Tisch neben mir.",
+                  "choices": [
+                    "hier",
+                    "dort",
+                    "oben"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-place-q2",
+                  "type": "multiple-choice",
+                  "question": "Welches Adverb benutzt du, wenn etwas weiter entfernt ist?",
+                  "choices": [
+                    "dort",
+                    "hier",
+                    "drinnen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-place-q3",
+                  "type": "text",
+                  "question": "Wir treffen uns ___ (draußen) vor dem Kino.",
+                  "answer": [
+                    "draußen",
+                    "draussen"
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q4",
+                  "type": "match",
+                  "question": "Ordne das Adverb zur passenden Idee.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-place-p1",
+                      "prompt": "drinnen",
+                      "options": [
+                        "im Innenraum",
+                        "im Freien",
+                        "oben"
+                      ],
+                      "answer": "im Innenraum"
+                    },
+                    {
+                      "id": "adverbs-place-p2",
+                      "prompt": "oben",
+                      "options": [
+                        "unten",
+                        "oben",
+                        "weg"
+                      ],
+                      "answer": "oben"
+                    },
+                    {
+                      "id": "adverbs-place-p3",
+                      "prompt": "hierher",
+                      "options": [
+                        "zu mir her",
+                        "nach dort",
+                        "hinunter"
+                      ],
+                      "answer": "zu mir her"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q5",
+                  "type": "text",
+                  "question": "Komm ___ (hierher), bitte!",
+                  "answer": [
+                    "hierher"
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q6",
+                  "type": "multiple-choice",
+                  "question": "Welches Adverb passt zu einer Bewegung nach oben?",
+                  "choices": [
+                    "oben",
+                    "unten",
+                    "da"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "common-prepositions",
+          "title": "Wichtige Präpositionen mit Dativ/Akkusativ",
+          "summary": "Setze Wechselpräpositionen und feste Dativ- bzw. Akkusativ-Präpositionen korrekt ein.",
+          "lesson": {
+            "intro": "Deutsche Präpositionen bestimmen den Kasus der folgenden Nominalgruppe. Wechselpräpositionen wählen den Dativ für einen Ort (Wo?) und den Akkusativ für eine Richtung (Wohin?).",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Merke dir den Kern der Wechselpräpositionen (in, an, auf, unter, über, vor, hinter, neben, zwischen) und ergänze sie durch häufige Partner wie bei, mit, von, nach, zu, für, ohne, um."
+              },
+              {
+                "type": "rules",
+                "title": "Kasus-Muster",
+                "rules": [
+                  {
+                    "label": "Dativ für Orte (Wo?): in, an, auf, bei, zu, nach, von, seit",
+                    "examples": []
+                  },
+                  {
+                    "label": "Akkusativ für Richtungen (Wohin?): in, an, auf, nach, zu, um",
+                    "examples": []
+                  },
+                  {
+                    "label": "Immer Dativ: mit, von, bei, nach, seit, aus",
+                    "examples": []
+                  },
+                  {
+                    "label": "Immer Akkusativ: für, ohne, um, gegen",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Wechselpräpositionen im Einsatz",
+                "headers": [
+                  "Präposition",
+                  "Dativ (Ort)",
+                  "Akkusativ (Richtung)",
+                  "Hinweis"
+                ],
+                "rows": [
+                  [
+                    "in",
+                    "Ich bin in der Küche.",
+                    "Ich gehe in die Küche.",
+                    "in + Dativ beschreibt einen Ort, in + Akkusativ eine Bewegung."
+                  ],
+                  [
+                    "an",
+                    "Das Bild hängt an der Wand.",
+                    "Ich hänge das Bild an die Wand.",
+                    "an nutzt man bei Kontakt an einer Seite."
+                  ],
+                  [
+                    "auf",
+                    "Die Bücher liegen auf dem Tisch.",
+                    "Ich lege die Bücher auf den Tisch.",
+                    "auf steht für Flächen."
+                  ],
+                  [
+                    "unter",
+                    "Der Hund schläft unter dem Tisch.",
+                    "Der Hund läuft unter den Tisch.",
+                    "unter zeigt eine Position darunter."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Verschmelzungen",
+                "text": "Typische Kombinationen: in dem → im, in das → ins, an dem → am, zu dem → zum, zu der → zur. So klingt die Verbindung aus Präposition und Artikel natürlicher."
+              },
+              {
+                "type": "examples",
+                "title": "Beispielsätze",
+                "items": [
+                  {
+                    "sentence": "Wir treffen uns am Bahnhof.",
+                    "translation": "We meet at the station."
+                  },
+                  {
+                    "sentence": "Er geht ins Büro.",
+                    "translation": "He goes into the office."
+                  },
+                  {
+                    "sentence": "Nach der Arbeit fahre ich zu meiner Freundin.",
+                    "translation": "After work I drive to my girlfriend."
+                  },
+                  {
+                    "sentence": "Sie sitzt seit einer Stunde im Zug.",
+                    "translation": "She has been sitting on the train for an hour."
+                  },
+                  {
+                    "sentence": "Ohne dich ist es hier zu ruhig.",
+                    "translation": "Without you it is too quiet here."
+                  },
+                  {
+                    "sentence": "Wir sprechen über den Plan am Abend.",
+                    "translation": "We talk about the plan in the evening."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Wechselpräpositionen wählen Dativ für Orte und Akkusativ für Bewegungen.",
+              "Präpositionen wie mit, von oder seit stehen immer mit dem Dativ; für, ohne oder um verlangen immer den Akkusativ.",
+              "Verschmelzungen wie im oder zum verbinden Präposition und Artikel im Alltag.",
+              "Frage nach Wo? oder Wohin?, um den passenden Kasus zu bestimmen."
+            ],
+            "quiz": {
+              "title": "Kasus-Check",
+              "items": [
+                {
+                  "id": "adverbs-prep-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich warte ___ der Haltestelle. (Ort)",
+                  "choices": [
+                    "an",
+                    "zu",
+                    "um"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q2",
+                  "type": "multiple-choice",
+                  "question": "Am Samstag fahren wir ___ den See. (Richtung)",
+                  "choices": [
+                    "an",
+                    "bei",
+                    "mit"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q3",
+                  "type": "text",
+                  "question": "Wir treffen uns ___ (bei) dem Café.",
+                  "answer": [
+                    "bei"
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q4",
+                  "type": "match",
+                  "question": "Ordne die Präposition der richtigen Kategorie.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-prep-p1",
+                      "prompt": "für",
+                      "options": [
+                        "Akkusativ",
+                        "Dativ",
+                        "Genitiv"
+                      ],
+                      "answer": "Akkusativ"
+                    },
+                    {
+                      "id": "adverbs-prep-p2",
+                      "prompt": "mit",
+                      "options": [
+                        "Akkusativ",
+                        "Dativ",
+                        "Genitiv"
+                      ],
+                      "answer": "Dativ"
+                    },
+                    {
+                      "id": "adverbs-prep-p3",
+                      "prompt": "in (Wohin?)",
+                      "options": [
+                        "Akkusativ",
+                        "Dativ",
+                        "Beides"
+                      ],
+                      "answer": "Akkusativ"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q5",
+                  "type": "text",
+                  "question": "Er kommt ___ (von) der Arbeit.",
+                  "answer": [
+                    "von"
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q6",
+                  "type": "multiple-choice",
+                  "question": "Welche Präposition verlangt immer den Akkusativ?",
+                  "choices": [
+                    "für",
+                    "bei",
+                    "mit"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q7",
+                  "type": "multiple-choice",
+                  "question": "Setz dich ___ den Tisch! (Bewegung zum Tisch)",
+                  "choices": [
+                    "an",
+                    "auf",
+                    "mit"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "sentence-structure",
+      "title": "Satzbau (Sentence Structure)",
+      "description": "Baue natürliche deutsche Sätze mit Verbzweitstellung, klaren Fragen und sicheren Aufforderungen.",
+      "subtopics": [
+        {
+          "slug": "main-clause-word-order",
+          "title": "Wortstellung im Hauptsatz (Verb auf Position 2)",
+          "summary": "Halte das finite Verb in Position zwei und verschiebe andere Satzglieder zur Betonung.",
+          "lesson": {
+            "intro": "Deutsche Hauptsätze stellen das gebeugte Verb immer an zweite Stelle – egal welches Satzglied den Satz eröffnet.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Im Vorfeld kann jedes einzelne Satzglied stehen: Subjekt, Zeitangabe oder Objekt. Direkt danach folgt das finite Verb; war das Subjekt nicht zuerst, rückt es unmittelbar hinter das Verb. Weitere Angaben – Objekte, Adverbiale, trennbare Präfixe – füllen das Mittelfeld bis zum Satzende."
+              },
+              {
+                "type": "rules",
+                "title": "Grundlagen der Verbzweitstellung",
+                "rules": [
+                  {
+                    "label": "Erste Position (Vorfeld)",
+                    "examples": [
+                      "Heute",
+                      "Mein Bruder",
+                      "Nach dem Unterricht"
+                    ]
+                  },
+                  {
+                    "label": "Zweite Position",
+                    "examples": [
+                      "geht",
+                      "kauft",
+                      "kommt"
+                    ]
+                  },
+                  {
+                    "label": "Mittelfeld",
+                    "examples": [
+                      "ich ins Kino",
+                      "er frisches Brot ein",
+                      "sie um acht Uhr an"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Typischer Rahmen des Hauptsatzes",
+                "headers": [
+                  "Position",
+                  "Beispiel",
+                  "Funktion"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Heute",
+                    "Thema- oder Zeitbetonung"
+                  ],
+                  [
+                    "2",
+                    "gehe",
+                    "Finites Verb"
+                  ],
+                  [
+                    "3",
+                    "ich",
+                    "Subjekt oder zentrales Satzglied"
+                  ],
+                  [
+                    "4",
+                    "ins Kino",
+                    "Objekte, Ergänzungen, Adverbiale"
+                  ],
+                  [
+                    "5",
+                    "ein",
+                    "Trennbares Präfix bzw. rechte Satzklammer"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Zeit, Art und Ort",
+                "text": "Nach dem Verb folgen häufig Zeit-, dann Art- und schließlich Ortsangaben. Dieser Rhythmus sorgt für Klarheit: Heute (Zeit) fahre ich mit dem Bus (Art) zur Arbeit (Ort)."
+              },
+              {
+                "type": "examples",
+                "title": "Beispiele",
+                "items": [
+                  {
+                    "sentence": "Heute gehe ich ins Kino.",
+                    "translation": "Heute gehe ich ins Kino."
+                  },
+                  {
+                    "sentence": "Mein Bruder kauft morgen frisches Brot ein.",
+                    "translation": "Mein Bruder kauft morgen frisches Brot ein."
+                  },
+                  {
+                    "sentence": "In Berlin wohnt meine Tante.",
+                    "translation": "Meine Tante wohnt in Berlin."
+                  },
+                  {
+                    "sentence": "Nach der Arbeit trinke ich zu Hause Tee.",
+                    "translation": "Nach der Arbeit trinke ich zu Hause Tee."
+                  },
+                  {
+                    "sentence": "Manchmal lese ich abends noch ein Buch.",
+                    "translation": "Manchmal lese ich abends noch ein Buch."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Im Hauptsatz bleibt das finite Verb immer an zweiter Stelle.",
+              "Jedes einzelne Satzglied kann den Satz eröffnen und das Subjekt hinter das Verb schieben.",
+              "Nutze die Reihenfolge Zeit–Art–Ort, um Angaben hinter dem Verb zu ordnen.",
+              "Trennbare Präfixe wandern ans Satzende, ohne die Verbzweitstellung zu verändern.",
+              "Auch längere Vorspänne gelten als ein Satzglied – das Verb bleibt trotzdem an zweiter Position."
+            ],
+            "quiz": {
+              "title": "Prüfe dein Verständnis",
+              "intro": "Wähle die richtige Wortstellung oder ergänze die passende Form.",
+              "items": [
+                {
+                  "id": "sentence-structure-main-q1",
+                  "type": "multiple-choice",
+                  "question": "Welcher Satz erhält die Verbzweitstellung?",
+                  "choices": [
+                    "Morgen wir gehen schwimmen.",
+                    "Morgen gehen wir schwimmen.",
+                    "Wir morgen schwimmen gehen."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-main-q2",
+                  "type": "multiple-choice",
+                  "question": "Was kann im Hauptsatz an erster Stelle stehen?",
+                  "choices": [
+                    "Nur das Subjekt",
+                    "Ein einzelnes betontes Satzglied wie Zeit- oder Objektangabe",
+                    "Nur Adverbien"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-main-q3",
+                  "type": "text",
+                  "question": "Ergänze den Satz: Am Wochenende ___ ich meine Freunde. (treffen)",
+                  "answer": [
+                    "treffe"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q4",
+                  "type": "text",
+                  "question": "Setze die richtige Form ein: Nachmittags ___ die Kinder im Park. (spielen)",
+                  "answer": [
+                    "spielen"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q5",
+                  "type": "match",
+                  "question": "Ordne dem vorangestellten Satzglied den Schwerpunkt zu.",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-main-p1",
+                      "prompt": "Heute ...",
+                      "options": [
+                        "Zeitfokus",
+                        "Ortsfokus",
+                        "Objektfokus"
+                      ],
+                      "answer": "time focus"
+                    },
+                    {
+                      "id": "sentence-structure-main-p2",
+                      "prompt": "Im Garten ...",
+                      "options": [
+                        "Zeitfokus",
+                        "Ortsfokus",
+                        "Objektfokus"
+                      ],
+                      "answer": "place focus"
+                    },
+                    {
+                      "id": "sentence-structure-main-p3",
+                      "prompt": "Dieses Buch ...",
+                      "options": [
+                        "Zeitfokus",
+                        "Ortsfokus",
+                        "Objektfokus"
+                      ],
+                      "answer": "object focus"
+                    }
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q6",
+                  "type": "multiple-choice",
+                  "question": "Beginnt der Satz mit „In der Schule“, was muss direkt danach folgen?",
+                  "choices": [
+                    "Das Subjekt",
+                    "Das finite Verb",
+                    "Ein Objekt"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "questions-and-negation",
+          "title": "Fragen und Verneinung",
+          "summary": "Bilde Ja/Nein- und W-Fragen und setze nicht bzw. kein korrekt ein.",
+          "lesson": {
+            "intro": "Deutsche Fragen leben von der Verbbewegung; verneint wird je nach Bezug mit nicht oder kein.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Ja/Nein-Fragen beginnen direkt mit dem finiten Verb. Das Subjekt folgt unmittelbar, anschließend der Rest des Satzes. Diese Inversion zeigt, dass eine Ja- oder Nein-Antwort erwartet wird."
+              },
+              {
+                "type": "paragraph",
+                "text": "W-Fragen starten mit einem Fragewort wie Wer, Was, Wo, Wann, Warum oder Wie. Das finite Verb bleibt an zweiter Stelle, dahinter folgen Subjekt und weitere Angaben."
+              },
+              {
+                "type": "table",
+                "title": "Frage-Muster",
+                "headers": [
+                  "Typ",
+                  "Struktur",
+                  "Beispiel"
+                ],
+                "rows": [
+                  [
+                    "Ja/Nein",
+                    "Verb + Subjekt + ...?",
+                    "Wohnst du in Leipzig?"
+                  ],
+                  [
+                    "W-Frage",
+                    "Fragewort + Verb + Subjekt + ...?",
+                    "Wann kommt der Zug?"
+                  ],
+                  [
+                    "Warum-Frage",
+                    "Warum + Verb + Subjekt + Begründung",
+                    "Warum lernst du Deutsch?"
+                  ],
+                  [
+                    "Wo-Frage",
+                    "Wo + Verb + Subjekt + Ort",
+                    "Wo arbeitet dein Vater?"
+                  ],
+                  [
+                    "Wie-Frage",
+                    "Wie + Verb + Subjekt + Art und Weise",
+                    "Wie fühlst du dich heute?"
+                  ],
+                  [
+                    "Verneinung",
+                    "Subjekt + Verb + ... + nicht/kein",
+                    "Ich komme heute nicht."
+                  ],
+                  [
+                    "Kein",
+                    "kein + Nomen ohne Artikel",
+                    "Sie hat keinen Termin."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Nicht oder kein?",
+                "text": "Nutze kein als Ersatz für einen unbestimmten Artikel (ein/eine) oder bei Substantiven ohne Artikel. Nicht verneint Verben, Adjektive, Adverbien oder den gesamten Satz."
+              },
+              {
+                "type": "examples",
+                "title": "Beispiele",
+                "items": [
+                  {
+                    "sentence": "Wohnst du in Leipzig?",
+                    "translation": "Wohnst du in Leipzig?"
+                  },
+                  {
+                    "sentence": "Wann kommt der Zug?",
+                    "translation": "Wann kommt der Zug?"
+                  },
+                  {
+                    "sentence": "Warum lernst du Deutsch?",
+                    "translation": "Warum lernst du Deutsch?"
+                  },
+                  {
+                    "sentence": "Ich komme heute nicht.",
+                    "translation": "I am not coming today."
+                  },
+                  {
+                    "sentence": "Sie hat keinen Termin.",
+                    "translation": "Sie hat keinen Termin."
+                  },
+                  {
+                    "sentence": "Was macht ihr am Wochenende?",
+                    "translation": "Was macht ihr am Wochenende?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Ja/Nein-Fragen beginnen mit dem finiten Verb.",
+              "Auch W-Fragen halten die Verbzweitstellung nach dem Fragewort ein.",
+              "Verwende kein, um ein Nomen ohne Artikel oder mit ein/eine zu verneinen.",
+              "Verwende nicht zur Verneinung von Verben, Adjektiven, Adverbien oder ganzen Sätzen.",
+              "Setze nicht vor das zu verneinende Satzglied oder ans Satzende."
+            ],
+            "quiz": {
+              "title": "Prüfe dein Verständnis",
+              "intro": "Bilde Fragen und wähle die passende Verneinung.",
+              "items": [
+                {
+                  "id": "sentence-structure-questions-q1",
+                  "type": "multiple-choice",
+                  "question": "Wie beginnt eine Ja/Nein-Frage im Deutschen?",
+                  "choices": [
+                    "Mit dem Subjekt",
+                    "Mit dem finiten Verb",
+                    "Mit einem Fragewort"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-questions-q2",
+                  "type": "multiple-choice",
+                  "question": "Welche Option bildet eine korrekte W-Frage?",
+                  "choices": [
+                    "Wo du arbeitest?",
+                    "Wo arbeitest du?",
+                    "Du arbeitest wo?"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-questions-q3",
+                  "type": "text",
+                  "question": "Ergänze die Frage: ___ du heute Abend Zeit? (haben)",
+                  "answer": [
+                    "Hast",
+                    "hast"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q4",
+                  "type": "text",
+                  "question": "Setze nicht oder kein ein: Wir haben ___ Brot mehr.",
+                  "answer": [
+                    "kein"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q5",
+                  "type": "match",
+                  "question": "Ordne dem Fragewort die Bedeutung zu.",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-questions-p1",
+                      "prompt": "Wo?",
+                      "options": [
+                        "Wo?",
+                        "Wann?",
+                        "Warum?"
+                      ],
+                      "answer": "Where?"
+                    },
+                    {
+                      "id": "sentence-structure-questions-p2",
+                      "prompt": "Wann?",
+                      "options": [
+                        "Wo?",
+                        "Wann?",
+                        "Warum?"
+                      ],
+                      "answer": "When?"
+                    },
+                    {
+                      "id": "sentence-structure-questions-p3",
+                      "prompt": "Warum?",
+                      "options": [
+                        "Wo?",
+                        "Wann?",
+                        "Warum?"
+                      ],
+                      "answer": "Why?"
+                    }
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q6",
+                  "type": "multiple-choice",
+                  "question": "Wo steht nicht in der Regel, wenn du eine Verbgruppe verneinst?",
+                  "choices": [
+                    "Direkt vor dem finiten Verb",
+                    "Vor dem verneinten Satzglied oder am Satzende",
+                    "Ganz am Satzanfang"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "imperative-commands",
+          "title": "Imperativ (Aufforderungen)",
+          "summary": "Formuliere klare Aufforderungen mit du-, ihr-, Sie- und wir-Formen.",
+          "lesson": {
+            "intro": "Der deutsche Imperativ richtet sich je nach Adressat: eine Person, mehrere Personen oder eine höfliche Wir-Form.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Beim du-Imperativ entfällt das Pronomen und meist die Endung -st: Komm!, Arbeite!, Lies!. Endet der Stamm auf -eln oder -ern, bleibt das -e erhalten: Sammle!, Ändere!."
+              },
+              {
+                "type": "paragraph",
+                "text": "Der ihr-Imperativ nutzt die normale ihr-Form ohne Pronomen: Kommt!, Arbeitet!. Die höfliche Sie-Form stellt den Infinitiv voran und behält Sie: Kommen Sie!, Seien Sie vorsichtig!."
+              },
+              {
+                "type": "table",
+                "title": "Imperativformen",
+                "headers": [
+                  "Form",
+                  "Muster",
+                  "Beispiel"
+                ],
+                "rows": [
+                  [
+                    "du",
+                    "Verbstamm + ! (optional + e)",
+                    "Komm! / Warte!"
+                  ],
+                  [
+                    "ihr",
+                    "Präsensform für ihr",
+                    "Kommt! / Lernt!"
+                  ],
+                  [
+                    "Sie",
+                    "Infinitiv + Sie",
+                    "Kommen Sie! / Bleiben Sie ruhig!"
+                  ],
+                  [
+                    "wir",
+                    "Lasst uns + Infinitiv",
+                    "Lasst uns gehen!"
+                  ],
+                  [
+                    "sein",
+                    "unregelmäßig: Sei! / Seid! / Seien Sie!",
+                    "Sei leise! / Seid bereit! / Seien Sie geduldig!"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Trennbare Verben",
+                "text": "Auch im Imperativ rücken trennbare Präfixe ans Satzende: Ruf mich an!, Steh bitte auf!."
+              },
+              {
+                "type": "examples",
+                "title": "Beispiele",
+                "items": [
+                  {
+                    "sentence": "Komm bitte pünktlich!",
+                    "translation": "Komm bitte pünktlich!"
+                  },
+                  {
+                    "sentence": "Öffne das Fenster!",
+                    "translation": "Öffne das Fenster!"
+                  },
+                  {
+                    "sentence": "Kommt morgen früher!",
+                    "translation": "Kommt morgen früher!"
+                  },
+                  {
+                    "sentence": "Kommen Sie herein!",
+                    "translation": "Kommen Sie herein!"
+                  },
+                  {
+                    "sentence": "Lasst uns jetzt anfangen!",
+                    "translation": "Lasst uns jetzt anfangen!"
+                  },
+                  {
+                    "sentence": "Steh sofort auf!",
+                    "translation": "Steh sofort auf!"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Der du-Imperativ nutzt den Verbstamm, meist ohne -st.",
+              "Der ihr-Imperativ entspricht der ihr-Form ohne Pronomen.",
+              "Höfliche Sie-Aufforderungen setzen das Sie hinter den Infinitiv.",
+              "Der wir-Imperativ nutzt Lasst uns + Infinitiv.",
+              "Trennbare Präfixe stehen auch im Imperativ am Satzende."
+            ],
+            "quiz": {
+              "title": "Prüfe dein Verständnis",
+              "intro": "Wähle die passende Imperativform.",
+              "items": [
+                {
+                  "id": "sentence-structure-imperative-q1",
+                  "type": "multiple-choice",
+                  "question": "Welche du-Aufforderung ist korrekt?",
+                  "choices": [
+                    "Du kommst sofort!",
+                    "Komm sofort!",
+                    "Kommst du sofort!"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-imperative-q2",
+                  "type": "multiple-choice",
+                  "question": "Wähle die höfliche Aufforderung.",
+                  "choices": [
+                    "Bleib ruhig!",
+                    "Bleibt ruhig!",
+                    "Bleiben Sie ruhig!"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "sentence-structure-imperative-q3",
+                  "type": "text",
+                  "question": "Schreib den Befehl: ___ (ihr / warten) hier!",
+                  "answer": [
+                    "Wartet",
+                    "wartet"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-imperative-q4",
+                  "type": "text",
+                  "question": "Ergänze: ___ uns anfangen!",
+                  "answer": [
+                    "Lasst",
+                    "lasst"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-imperative-q5",
+                  "type": "multiple-choice",
+                  "question": "Wohin wandert das Präfix im Befehl „Steh ... auf!“?",
+                  "choices": [
+                    "Es bleibt beim Verb am Satzanfang.",
+                    "Es wandert ans Satzende.",
+                    "Es verschwindet."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-imperative-q6",
+                  "type": "match",
+                  "question": "Ordne dem Subjekt die passende Imperativendung zu.",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-imperative-p1",
+                      "prompt": "du",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "-"
+                    },
+                    {
+                      "id": "sentence-structure-imperative-p2",
+                      "prompt": "ihr",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "-t"
+                    },
+                    {
+                      "id": "sentence-structure-imperative-p3",
+                      "prompt": "Sie",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "Sie"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "menu": {
+    "library": "Bibliothek",
+    "learning": "Lernen",
+    "about": "Über uns",
+    "grammar": "Grammatik",
+    "vocabulary": "Vokabeln",
+    "pronunciation": "Aussprache",
+    "test": "Deutschtest",
+    "ai_teacher": "KI-Lehrer"
+  }
+}

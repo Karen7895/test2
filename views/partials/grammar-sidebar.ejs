@@ -1,0 +1,74 @@
+<% const navLabel = sidebarLabel || 'Sections'; %>
+<% const closeLabel = (ui && ui.closeSidebar) ? ui.closeSidebar : 'Close sidebar'; %>
+<aside
+  class="grammar-sidebar"
+  data-grammar-sidebar
+  data-locale="<%= locale || '' %>"
+  data-current-section="<%= currentSectionSlug || '' %>"
+  aria-label="<%= navLabel %>"
+>
+  <div class="grammar-sidebar__inner">
+    <div class="grammar-sidebar__header">
+      <h2 class="grammar-sidebar__title"><%= navLabel %></h2>
+      <button type="button" class="grammar-sidebar__close" data-grammar-sidebar-close>
+        <span class="sr-only"><%= closeLabel %></span>
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <nav class="grammar-sidebar__nav" aria-label="<%= navLabel %>">
+      <% if (Array.isArray(sections) && sections.length) { %>
+        <% sections.forEach(function(section, index) { %>
+          <% const isCurrentSection = section.slug === currentSectionSlug %>
+          <% const panelId = `grammar-sidebar-panel-${index}` %>
+          <% const toggleId = `grammar-sidebar-toggle-${index}` %>
+          <section
+            class="grammar-sidebar__section <%= isCurrentSection ? 'is-open' : '' %>"
+            data-grammar-section
+            data-section-slug="<%= section.slug %>"
+          >
+            <button
+              type="button"
+              id="<%= toggleId %>"
+              class="grammar-sidebar__toggle"
+              data-section-toggle
+              data-section-slug="<%= section.slug %>"
+              data-section-href="/learning/grammar/<%= section.slug %>"
+              aria-controls="<%= panelId %>"
+              aria-expanded="<%= isCurrentSection ? 'true' : 'false' %>"
+            >
+              <span class="grammar-sidebar__toggle-text"><%= section.title %></span>
+              <span class="grammar-sidebar__toggle-icon" aria-hidden="true"></span>
+            </button>
+            <% if (Array.isArray(section.subtopics) && section.subtopics.length) { %>
+              <div
+                class="grammar-sidebar__panel"
+                id="<%= panelId %>"
+                role="region"
+                aria-labelledby="<%= toggleId %>"
+                <%= isCurrentSection ? '' : 'hidden' %>
+              >
+                <ul class="grammar-sidebar__list">
+                  <% section.subtopics.forEach(function(subtopic) { %>
+                    <% const isActiveSubtopic = isCurrentSection && subtopic.slug === currentSubtopicSlug %>
+                    <li class="grammar-sidebar__item <%= isActiveSubtopic ? 'is-active' : '' %>">
+                      <a
+                        href="/learning/grammar/<%= section.slug %>/<%= subtopic.slug %>"
+                        class="grammar-sidebar__link grammar-sidebar__link--subtopic <%= isActiveSubtopic ? 'is-active' : '' %>"
+                        <%= isActiveSubtopic ? 'aria-current="page"' : '' %>
+                      >
+                        <span><%= subtopic.title %></span>
+                      </a>
+                    </li>
+                  <% }) %>
+                </ul>
+              </div>
+            <% } %>
+          </section>
+        <% }) %>
+      <% } else { %>
+        <p class="grammar-sidebar__empty">No sections available yet.</p>
+      <% } %>
+    </nav>
+  </div>
+</aside>
+<div class="grammar-sidebar__overlay" data-grammar-sidebar-overlay aria-hidden="true"></div>

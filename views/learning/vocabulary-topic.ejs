@@ -1,0 +1,72 @@
+<%- include('../partials/head', { pageTitle: topic.name + ' – Vokabeln' }) %>
+<%- include('../partials/header') %>
+
+<main class="main-content">
+  <% const wordPlaceholder = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="280" height="180" viewBox="0 0 280 180"%3E%3Crect width="280" height="180" rx="12" fill="%231f2937"/%3E%3C/svg%3E'; %>
+  <section class="learning-section">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Brotkrumen">
+        <a href="/learning/vocabulary">Vokabeln</a>
+        <span aria-current="page"><%= topic.name %></span>
+      </nav>
+
+      <header class="topic-header">
+        <h1 class="topic-header__title"><%= topic.name %></h1>
+        <% if (topic.description) { %>
+          <p class="topic-header__description"><%= topic.description %></p>
+        <% } %>
+        <div class="topic-header__meta">
+          <span><%= topic.wordCount === 1 ? '1 Wort' : topic.wordCount + ' W&ouml;rter' %></span>
+          <span>Seit <%= topic.createdAt %></span>
+        </div>
+      </header>
+
+      <div class="topic-actions">
+        <a class="back-link" href="/learning/vocabulary">&larr; Zur&uuml;ck zu den Themen</a>
+        <% if (isAdmin) { %>
+          <a class="button button-secondary" href="/learning/vocabulary/topics/<%= topic.id %>/words/new">Neues Wort hinzuf&uuml;gen</a>
+        <% } %>
+      </div>
+
+      <% if (!topic.words || topic.words.length === 0) { %>
+        <div class="empty-state">
+          <h2>Keine W&ouml;rter vorhanden</h2>
+          <p>F&uuml;ge neue Vokabeln hinzu, um dieses Thema zu f&uuml;llen.</p>
+        </div>
+      <% } else { %>
+        <div class="topic-words" role="list">
+          <% topic.words.forEach(function(word) { %>
+            <% const imageSrc = word.photoPath ? ('/' + word.photoPath) : wordPlaceholder; %>
+            <article class="word-card" role="listitem">
+              <div class="word-card__media">
+                <img
+                  class="word-card__image"
+                  src="<%= imageSrc %>"
+                  alt="<%= word.term %>"
+                  loading="lazy"
+                  decoding="async"
+                  width="280"
+                  height="180"
+                />
+              </div>
+              <div class="word-card__body">
+                <h2 class="word-card__title"><%= word.term %></h2>
+                <% if (word.translation) { %>
+                  <p class="word-card__meta word-card__meta--translation"><%= word.translation %></p>
+                <% } %>
+                <% if (word.exampleSentence) { %>
+                  <p class="word-card__meta word-card__meta--example">
+                    <span class="word-card__meta-label">Beispiel:</span>
+                    <%= word.exampleSentence %>
+                  </p>
+                <% } %>
+              </div>
+            </article>
+          <% }) %>
+        </div>
+      <% } %>
+    </div>
+  </section>
+</main>
+
+<%- include('../partials/footer') %>

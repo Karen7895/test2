@@ -1,0 +1,3847 @@
+{
+  "locale": "ru",
+  "grammar": {
+    "title": "Студия грамматики",
+    "overview": {
+      "introTitle": "Осваивайте немецкую грамматику шаг за шагом",
+      "introBody": "В каждой теме вы найдёте чёткие объяснения, наглядные таблицы и короткие викторины, чтобы быстро повторить сложные места.",
+      "highlightTitle": "Как пользоваться",
+      "highlightBody": "Выберите раздел слева, изучите объяснения и пройдите викторину, чтобы проверить себя."
+    },
+    "breadcrumbs": {
+      "learning": "Обучение",
+      "grammar": "Грамматика"
+    },
+    "sidebarLabel": "Разделы",
+    "ui": {
+      "backToSections": "Назад к разделам",
+      "startQuiz": "Начать викторину",
+      "checkAnswers": "Проверить ответы",
+      "tryAgain": "Попробовать снова",
+      "showSolutions": "Показать решения",
+      "closeSidebar": "Закрыть панель",
+      "score": "Ваш результат",
+      "outOf": "из",
+      "correct": "верно",
+      "quizIntro": "Проверьте свои знания",
+      "quizReview": "Перед новой попыткой пересмотрите объяснения выше.",
+      "lessonsLabel": "уроков",
+      "takeawaysLabel": "Главные выводы"
+    },
+    "sections": {
+      "verbs": {
+        "slug": "verbs",
+        "title": "Глаголы (Verben)",
+        "description": "Разберитесь, как меняются немецкие глаголы: инфинитив, спряжение, вопросы, отрицание и модальные глаголы."
+      },
+      "adjectives": {
+        "slug": "adjectives",
+        "title": "Прилагательные (Adjektive)",
+        "description": "Опиши людей и предметы с помощью форм прилагательных: сравнение и употребление в роли сказуемого."
+      },
+      "adverbsPrepositions": {
+        "slug": "adverbs-prepositions",
+        "title": "Наречия и предлоги (Adverbien und Präpositionen)",
+        "description": "Изучайте наречия времени и места и основные предлоги, переключающиеся между дательным и винительным падежами."
+      },
+      "sentenceStructure": {
+        "slug": "sentence-structure",
+        "title": "Строение предложения (Satzbau)",
+        "description": "Стройте естественные немецкие предложения с порядком слов Verb-zweit, понятными вопросами и уверенными повелительными формами."
+      }
+    }
+  },
+  "sections": [
+    {
+      "slug": "nouns",
+      "title": "Существительные (Nomen)",
+      "description": "Разберитесь с родом, образованием множественного числа, падежами и притяжательными формами для повседневной речи.",
+      "subtopics": [
+        {
+          "slug": "gender-of-nouns",
+          "title": "Род существительных (der, die, das)",
+          "summary": "Определяйте надёжные окончания и запоминайте типичные исключения.",
+          "lesson": {
+            "intro": "Каждое немецкое существительное имеет род, который влияет на артикль и окончания прилагательных. Узнайте частые окончания, чтобы быстрее выбирать верный артикль.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Многие окончания существительных однозначно указывают на род. Используйте эти подсказки, чтобы мгновенно подобрать нужный артикль."
+              },
+              {
+                "type": "rules",
+                "title": "Частые подсказки рода",
+                "rules": [
+                  {
+                    "label": "die + слова на -ung",
+                    "examples": [
+                      "die Wohnung",
+                      "die Bedeutung"
+                    ]
+                  },
+                  {
+                    "label": "die + слова на -keit / -heit",
+                    "examples": [
+                      "die Freundlichkeit",
+                      "die Freiheit"
+                    ]
+                  },
+                  {
+                    "label": "die + слова на -tion / -tät",
+                    "examples": [
+                      "die Situation",
+                      "die Universität"
+                    ]
+                  },
+                  {
+                    "label": "der + обозначения людей на -er",
+                    "examples": [
+                      "der Bäcker",
+                      "der Fahrer"
+                    ]
+                  },
+                  {
+                    "label": "der + слова на -ismus",
+                    "examples": [
+                      "der Optimismus",
+                      "der Tourismus"
+                    ]
+                  },
+                  {
+                    "label": "das + уменьшительные на -chen / -lein",
+                    "examples": [
+                      "das Mädchen",
+                      "das Häuschen"
+                    ]
+                  },
+                  {
+                    "label": "das + слова на -ment / -um",
+                    "examples": [
+                      "das Instrument",
+                      "das Zentrum"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Не забывайте про исключения",
+                "text": "Некоторые слова нарушают схему. Классические примеры — das Mädchen (средний род, хотя речь о девочке) и der Name (мужской род, несмотря на окончание -e). Запоминайте слово вместе с артиклем."
+              },
+              {
+                "type": "examples",
+                "title": "Примеры предложений",
+                "items": [
+                  {
+                    "sentence": "Der Bäcker verkauft frisches Brot.",
+                    "translation": "Пекарь продаёт свежий хлеб."
+                  },
+                  {
+                    "sentence": "Die Entscheidung ist sehr wichtig.",
+                    "translation": "Это решение очень важно."
+                  },
+                  {
+                    "sentence": "Das Instrument klingt wunderschön.",
+                    "translation": "Инструмент звучит прекрасно."
+                  },
+                  {
+                    "sentence": "Die Universität liegt im Zentrum der Stadt.",
+                    "translation": "Университет находится в центре города."
+                  },
+                  {
+                    "sentence": "Das Mädchen liest eine Geschichte.",
+                    "translation": "Девочка читает рассказ."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Учите существительное вместе с артиклем, особенно если нет очевидного правила.",
+              "Окончания -ung, -heit, -keit и -tion почти всегда требуют die.",
+              "Профессии на -er обычно мужского рода, уменьшительные на -chen/-lein — среднего.",
+              "Запомните известные исключения вроде das Mädchen или der See (озеро)."
+            ],
+            "quiz": {
+              "title": "Проверьте артикли",
+              "intro": "Выберите подходящий артикль для каждого существительного.",
+              "items": [
+                {
+                  "id": "gender-q1",
+                  "type": "multiple-choice",
+                  "question": "Какой артикль у слова «Zeitung»?",
+                  "choices": [
+                    "der",
+                    "die",
+                    "das"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "gender-q2",
+                  "type": "multiple-choice",
+                  "question": "Дополните: ___ Instrument ist neu.",
+                  "choices": [
+                    "Der",
+                    "Die",
+                    "Das"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "gender-q3",
+                  "type": "text",
+                  "question": "Введите артикль: ___ Bäcker öffnet um sechs Uhr.",
+                  "answer": [
+                    "Der",
+                    "der"
+                  ]
+                },
+                {
+                  "id": "gender-q4",
+                  "type": "text",
+                  "question": "Введите артикль: ___ Mädchen spielt im Park.",
+                  "answer": [
+                    "Das",
+                    "das"
+                  ]
+                },
+                {
+                  "id": "gender-q5",
+                  "type": "match",
+                  "question": "Сопоставьте существительное и артикль.",
+                  "pairs": [
+                    {
+                      "id": "gender-pair-1",
+                      "prompt": "__ Freundlichkeit",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "die"
+                    },
+                    {
+                      "id": "gender-pair-2",
+                      "prompt": "__ Tourismus",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "der"
+                    },
+                    {
+                      "id": "gender-pair-3",
+                      "prompt": "__ Häuschen",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "das"
+                    }
+                  ]
+                },
+                {
+                  "id": "gender-q6",
+                  "type": "multiple-choice",
+                  "question": "Какое слово — исключение из правила?",
+                  "choices": [
+                    "die Bedeutung",
+                    "das Mädchen",
+                    "der Fahrer"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "singular-and-plural",
+          "title": "Единственное и множественное число",
+          "summary": "Освойте самые частые окончания множественного числа и потренируйтесь в предложениях.",
+          "lesson": {
+            "intro": "В немецком нет единственного суффикса множественного числа. Замечайте типичные схемы и записывайте форму множественного числа вместе с артиклем die.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Чаще всего встречаются окончания -e, -er, -n/-en и -s. Иногда основа получает умлаут. Всегда фиксируйте обе формы — единственное и множественное число."
+              },
+              {
+                "type": "table",
+                "title": "Типичные модели множественного числа",
+                "headers": [
+                  "Singular",
+                  "Plural",
+                  "Артикль (Nom.)"
+                ],
+                "rows": [
+                  [
+                    "der Tisch",
+                    "die Tische",
+                    "die"
+                  ],
+                  [
+                    "die Blume",
+                    "die Blumen",
+                    "die"
+                  ],
+                  [
+                    "das Buch",
+                    "die Bücher",
+                    "die"
+                  ],
+                  [
+                    "der Lehrer",
+                    "die Lehrer",
+                    "die"
+                  ],
+                  [
+                    "die Frage",
+                    "die Fragen",
+                    "die"
+                  ],
+                  [
+                    "das Kind",
+                    "die Kinder",
+                    "die"
+                  ],
+                  [
+                    "der Tourist",
+                    "die Touristen",
+                    "die"
+                  ],
+                  [
+                    "die Universität",
+                    "die Universitäten",
+                    "die"
+                  ],
+                  [
+                    "das Auto",
+                    "die Autos",
+                    "die"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Мужские и средние существительные часто получают -e или -er (иногда с умлаутом). Женские формы склонны к -n/-en. Заимствования чаще всего образуют множественное число на -s."
+              },
+              {
+                "type": "examples",
+                "title": "Множественное число в предложениях",
+                "items": [
+                  {
+                    "sentence": "Die Kinder spielen im Garten.",
+                    "translation": "Дети играют в саду."
+                  },
+                  {
+                    "sentence": "Wir brauchen neue Stühle für das Büro.",
+                    "translation": "Нам нужны новые стулья для офиса."
+                  },
+                  {
+                    "sentence": "Im Museum hängen viele Bilder.",
+                    "translation": "В музее висят много картин."
+                  },
+                  {
+                    "sentence": "Die Studenten schreiben ihre Prüfungen.",
+                    "translation": "Студенты пишут свои экзамены."
+                  },
+                  {
+                    "sentence": "Sie sammelt alte Bücher und Zeitungen.",
+                    "translation": "Она собирает старые книги и газеты."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "В именительном падеже множественного числа всегда стоит артикль die.",
+              "Женские существительные чаще получают -n/-en, многие нейтральные — -er с умлаутом.",
+              "Заимствованные слова и аббревиатуры обычно добавляют -s.",
+              "Всегда записывайте множественное число в словарь вместе с артиклем."
+            ],
+            "quiz": {
+              "title": "Тренировка множественного числа",
+              "intro": "Выберите или образуйте подходящее множественное число.",
+              "items": [
+                {
+                  "id": "plural-q1",
+                  "type": "multiple-choice",
+                  "question": "Какое множественное число у der Tisch?",
+                  "choices": [
+                    "die Tischs",
+                    "die Tische",
+                    "die Tischer"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "plural-q2",
+                  "type": "text",
+                  "question": "Дополните: die Blume → die _____.",
+                  "answer": [
+                    "Blumen",
+                    "blumen"
+                  ]
+                },
+                {
+                  "id": "plural-q3",
+                  "type": "multiple-choice",
+                  "question": "Как правильно образовать множественное число для das Kind?",
+                  "choices": [
+                    "die Kinden",
+                    "die Kinder",
+                    "die Kinds"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "plural-q4",
+                  "type": "text",
+                  "question": "Вставьте артикль: ___ Autos stehen vor dem Haus.",
+                  "answer": [
+                    "Die",
+                    "die"
+                  ]
+                },
+                {
+                  "id": "plural-q5",
+                  "type": "match",
+                  "question": "Подберите окончание множественного числа.",
+                  "pairs": [
+                    {
+                      "id": "plural-pair-1",
+                      "prompt": "der Lehrer",
+                      "options": [
+                        "без окончания",
+                        "-e",
+                        "-er",
+                        "-en"
+                      ],
+                      "answer": "без окончания"
+                    },
+                    {
+                      "id": "plural-pair-2",
+                      "prompt": "die Universität",
+                      "options": [
+                        "-e",
+                        "-en",
+                        "-n",
+                        "-s"
+                      ],
+                      "answer": "-en"
+                    },
+                    {
+                      "id": "plural-pair-3",
+                      "prompt": "das Buch",
+                      "options": [
+                        "-e",
+                        "-er",
+                        "-s",
+                        "-n"
+                      ],
+                      "answer": "-er"
+                    }
+                  ]
+                },
+                {
+                  "id": "plural-q6",
+                  "type": "multiple-choice",
+                  "question": "Какое предложение использует множественное число верно?",
+                  "choices": [
+                    "Die Studenten warten vor der Bibliothek.",
+                    "Der Studenten warten vor der Bibliothek.",
+                    "Die Studentes warten vor der Bibliothek."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "declension-of-articles",
+          "title": "Склонение артиклей",
+          "summary": "Посмотрите, как меняются определённые, неопределённые и отрицательные артикли в каждом падеже.",
+          "lesson": {
+            "intro": "Артикли показывают род, число и падеж существительного. Der/die/das, ein/eine/ein и kein/keine/kein следуют предсказуемым таблицам.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Форма артикля зависит от роли существительного: подлежащее (именительный), прямое дополнение (винительный) или косвенное дополнение (дательный). Запомните повторяющиеся окончания."
+              },
+              {
+                "type": "table",
+                "title": "Определённые артикли",
+                "headers": [
+                  "Падеж",
+                  "Мужской",
+                  "Женский",
+                  "Средний",
+                  "Множественное"
+                ],
+                "rows": [
+                  [
+                    "Nominativ",
+                    "der",
+                    "die",
+                    "das",
+                    "die"
+                  ],
+                  [
+                    "Akkusativ",
+                    "den",
+                    "die",
+                    "das",
+                    "die"
+                  ],
+                  [
+                    "Dativ",
+                    "dem",
+                    "der",
+                    "dem",
+                    "den"
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Неопределённые артикли",
+                "headers": [
+                  "Падеж",
+                  "Мужской",
+                  "Женский",
+                  "Средний"
+                ],
+                "rows": [
+                  [
+                    "Nominativ",
+                    "ein",
+                    "eine",
+                    "ein"
+                  ],
+                  [
+                    "Akkusativ",
+                    "einen",
+                    "eine",
+                    "ein"
+                  ],
+                  [
+                    "Dativ",
+                    "einem",
+                    "einer",
+                    "einem"
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Отрицание (kein)",
+                "headers": [
+                  "Падеж",
+                  "Мужской",
+                  "Женский",
+                  "Средний",
+                  "Множественное"
+                ],
+                "rows": [
+                  [
+                    "Nominativ",
+                    "kein",
+                    "keine",
+                    "kein",
+                    "keine"
+                  ],
+                  [
+                    "Akkusativ",
+                    "keinen",
+                    "keine",
+                    "kein",
+                    "keine"
+                  ],
+                  [
+                    "Dativ",
+                    "keinem",
+                    "keiner",
+                    "keinem",
+                    "keinen"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "В именительном и винительном падежах само существительное обычно не меняется. В дательном множественного числа к существительному добавляется -n, если его нет."
+              },
+              {
+                "type": "examples",
+                "title": "Артикли в действии",
+                "items": [
+                  {
+                    "sentence": "Der Student liest ein Buch.",
+                    "translation": "Студент читает книгу."
+                  },
+                  {
+                    "sentence": "Ich sehe den Bahnhof schon von hier.",
+                    "translation": "Я уже отсюда вижу вокзал."
+                  },
+                  {
+                    "sentence": "Wir helfen dem Kind bei den Hausaufgaben.",
+                    "translation": "Мы помогаем ребёнку с домашним заданием."
+                  },
+                  {
+                    "sentence": "Sie hat keinen Termin heute.",
+                    "translation": "У неё сегодня нет записи."
+                  },
+                  {
+                    "sentence": "Gibt es eine Frage zur Grammatik?",
+                    "translation": "Есть ли вопрос по грамматике?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Der становится den в винительном и dem в дательном падежах.",
+              "Неопределённые и притяжательные артикли имеют одинаковые окончания (einem, einer, keinen).",
+              "В дательном множественного числа используется den, а к существительному часто добавляется -n.",
+              "Чаще всего именно артикль показывает падеж, само существительное не меняется."
+            ],
+            "quiz": {
+              "title": "Окончания артиклей",
+              "intro": "Выберите правильную форму артикля для каждого предложения.",
+              "items": [
+                {
+                  "id": "articles-q1",
+                  "type": "multiple-choice",
+                  "question": "___ Mann kauft ein Ticket. (Nominativ)",
+                  "choices": [
+                    "Der",
+                    "Den",
+                    "Dem"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "articles-q2",
+                  "type": "multiple-choice",
+                  "question": "Ich kenne ___ Lehrer gut. (Akkusativ)",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "articles-q3",
+                  "type": "text",
+                  "question": "Заполните: Wir danken ___ Frau. (Dativ)",
+                  "answer": [
+                    "der",
+                    "Der"
+                  ]
+                },
+                {
+                  "id": "articles-q4",
+                  "type": "multiple-choice",
+                  "question": "Выберите форму: Wir haben ___ Zeit.",
+                  "choices": [
+                    "keinen",
+                    "kein",
+                    "keinem"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "articles-q5",
+                  "type": "match",
+                  "question": "Соотнесите падеж и форму \"ein\" (м.р.).",
+                  "pairs": [
+                    {
+                      "id": "articles-pair-1",
+                      "prompt": "Nominativ",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "ein"
+                    },
+                    {
+                      "id": "articles-pair-2",
+                      "prompt": "Akkusativ",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "einen"
+                    },
+                    {
+                      "id": "articles-pair-3",
+                      "prompt": "Dativ",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "einem"
+                    }
+                  ]
+                },
+                {
+                  "id": "articles-q6",
+                  "type": "text",
+                  "question": "Вставьте: Sie hilft ___ Kindern. (Dativ Plural)",
+                  "answer": [
+                    "den",
+                    "Den"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "case-declension-of-nouns",
+          "title": "Падежи существительных",
+          "summary": "Разберитесь, когда использовать именительный, винительный и дательный падежи.",
+          "lesson": {
+            "intro": "Падеж показывает роль существительного в предложении: именительный — подлежащее, винительный — прямое дополнение, дательный — получатель или адресат.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Определяйте, кто совершает действие (именительный), что напрямую затронуто (винительный) и кто получает что-то (дательный). Некоторые предлоги также требуют определённого падежа."
+              },
+              {
+                "type": "table",
+                "title": "Распространённые глаголы и их падеж",
+                "headers": [
+                  "Глагол",
+                  "Значение",
+                  "Падеж"
+                ],
+                "rows": [
+                  [
+                    "sehen",
+                    "видеть",
+                    "Akkusativ"
+                  ],
+                  [
+                    "brauchen",
+                    "нуждаться",
+                    "Akkusativ"
+                  ],
+                  [
+                    "haben",
+                    "иметь",
+                    "Akkusativ"
+                  ],
+                  [
+                    "helfen",
+                    "помогать",
+                    "Dativ"
+                  ],
+                  [
+                    "danken",
+                    "благодарить",
+                    "Dativ"
+                  ],
+                  [
+                    "gehören",
+                    "принадлежать",
+                    "Dativ"
+                  ],
+                  [
+                    "sein",
+                    "быть",
+                    "Nominativ"
+                  ],
+                  [
+                    "heißen",
+                    "называться",
+                    "Nominativ"
+                  ],
+                  [
+                    "werden",
+                    "становиться",
+                    "Nominativ"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Примеры с падежами",
+                "items": [
+                  {
+                    "sentence": "Der Lehrer erklärt die Regel.",
+                    "translation": "Учитель объясняет правило."
+                  },
+                  {
+                    "sentence": "Meine Schwester braucht einen neuen Laptop.",
+                    "translation": "Моей сестре нужен новый ноутбук."
+                  },
+                  {
+                    "sentence": "Wir geben dem Freund ein Geschenk.",
+                    "translation": "Мы дарим другу подарок."
+                  },
+                  {
+                    "sentence": "Kannst du mir bitte helfen?",
+                    "translation": "Можешь, пожалуйста, мне помочь?"
+                  },
+                  {
+                    "sentence": "Das Kind heißt Lukas.",
+                    "translation": "Ребёнка зовут Лукас."
+                  },
+                  {
+                    "sentence": "Die Blumen gehören der Nachbarin.",
+                    "translation": "Цветы принадлежат соседке."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Именительный падеж используется для подлежащего и после глаголов sein, werden, heißen.",
+              "Большинство глаголов действия требуют винительного падежа (sehen, brauchen, kaufen).",
+              "Дательный указывает на получателя — часто с geben, helfen, danken, gehören.",
+              "Предлоги mit, zu, nach требуют дательного; durch, für — винительного."
+            ],
+            "quiz": {
+              "title": "Выберите верный падеж",
+              "intro": "Определите, какой падеж и артикль нужны.",
+              "items": [
+                {
+                  "id": "cases-q1",
+                  "type": "multiple-choice",
+                  "question": "Какая форма нужна? Ich sehe ___ Film.",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "cases-q2",
+                  "type": "text",
+                  "question": "Заполните: Wir helfen ___ Nachbarn.",
+                  "answer": [
+                    "dem",
+                    "Dem"
+                  ]
+                },
+                {
+                  "id": "cases-q3",
+                  "type": "multiple-choice",
+                  "question": "Какой падеж следует после \"mit\"?",
+                  "choices": [
+                    "Nominativ",
+                    "Akkusativ",
+                    "Dativ"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "cases-q4",
+                  "type": "text",
+                  "question": "Введите: Sie bedankt sich bei ___ Lehrerin.",
+                  "answer": [
+                    "der",
+                    "Der"
+                  ]
+                },
+                {
+                  "id": "cases-q5",
+                  "type": "match",
+                  "question": "Соотнесите глагол и падеж.",
+                  "pairs": [
+                    {
+                      "id": "cases-pair-1",
+                      "prompt": "helfen",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Dativ"
+                    },
+                    {
+                      "id": "cases-pair-2",
+                      "prompt": "sehen",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Akkusativ"
+                    },
+                    {
+                      "id": "cases-pair-3",
+                      "prompt": "sein",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Nominativ"
+                    }
+                  ]
+                },
+                {
+                  "id": "cases-q6",
+                  "type": "multiple-choice",
+                  "question": "Какой вариант правильный? Wir schenken ___ Kind ein Buch.",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "possessive-pronouns",
+          "title": "Притяжательные местоимения",
+          "summary": "Используйте mein, dein, sein, ihr и другие с правильными окончаниями.",
+          "lesson": {
+            "intro": "Притяжательные местоимения склоняются по тем же правилам, что и неопределённый артикль ein. Окончание зависит от рода, падежа и числа.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Добавляйте знакомые окончания от ein/eine/ein. Следите за основой (mein, dein, sein, ihr, unser, euer, Ihr)."
+              },
+              {
+                "type": "table",
+                "title": "Окончания притяжательных местоимений (пример: mein)",
+                "headers": [
+                  "Падеж",
+                  "Мужской",
+                  "Женский",
+                  "Средний",
+                  "Множественное"
+                ],
+                "rows": [
+                  [
+                    "Nominativ",
+                    "mein",
+                    "meine",
+                    "mein",
+                    "meine"
+                  ],
+                  [
+                    "Akkusativ",
+                    "meinen",
+                    "meine",
+                    "mein",
+                    "meine"
+                  ],
+                  [
+                    "Dativ",
+                    "meinem",
+                    "meiner",
+                    "meinem",
+                    "meinen"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Притяжательные местоимения в контексте",
+                "items": [
+                  {
+                    "sentence": "Mein Bruder arbeitet in Berlin.",
+                    "translation": "Мой брат работает в Берлине."
+                  },
+                  {
+                    "sentence": "Ich sehe deine Tasche nicht.",
+                    "translation": "Я не вижу твою сумку."
+                  },
+                  {
+                    "sentence": "Wir helfen unserem Freund beim Umzug.",
+                    "translation": "Мы помогаем нашему другу с переездом."
+                  },
+                  {
+                    "sentence": "Ihre Eltern kommen morgen zu Besuch.",
+                    "translation": "Её родители приедут завтра в гости."
+                  },
+                  {
+                    "sentence": "Ist das euer Auto vor der Tür?",
+                    "translation": "Это ваша машина у двери?"
+                  },
+                  {
+                    "sentence": "Ich telefoniere mit meiner Schwester.",
+                    "translation": "Я разговариваю по телефону со своей сестрой."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Притяжательные местоимения имеют те же окончания, что и ein-слова (ein, kein, mein).",
+              "В винительном мужского рода добавляется -en, в дательном — -em/-er/-en.",
+              "В слове euer перед окончаниями исчезает буква e: euer → euren, eurem, eurer.",
+              "Форма Ihr (вежливая) всегда пишется с прописной буквы (Ihre, Ihren…)."
+            ],
+            "quiz": {
+              "title": "Окончания притяжательных местоимений",
+              "intro": "Заполните предложения правильной притяжательной формой.",
+              "items": [
+                {
+                  "id": "possessive-q1",
+                  "type": "multiple-choice",
+                  "question": "___ Bruder studiert in München. (mein)",
+                  "choices": [
+                    "Mein",
+                    "Meine",
+                    "Meinen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "possessive-q2",
+                  "type": "text",
+                  "question": "Напишите форму: Wir besuchen ___ Großeltern. (unser)",
+                  "answer": [
+                    "unsere",
+                    "Unsere"
+                  ]
+                },
+                {
+                  "id": "possessive-q3",
+                  "type": "multiple-choice",
+                  "question": "Siehst du ___ Freundin? (sein)",
+                  "choices": [
+                    "seine",
+                    "sein",
+                    "seiner"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "possessive-q4",
+                  "type": "text",
+                  "question": "Заполните: Ich gebe ___ Bruder das Buch zurück. (dein)",
+                  "answer": [
+                    "deinem",
+                    "Deinem"
+                  ]
+                },
+                {
+                  "id": "possessive-q5",
+                  "type": "match",
+                  "question": "Сопоставьте лицо и притяжательное местоимение.",
+                  "pairs": [
+                    {
+                      "id": "possessive-pair-1",
+                      "prompt": "wir",
+                      "options": [
+                        "mein",
+                        "dein",
+                        "sein",
+                        "unser"
+                      ],
+                      "answer": "unser"
+                    },
+                    {
+                      "id": "possessive-pair-2",
+                      "prompt": "sie (ед.ч.)",
+                      "options": [
+                        "ihr",
+                        "sein",
+                        "euer",
+                        "Ihr"
+                      ],
+                      "answer": "ihr"
+                    },
+                    {
+                      "id": "possessive-pair-3",
+                      "prompt": "Sie (вежл.)",
+                      "options": [
+                        "mein",
+                        "Ihr",
+                        "euer",
+                        "sein"
+                      ],
+                      "answer": "Ihr"
+                    }
+                  ]
+                },
+                {
+                  "id": "possessive-q6",
+                  "type": "multiple-choice",
+                  "question": "Какая форма верна? Wir danken ___ Lehrerin.",
+                  "choices": [
+                    "unser",
+                    "unserer",
+                    "unserem"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "verbs",
+      "title": "Глаголы (Verben)",
+      "description": "Изучи, как изменяются немецкие глаголы в повседневных фразах: инфинитивы, спряжение, вопросы, отрицания и модальные сочетания.",
+      "subtopics": [
+        {
+          "slug": "infinitive-and-conjugation",
+          "title": "Инфинитив и спряжение правильных и неправильных глаголов",
+          "summary": "Научись узнавать инфинитивы и самые частые модели спряжения в настоящем времени для правильных и неправильных глаголов.",
+          "lesson": {
+            "intro": "Немецкие инфинитивы обычно оканчиваются на -en или -n. В настоящем времени правильные глаголы используют предсказуемые окончания, а небольшая группа меняет гласную корня в отдельных формах.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Чтобы проспрягать правильный глагол, убери окончание -en и добавь личные окончания. Неправильные глаголы сохраняют те же окончания, но могут менять корневую гласную или добавлять согласную в формах du и er/sie/es."
+              },
+              {
+                "type": "table",
+                "title": "Окончания правильного глагола на примере spielen",
+                "headers": [
+                  "Лицо",
+                  "Окончание",
+                  "Пример"
+                ],
+                "rows": [
+                  [
+                    "ich",
+                    "-e",
+                    "ich spiele"
+                  ],
+                  [
+                    "du",
+                    "-st",
+                    "du spielst"
+                  ],
+                  [
+                    "er/sie/es",
+                    "-t",
+                    "er spielt"
+                  ],
+                  [
+                    "wir",
+                    "-en",
+                    "wir spielen"
+                  ],
+                  [
+                    "ihr",
+                    "-t",
+                    "ihr spielt"
+                  ],
+                  [
+                    "sie/Sie",
+                    "-en",
+                    "sie spielen"
+                  ]
+                ]
+              },
+              {
+                "type": "rules",
+                "title": "Частые изменения корня",
+                "rules": [
+                  {
+                    "label": "e → ie (sehen, lesen)",
+                    "examples": [
+                      "ich sehe",
+                      "du siehst",
+                      "er liest"
+                    ]
+                  },
+                  {
+                    "label": "a → ä (fahren, laufen)",
+                    "examples": [
+                      "du fährst",
+                      "er läuft"
+                    ]
+                  },
+                  {
+                    "label": "e → i (sprechen, nehmen)",
+                    "examples": [
+                      "du sprichst",
+                      "er nimmt"
+                    ]
+                  },
+                  {
+                    "label": "Добавляй -e-, если основа оканчивается на -d/-t (arbeiten)",
+                    "examples": [
+                      "du arbeitest",
+                      "ihr arbeitet"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Примеры предложений",
+                "items": [
+                  {
+                    "sentence": "Ich lerne jeden Abend Deutsch.",
+                    "translation": "Я учу немецкий каждый вечер."
+                  },
+                  {
+                    "sentence": "Du arbeitest heute im Büro.",
+                    "translation": "Ты сегодня работаешь в офисе."
+                  },
+                  {
+                    "sentence": "Er sieht den neuen Film im Kino.",
+                    "translation": "Он смотрит новый фильм в кино."
+                  },
+                  {
+                    "sentence": "Wir fahren am Wochenende nach Köln.",
+                    "translation": "Мы едем в Кёльн на выходных."
+                  },
+                  {
+                    "sentence": "Ihr sprecht sehr gut Deutsch.",
+                    "translation": "Вы говорите по-немецки очень хорошо."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Большинство инфинитивов оканчиваются на -en; убери его, чтобы найти основу.",
+              "Правильные глаголы добавляют к основе окончания -e, -st, -t, -en, -t, -en.",
+              "Неправильные глаголы сохраняют окончания, но меняют корневую гласную в формах du/er/sie/es.",
+              "Основы на -d или -t получают дополнительное -e- перед окончаниями -st и -t для удобства произношения."
+            ],
+            "quiz": {
+              "title": "Проверь свои знания",
+              "items": [
+                {
+                  "id": "verbs-inf-q1",
+                  "type": "multiple-choice",
+                  "question": "Wir ___ (lernen) Deutsch.",
+                  "choices": [
+                    "lerne",
+                    "lernen",
+                    "lernt"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-inf-q2",
+                  "type": "multiple-choice",
+                  "question": "Er ___ (fahren) zur Arbeit.",
+                  "choices": [
+                    "fahrt",
+                    "fährt",
+                    "fahre"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-inf-q3",
+                  "type": "text",
+                  "question": "Du ___ (arbeiten) am Samstag.",
+                  "answer": [
+                    "arbeitest"
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q4",
+                  "type": "text",
+                  "question": "Ich ___ (sehen) den Film.",
+                  "answer": [
+                    "sehe"
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q5",
+                  "type": "match",
+                  "question": "Соедини инфинитив с формой ich.",
+                  "pairs": [
+                    {
+                      "id": "verbs-inf-p1",
+                      "prompt": "laufen",
+                      "options": [
+                        "laufe",
+                        "läuft",
+                        "lief"
+                      ],
+                      "answer": "laufe"
+                    },
+                    {
+                      "id": "verbs-inf-p2",
+                      "prompt": "sprechen",
+                      "options": [
+                        "spreche",
+                        "spriche",
+                        "sprach"
+                      ],
+                      "answer": "spreche"
+                    },
+                    {
+                      "id": "verbs-inf-p3",
+                      "prompt": "nehmen",
+                      "options": [
+                        "nehme",
+                        "nahme",
+                        "nehmt"
+                      ],
+                      "answer": "nehme"
+                    }
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q6",
+                  "type": "multiple-choice",
+                  "question": "Какое окончание подходит к ihr у правильных глаголов?",
+                  "choices": [
+                    "-e",
+                    "-en",
+                    "-t"
+                  ],
+                  "answer": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "sein-haben-werden",
+          "title": "Глаголы sein, haben, werden",
+          "summary": "Уверенно используй важные неправильные глаголы sein, haben и werden в повседневных ситуациях.",
+          "lesson": {
+            "intro": "Глаголы sein (быть), haben (иметь) и werden (становиться) встречаются постоянно. Они неправильные, их нужно запомнить, но они лежат в основе многих простых предложений.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Sein описывает личность и состояние, haben выражает владение и отношения, а werden означает «становиться» и служит вспомогательным глаголом для будущего и пассива."
+              },
+              {
+                "type": "table",
+                "title": "Спряжение в настоящем времени",
+                "headers": [
+                  "Лицо",
+                  "sein",
+                  "haben",
+                  "werden"
+                ],
+                "rows": [
+                  [
+                    "ich",
+                    "bin",
+                    "habe",
+                    "werde"
+                  ],
+                  [
+                    "du",
+                    "bist",
+                    "hast",
+                    "wirst"
+                  ],
+                  [
+                    "er/sie/es",
+                    "ist",
+                    "hat",
+                    "wird"
+                  ],
+                  [
+                    "wir",
+                    "sind",
+                    "haben",
+                    "werden"
+                  ],
+                  [
+                    "ihr",
+                    "seid",
+                    "habt",
+                    "werdet"
+                  ],
+                  [
+                    "sie/Sie",
+                    "sind",
+                    "haben",
+                    "werden"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Как их использовать",
+                "text": "Используй sein для описаний и местонахождения, haben — для владения и семейных связей, а werden — чтобы говорить о превращениях или как вспомогательный глагол для будущего и пассива."
+              },
+              {
+                "type": "examples",
+                "title": "Примеры предложений",
+                "items": [
+                  {
+                    "sentence": "Ich bin müde.",
+                    "translation": "Я устал."
+                  },
+                  {
+                    "sentence": "Wir sind heute im Büro.",
+                    "translation": "Мы сегодня в офисе."
+                  },
+                  {
+                    "sentence": "Sie hat zwei Geschwister.",
+                    "translation": "У неё двое братьев и сестёр."
+                  },
+                  {
+                    "sentence": "Habt ihr noch Fragen?",
+                    "translation": "У вас ещё есть вопросы?"
+                  },
+                  {
+                    "sentence": "Er wird nächstes Jahr Lehrer.",
+                    "translation": "В следующем году он станет учителем."
+                  },
+                  {
+                    "sentence": "Morgen werden wir in Berlin sein.",
+                    "translation": "Завтра мы будем в Берлине."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Sein, haben, and werden are completely irregular—memorise each form.",
+              "Sein states what something is or where it is.",
+              "Haben talks about what someone owns or experiences.",
+              "Werden expresses becoming and also builds the future tense together with an infinitive."
+            ],
+            "quiz": {
+              "title": "Потренируйся с этими глаголами",
+              "items": [
+                {
+                  "id": "verbs-shw-q1",
+                  "type": "multiple-choice",
+                  "question": "Er ___ müde nach der Arbeit.",
+                  "choices": [
+                    "ist",
+                    "bist",
+                    "sein"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-shw-q2",
+                  "type": "text",
+                  "question": "Wir ___ Freunde.",
+                  "answer": [
+                    "sind"
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q3",
+                  "type": "text",
+                  "question": "Ich ___ Zeit für ein Treffen.",
+                  "answer": [
+                    "habe"
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q4",
+                  "type": "multiple-choice",
+                  "question": "Sie ___ morgen Arzt.",
+                  "choices": [
+                    "werden",
+                    "werdet",
+                    "werde"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-shw-q5",
+                  "type": "match",
+                  "question": "Соедини местоимение с подходящей формой werden.",
+                  "pairs": [
+                    {
+                      "id": "verbs-shw-p1",
+                      "prompt": "ich",
+                      "options": [
+                        "werdet",
+                        "werde",
+                        "wird"
+                      ],
+                      "answer": "werde"
+                    },
+                    {
+                      "id": "verbs-shw-p2",
+                      "prompt": "du",
+                      "options": [
+                        "werdet",
+                        "wirst",
+                        "werden"
+                      ],
+                      "answer": "wirst"
+                    },
+                    {
+                      "id": "verbs-shw-p3",
+                      "prompt": "ihr",
+                      "options": [
+                        "werden",
+                        "werdet",
+                        "werde"
+                      ],
+                      "answer": "werdet"
+                    }
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q6",
+                  "type": "multiple-choice",
+                  "question": "Which sentence builds the future tense correctly?",
+                  "choices": [
+                    "Wir werden nach Hause.",
+                    "Wir werden nach Hause gehen.",
+                    "Wir gehen nach Hause."
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "word-order-simple-sentences",
+          "title": "Порядок слов в простых предложениях",
+          "summary": "Keep the finite verb in second position and order time, manner, place naturally.",
+          "lesson": {
+            "intro": "German main clauses follow the verb-second rule (V2). The conjugated verb stands in second position, even if another element like time or place comes first.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "You can place information before the verb to highlight it, but the conjugated verb must stay in second position. Other verbs, infinitives, and separable prefixes go to the end of the clause."
+              },
+              {
+                "type": "rules",
+                "title": "Надёжный порядок",
+                "rules": [
+                  {
+                    "label": "Position 1",
+                    "examples": [
+                      "Heute",
+                      "In Berlin",
+                      "Nach der Arbeit"
+                    ]
+                  },
+                  {
+                    "label": "Position 2",
+                    "examples": [
+                      "steht das finite Verb"
+                    ]
+                  },
+                  {
+                    "label": "Mittelfeld",
+                    "examples": [
+                      "Subjekt",
+                      "Zeit",
+                      "Art",
+                      "Ort"
+                    ]
+                  },
+                  {
+                    "label": "Satzende",
+                    "examples": [
+                      "weitere Verben",
+                      "Infinitive",
+                      "Partizip"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Примеры предложений",
+                "items": [
+                  {
+                    "sentence": "Heute lerne ich zu Hause.",
+                    "translation": "Сегодня я занимаюсь дома."
+                  },
+                  {
+                    "sentence": "Im Sommer reisen wir oft nach Spanien.",
+                    "translation": "Летом мы часто ездим в Испанию."
+                  },
+                  {
+                    "sentence": "Nach dem Essen liest er ein Buch.",
+                    "translation": "После ужина он читает книгу."
+                  },
+                  {
+                    "sentence": "Morgens trinkt sie zuerst Kaffee.",
+                    "translation": "Утром она сначала пьёт кофе."
+                  },
+                  {
+                    "sentence": "Abends sehen wir einen Film.",
+                    "translation": "Вечером мы смотрим фильм."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "The conjugated verb always appears in second position in main clauses.",
+              "Any single element can stand before the verb for emphasis.",
+              "Other verbs and infinitives move to the end of the clause.",
+              "Use the time-manner-place order to keep sentences natural."
+            ],
+            "quiz": {
+              "title": "Собери правильные предложения",
+              "items": [
+                {
+                  "id": "verbs-wordorder-q1",
+                  "type": "multiple-choice",
+                  "question": "Выбери правильный порядок: Morgen / wir / fahren / nach Leipzig.",
+                  "choices": [
+                    "Wir fahren morgen nach Leipzig.",
+                    "Morgen fahren wir nach Leipzig.",
+                    "Morgen wir fahren nach Leipzig."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-wordorder-q2",
+                  "type": "text",
+                  "question": "___ spielen die Kinder im Garten. (Heute)",
+                  "answer": [
+                    "Heute"
+                  ]
+                },
+                {
+                  "id": "verbs-wordorder-q3",
+                  "type": "multiple-choice",
+                  "question": "Куда поставить инфинитив? «Er muss ___ das Formular.»",
+                  "choices": [
+                    "ausfüllen",
+                    "ausfüllt",
+                    "füllt aus"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-wordorder-q4",
+                  "type": "text",
+                  "question": "Im Büro ___ wir oft Meetings. (haben)",
+                  "answer": [
+                    "haben"
+                  ]
+                },
+                {
+                  "id": "verbs-wordorder-q5",
+                  "type": "match",
+                  "question": "Соедини начало предложения с продолжением при порядке «глагол на втором».",
+                  "pairs": [
+                    {
+                      "id": "verbs-wordorder-p1",
+                      "prompt": "Am Abend",
+                      "options": [
+                        "lesen wir ein Buch.",
+                        "Wir lesen ein Buch.",
+                        "Ein Buch lesen wir."
+                      ],
+                      "answer": "lesen wir ein Buch."
+                    },
+                    {
+                      "id": "verbs-wordorder-p2",
+                      "prompt": "In der Stadt",
+                      "options": [
+                        "kauft sie frisches Brot.",
+                        "Sie kauft frisches Brot.",
+                        "Frisches Brot kauft sie."
+                      ],
+                      "answer": "kauft sie frisches Brot."
+                    },
+                    {
+                      "id": "verbs-wordorder-p3",
+                      "prompt": "Nach dem Training",
+                      "options": [
+                        "essen sie gemeinsam.",
+                        "Sie essen gemeinsam.",
+                        "Gemeinsam essen sie."
+                      ],
+                      "answer": "essen sie gemeinsam."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "questions-yes-no-w",
+          "title": "Вопросы да/нет и W-вопросы",
+          "summary": "Вопросы да/нет начинаются с глагола, W-вопросы — с вопросительного слова и глагола на втором месте.",
+          "lesson": {
+            "intro": "Немецкие вопросы либо начинаются с глагола (да/нет), либо с вопросительного слова (wer, was, wo, wann, warum, wie, wohin) с глаголом на втором месте.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Вопросы да/нет меняют местами глагол и подлежащее. В W-вопросах на первом месте стоит вопросительное слово, а глагол остаётся вторым."
+              },
+              {
+                "type": "table",
+                "title": "Схемы вопросов",
+                "headers": [
+                  "Type",
+                  "Structure",
+                  "Пример"
+                ],
+                "rows": [
+                  [
+                    "Yes/no",
+                    "Verb + subject + ...?",
+                    "Kommst du heute?"
+                  ],
+                  [
+                    "W-question",
+                    "W-word + verb + subject ...?",
+                    "Wann beginnt der Kurs?"
+                  ],
+                  [
+                    "W-question with preposition",
+                    "W-word + preposition + verb + subject",
+                    "Worauf wartest du?"
+                  ],
+                  [
+                    "Wohin",
+                    "Wohin + verb + subject",
+                    "Wohin fahrt ihr?"
+                  ],
+                  [
+                    "Warum",
+                    "Warum + verb + subject",
+                    "Warum lernt er Deutsch?"
+                  ],
+                  [
+                    "Wie",
+                    "Wie + verb + subject",
+                    "Wie fühlst du dich?"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Примеры вопросов",
+                "items": [
+                  {
+                    "sentence": "Kommst du mit?",
+                    "translation": "Ты идёшь с нами?"
+                  },
+                  {
+                    "sentence": "Hast du Zeit?",
+                    "translation": "У тебя есть время?"
+                  },
+                  {
+                    "sentence": "Wer hilft dir?",
+                    "translation": "Кто тебе помогает?"
+                  },
+                  {
+                    "sentence": "Wo wohnst du jetzt?",
+                    "translation": "Где ты сейчас живёшь?"
+                  },
+                  {
+                    "sentence": "Wohin fährt der Bus?",
+                    "translation": "Куда едет автобус?"
+                  },
+                  {
+                    "sentence": "Warum lernst du Deutsch?",
+                    "translation": "Почему ты учишь немецкий?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Put the conjugated verb before the subject for yes/no questions.",
+              "W-questions start with a question word and keep the verb in second position.",
+              "Combine W-words with prepositions (worauf, womit, wofür) when needed.",
+              "End questions with a rising tone in speech and a question mark in writing."
+            ],
+            "quiz": {
+              "title": "Задай подходящий вопрос",
+              "items": [
+                {
+                  "id": "verbs-questions-q1",
+                  "type": "multiple-choice",
+                  "question": "Выбери вопрос да/нет для «du kommst morgen».",
+                  "choices": [
+                    "Kommst du morgen?",
+                    "Du kommst morgen?",
+                    "Morgen du kommst?"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-questions-q2",
+                  "type": "text",
+                  "question": "___ lernst du Deutsch? (Warum)",
+                  "answer": [
+                    "Warum"
+                  ]
+                },
+                {
+                  "id": "verbs-questions-q3",
+                  "type": "multiple-choice",
+                  "question": "Какое W-слово подходит: ___ arbeitet sie? (в каком месте)",
+                  "choices": [
+                    "Wie",
+                    "Wo",
+                    "Wann"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-questions-q4",
+                  "type": "text",
+                  "question": "___ fährt ihr? (куда)",
+                  "answer": [
+                    "Wohin"
+                  ]
+                },
+                {
+                  "id": "verbs-questions-q5",
+                  "type": "match",
+                  "question": "Соедини немецкое вопросительное слово с его значением.",
+                  "pairs": [
+                    {
+                      "id": "verbs-questions-p1",
+                      "prompt": "wer",
+                      "options": [
+                        "кто",
+                        "когда",
+                        "where"
+                      ],
+                      "answer": "кто"
+                    },
+                    {
+                      "id": "verbs-questions-p2",
+                      "prompt": "wann",
+                      "options": [
+                        "how",
+                        "когда",
+                        "почему"
+                      ],
+                      "answer": "когда"
+                    },
+                    {
+                      "id": "verbs-questions-p3",
+                      "prompt": "warum",
+                      "options": [
+                        "почему",
+                        "where",
+                        "what"
+                      ],
+                      "answer": "почему"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "negation-nicht-kein",
+          "title": "Отрицание (nicht, kein)",
+          "summary": "Определи, где нужен nicht, а где kein, и поставь их в правильное место.",
+          "lesson": {
+            "intro": "В немецком nicht употребляется для отрицания глаголов, прилагательных, наречий и целых предложений, а kein заменяет неопределённый артикль и отрицает существительные без артикля.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Kein ведёт себя как артикль: склоняется (kein, keine, keinen, keiner, keinem). Nicht используется во всех остальных случаях и обычно ставится перед тем, что отрицается, или в конце предложения."
+              },
+              {
+                "type": "table",
+                "title": "Когда использовать nicht и когда kein",
+                "headers": [
+                  "Use",
+                  "Пример"
+                ],
+                "rows": [
+                  [
+                    "kein + существительное",
+                    "Ich habe keinen Hund."
+                  ],
+                  [
+                    "kein + plural noun",
+                    "Wir haben keine Tickets."
+                  ],
+                  [
+                    "nicht + verb",
+                    "Ich arbeite heute nicht."
+                  ],
+                  [
+                    "nicht + adjective",
+                    "Der Kaffee ist nicht warm."
+                  ],
+                  [
+                    "nicht + adverb",
+                    "Sie kommt nicht oft."
+                  ],
+                  [
+                    "nicht + entire clause",
+                    "Nicht alle verstehen den Witz."
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Примеры предложений",
+                "items": [
+                  {
+                    "sentence": "Ich habe keine Zeit.",
+                    "translation": "У меня нет времени."
+                  },
+                  {
+                    "sentence": "Er isst kein Fleisch.",
+                    "translation": "Он не ест мясо."
+                  },
+                  {
+                    "sentence": "Wir fahren heute nicht nach Hause.",
+                    "translation": "Сегодня мы не едем домой."
+                  },
+                  {
+                    "sentence": "Der Film ist nicht langweilig.",
+                    "translation": "Фильм не скучный."
+                  },
+                  {
+                    "sentence": "Sie singt nicht gern.",
+                    "translation": "Она не любит петь."
+                  },
+                  {
+                    "sentence": "Ich kaufe das Buch nicht.",
+                    "translation": "Я не покупаю эту книгу."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Kein заменяет ein/eine и отрицает существительные без определённого артикля.",
+              "Nicht отрицает глаголы, прилагательные, наречия и целые предложения.",
+              "Ставь nicht непосредственно перед отрицаемым элементом или ближе к концу предложения.",
+              "Помни, что kein склоняется как ein: kein, keine, keinen, keiner, keinem."
+            ],
+            "quiz": {
+              "title": "Выбери правильное отрицание",
+              "items": [
+                {
+                  "id": "verbs-negation-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich habe ___ Geld.",
+                  "choices": [
+                    "nicht",
+                    "kein",
+                    "keine"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-negation-q2",
+                  "type": "text",
+                  "question": "Der Kaffee ist ___ heiß.",
+                  "answer": [
+                    "nicht"
+                  ]
+                },
+                {
+                  "id": "verbs-negation-q3",
+                  "type": "multiple-choice",
+                  "question": "Sie kauft ___ Blumen.",
+                  "choices": [
+                    "keine",
+                    "nicht",
+                    "kein"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-negation-q4",
+                  "type": "text",
+                  "question": "Wir fahren heute ___ nach München.",
+                  "answer": [
+                    "nicht"
+                  ]
+                },
+                {
+                  "id": "verbs-negation-q5",
+                  "type": "match",
+                  "question": "Соедини предложение с подходящим отрицанием.",
+                  "pairs": [
+                    {
+                      "id": "verbs-negation-p1",
+                      "prompt": "___ Zeit haben",
+                      "options": [
+                        "kein",
+                        "nicht",
+                        "keine"
+                      ],
+                      "answer": "keine"
+                    },
+                    {
+                      "id": "verbs-negation-p2",
+                      "prompt": "___ arbeiten",
+                      "options": [
+                        "nicht",
+                        "kein",
+                        "keine"
+                      ],
+                      "answer": "nicht"
+                    },
+                    {
+                      "id": "verbs-negation-p3",
+                      "prompt": "___ Auto besitzen",
+                      "options": [
+                        "kein",
+                        "nicht",
+                        "keine"
+                      ],
+                      "answer": "kein"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "modal-verbs",
+          "title": "Модальные глаголы",
+          "summary": "Сочетай модальные глаголы с инфинитивами и оставляй модальный глагол на втором месте.",
+          "lesson": {
+            "intro": "Модальные глаголы уточняют основной глагол: они выражают возможность, необходимость, разрешение, желание или обязанность. В главном предложении модальный глагол спрягается и стоит на втором месте, а инфинитив основного уходит в конец.",
+            "blocks": [
+              {
+                "type": "table",
+                "title": "Модальные глаголы в настоящем времени",
+                "headers": [
+                  "Modal",
+                  "ich",
+                  "du",
+                  "er/sie/es"
+                ],
+                "rows": [
+                  [
+                    "können",
+                    "kann",
+                    "kannst",
+                    "kann"
+                  ],
+                  [
+                    "wollen",
+                    "will",
+                    "willst",
+                    "will"
+                  ],
+                  [
+                    "müssen",
+                    "muss",
+                    "musst",
+                    "muss"
+                  ],
+                  [
+                    "dürfen",
+                    "darf",
+                    "darfst",
+                    "darf"
+                  ],
+                  [
+                    "sollen",
+                    "soll",
+                    "sollst",
+                    "soll"
+                  ],
+                  [
+                    "mögen",
+                    "mag",
+                    "magst",
+                    "mag"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Позиция в предложении",
+                "text": "Модальные глаголы ведут себя как неправильные: они меняют корень. Основной глагол остаётся в инфинитиве и переносится в конец."
+              },
+              {
+                "type": "examples",
+                "title": "Примеры предложений",
+                "items": [
+                  {
+                    "sentence": "Ich kann gut schwimmen.",
+                    "translation": "Я хорошо плаваю."
+                  },
+                  {
+                    "sentence": "Wir müssen heute lange arbeiten.",
+                    "translation": "Сегодня нам нужно долго работать."
+                  },
+                  {
+                    "sentence": "Darf ich hier parken?",
+                    "translation": "Можно ли здесь парковаться?"
+                  },
+                  {
+                    "sentence": "Sie will in Berlin studieren.",
+                    "translation": "Она хочет учиться в Берлине."
+                  },
+                  {
+                    "sentence": "Ihr sollt eure Hausaufgaben machen.",
+                    "translation": "Вам стоит сделать домашнее задание."
+                  },
+                  {
+                    "sentence": "Magst du Kaffee trinken?",
+                    "translation": "Ты любишь пить кофе?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Модальные глаголы выражают возможность, желание, обязанность, разрешение или симпатию.",
+              "Модальный глагол спрягается и стоит вторым в главном предложении.",
+              "Основной глагол остаётся в инфинитиве и переносится в конец предложения.",
+              "У многих модальных глаголов меняется корневая гласная в формах du и er/sie/es."
+            ],
+            "quiz": {
+              "title": "Используй модальные глаголы правильно",
+              "items": [
+                {
+                  "id": "verbs-modals-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich ___ heute zu Hause bleiben. (must)",
+                  "choices": [
+                    "muss",
+                    "kann",
+                    "soll"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-modals-q2",
+                  "type": "text",
+                  "question": "Du ___ (können) gut malen.",
+                  "answer": [
+                    "kannst"
+                  ]
+                },
+                {
+                  "id": "verbs-modals-q3",
+                  "type": "multiple-choice",
+                  "question": "Какая форма подходит? Wir ___ morgen kommen. (können)",
+                  "choices": [
+                    "kann",
+                    "könnt",
+                    "können"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "verbs-modals-q4",
+                  "type": "text",
+                  "question": "Er ___ (dürfen) hier nicht parken.",
+                  "answer": [
+                    "darf"
+                  ]
+                },
+                {
+                  "id": "verbs-modals-q5",
+                  "type": "match",
+                  "question": "Соедини модальный глагол с его значением.",
+                  "pairs": [
+                    {
+                      "id": "verbs-modals-p1",
+                      "prompt": "müssen",
+                      "options": [
+                        "можно",
+                        "должен",
+                        "нравится"
+                      ],
+                      "answer": "должен"
+                    },
+                    {
+                      "id": "verbs-modals-p2",
+                      "prompt": "dürfen",
+                      "options": [
+                        "можно",
+                        "должен",
+                        "следует"
+                      ],
+                      "answer": "можно"
+                    },
+                    {
+                      "id": "verbs-modals-p3",
+                      "prompt": "wollen",
+                      "options": [
+                        "хочет",
+                        "должен",
+                        "может"
+                      ],
+                      "answer": "хочет"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "adjectives",
+      "title": "Прилагательные (Adjektive)",
+      "description": "Опиши людей и предметы с помощью форм прилагательных: сравнение и употребление в роли сказуемого.",
+      "subtopics": [
+        {
+          "slug": "degrees-of-comparison",
+          "title": "Степени сравнения (положительная, сравнительная, превосходная)",
+          "summary": "Научись образовывать и употреблять все три степени сравнения в повседневных фразах.",
+          "lesson": {
+            "intro": "Немецкие прилагательные имеют основную форму (Positiv). С помощью окончаний и особых форм выражаются сравнение и высшая степень.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Сравнительная степень образуется добавлением -er. Многие частотные прилагательные меняют гласную (a/o/u → ä/ö/ü). Превосходная степень оформляется как am + -sten в роли сказуемого или -ste перед существительным."
+              },
+              {
+                "type": "rules",
+                "title": "Как образуются степени",
+                "rules": [
+                  {
+                    "label": "Сравнительная степень: + -er",
+                    "examples": [
+                      "schnell → schneller",
+                      "laut → lauter"
+                    ]
+                  },
+                  {
+                    "label": "Умлаут для a, o, u, когда возможно",
+                    "examples": [
+                      "alt → älter",
+                      "groß → größer"
+                    ]
+                  },
+                  {
+                    "label": "Превосходная в сказуемом: am + -sten",
+                    "examples": [
+                      "am freundlichsten",
+                      "am besten"
+                    ]
+                  },
+                  {
+                    "label": "Превосходная перед существительным: der/die/das + -ste",
+                    "examples": [
+                      "der schnellste Zug",
+                      "die schönste Aussicht"
+                    ]
+                  },
+                  {
+                    "label": "При -el/-er часто отпадает -e",
+                    "examples": [
+                      "teuer → teurer",
+                      "dunkel → dunkler"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Примеры сравнения",
+                "headers": [
+                  "Положительная",
+                  "Сравнительная",
+                  "Превосходная (сказуемое)",
+                  "Превосходная (атрибут)"
+                ],
+                "rows": [
+                  [
+                    "klein",
+                    "kleiner",
+                    "am kleinsten",
+                    "der/die/das kleinste"
+                  ],
+                  [
+                    "interessant",
+                    "interessanter",
+                    "am interessantesten",
+                    "der/die/das interessanteste"
+                  ],
+                  [
+                    "hoch",
+                    "höher",
+                    "am höchsten",
+                    "der/die/das höchste"
+                  ],
+                  [
+                    "gut",
+                    "besser",
+                    "am besten",
+                    "der/die/das beste"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Не забывай об окончаниях",
+                "text": "Перед существительным сравнит. и превосх. степени получают обычные окончания (ein schnellerer Bus, die beste Idee)."
+              },
+              {
+                "type": "examples",
+                "title": "Примеры",
+                "items": [
+                  {
+                    "sentence": "Anna ist schneller als Ben.",
+                    "translation": "Anna is faster than Ben."
+                  },
+                  {
+                    "sentence": "Das ist das spannendste Kapitel im Buch.",
+                    "translation": "This is the most exciting chapter in the book."
+                  },
+                  {
+                    "sentence": "Mein Kaffee ist wärmer als deiner.",
+                    "translation": "My coffee is warmer than yours."
+                  },
+                  {
+                    "sentence": "Dieses Hotel ist am günstigsten in der Stadt.",
+                    "translation": "This hotel is the cheapest in the city."
+                  },
+                  {
+                    "sentence": "Die Übung wird immer schwieriger.",
+                    "translation": "The exercise is getting more and more difficult."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Чаще всего сравнительная степень образуется добавлением -er.",
+              "Для гласных a, o, u добавляется умлаут, если возможно.",
+              "Для сказуемых используй конструкцию am + -sten.",
+              "Перед существительным нужен артикль и окончание прилагательного.",
+              "Неправильные формы (gut → besser) нужно запомнить."
+            ],
+            "quiz": {
+              "title": "Проверь себя",
+              "intro": "Ответь на вопросы и сравни свои решения с ключом.",
+              "items": [
+                {
+                  "id": "adj-comp-q1",
+                  "type": "multiple-choice",
+                  "question": "Какая форма подходит? Mein Bruder ist ___ als ich.",
+                  "choices": [
+                    "groß",
+                    "größer",
+                    "am größten"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "adj-comp-q2",
+                  "type": "text",
+                  "question": "Заполни пропуск: Das Rätsel ist am ___ (schwer) für die Kinder.",
+                  "answer": [
+                    "schwersten",
+                    "Schwersten"
+                  ]
+                },
+                {
+                  "id": "adj-comp-q3",
+                  "type": "multiple-choice",
+                  "question": "Выбери правильный сравнительный: Diese Straße ist ___ als die andere.",
+                  "choices": [
+                    "kürzer",
+                    "am kürzesten",
+                    "kurze"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-comp-q4",
+                  "type": "match",
+                  "question": "Соедини прилагательные с их сравнительной формой.",
+                  "pairs": [
+                    {
+                      "id": "adj-comp-p1",
+                      "prompt": "teuer",
+                      "options": [
+                        "teurer",
+                        "teueren",
+                        "teuerste"
+                      ],
+                      "answer": "teurer"
+                    },
+                    {
+                      "id": "adj-comp-p2",
+                      "prompt": "jung",
+                      "options": [
+                        "jüngste",
+                        "jünger",
+                        "jungste"
+                      ],
+                      "answer": "jünger"
+                    },
+                    {
+                      "id": "adj-comp-p3",
+                      "prompt": "ruhig",
+                      "options": [
+                        "ruhiger",
+                        "ruhigsten",
+                        "ruhiges"
+                      ],
+                      "answer": "ruhiger"
+                    }
+                  ]
+                },
+                {
+                  "id": "adj-comp-q5",
+                  "type": "text",
+                  "question": "Вставь форму: Unsere Lehrerin erklärt es am ___ (verständlich).",
+                  "answer": [
+                    "verständlichsten",
+                    "Verständlichsten"
+                  ]
+                },
+                {
+                  "id": "adj-comp-q6",
+                  "type": "multiple-choice",
+                  "question": "Каким предложением верно употреблён превосходный в сказуемом?",
+                  "choices": [
+                    "Der Kuchen schmeckt am besten.",
+                    "Die beste Kuchen schmeckt.",
+                    "Am besten der Kuchen schmeckt."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "predicate-adjectives",
+          "title": "Сказуемые прилагательные (после sein)",
+          "summary": "Употребляй прилагательные после sein, werden и bleiben без дополнительных окончаний.",
+          "lesson": {
+            "intro": "Сказуемые прилагательные следуют за копулятивными глаголами и остаются в основной форме, описывая подлежащее без окончаний.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Глаголы sein, werden, bleiben, wirken и scheinen соединяют подлежащее с прилагательным. Так как прилагательное не стоит перед существительным, оно не изменяется."
+              },
+              {
+                "type": "rules",
+                "title": "Типичные копулятивные глаголы",
+                "rules": [
+                  {
+                    "label": "sein",
+                    "examples": [
+                      "Das Wetter ist warm."
+                    ]
+                  },
+                  {
+                    "label": "werden",
+                    "examples": [
+                      "Die Kinder werden müde."
+                    ]
+                  },
+                  {
+                    "label": "bleiben",
+                    "examples": [
+                      "Die Situation bleibt ruhig."
+                    ]
+                  },
+                  {
+                    "label": "scheinen / wirken",
+                    "examples": [
+                      "Die Antwort scheint einfach.",
+                      "Er wirkt zufrieden."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Такие прилагательные не получают падежных окончаний, потому что они описывают только подлежащее."
+              },
+              {
+                "type": "examples",
+                "title": "Примеры",
+                "items": [
+                  {
+                    "sentence": "Die Suppe ist heiß.",
+                    "translation": "The soup is hot."
+                  },
+                  {
+                    "sentence": "Das Meeting bleibt kurz.",
+                    "translation": "The meeting stays short."
+                  },
+                  {
+                    "sentence": "Die Kinder werden müde.",
+                    "translation": "The children become tired."
+                  },
+                  {
+                    "sentence": "Der Weg ist frei.",
+                    "translation": "The path is clear."
+                  },
+                  {
+                    "sentence": "Der Plan scheint einfach.",
+                    "translation": "The plan seems simple."
+                  }
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Атрибутивные прилагательные требуют окончаний",
+                "text": "Если прилагательное стоит перед существительным (ein kalter Tag), нужны обычные окончания."
+              }
+            ],
+            "takeaways": [
+              "Сказуемые прилагательные употребляются с sein, werden, bleiben.",
+              "Форма прилагательного остаётся неизменной, без окончаний.",
+              "Такое прилагательное описывает подлежащее напрямую.",
+              "Перед существительным снова нужны атрибутивные окончания."
+            ],
+            "quiz": {
+              "title": "Проверь себя",
+              "intro": "Запусти тест и проверь, как работают сказуемые прилагательные.",
+              "items": [
+                {
+                  "id": "adj-pred-q1",
+                  "type": "multiple-choice",
+                  "question": "Какое предложение корректно употребляет сказуемое прилагательное?",
+                  "choices": [
+                    "Die Suppe ist heiß.",
+                    "Die heiße Suppe ist.",
+                    "Die Suppe ist heiße."
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-pred-q2",
+                  "type": "text",
+                  "question": "Заполни пропуск: Heute bleibt der Himmel ___ (klar).",
+                  "answer": [
+                    "klar",
+                    "Klar"
+                  ]
+                },
+                {
+                  "id": "adj-pred-q3",
+                  "type": "multiple-choice",
+                  "question": "Какой глагол обычно требует сказуемого прилагательного без окончания?",
+                  "choices": [
+                    "sein",
+                    "sehen",
+                    "kaufen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-pred-q4",
+                  "type": "match",
+                  "question": "Соедини глагол с подходящим окончанием прилагательного.",
+                  "pairs": [
+                    {
+                      "id": "adj-pred-p1",
+                      "prompt": "werden",
+                      "options": [
+                        "wird schwierig",
+                        "wird schwierige",
+                        "wird schwierigen"
+                      ],
+                      "answer": "wird schwierig"
+                    },
+                    {
+                      "id": "adj-pred-p2",
+                      "prompt": "bleiben",
+                      "options": [
+                        "bleibt ruhig",
+                        "bleibt ruhige",
+                        "bleibt ruhigen"
+                      ],
+                      "answer": "bleibt ruhig"
+                    },
+                    {
+                      "id": "adj-pred-p3",
+                      "prompt": "sein",
+                      "options": [
+                        "ist offen",
+                        "ist offene",
+                        "ist offener"
+                      ],
+                      "answer": "ist offen"
+                    }
+                  ]
+                },
+                {
+                  "id": "adj-pred-q5",
+                  "type": "text",
+                  "question": "Допиши предложение: Die Antwort scheint ___ (einfach).",
+                  "answer": [
+                    "einfach",
+                    "Einfach"
+                  ]
+                },
+                {
+                  "id": "adj-pred-q6",
+                  "type": "multiple-choice",
+                  "question": "Какое предложение требует атрибутивного окончания?",
+                  "choices": [
+                    "Ich trinke einen kalten Saft.",
+                    "Der Saft ist kalt.",
+                    "Der Saft bleibt kalt."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "adverbs-prepositions",
+      "title": "Наречия и предлоги (Adverbien und Präpositionen)",
+      "description": "Рассказывайте, когда, где и с кем происходит действие, используя ключевые наречия и основные предлоги, которые чередуются между дательным и винительным падежами.",
+      "subtopics": [
+        {
+          "slug": "time-adverbs",
+          "title": "Наречия времени (heute, morgen, jetzt …)",
+          "summary": "Опишите, когда происходит действие, с помощью повседневных немецких наречий времени.",
+          "lesson": {
+            "intro": "Наречия времени закрепляют ваше высказывание на временной шкале. Они отвечают на вопрос «Wann?» и помогают говорить о прошлом, настоящем и ближайшем будущем.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Ставьте наречие времени в начало предложения, чтобы выделить информацию, или оставляйте его в середине после сказуемого. Оно задаёт ритм рассказу и легко сочетается с часами и датами."
+              },
+              {
+                "type": "rules",
+                "title": "Полезные группы",
+                "rules": [
+                  {
+                    "label": "Настоящее или «прямо сейчас»: heute, jetzt, gleich, sofort",
+                    "examples": []
+                  },
+                  {
+                    "label": "Ближайшие дни: morgen, übermorgen, am Wochenende",
+                    "examples": []
+                  },
+                  {
+                    "label": "Недавнее прошлое: gestern, vorgestern, eben, neulich",
+                    "examples": []
+                  },
+                  {
+                    "label": "Частотность: oft, manchmal, selten, immer",
+                    "examples": []
+                  },
+                  {
+                    "label": "Время суток: morgens, mittags, abends, nachts",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Частые наречия времени в контексте",
+                "headers": [
+                  "Наречие",
+                  "Значение",
+                  "Пример"
+                ],
+                "rows": [
+                  [
+                    "heute",
+                    "сегодня (в этот же день)",
+                    "Ich arbeite heute von zu Hause."
+                  ],
+                  [
+                    "jetzt",
+                    "сейчас (в данный момент)",
+                    "Wir essen jetzt zu Mittag."
+                  ],
+                  [
+                    "morgen",
+                    "завтра (следующий день)",
+                    "Morgen besuchen wir Oma."
+                  ],
+                  [
+                    "gestern",
+                    "вчера (предыдущий день)",
+                    "Gestern hatte ich frei."
+                  ],
+                  [
+                    "bald",
+                    "скоро",
+                    "Der Bus kommt bald."
+                  ],
+                  [
+                    "manchmal",
+                    "иногда (регулярно, но не всегда)",
+                    "Manchmal trainiere ich vor der Arbeit."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Подсказка по порядку слов",
+                "text": "Наречие времени может стоять в начале (Heute gehe ich …), не нарушая правила глагола на втором месте. В середине предложения оно обычно предшествует обстоятельству места и правой скобке сказуемого."
+              },
+              {
+                "type": "examples",
+                "title": "Примеры",
+                "items": [
+                  {
+                    "sentence": "Heute bleibe ich zu Hause.",
+                    "translation": "Сегодня я остаюсь дома."
+                  },
+                  {
+                    "sentence": "Jetzt beginnt der Unterricht.",
+                    "translation": "Сейчас начинается урок."
+                  },
+                  {
+                    "sentence": "Morgen fahren wir nach Leipzig.",
+                    "translation": "Завтра мы едем в Лейпциг."
+                  },
+                  {
+                    "sentence": "Gestern habe ich lange geschlafen.",
+                    "translation": "Вчера я долго спал."
+                  },
+                  {
+                    "sentence": "Manchmal spielt sie abends Klavier.",
+                    "translation": "Иногда вечером она играет на пианино."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Наречия времени отвечают на вопрос «Wann?» и формируют рамку высказывания.",
+              "В начале предложения они выделяют информацию и сохраняют порядок V2.",
+              "Наречия частоты вроде oft или manchmal стоят в середине рядом со сказуемым.",
+              "Сочетайте их с датами и временем, чтобы говорить более точно."
+            ],
+            "quiz": {
+              "title": "Проверьте себя",
+              "items": [
+                {
+                  "id": "adverbs-time-q1",
+                  "type": "multiple-choice",
+                  "question": "_____ gehe ich ins Kino. (сегодня)",
+                  "choices": [
+                    "Heute",
+                    "Gestern",
+                    "Morgens"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-time-q2",
+                  "type": "multiple-choice",
+                  "question": "Wir sehen uns ___ beim Frühstück. (завтра)",
+                  "choices": [
+                    "morgen",
+                    "jetzt",
+                    "gestern"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-time-q3",
+                  "type": "text",
+                  "question": "Ich komme ___ (скоро) nach Hause.",
+                  "answer": [
+                    "bald"
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q4",
+                  "type": "match",
+                  "question": "Соотнесите наречие и значение.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-time-p1",
+                      "prompt": "heute",
+                      "options": [
+                        "в этот день",
+                        "на следующий день",
+                        "в прошлый день"
+                      ],
+                      "answer": "в этот день"
+                    },
+                    {
+                      "id": "adverbs-time-p2",
+                      "prompt": "gestern",
+                      "options": [
+                        "скоро",
+                        "в прошлый день",
+                        "всегда"
+                      ],
+                      "answer": "в прошлый день"
+                    },
+                    {
+                      "id": "adverbs-time-p3",
+                      "prompt": "manchmal",
+                      "options": [
+                        "иногда",
+                        "прямо сейчас",
+                        "никогда"
+                      ],
+                      "answer": "иногда"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q5",
+                  "type": "text",
+                  "question": "___ (вчера) habe ich meine Freunde getroffen.",
+                  "answer": [
+                    "gestern"
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q6",
+                  "type": "multiple-choice",
+                  "question": "Какое наречие показывает повторяющееся действие?",
+                  "choices": [
+                    "manchmal",
+                    "jetzt",
+                    "morgen"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "location-adverbs",
+          "title": "Наречия места (hier, da, dort …)",
+          "summary": "Покажите, где происходит действие и насколько оно далеко.",
+          "lesson": {
+            "intro": "Наречия места отвечают на вопросы «Wo?» и «Wohin?». Они описывают обстановку и направляют собеседника в нужную точку.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Многие наречия образуют пары противоположностей, например hier/da или hin/her. С их помощью вы показываете расстояние, направление и движение к говорящему или от него."
+              },
+              {
+                "type": "rules",
+                "title": "Типичные контрасты",
+                "rules": [
+                  {
+                    "label": "hier – здесь, рядом с говорящим",
+                    "examples": []
+                  },
+                  {
+                    "label": "da / dort – там (ближе / дальше)",
+                    "examples": []
+                  },
+                  {
+                    "label": "drinnen vs. draußen – внутри / снаружи",
+                    "examples": []
+                  },
+                  {
+                    "label": "oben, unten, vorne, hinten – ориентация в пространстве",
+                    "examples": []
+                  },
+                  {
+                    "label": "комбинации hin-/her-: hinunter, herüber, hierher, dorthin",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Частые наречия места",
+                "headers": [
+                  "Наречие",
+                  "Значение",
+                  "Пример"
+                ],
+                "rows": [
+                  [
+                    "hier",
+                    "здесь (рядом)",
+                    "Hier wartet der Bus."
+                  ],
+                  [
+                    "da",
+                    "там (поблизости)",
+                    "Da liegt mein Handy."
+                  ],
+                  [
+                    "dort",
+                    "там (подальше)",
+                    "Dort steht das Museum."
+                  ],
+                  [
+                    "drinnen",
+                    "внутри",
+                    "Die Kinder spielen drinnen."
+                  ],
+                  [
+                    "draußen",
+                    "снаружи / на улице",
+                    "Wir essen draußen."
+                  ],
+                  [
+                    "oben",
+                    "вверху",
+                    "Dein Zimmer ist oben."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Место в предложении",
+                "text": "Обстоятельства места часто следуют за временем в середине предложения: Heute bleiben wir hier. С глаголами движения сочетайте их с направлением: Komm hierher!, Geh dort hinauf!"
+              },
+              {
+                "type": "examples",
+                "title": "Примеры",
+                "items": [
+                  {
+                    "sentence": "Hier gibt es frisches Brot.",
+                    "translation": "Здесь есть свежий хлеб."
+                  },
+                  {
+                    "sentence": "Da drüben steht mein Fahrrad.",
+                    "translation": "Там, напротив, стоит мой велосипед."
+                  },
+                  {
+                    "sentence": "Wir treffen uns draußen im Park.",
+                    "translation": "Мы встречаемся снаружи, в парке."
+                  },
+                  {
+                    "sentence": "Die Katze schläft drinnen auf dem Sofa.",
+                    "translation": "Кошка спит внутри, на диване."
+                  },
+                  {
+                    "sentence": "Komm hierher und sieh dir das an.",
+                    "translation": "Подойди сюда и посмотри на это."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Наречия места отвечают на «Wo?» или «Wohin?» и показывают расстояние или направление.",
+              "hier/hierher указывают на место говорящего, da/dort/dorthin – вдали от него.",
+              "Пары drinnen/draußen и oben/unten описывают положение относительно пространства.",
+              "Формы с hin- обозначают движение от говорящего, с her- — к говорящему."
+            ],
+            "quiz": {
+              "title": "Мини-тест",
+              "items": [
+                {
+                  "id": "adverbs-place-q1",
+                  "type": "multiple-choice",
+                  "question": "Der Schlüssel liegt ___ auf dem Tisch neben mir.",
+                  "choices": [
+                    "hier",
+                    "dort",
+                    "oben"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-place-q2",
+                  "type": "multiple-choice",
+                  "question": "Какое наречие вы используете, если что-то находится дальше?",
+                  "choices": [
+                    "dort",
+                    "hier",
+                    "drinnen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-place-q3",
+                  "type": "text",
+                  "question": "Wir treffen uns ___ (снаружи) vor dem Kino.",
+                  "answer": [
+                    "draußen",
+                    "draussen"
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q4",
+                  "type": "match",
+                  "question": "Сопоставьте наречие и описание.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-place-p1",
+                      "prompt": "drinnen",
+                      "options": [
+                        "внутри",
+                        "снаружи",
+                        "наверху"
+                      ],
+                      "answer": "внутри"
+                    },
+                    {
+                      "id": "adverbs-place-p2",
+                      "prompt": "oben",
+                      "options": [
+                        "внизу",
+                        "наверху",
+                        "вдалеке"
+                      ],
+                      "answer": "наверху"
+                    },
+                    {
+                      "id": "adverbs-place-p3",
+                      "prompt": "hierher",
+                      "options": [
+                        "сюда",
+                        "туда",
+                        "вниз"
+                      ],
+                      "answer": "сюда"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q5",
+                  "type": "text",
+                  "question": "Komm ___ (сюда), bitte!",
+                  "answer": [
+                    "hierher"
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q6",
+                  "type": "multiple-choice",
+                  "question": "Какое наречие подходит для движения вверх?",
+                  "choices": [
+                    "oben",
+                    "unten",
+                    "da"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "common-prepositions",
+          "title": "Частотные предлоги с дательным и винительным падежами",
+          "summary": "Освойте ключевые wechselpräpositionen и предлоги, которые всегда требуют дательного или винительного падежа.",
+          "lesson": {
+            "intro": "Немецкие предлоги управляют падежом следующей группы слов. Wechselpräpositionen берут дательный падеж для местонахождения (Wo?) и винительный для направления (Wohin?).",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Выучите базовый набор wechselpräpositionen (in, an, auf, unter, über, vor, hinter, neben, zwischen) и дополняйте его распространёнными предлогами bei, mit, von, nach, zu, für, ohne, um."
+              },
+              {
+                "type": "rules",
+                "title": "Падежные модели",
+                "rules": [
+                  {
+                    "label": "Дательный падеж для места (Wo?): in, an, auf, bei, zu, nach, von, seit",
+                    "examples": []
+                  },
+                  {
+                    "label": "Винительный падеж для направления (Wohin?): in, an, auf, nach, zu, um",
+                    "examples": []
+                  },
+                  {
+                    "label": "Всегда дательный: mit, von, bei, nach, seit, aus",
+                    "examples": []
+                  },
+                  {
+                    "label": "Всегда винительный: für, ohne, um, gegen",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Wechselpräpositionen на практике",
+                "headers": [
+                  "Предлог",
+                  "Дательный (место)",
+                  "Винительный (направление)",
+                  "Пояснение"
+                ],
+                "rows": [
+                  [
+                    "in",
+                    "Ich bin in der Küche.",
+                    "Ich gehe in die Küche.",
+                    "с дательным — место, с винительным — движение."
+                  ],
+                  [
+                    "an",
+                    "Das Bild hängt an der Wand.",
+                    "Ich hänge das Bild an die Wand.",
+                    "an описывает контакт с поверхностью."
+                  ],
+                  [
+                    "auf",
+                    "Die Bücher liegen auf dem Tisch.",
+                    "Ich lege die Bücher auf den Tisch.",
+                    "auf используется для поверхностей."
+                  ],
+                  [
+                    "unter",
+                    "Der Hund schläft unter dem Tisch.",
+                    "Der Hund läuft unter den Tisch.",
+                    "unter обозначает положение снизу."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Слитные формы",
+                "text": "Запомните сочетания: in dem → im, in das → ins, an dem → am, zu dem → zum, zu der → zur. Они делают речь плавной."
+              },
+              {
+                "type": "examples",
+                "title": "Примеры",
+                "items": [
+                  {
+                    "sentence": "Wir treffen uns am Bahnhof.",
+                    "translation": "Мы встречаемся на вокзале."
+                  },
+                  {
+                    "sentence": "Er geht ins Büro.",
+                    "translation": "Он идёт в офис."
+                  },
+                  {
+                    "sentence": "Nach der Arbeit fahre ich zu meiner Freundin.",
+                    "translation": "После работы я еду к своей подруге."
+                  },
+                  {
+                    "sentence": "Sie sitzt seit einer Stunde im Zug.",
+                    "translation": "Она сидит в поезде уже час."
+                  },
+                  {
+                    "sentence": "Ohne dich ist es hier zu ruhig.",
+                    "translation": "Без тебя здесь слишком тихо."
+                  },
+                  {
+                    "sentence": "Wir sprechen über den Plan am Abend.",
+                    "translation": "Мы обсуждаем план вечером."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Wechselpräpositionen выбирают дательный падеж для места и винительный для движения.",
+              "Предлоги mit, von, seit всегда требуют дательного; für, ohne, um — всегда винительного.",
+              "Слитные формы вроде im или zum соединяют предлог и артикль в повседневной речи.",
+              "Задавайте вопрос Wo? или Wohin?, чтобы выбрать правильный падеж."
+            ],
+            "quiz": {
+              "title": "Проверка падежей",
+              "items": [
+                {
+                  "id": "adverbs-prep-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich warte ___ der Haltestelle. (место)",
+                  "choices": [
+                    "an",
+                    "zu",
+                    "um"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q2",
+                  "type": "multiple-choice",
+                  "question": "В субботу мы едем ___ den See. (направление)",
+                  "choices": [
+                    "an",
+                    "bei",
+                    "mit"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q3",
+                  "type": "text",
+                  "question": "Wir treffen uns ___ (у) dem Café.",
+                  "answer": [
+                    "bei"
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q4",
+                  "type": "match",
+                  "question": "Соотнесите предлог и категорию.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-prep-p1",
+                      "prompt": "für",
+                      "options": [
+                        "винительный",
+                        "дательный",
+                        "родительный"
+                      ],
+                      "answer": "винительный"
+                    },
+                    {
+                      "id": "adverbs-prep-p2",
+                      "prompt": "mit",
+                      "options": [
+                        "винительный",
+                        "дательный",
+                        "родительный"
+                      ],
+                      "answer": "дательный"
+                    },
+                    {
+                      "id": "adverbs-prep-p3",
+                      "prompt": "in (Wohin?)",
+                      "options": [
+                        "винительный",
+                        "дательный",
+                        "оба варианта"
+                      ],
+                      "answer": "винительный"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q5",
+                  "type": "text",
+                  "question": "Er kommt ___ (с) der Arbeit.",
+                  "answer": [
+                    "von"
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q6",
+                  "type": "multiple-choice",
+                  "question": "Какой предлог всегда требует винительного падежа?",
+                  "choices": [
+                    "für",
+                    "bei",
+                    "mit"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q7",
+                  "type": "multiple-choice",
+                  "question": "Setz dich ___ den Tisch! (движение к столу)",
+                  "choices": [
+                    "an",
+                    "auf",
+                    "mit"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "sentence-structure",
+      "title": "Строение предложения (Satzbau)",
+      "description": "Стройте естественные немецкие предложения с порядком слов Verb-zweit, понятными вопросами и уверенными повелительными формами.",
+      "subtopics": [
+        {
+          "slug": "main-clause-word-order",
+          "title": "Порядок слов в главных предложениях (глагол на 2‑й позиции)",
+          "summary": "Сохраняйте спряжённый глагол на втором месте, перемещая другие члены предложения для акцента.",
+          "lesson": {
+            "intro": "В немецком главном предложении спрягаемый глагол всегда стоит на втором месте независимо от того, что стоит в начале.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "В первой позиции может стоять любой один элемент: подлежащее, обстоятельство времени или дополнение. Сразу за ним идёт спрягаемый глагол; если подлежащее не было первым, оно возвращается сразу после глагола. Остальные сведения — дополнения, наречия, отделяемые приставки — занимают середину предложения до правой рамки."
+              },
+              {
+                "type": "rules",
+                "title": "Основы позиции глагола",
+                "rules": [
+                  {
+                    "label": "Первая позиция (Vorfeld)",
+                    "examples": [
+                      "Heute",
+                      "Mein Bruder",
+                      "Nach dem Unterricht"
+                    ]
+                  },
+                  {
+                    "label": "Вторая позиция",
+                    "examples": [
+                      "geht",
+                      "kauft",
+                      "kommt"
+                    ]
+                  },
+                  {
+                    "label": "Срединное поле",
+                    "examples": [
+                      "ich ins Kino",
+                      "er frisches Brot ein",
+                      "sie um acht Uhr an"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Типовая схема главного предложения",
+                "headers": [
+                  "Позиция",
+                  "Пример",
+                  "Роль"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Heute",
+                    "Тема или акцент на времени"
+                  ],
+                  [
+                    "2",
+                    "gehe",
+                    "Спряжённый глагол"
+                  ],
+                  [
+                    "3",
+                    "ich",
+                    "Подлежащее или главный элемент"
+                  ],
+                  [
+                    "4",
+                    "ins Kino",
+                    "Дополнения, обстоятельства, наречия"
+                  ],
+                  [
+                    "5",
+                    "ein",
+                    "Отделяемая приставка или правая рамка"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Время, образ действия, место",
+                "text": "После глагола обычно следуют время, затем образ действия и место. Такой ритм делает фразу прозрачной: Heute (время) fahre ich mit dem Bus (образ действия) zur Arbeit (место)."
+              },
+              {
+                "type": "examples",
+                "title": "Примеры",
+                "items": [
+                  {
+                    "sentence": "Heute gehe ich ins Kino.",
+                    "translation": "Сегодня я иду в кино."
+                  },
+                  {
+                    "sentence": "Mein Bruder kauft morgen frisches Brot ein.",
+                    "translation": "Мой брат завтра покупает свежий хлеб."
+                  },
+                  {
+                    "sentence": "In Berlin wohnt meine Tante.",
+                    "translation": "Моя тётя живёт в Берлине."
+                  },
+                  {
+                    "sentence": "Nach der Arbeit trinke ich zu Hause Tee.",
+                    "translation": "После работы я пью дома чай."
+                  },
+                  {
+                    "sentence": "Manchmal lese ich abends noch ein Buch.",
+                    "translation": "Иногда вечером я читаю книгу."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "В главном предложении спрягаемый глагол остаётся на второй позиции.",
+              "Любой один элемент может стоять первым и отодвинуть подлежащее за глагол.",
+              "Располагая информацию после глагола, придерживайтесь порядка «время – образ действия – место».",
+              "Отделяемые приставки уходят в конец, но порядок Verb-zweit остаётся.",
+              "Даже длинное начальное словосочетание считается одним элементом — глагол всё равно второй."
+            ],
+            "quiz": {
+              "title": "Проверьте свои знания",
+              "intro": "Выберите правильный порядок слов или подставьте нужную форму.",
+              "items": [
+                {
+                  "id": "sentence-structure-main-q1",
+                  "type": "multiple-choice",
+                  "question": "В каком предложении глагол остаётся на второй позиции?",
+                  "choices": [
+                    "Morgen wir gehen schwimmen.",
+                    "Morgen gehen wir schwimmen.",
+                    "Wir morgen schwimmen gehen."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-main-q2",
+                  "type": "multiple-choice",
+                  "question": "Что может стоять на первом месте в главном предложении?",
+                  "choices": [
+                    "Только подлежащее",
+                    "Любой одиночный элемент, например время или дополнение",
+                    "Только наречия"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-main-q3",
+                  "type": "text",
+                  "question": "Дополните предложение: Am Wochenende ___ ich meine Freunde. (treffen)",
+                  "answer": [
+                    "treffe"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q4",
+                  "type": "text",
+                  "question": "Поставьте правильную форму: Nachmittags ___ die Kinder im Park. (spielen)",
+                  "answer": [
+                    "spielen"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q5",
+                  "type": "match",
+                  "question": "Соотнесите вынесенный вперёд элемент с темой.",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-main-p1",
+                      "prompt": "Heute ...",
+                      "options": [
+                        "акцент на времени",
+                        "акцент на месте",
+                        "акцент на объекте"
+                      ],
+                      "answer": "time focus"
+                    },
+                    {
+                      "id": "sentence-structure-main-p2",
+                      "prompt": "Im Garten ...",
+                      "options": [
+                        "акцент на времени",
+                        "акцент на месте",
+                        "акцент на объекте"
+                      ],
+                      "answer": "place focus"
+                    },
+                    {
+                      "id": "sentence-structure-main-p3",
+                      "prompt": "Dieses Buch ...",
+                      "options": [
+                        "акцент на времени",
+                        "акцент на месте",
+                        "акцент на объекте"
+                      ],
+                      "answer": "object focus"
+                    }
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q6",
+                  "type": "multiple-choice",
+                  "question": "Если предложение начинается с «In der Schule», что должно идти сразу после?",
+                  "choices": [
+                    "Подлежащее",
+                    "Спряжённый глагол",
+                    "Дополнение"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "questions-and-negation",
+          "title": "Вопросы и отрицание",
+          "summary": "Стройте общие и специальные вопросы и ставьте nicht/kein на нужное место.",
+          "lesson": {
+            "intro": "В немецких вопросах спрягаемый глагол выносится вперёд. Для отрицания выбирайте nicht или kein в зависимости от того, что отрицаете.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Общие вопросы начинаются непосредственно со спрягаемого глагола. Подлежащее следует сразу за ним, затем остальные члены предложения — инверсия показывает, что ожидается ответ ja или nein."
+              },
+              {
+                "type": "paragraph",
+                "text": "Специальные вопросы начинаются с вопросительного слова (Wer, Was, Wo, Wann, Warum, Wie). Глагол остаётся вторым, затем идёт подлежащее и другие члены."
+              },
+              {
+                "type": "table",
+                "title": "Модели вопросов",
+                "headers": [
+                  "Тип",
+                  "Структура",
+                  "Пример"
+                ],
+                "rows": [
+                  [
+                    "Ja/Nein",
+                    "Глагол + подлежащее + ...?",
+                    "Wohnst du in Leipzig?"
+                  ],
+                  [
+                    "W-Frage",
+                    "Вопросительное слово + глагол + подлежащее + ...?",
+                    "Wann kommt der Zug?"
+                  ],
+                  [
+                    "Warum-Frage",
+                    "Warum + глагол + подлежащее + причина",
+                    "Warum lernst du Deutsch?"
+                  ],
+                  [
+                    "Wo-Frage",
+                    "Wo + глагол + подлежащее + место",
+                    "Wo arbeitet dein Vater?"
+                  ],
+                  [
+                    "Wie-Frage",
+                    "Wie + глагол + подлежащее + образ действия",
+                    "Wie fühlst du dich heute?"
+                  ],
+                  [
+                    "Отрицание",
+                    "Subjekt + Verb + ... + nicht/kein",
+                    "Ich komme heute nicht."
+                  ],
+                  [
+                    "Kein",
+                    "kein + существительное без артикля",
+                    "Sie hat keinen Termin."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Nicht или kein?",
+                "text": "kein заменяет неопределённый артикль или отрицает существительное без артикля. nicht отрицает глаголы, прилагательные, наречия или всю фразу."
+              },
+              {
+                "type": "examples",
+                "title": "Примеры",
+                "items": [
+                  {
+                    "sentence": "Wohnst du in Leipzig?",
+                    "translation": "Ты живёшь в Лейпциге?"
+                  },
+                  {
+                    "sentence": "Wann kommt der Zug?",
+                    "translation": "Когда прибывает поезд?"
+                  },
+                  {
+                    "sentence": "Warum lernst du Deutsch?",
+                    "translation": "Почему ты учишь немецкий?"
+                  },
+                  {
+                    "sentence": "Ich komme heute nicht.",
+                    "translation": "Сегодня я не приду."
+                  },
+                  {
+                    "sentence": "Sie hat keinen Termin.",
+                    "translation": "У неё нет записи."
+                  },
+                  {
+                    "sentence": "Was macht ihr am Wochenende?",
+                    "translation": "Что вы делаете на выходных?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Общие вопросы начинаются со спрягаемого глагола.",
+              "В специальных вопросах глагол остаётся на втором месте после вопросительного слова.",
+              "kein употребляется для существительных без артикля или с ein/eine.",
+              "nicht используется для отрицания глаголов, прилагательных, наречий и целых предложений.",
+              "Ставьте nicht перед отрицаемым элементом или в конце предложения."
+            ],
+            "quiz": {
+              "title": "Проверьте свои знания",
+              "intro": "Постройте вопросы и выберите подходящее отрицание.",
+              "items": [
+                {
+                  "id": "sentence-structure-questions-q1",
+                  "type": "multiple-choice",
+                  "question": "С чего начинается общий вопрос по-немецки?",
+                  "choices": [
+                    "С подлежащего",
+                    "Со спрягаемого глагола",
+                    "С вопросительного слова"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-questions-q2",
+                  "type": "multiple-choice",
+                  "question": "Какой вариант образует правильный специальный вопрос?",
+                  "choices": [
+                    "Wo du arbeitest?",
+                    "Wo arbeitest du?",
+                    "Du arbeitest wo?"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-questions-q3",
+                  "type": "text",
+                  "question": "Дополните вопрос: ___ du heute Abend Zeit? (haben)",
+                  "answer": [
+                    "Hast",
+                    "hast"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q4",
+                  "type": "text",
+                  "question": "Выберите nicht или kein: Wir haben ___ Brot mehr.",
+                  "answer": [
+                    "kein"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q5",
+                  "type": "match",
+                  "question": "Соотнесите вопросительное слово со значением.",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-questions-p1",
+                      "prompt": "Wo?",
+                      "options": [
+                        "Где?",
+                        "Когда?",
+                        "Почему?"
+                      ],
+                      "answer": "Where?"
+                    },
+                    {
+                      "id": "sentence-structure-questions-p2",
+                      "prompt": "Wann?",
+                      "options": [
+                        "Где?",
+                        "Когда?",
+                        "Почему?"
+                      ],
+                      "answer": "When?"
+                    },
+                    {
+                      "id": "sentence-structure-questions-p3",
+                      "prompt": "Warum?",
+                      "options": [
+                        "Где?",
+                        "Когда?",
+                        "Почему?"
+                      ],
+                      "answer": "Why?"
+                    }
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q6",
+                  "type": "multiple-choice",
+                  "question": "Где обычно ставится nicht при отрицании глагольной группы?",
+                  "choices": [
+                    "Сразу перед спрягаемым глаголом",
+                    "Перед отрицаемым элементом или в конце",
+                    "В самом начале предложения"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "imperative-commands",
+          "title": "Повелительное наклонение",
+          "summary": "Давайте чёткие команды в формах du, ihr, Sie и wir.",
+          "lesson": {
+            "intro": "Форма повелительного наклонения зависит от того, обращаетесь ли вы к одному человеку, группе или хотите включить себя вежливой формой.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "В повелительном для du опускается местоимение и обычно окончание -st: Komm!, Arbeite!, Lies!. У глаголов на -eln/-ern сохраняется -e: Sammle!, Ändere!."
+              },
+              {
+                "type": "paragraph",
+                "text": "Для ihr используется обычная форма без местоимения: Kommt!, Arbeitet!. Вежливая форма Sie ставит инфинитив перед Sie: Kommen Sie!, Seien Sie vorsichtig!."
+              },
+              {
+                "type": "table",
+                "title": "Формы повелительного",
+                "headers": [
+                  "Форма",
+                  "Схема",
+                  "Пример"
+                ],
+                "rows": [
+                  [
+                    "du",
+                    "Основa глагола + ! (иногда + e)",
+                    "Komm! / Warte!"
+                  ],
+                  [
+                    "ihr",
+                    "Форма ihr в Präsens",
+                    "Kommt! / Lernt!"
+                  ],
+                  [
+                    "Sie",
+                    "Инфинитив + Sie",
+                    "Kommen Sie! / Bleiben Sie ruhig!"
+                  ],
+                  [
+                    "wir",
+                    "Lasst uns + инфинитив",
+                    "Lasst uns gehen!"
+                  ],
+                  [
+                    "sein",
+                    "неправильно: Sei! / Seid! / Seien Sie!",
+                    "Sei leise! / Seid bereit! / Seien Sie geduldig!"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Отделяемые глаголы",
+                "text": "В повелительном отделяемая приставка также уходит в конец: Ruf mich an!, Steh bitte auf!."
+              },
+              {
+                "type": "examples",
+                "title": "Примеры",
+                "items": [
+                  {
+                    "sentence": "Komm bitte pünktlich!",
+                    "translation": "Пожалуйста, приди вовремя!"
+                  },
+                  {
+                    "sentence": "Öffne das Fenster!",
+                    "translation": "Открой окно!"
+                  },
+                  {
+                    "sentence": "Kommt morgen früher!",
+                    "translation": "Приходите завтра пораньше!"
+                  },
+                  {
+                    "sentence": "Kommen Sie herein!",
+                    "translation": "Пожалуйста, входите!"
+                  },
+                  {
+                    "sentence": "Lasst uns jetzt anfangen!",
+                    "translation": "Давайте начнём сейчас!"
+                  },
+                  {
+                    "sentence": "Steh sofort auf!",
+                    "translation": "Встань немедленно!"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Форма du использует основу глагола, часто без -st.",
+              "Форма ihr совпадает с обычной формой без местоимения.",
+              "Вежливые приказы сохраняют Sie после инфинитива.",
+              "Форма wir строится с Lasst uns + инфинитив.",
+              "Отделяемые приставки стоят в конце даже в повелительном."
+            ],
+            "quiz": {
+              "title": "Проверьте свои знания",
+              "intro": "Выберите правильную форму повелительного наклонения.",
+              "items": [
+                {
+                  "id": "sentence-structure-imperative-q1",
+                  "type": "multiple-choice",
+                  "question": "Какой приказ для du корректен?",
+                  "choices": [
+                    "Du kommst sofort!",
+                    "Komm sofort!",
+                    "Kommst du sofort!"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-imperative-q2",
+                  "type": "multiple-choice",
+                  "question": "Выберите вежливую форму приказа.",
+                  "choices": [
+                    "Bleib ruhig!",
+                    "Bleibt ruhig!",
+                    "Bleiben Sie ruhig!"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "sentence-structure-imperative-q3",
+                  "type": "text",
+                  "question": "Schreib den Befehl: ___ (ihr / warten) hier!",
+                  "answer": [
+                    "Wartet",
+                    "wartet"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-imperative-q4",
+                  "type": "text",
+                  "question": "Ergänze: ___ uns anfangen!",
+                  "answer": [
+                    "Lasst",
+                    "lasst"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-imperative-q5",
+                  "type": "multiple-choice",
+                  "question": "Куда ставится приставка в команде «Steh ... auf!»?",
+                  "choices": [
+                    "Она остаётся при глаголе в начале.",
+                    "Она переходит в конец предложения.",
+                    "Она исчезает."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-imperative-q6",
+                  "type": "match",
+                  "question": "Соотнесите подлежащее с окончанием повелительного.",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-imperative-p1",
+                      "prompt": "du",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "-"
+                    },
+                    {
+                      "id": "sentence-structure-imperative-p2",
+                      "prompt": "ihr",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "-t"
+                    },
+                    {
+                      "id": "sentence-structure-imperative-p3",
+                      "prompt": "Sie",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "Sie"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "menu": {
+    "library": "Библиотека",
+    "learning": "Обучение",
+    "about": "О проекте",
+    "grammar": "Грамматика",
+    "vocabulary": "Словарь",
+    "pronunciation": "Произношение",
+    "test": "Тест по немецкому",
+    "ai_teacher": "ИИ Учитель"
+  }
+}

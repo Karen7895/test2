@@ -1,0 +1,225 @@
+<%- include('../partials/head', { pageTitle: subtopic.title }) %>
+<%- include('../partials/header') %>
+
+<main class="main-content">
+  <div class="container">
+    <div class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <% breadcrumbs.forEach(function(crumb) { %>
+          <li>
+            <% if (crumb.url && !crumb.current) { %>
+              <a href="<%= crumb.url %>"><%= crumb.label %></a>
+            <% } else { %>
+              <span <%= crumb.current ? 'aria-current="page"' : '' %>><%= crumb.label %></span>
+            <% } %>
+          </li>
+        <% }) %>
+      </ol>
+    </div>
+  </div>
+
+  <div class="container">
+    <button type="button" class="grammar-sidebar__menu-toggle" data-grammar-sidebar-toggle>
+      <span><%= sidebarLabel %></span>
+    </button>
+  </div>
+
+  <div class="container grammar-container">
+    <div class="grammar-layout" data-grammar-layout>
+      <%- include('../partials/grammar-sidebar', {
+        sections: sections,
+        currentSectionSlug: section.slug,
+        currentSubtopicSlug: subtopic.slug,
+        sidebarLabel: sidebarLabel,
+        ui: ui,
+        locale: locale
+      }) %>
+
+      <div class="grammar-content">
+        <article class="lesson-card lesson-card--lesson">
+          <div class="lesson-card__meta">
+            <a href="/learning/grammar/<%= section.slug %>" class="lesson-card__meta-link"><%= ui.backToSections %></a>
+          </div>
+          <h1 class="lesson-card__title"><%= subtopic.title %></h1>
+          <% if (subtopic.summary) { %>
+            <p class="lesson-card__meta"><%= subtopic.summary %></p>
+          <% } %>
+        </article>
+
+        <div class="lesson">
+          <% if (lesson.intro) { %>
+            <div class="lesson__block lesson__block--paragraph">
+              <p><%= lesson.intro %></p>
+            </div>
+          <% } %>
+
+          <% if (Array.isArray(lesson.blocks)) { %>
+            <% lesson.blocks.forEach(function(block) { %>
+              <% if (block.type === 'paragraph') { %>
+                <div class="lesson__block lesson__block--paragraph">
+                  <p><%= block.text %></p>
+                </div>
+              <% } else if (block.type === 'rules') { %>
+                <div class="lesson__block lesson__block--rules">
+                  <% if (block.title) { %>
+                    <h2><%= block.title %></h2>
+                  <% } %>
+                  <ul>
+                    <% (block.rules || []).forEach(function(rule) { %>
+                      <li>
+                        <strong><%= rule.label %></strong>
+                        <% if (Array.isArray(rule.examples) && rule.examples.length) { %>
+                          <span class="lesson__examples-inline"><%= rule.examples.join(', ') %></span>
+                        <% } %>
+                      </li>
+                    <% }) %>
+                  </ul>
+                </div>
+              <% } else if (block.type === 'note') { %>
+                <div class="lesson__block lesson__block--note">
+                  <% if (block.title) { %>
+                    <h2><%= block.title %></h2>
+                  <% } %>
+                  <p><%= block.text %></p>
+                </div>
+              <% } else if (block.type === 'examples') { %>
+                <div class="lesson__block lesson__block--examples">
+                  <% if (block.title) { %>
+                    <h2><%= block.title %></h2>
+                  <% } %>
+                  <ul class="lesson__example-list">
+                    <% (block.items || []).forEach(function(item) { %>
+                      <li class="lesson__example">
+                        <span class="lesson__example-text"><%= item.sentence %></span>
+                        <% if (item.translation) { %>
+                          <span class="lesson__example-translation"><%= item.translation %></span>
+                        <% } %>
+                      </li>
+                    <% }) %>
+                  </ul>
+                </div>
+              <% } else if (block.type === 'table') { %>
+                <div class="lesson__block lesson__block--table">
+                  <% if (block.title) { %>
+                    <h2><%= block.title %></h2>
+                  <% } %>
+                  <div class="lesson-table-wrapper">
+                    <table class="lesson-table">
+                      <% if (Array.isArray(block.headers) && block.headers.length) { %>
+                        <thead>
+                          <tr>
+                            <% block.headers.forEach(function(header) { %>
+                              <th scope="col"><%= header %></th>
+                            <% }) %>
+                          </tr>
+                        </thead>
+                      <% } %>
+                      <tbody>
+                        <% (block.rows || []).forEach(function(row) { %>
+                          <tr>
+                            <% row.forEach(function(cell) { %>
+                              <td><%= cell %></td>
+                            <% }) %>
+                          </tr>
+                        <% }) %>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              <% } %>
+            <% }) %>
+          <% } %>
+
+          <% if (Array.isArray(lesson.takeaways) && lesson.takeaways.length) { %>
+            <div class="lesson__block lesson__block--takeaways">
+              <h2><%= ui.takeawaysLabel || 'Key takeaways' %></h2>
+              <ul>
+                <% lesson.takeaways.forEach(function(item) { %>
+                  <li><%= item %></li>
+                <% }) %>
+              </ul>
+            </div>
+          <% } %>
+        </div>
+
+        <% const quiz = lesson.quiz; %>
+        <% if (quiz && Array.isArray(quiz.items) && quiz.items.length) { %>
+          <section
+            class="quiz"
+            data-quiz
+            data-score-label="<%= ui.score %>"
+            data-out-of-label="<%= ui.outOf %>"
+            data-correct-label="<%= ui.correct %>"
+            data-review-label="<%= ui.quizReview %>"
+          >
+            <div class="quiz__head">
+              <h2 class="quiz__title"><%= quiz.title %></h2>
+              <% if (quiz.intro) { %>
+                <p class="quiz__intro"><%= quiz.intro %></p>
+              <% } %>
+            </div>
+            <form class="quiz__form" data-quiz-form>
+              <% quiz.items.forEach(function(item, index) { %>
+                <fieldset class="quiz__item" data-quiz-item data-question-id="<%= item.id %>">
+                  <legend>
+                    <span class="quiz__question-index"><%= index + 1 %>.</span>
+                    <span class="quiz__question"><%= item.question %></span>
+                  </legend>
+                  <% if (item.type === 'multiple-choice') { %>
+                    <div class="quiz__choices">
+                      <% (item.choices || []).forEach(function(choice, choiceIndex) { %>
+                        <% const inputId = `${item.id}-${choiceIndex}` %>
+                        <div class="quiz__choice">
+                          <input
+                            type="radio"
+                            name="<%= item.id %>"
+                            id="<%= inputId %>"
+                            value="<%= choiceIndex %>"
+                            disabled
+                          />
+                          <label for="<%= inputId %>"><%= choice %></label>
+                        </div>
+                      <% }) %>
+                    </div>
+                  <% } else if (item.type === 'text') { %>
+                    <div class="quiz__input">
+                      <label class="sr-only" for="<%= item.id %>"><%= item.question %></label>
+                      <input type="text" id="<%= item.id %>" name="<%= item.id %>" disabled />
+                    </div>
+                  <% } else if (item.type === 'match') { %>
+                    <div class="quiz__pairs">
+                      <% (item.pairs || []).forEach(function(pair) { %>
+                        <div class="quiz__pair">
+                          <label for="<%= pair.id %>"><%= pair.prompt %></label>
+                          <select id="<%= pair.id %>" name="<%= pair.id %>" disabled>
+                            <option value="" disabled selected>--</option>
+                            <% (pair.options || []).forEach(function(option) { %>
+                              <option value="<%= option %>"><%= option %></option>
+                            <% }) %>
+                          </select>
+                        </div>
+                      <% }) %>
+                    </div>
+                  <% } %>
+                  <div class="quiz__feedback" data-quiz-feedback></div>
+                </fieldset>
+              <% }) %>
+            </form>
+            <div class="quiz__actions">
+              <button type="button" class="button button-secondary" data-quiz-start><%= ui.startQuiz %></button>
+              <button type="button" class="button button-primary" data-quiz-check hidden><%= ui.checkAnswers %></button>
+              <button type="button" class="button button-secondary" data-quiz-try-again hidden><%= ui.tryAgain %></button>
+              <button type="button" class="button button-tertiary" data-quiz-show hidden><%= ui.showSolutions %></button>
+            </div>
+            <div class="quiz__results" data-quiz-results hidden></div>
+            <script type="application/json" class="quiz__data"><%- JSON.stringify(quiz) %></script>
+          </section>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="/js/grammar-sidebar.js" defer></script>
+<script src="/js/grammar-quiz.js" defer></script>
+<%- include('../partials/footer') %>

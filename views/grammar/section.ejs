@@ -1,0 +1,70 @@
+<%- include('../partials/head', { pageTitle: section.title }) %>
+<%- include('../partials/header') %>
+
+<main class="main-content">
+  <div class="container">
+    <div class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <% breadcrumbs.forEach(function(crumb) { %>
+          <li>
+            <% if (crumb.url && !crumb.current) { %>
+              <a href="<%= crumb.url %>"><%= crumb.label %></a>
+            <% } else { %>
+              <span <%= crumb.current ? 'aria-current="page"' : '' %>><%= crumb.label %></span>
+            <% } %>
+          </li>
+        <% }) %>
+      </ol>
+    </div>
+  </div>
+
+  <div class="container">
+    <button type="button" class="grammar-sidebar__menu-toggle" data-grammar-sidebar-toggle>
+      <span><%= sidebarLabel %></span>
+    </button>
+  </div>
+
+  <div class="container grammar-container">
+    <div class="grammar-layout" data-grammar-layout>
+      <%- include('../partials/grammar-sidebar', {
+        sections: sections,
+        currentSectionSlug: section.slug,
+        currentSubtopicSlug: null,
+        sidebarLabel: sidebarLabel,
+        ui: ui,
+        locale: locale
+      }) %>
+
+      <div class="grammar-content">
+        <article class="lesson-card lesson-card--section">
+          <div class="lesson-card__meta">
+            <a href="/learning/grammar" class="lesson-card__meta-link"><%= ui.backToSections %></a>
+          </div>
+          <h1 class="lesson-card__title"><%= section.title %></h1>
+          <% if (section.description) { %>
+            <p class="lesson-card__meta"><%= section.description %></p>
+          <% } %>
+        </article>
+
+        <section class="grammar-subtopics">
+          <% if (Array.isArray(section.subtopics) && section.subtopics.length) { %>
+            <% section.subtopics.forEach(function(topic) { %>
+              <a class="lesson-card lesson-card--subtopic" href="/learning/grammar/<%= section.slug %>/<%= topic.slug %>">
+                <h2 class="lesson-card__title"><%= topic.title %></h2>
+                <% if (topic.summary) { %>
+                  <p class="lesson-card__meta"><%= topic.summary %></p>
+                <% } %>
+              </a>
+            <% }) %>
+          <% } else { %>
+            <p class="lesson-card lesson-card--empty"><%= grammar.overview?.highlightBody %></p>
+          <% } %>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="/js/grammar-sidebar.js" defer></script>
+<script src="/js/grammar-quiz.js" defer></script>
+<%- include('../partials/footer') %>

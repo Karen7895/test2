@@ -1,0 +1,80 @@
+<%- include('../partials/head', { pageTitle: 'Neues Vokabelwort' }) %>
+<%- include('../partials/header') %>
+
+<main class="main-content">
+  <section class="page-hero">
+    <div class="container container-narrow">
+      <span class="eyebrow">Redaktion</span>
+      <h1>Neues Wort f&uuml;r <span class="topic-name"><%= topic.name %></span></h1>
+      <p>
+        Lade ein Bild hoch und erg&auml;nze den passenden Begriff. So entsteht eine visuelle Lernkarte f&uuml;r alle Leserinnen und Leser.
+      </p>
+    </div>
+  </section>
+
+  <section class="form-section">
+    <div class="container container-narrow">
+      <% if (error) { %>
+        <div class="alert alert-error"><%= error %></div>
+      <% } %>
+      <% if (success) { %>
+        <div class="alert alert-success"><%= success %></div>
+      <% } %>
+
+      <form
+        method="post"
+        action="/learning/vocabulary/topics/<%= topic.id %>/words"
+        class="form-card"
+        enctype="multipart/form-data"
+      >
+        <div class="form-field">
+          <label class="form-label" for="term">Wort</label>
+          <input
+            type="text"
+            id="term"
+            name="term"
+            class="form-input"
+            value="<%= values.term %>"
+            required
+          />
+        </div>
+
+        <div class="form-field">
+          <label class="form-label" for="translation">&Uuml;bersetzung (optional)</label>
+          <input
+            type="text"
+            id="translation"
+            name="translation"
+            class="form-input"
+            value="<%= values.translation %>"
+          />
+        </div>
+
+        <div class="form-field">
+          <label class="form-label" for="exampleSentence">Beispielsatz (optional)</label>
+          <textarea
+            id="exampleSentence"
+            name="exampleSentence"
+            class="form-textarea"
+            rows="3"
+          ><%= values.exampleSentence %></textarea>
+        </div>
+
+        <div class="form-field">
+          <label class="form-label" for="photo">Foto zum Wort</label>
+          <input type="file" id="photo" name="photo" class="form-input" accept="image/*" required />
+          <p class="help-text">
+            Hochaufl&ouml;sende JPG, PNG oder WEBP Dateien bis 5&nbsp;MB werden unter <code>/wordsPhotos</code> gespeichert.
+          </p>
+        </div>
+
+        <div class="form-actions">
+          <a href="/learning/vocabulary#topic-<%= topic.id %>" class="button button-ghost">Abbrechen</a>
+          <button type="submit" class="button button-primary">Wort speichern</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<%- include('../partials/footer') %>

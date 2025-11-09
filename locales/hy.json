@@ -1,0 +1,3847 @@
+{
+  "locale": "hy",
+  "grammar": {
+    "title": "Քերականության ստուդիա",
+    "overview": {
+      "introTitle": "Սովորեք գերմաներեն քերականությունը քայլ առ քայլ",
+      "introBody": "Յուրաքանչյուր թեմայում կգտնեք հստակ բացատրություններ, հակիրճ աղյուսակներ և կարճ թեստեր՝ բարդ կետերը կրկնելու համար։",
+      "highlightTitle": "Ինչպես օգտագործել",
+      "highlightBody": "Ընտրեք բաժին ձախ կողմում, կարդացեք բացատրությունները և անցեք թեստը՝ ձեր գիտելիքները ստուգելու համար։"
+    },
+    "breadcrumbs": {
+      "learning": "Սովորում",
+      "grammar": "Քերականություն"
+    },
+    "sidebarLabel": "Բաժիններ",
+    "ui": {
+      "backToSections": "Վերադառնալ բաժիններին",
+      "startQuiz": "Սկսել թեստը",
+      "checkAnswers": "Ստուգել պատասխանները",
+      "tryAgain": "Կրկին փորձել",
+      "showSolutions": "Ցույց տալ լուծումները",
+      "closeSidebar": "Փակել կողային մենյուն",
+      "score": "Ձեր արդյունքը",
+      "outOf": "ից",
+      "correct": "ճիշտ",
+      "quizIntro": "Ստուգեք ձեզ",
+      "quizReview": "Մինչ նոր փորձելը կրկնեք վերևի բացատրությունները։",
+      "lessonsLabel": "դասեր",
+      "takeawaysLabel": "Կարևոր մտքեր"
+    },
+    "sections": {
+      "verbs": {
+        "slug": "verbs",
+        "title": "Բայեր (Verben)",
+        "description": "Սովորեք ինչպես են փոխվում գերմանական բայերը՝ բայաձև, խոնարհում, հարցեր, ժխտում և մոդալ բայեր."
+      },
+      "adjectives": {
+        "slug": "adjectives",
+        "title": "Ածականներ (Adjektive)",
+        "description": "Նկարագրիր մարդկանց և իրերը գերմաներեն ածականներով՝ համեմատությունից մինչև ներմուծական օգտագործում։"
+      },
+      "adverbsPrepositions": {
+        "slug": "adverbs-prepositions",
+        "title": "Մակդիրներ և նախդիրներ (Adverbien und Präpositionen)",
+        "description": "Ուսումնասիրեք ժամանակի ու տեղի մակդիրները և հիմնական նախդիրները, որոնք փոխում են դատվականն ու ուղղականը."
+      },
+      "sentenceStructure": {
+        "slug": "sentence-structure",
+        "title": "Նախադասության կառուցվածք (Satzbau)",
+        "description": "Կազմեք բնական գերմաներեն նախադասություններ՝ պահելով բայը երկրորդ դիրքում, կառուցելով հստակ հարցեր և վստահ հրամանաձևեր։"
+      }
+    }
+  },
+  "sections": [
+    {
+      "slug": "nouns",
+      "title": "Գոյականներ (Nomen)",
+      "description": "Սովորեք գոյականների տերը, հոգնակի ձևերը, հոլովներն ու տիրական դերանունները առօրյայի համար։",
+      "subtopics": [
+        {
+          "slug": "gender-of-nouns",
+          "title": "Գոյականների տերերը (der, die, das)",
+          "summary": "Բացահայտեք վստահելի վերջավորությունները և հիշեք հիմնական բացառությունները։",
+          "lesson": {
+            "intro": "Յուրաքանչյուր գերմաներեն գոյական ունի սեռ, որը որոշում է հոդվածը և ածականների վերջավորությունները։ Տիրապետեք տարածված վերջավորություններին՝ հոդվածը ճիշտ ընտրելու համար։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Շատ վերջավորություններ հստակ ցույց են տալիս գոյականի սեռը։ Օգտվեք այդ օրինաչափություններից, որպեսզի արագ գտնեք ճիշտ հոդվածը։"
+              },
+              {
+                "type": "rules",
+                "title": "Տարածված հուշումներ",
+                "rules": [
+                  {
+                    "label": "die + վերջավորություն -ung",
+                    "examples": [
+                      "die Wohnung",
+                      "die Bedeutung"
+                    ]
+                  },
+                  {
+                    "label": "die + վերջավորություն -keit / -heit",
+                    "examples": [
+                      "die Freundlichkeit",
+                      "die Freiheit"
+                    ]
+                  },
+                  {
+                    "label": "die + վերջավորություն -tion / -tät",
+                    "examples": [
+                      "die Situation",
+                      "die Universität"
+                    ]
+                  },
+                  {
+                    "label": "der + -er վերջավորությամբ մասնագիտություններ",
+                    "examples": [
+                      "der Bäcker",
+                      "der Fahrer"
+                    ]
+                  },
+                  {
+                    "label": "der + բառեր -ismus վերջավորությամբ",
+                    "examples": [
+                      "der Optimismus",
+                      "der Tourismus"
+                    ]
+                  },
+                  {
+                    "label": "das + փոքրացուցիչներ -chen / -lein",
+                    "examples": [
+                      "das Mädchen",
+                      "das Häuschen"
+                    ]
+                  },
+                  {
+                    "label": "das + բառեր -ment / -um վերջավորությամբ",
+                    "examples": [
+                      "das Instrument",
+                      "das Zentrum"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Ուշադրություն բացառություններին",
+                "text": "Որոշ բառեր չեն հետևում օրինաչափություններին։ Թիպիկ օրինակներ են das Mädchen (միջին սեռ, թեև նշանակում է աղջիկ) և der Name (արական՝ -e վերջավորությամբ)։ Հիշեք գոյականը հոդվածով միասին։"
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակներ",
+                "items": [
+                  {
+                    "sentence": "Der Bäcker verkauft frisches Brot.",
+                    "translation": "Թուխարարը վաճառում է թարմ հաց։"
+                  },
+                  {
+                    "sentence": "Die Entscheidung ist sehr wichtig.",
+                    "translation": "Որոշումը շատ կարևոր է։"
+                  },
+                  {
+                    "sentence": "Das Instrument klingt wunderschön.",
+                    "translation": "Գործիքը հնչում է հրաշալի։"
+                  },
+                  {
+                    "sentence": "Die Universität liegt im Zentrum der Stadt.",
+                    "translation": "Համալսարանը գտնվում է քաղաքի կենտրոնում։"
+                  },
+                  {
+                    "sentence": "Das Mädchen liest eine Geschichte.",
+                    "translation": "Աղջիկը կարդում է պատմություն։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Սովորեք գոյականը հոդվածով միասին, հատկապես երբ կան կասկածներ։",
+              "-ung, -heit, -keit և -tion վերջավորությունները գրեթե միշտ ունեն die։",
+              "-er մասնագիտությունները սովորաբար der են, իսկ -chen/-lein փոքրացուցիչները՝ das։",
+              "Հիշեք բացառությունները՝ das Mädchen, der See և այլն։"
+            ],
+            "quiz": {
+              "title": "Հոդվածների փորձ",
+              "intro": "Ընտրեք ճիշտ հոդվածը յուրաքանչյուր բառի համար։",
+              "items": [
+                {
+                  "id": "gender-q1",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր հոդվածն է համապատասխանում \"Zeitung\" բառին։",
+                  "choices": [
+                    "der",
+                    "die",
+                    "das"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "gender-q2",
+                  "type": "multiple-choice",
+                  "question": "Լրացրեք. ___ Instrument ist neu.",
+                  "choices": [
+                    "Der",
+                    "Die",
+                    "Das"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "gender-q3",
+                  "type": "text",
+                  "question": "Գրեք հոդվածը. ___ Bäcker öffnet um sechs Uhr.",
+                  "answer": [
+                    "Der",
+                    "der"
+                  ]
+                },
+                {
+                  "id": "gender-q4",
+                  "type": "text",
+                  "question": "Գրեք հոդվածը. ___ Mädchen spielt im Park.",
+                  "answer": [
+                    "Das",
+                    "das"
+                  ]
+                },
+                {
+                  "id": "gender-q5",
+                  "type": "match",
+                  "question": "Կապակցեք գոյականը ճիշտ հոդվածի հետ։",
+                  "pairs": [
+                    {
+                      "id": "gender-pair-1",
+                      "prompt": "__ Freundlichkeit",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "die"
+                    },
+                    {
+                      "id": "gender-pair-2",
+                      "prompt": "__ Tourismus",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "der"
+                    },
+                    {
+                      "id": "gender-pair-3",
+                      "prompt": "__ Häuschen",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "das"
+                    }
+                  ]
+                },
+                {
+                  "id": "gender-q6",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր բառը էական բացառություն է։",
+                  "choices": [
+                    "die Bedeutung",
+                    "das Mädchen",
+                    "der Fahrer"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "singular-and-plural",
+          "title": "Եզակի և հոգնակի",
+          "summary": "Սովորեք հոգնակիի ամենատարածված վերջավորությունները և կիրառեք նախադասություններում։",
+          "lesson": {
+            "intro": "Գերմաներենում հոգնակի ձևը միատիպ վերջավորություն չունի։ Զգուշացեք տարածված օրինաչափություններին և գրանցեք գոյականի հոգնակի ձևը die հոդվածով։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Շատ բառեր հոգնակին կազմում են -e, -er, -n/-en կամ -s վերջավորությամբ։ Որոշները ստանում են նաև ումլաուտ։ Միշտ գրի առեք եզակի և հոգնակի ձևերը միասին։"
+              },
+              {
+                "type": "table",
+                "title": "Հոգնակիի տարածված ձևեր",
+                "headers": [
+                  "Singular",
+                  "Plural",
+                  "Հոդված (Nom.)"
+                ],
+                "rows": [
+                  [
+                    "der Tisch",
+                    "die Tische",
+                    "die"
+                  ],
+                  [
+                    "die Blume",
+                    "die Blumen",
+                    "die"
+                  ],
+                  [
+                    "das Buch",
+                    "die Bücher",
+                    "die"
+                  ],
+                  [
+                    "der Lehrer",
+                    "die Lehrer",
+                    "die"
+                  ],
+                  [
+                    "die Frage",
+                    "die Fragen",
+                    "die"
+                  ],
+                  [
+                    "das Kind",
+                    "die Kinder",
+                    "die"
+                  ],
+                  [
+                    "der Tourist",
+                    "die Touristen",
+                    "die"
+                  ],
+                  [
+                    "die Universität",
+                    "die Universitäten",
+                    "die"
+                  ],
+                  [
+                    "das Auto",
+                    "die Autos",
+                    "die"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Արական և միջին սեռի շատ գոյականներ ստանում են -e կամ -er (հաճախ՝ ումլաուտով)։ Իգականները հիմնականում ավարտվում են -n/-en, իսկ օտար բառերը՝ -s։"
+              },
+              {
+                "type": "examples",
+                "title": "Հոգնակի օրինակներ",
+                "items": [
+                  {
+                    "sentence": "Die Kinder spielen im Garten.",
+                    "translation": "Երեխաները խաղում են պարտեզում։"
+                  },
+                  {
+                    "sentence": "Wir brauchen neue Stühle für das Büro.",
+                    "translation": "Մեզ պետք են նոր աթոռներ գրասենյակի համար։"
+                  },
+                  {
+                    "sentence": "Im Museum hängen viele Bilder.",
+                    "translation": "Թանգարանում կախված են շատ նկարներ։"
+                  },
+                  {
+                    "sentence": "Die Studenten schreiben ihre Prüfungen.",
+                    "translation": "Ուսանողները գրում են իրենց քննությունները։"
+                  },
+                  {
+                    "sentence": "Sie sammelt alte Bücher und Zeitungen.",
+                    "translation": "Նա հավաքում է հին գրքեր և թերթեր։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Նոմինատիվ հոգնակիում հոդվածը միշտ die է։",
+              "Իգականները նախընտրում են -n/-en, միջին սեռը հաճախ ունի -er ու ումլաուտ։",
+              "Օտար բառերը և կրճատումները հիմնականում ստանում են -s։",
+              "Ավելացրեք հոգնակի ձևը ձեր բառարանային գրառումներին։"
+            ],
+            "quiz": {
+              "title": "Հոգնակիի վարժություն",
+              "intro": "Ընտրեք կամ գրեք ճիշտ հոգնակի ձևը։",
+              "items": [
+                {
+                  "id": "plural-q1",
+                  "type": "multiple-choice",
+                  "question": "Ո՞րն է der Tisch բառի հոգնակի ձևը։",
+                  "choices": [
+                    "die Tischs",
+                    "die Tische",
+                    "die Tischer"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "plural-q2",
+                  "type": "text",
+                  "question": "Լրացրեք. die Blume → die _____.",
+                  "answer": [
+                    "Blumen",
+                    "blumen"
+                  ]
+                },
+                {
+                  "id": "plural-q3",
+                  "type": "multiple-choice",
+                  "question": "das Kind բառի ճիշտ հոգնակին ո՞րն է։",
+                  "choices": [
+                    "die Kinden",
+                    "die Kinder",
+                    "die Kinds"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "plural-q4",
+                  "type": "text",
+                  "question": "Գրեք հոդվածը. ___ Autos stehen vor dem Haus.",
+                  "answer": [
+                    "Die",
+                    "die"
+                  ]
+                },
+                {
+                  "id": "plural-q5",
+                  "type": "match",
+                  "question": "Կապակցեք գոյականը հոգնակի վերջավորության հետ։",
+                  "pairs": [
+                    {
+                      "id": "plural-pair-1",
+                      "prompt": "der Lehrer",
+                      "options": [
+                        "առանց վերջավորության",
+                        "-e",
+                        "-er",
+                        "-en"
+                      ],
+                      "answer": "առանց վերջավորության"
+                    },
+                    {
+                      "id": "plural-pair-2",
+                      "prompt": "die Universität",
+                      "options": [
+                        "-e",
+                        "-en",
+                        "-n",
+                        "-s"
+                      ],
+                      "answer": "-en"
+                    },
+                    {
+                      "id": "plural-pair-3",
+                      "prompt": "das Buch",
+                      "options": [
+                        "-e",
+                        "-er",
+                        "-s",
+                        "-n"
+                      ],
+                      "answer": "-er"
+                    }
+                  ]
+                },
+                {
+                  "id": "plural-q6",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր նախադասությունն է ճիշտ օգտագործում հոգնակին։",
+                  "choices": [
+                    "Die Studenten warten vor der Bibliothek.",
+                    "Der Studenten warten vor der Bibliothek.",
+                    "Die Studentes warten vor der Bibliothek."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "declension-of-articles",
+          "title": "Հոդվածների հոլովում",
+          "summary": "Տեսեք ինչպես են փոխվում որոշական, անորոշ և ժխտական հոդվածները տարբեր հոլովներում։",
+          "lesson": {
+            "intro": "Հոդվածները ցույց են տալիս գոյականների սեռը, թիվը և հոլովը։ Der/die/das, ein/eine/ein և kein/keine/kein ունեն կանխատեսելի աղյուսակներ։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Հոդվածի ձևը կախված է նրանից՝ գոյականը ենթակա՞ է (նոմինատիվ), ուղակի լրացու՞ց (ակուզատիվ) թե անուղակի լրացու՞ց (դատիվ)։ Հիշեք կրկնվող վերջավորությունները։"
+              },
+              {
+                "type": "table",
+                "title": "Որոշական հոդված",
+                "headers": [
+                  "Հոլով",
+                  "Արական",
+                  "Իգական",
+                  "Միջին",
+                  "Հոգնակի"
+                ],
+                "rows": [
+                  [
+                    "Nominativ",
+                    "der",
+                    "die",
+                    "das",
+                    "die"
+                  ],
+                  [
+                    "Akkusativ",
+                    "den",
+                    "die",
+                    "das",
+                    "die"
+                  ],
+                  [
+                    "Dativ",
+                    "dem",
+                    "der",
+                    "dem",
+                    "den"
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Անորոշ հոդված",
+                "headers": [
+                  "Հոլով",
+                  "Արական",
+                  "Իգական",
+                  "Միջին"
+                ],
+                "rows": [
+                  [
+                    "Nominativ",
+                    "ein",
+                    "eine",
+                    "ein"
+                  ],
+                  [
+                    "Akkusativ",
+                    "einen",
+                    "eine",
+                    "ein"
+                  ],
+                  [
+                    "Dativ",
+                    "einem",
+                    "einer",
+                    "einem"
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Ժխտում (kein)",
+                "headers": [
+                  "Հոլով",
+                  "Արական",
+                  "Իգական",
+                  "Միջին",
+                  "Հոգնակի"
+                ],
+                "rows": [
+                  [
+                    "Nominativ",
+                    "kein",
+                    "keine",
+                    "kein",
+                    "keine"
+                  ],
+                  [
+                    "Akkusativ",
+                    "keinen",
+                    "keine",
+                    "kein",
+                    "keine"
+                  ],
+                  [
+                    "Dativ",
+                    "keinem",
+                    "keiner",
+                    "keinem",
+                    "keinen"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Նոմինատիվում և ակուզատիվում գոյականը հաճախ չի փոխվում։ Դատիվ հոգնակիում հոդվածը դառնում է den, և գոյականը հաճախ ստանում է հավելյալ -n։"
+              },
+              {
+                "type": "examples",
+                "title": "Հոդվածներ նախադասության մեջ",
+                "items": [
+                  {
+                    "sentence": "Der Student liest ein Buch.",
+                    "translation": "Ուսանողը կարդում է գիրք։"
+                  },
+                  {
+                    "sentence": "Ich sehe den Bahnhof schon von hier.",
+                    "translation": "Ես արդեն այստեղից տեսնում եմ կայարանը։"
+                  },
+                  {
+                    "sentence": "Wir helfen dem Kind bei den Hausaufgaben.",
+                    "translation": "Մենք օգնում ենք երեխային տնային աշխատանքների ժամանակ։"
+                  },
+                  {
+                    "sentence": "Sie hat keinen Termin heute.",
+                    "translation": "Նրա մոտ այսօր հանդիպում չկա։"
+                  },
+                  {
+                    "sentence": "Gibt es eine Frage zur Grammatik?",
+                    "translation": "Քերականության վերաբերյալ հարց կա՞։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Der-ը ակուզատիվում դառնում է den, իսկ դատիվում՝ dem։",
+              "Անորոշ և տիրական հոդվածները կիսում են նույն վերջավորությունները (einem, einer, keinen)։",
+              "Դատիվ հոգնակիում օգտագործվում է den և հաճախ ավելացվում է -n գոյականին։",
+              "Շատ դեպքերում հենց հոդվածն է ցույց տալիս հոլովը։"
+            ],
+            "quiz": {
+              "title": "Հոդվածի վերջավորություններ",
+              "intro": "Ընտրեք հոդվածի ճիշտ ձևը յուրաքանչյուր նախադասության համար։",
+              "items": [
+                {
+                  "id": "articles-q1",
+                  "type": "multiple-choice",
+                  "question": "___ Mann kauft ein Ticket. (Nominativ)",
+                  "choices": [
+                    "Der",
+                    "Den",
+                    "Dem"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "articles-q2",
+                  "type": "multiple-choice",
+                  "question": "Ich kenne ___ Lehrer gut. (Akkusativ)",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "articles-q3",
+                  "type": "text",
+                  "question": "Լրացրեք. Wir danken ___ Frau. (Dativ)",
+                  "answer": [
+                    "der",
+                    "Der"
+                  ]
+                },
+                {
+                  "id": "articles-q4",
+                  "type": "multiple-choice",
+                  "question": "Ընտրեք ճիշտ ձևը. Wir haben ___ Zeit.",
+                  "choices": [
+                    "keinen",
+                    "kein",
+                    "keinem"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "articles-q5",
+                  "type": "match",
+                  "question": "Կապակցեք հոլովը և \"ein\" հոդվածի ձևը (արական)։",
+                  "pairs": [
+                    {
+                      "id": "articles-pair-1",
+                      "prompt": "Nominativ",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "ein"
+                    },
+                    {
+                      "id": "articles-pair-2",
+                      "prompt": "Akkusativ",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "einen"
+                    },
+                    {
+                      "id": "articles-pair-3",
+                      "prompt": "Dativ",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "einem"
+                    }
+                  ]
+                },
+                {
+                  "id": "articles-q6",
+                  "type": "text",
+                  "question": "Գրեք. Sie hilft ___ Kindern. (Dativ Plural)",
+                  "answer": [
+                    "den",
+                    "Den"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "case-declension-of-nouns",
+          "title": "Գոյականների հոլովներ",
+          "summary": "Տարբերեք երբ օգտագործել նոմինատիվ, ակուզատիվ և դատիվ հոլովները։",
+          "lesson": {
+            "intro": "Հոլովը ցույց է տալիս գոյականի գործառույթը նախադասության մեջ։ Նոմինատիվը ենթական է, ակուզատիվը՝ ուղղակի լրացուցիչը, իսկ դատիվը՝ ստացողը կամ հասցեատերը։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Սահմանեք, թե ով է գործում (նոմինատիվ), ինչն է ուղիղ ազդվում (ակուզատիվ) և ով է ստանում ինչ-որ բան (դատիվ)։ Որոշ նախդիրներ նույնպես պահանջում են հատուկ հոլով։"
+              },
+              {
+                "type": "table",
+                "title": "Տարածված բայեր և հոլովներ",
+                "headers": [
+                  "Բայ",
+                  "Արտացոլումը",
+                  "Հոլով"
+                ],
+                "rows": [
+                  [
+                    "sehen",
+                    "տեսնել",
+                    "Akkusativ"
+                  ],
+                  [
+                    "brauchen",
+                    "պետք ունենալ",
+                    "Akkusativ"
+                  ],
+                  [
+                    "haben",
+                    "ունենալ",
+                    "Akkusativ"
+                  ],
+                  [
+                    "helfen",
+                    "օգնել",
+                    "Dativ"
+                  ],
+                  [
+                    "danken",
+                    "շնորհակալ լինել",
+                    "Dativ"
+                  ],
+                  [
+                    "gehören",
+                    "պատկանել",
+                    "Dativ"
+                  ],
+                  [
+                    "sein",
+                    "լինել",
+                    "Nominativ"
+                  ],
+                  [
+                    "heißen",
+                    "կոչվել",
+                    "Nominativ"
+                  ],
+                  [
+                    "werden",
+                    "դառնալ",
+                    "Nominativ"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Հոլովների օրինակներ",
+                "items": [
+                  {
+                    "sentence": "Der Lehrer erklärt die Regel.",
+                    "translation": "Ուսուցիչը բացատրում է կանոնը։"
+                  },
+                  {
+                    "sentence": "Meine Schwester braucht einen neuen Laptop.",
+                    "translation": "Իմ քույրը կարիք ունի նոր նոթբուքի։"
+                  },
+                  {
+                    "sentence": "Wir geben dem Freund ein Geschenk.",
+                    "translation": "Մենք ընկերոջը նվեր ենք տալիս։"
+                  },
+                  {
+                    "sentence": "Kannst du mir bitte helfen?",
+                    "translation": "Կարո՞ղ ես ինձ օգնել, խնդրում եմ։"
+                  },
+                  {
+                    "sentence": "Das Kind heißt Lukas.",
+                    "translation": "Երեխային կոչում են Լուկաս։"
+                  },
+                  {
+                    "sentence": "Die Blumen gehören der Nachbarin.",
+                    "translation": "Ծաղիկները պատկանում են հարևանուհուն։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Նոմինատիվը ենթակա է և օգտագործվում է sein, werden, heißen բայերի հետ։",
+              "Գործողություն արտահայտող բայերը հիմնականում պահանջում են ակուզատիվ (sehen, brauchen, kaufen)։",
+              "Դատիվը ցույց է տալիս ստացողին՝ geben, helfen, danken, gehören բայերի հետ։",
+              "mit, zu, nach նախդիրները պահանջում են դատիվ, իսկ durch, für՝ ակուզատիվ։"
+            ],
+            "quiz": {
+              "title": "Ընտրեք ճիշտ հոլովը",
+              "intro": "Որոշեք որ հոլովն ու հոդվածն է պետք։",
+              "items": [
+                {
+                  "id": "cases-q1",
+                  "type": "multiple-choice",
+                  "question": "Ինչպե՞ս լրացնել. Ich sehe ___ Film.",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "cases-q2",
+                  "type": "text",
+                  "question": "Լրացրեք. Wir helfen ___ Nachbarn.",
+                  "answer": [
+                    "dem",
+                    "Dem"
+                  ]
+                },
+                {
+                  "id": "cases-q3",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր հոլովն է գալիս «mit» նախդիրից հետո։",
+                  "choices": [
+                    "Nominativ",
+                    "Akkusativ",
+                    "Dativ"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "cases-q4",
+                  "type": "text",
+                  "question": "Գրեք. Sie bedankt sich bei ___ Lehrerin.",
+                  "answer": [
+                    "der",
+                    "Der"
+                  ]
+                },
+                {
+                  "id": "cases-q5",
+                  "type": "match",
+                  "question": "Կապակցեք բայը համապատասխան հոլովին։",
+                  "pairs": [
+                    {
+                      "id": "cases-pair-1",
+                      "prompt": "helfen",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Dativ"
+                    },
+                    {
+                      "id": "cases-pair-2",
+                      "prompt": "sehen",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Akkusativ"
+                    },
+                    {
+                      "id": "cases-pair-3",
+                      "prompt": "sein",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Nominativ"
+                    }
+                  ]
+                },
+                {
+                  "id": "cases-q6",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր տարբերակն է ճիշտ. Wir schenken ___ Kind ein Buch.",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "possessive-pronouns",
+          "title": "Տիրական դերանուններ",
+          "summary": "Օգտագործեք mein, dein, sein, ihr և այլք՝ ճիշտ վերջավորություններով։",
+          "lesson": {
+            "intro": "Տիրական դերանուններն ունեն նույն հոլովումը, ինչ անորոշ հոդվածը ein։ Վերջավորությունները կախված են սեռից, հոլովից և թվից։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Օգտագործեք այն նույն վերջավորությունները, որոնք գիտեք ein/eine/ein ձևերից։ Հիշեք հիմքը՝ mein, dein, sein, ihr, unser, euer, Ihr։"
+              },
+              {
+                "type": "table",
+                "title": "Տիրական վերջավորություններ (օրինակ՝ mein)",
+                "headers": [
+                  "Հոլով",
+                  "Արական",
+                  "Իգական",
+                  "Միջին",
+                  "Հոգնակի"
+                ],
+                "rows": [
+                  [
+                    "Nominativ",
+                    "mein",
+                    "meine",
+                    "mein",
+                    "meine"
+                  ],
+                  [
+                    "Akkusativ",
+                    "meinen",
+                    "meine",
+                    "mein",
+                    "meine"
+                  ],
+                  [
+                    "Dativ",
+                    "meinem",
+                    "meiner",
+                    "meinem",
+                    "meinen"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Տիրական դերանունները նախադասության մեջ",
+                "items": [
+                  {
+                    "sentence": "Mein Bruder arbeitet in Berlin.",
+                    "translation": "Իմ եղբայրը աշխատում է Բեռլինում։"
+                  },
+                  {
+                    "sentence": "Ich sehe deine Tasche nicht.",
+                    "translation": "Ես չեմ տեսնում քո պայուսակը։"
+                  },
+                  {
+                    "sentence": "Wir helfen unserem Freund beim Umzug.",
+                    "translation": "Մենք օգնում ենք մեր ընկերոջը տեղափոխության ժամանակ։"
+                  },
+                  {
+                    "sentence": "Ihre Eltern kommen morgen zu Besuch.",
+                    "translation": "Նրա ծնողները վաղը այցելության են գալիս։"
+                  },
+                  {
+                    "sentence": "Ist das euer Auto vor der Tür?",
+                    "translation": "Դա ձեր մեքենան է դռան դիմաց՞։"
+                  },
+                  {
+                    "sentence": "Ich telefoniere mit meiner Schwester.",
+                    "translation": "Ես հեռախոսով խոսում եմ իմ քրոջ հետ։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Տիրական դերանունները կիսում են ein-բառերի վերջավորությունները (ein, kein, mein)։",
+              "Ակուզատիվում արական ձևը ստանում է -en, դատիվում՝ -em/-er/-en։",
+              "euer բառը վերջավորություններից առաջ կորցնում է երկրորդ e-ն՝ euer → euren, eurem, eurer։",
+              "Մեծատառով գրեք վայելչական Ihr (Ihre, Ihren...)։"
+            ],
+            "quiz": {
+              "title": "Տիրական վերջավորությունների փորձ",
+              "intro": "Լրացրեք նախադասությունները ճիշտ տիրական ձևով։",
+              "items": [
+                {
+                  "id": "possessive-q1",
+                  "type": "multiple-choice",
+                  "question": "___ Bruder studiert in München. (mein)",
+                  "choices": [
+                    "Mein",
+                    "Meine",
+                    "Meinen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "possessive-q2",
+                  "type": "text",
+                  "question": "Գրեք ճիշտ ձևը. Wir besuchen ___ Großeltern. (unser)",
+                  "answer": [
+                    "unsere",
+                    "Unsere"
+                  ]
+                },
+                {
+                  "id": "possessive-q3",
+                  "type": "multiple-choice",
+                  "question": "Siehst du ___ Freundin? (sein)",
+                  "choices": [
+                    "seine",
+                    "sein",
+                    "seiner"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "possessive-q4",
+                  "type": "text",
+                  "question": "Լրացրեք. Ich gebe ___ Bruder das Buch zurück. (dein)",
+                  "answer": [
+                    "deinem",
+                    "Deinem"
+                  ]
+                },
+                {
+                  "id": "possessive-q5",
+                  "type": "match",
+                  "question": "Կապակցեք անձը համապատասխան տիրական դերանվանը։",
+                  "pairs": [
+                    {
+                      "id": "possessive-pair-1",
+                      "prompt": "wir",
+                      "options": [
+                        "mein",
+                        "dein",
+                        "sein",
+                        "unser"
+                      ],
+                      "answer": "unser"
+                    },
+                    {
+                      "id": "possessive-pair-2",
+                      "prompt": "sie (եզակի)",
+                      "options": [
+                        "ihr",
+                        "sein",
+                        "euer",
+                        "Ihr"
+                      ],
+                      "answer": "ihr"
+                    },
+                    {
+                      "id": "possessive-pair-3",
+                      "prompt": "Sie (վայելչական)",
+                      "options": [
+                        "mein",
+                        "Ihr",
+                        "euer",
+                        "sein"
+                      ],
+                      "answer": "Ihr"
+                    }
+                  ]
+                },
+                {
+                  "id": "possessive-q6",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր ձևն է ճիշտ. Wir danken ___ Lehrerin.",
+                  "choices": [
+                    "unser",
+                    "unserer",
+                    "unserem"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "verbs",
+      "title": "Բայեր (Verben)",
+      "description": "Սովորիր ինչպես են փոխվում գերմանական բայերը առօրյա նախադասություններում՝ ինֆինիտիվներ, խոնարհում, հարցեր, ժխտում և մոդալ դարձվածքներ։",
+      "subtopics": [
+        {
+          "slug": "infinitive-and-conjugation",
+          "title": "Ինֆինիտիվ և ճիշտ ու անճիշտ բայերի խոնարհում",
+          "summary": "Սովորիր ճանաչել ինֆինիտիվները և ներկա ժամանակի ամենատարածված ձևերը ճիշտ ու անճիշտ բայերի համար։",
+          "lesson": {
+            "intro": "Գերմաներեն ինֆինիտիվները սովորաբար ավարտվում են -en կամ -n-ով։ Ներկա ժամանակում ճիշտ բայերը ունեն կանխատեսելի վերջավորություններ, իսկ քիչ թվով բայեր փոխում են արմատի ձայնավորը որոշ ձևերում։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Ճիշտ բայ խոնարհելու համար հեռացրու ինֆինիտիվի -en վերջավորությունը և ավելացրու անձնական վերջավորությունները։ Անճիշտ բայերը պահպանում են նույն վերջավորությունները, բայց կարող են փոխել արմատի ձայնավորը կամ ավելացնել լրացուցիչ համաձայն du և er/sie/es ձևերում։"
+              },
+              {
+                "type": "table",
+                "title": "spielen բայի ճիշտ վերջավորությունները",
+                "headers": [
+                  "Անձ",
+                  "Վերջավորություն",
+                  "Օրինակ"
+                ],
+                "rows": [
+                  [
+                    "ich",
+                    "-e",
+                    "ich spiele"
+                  ],
+                  [
+                    "du",
+                    "-st",
+                    "du spielst"
+                  ],
+                  [
+                    "er/sie/es",
+                    "-t",
+                    "er spielt"
+                  ],
+                  [
+                    "wir",
+                    "-en",
+                    "wir spielen"
+                  ],
+                  [
+                    "ihr",
+                    "-t",
+                    "ihr spielt"
+                  ],
+                  [
+                    "sie/Sie",
+                    "-en",
+                    "sie spielen"
+                  ]
+                ]
+              },
+              {
+                "type": "rules",
+                "title": "Արմատի տարածված փոփոխություններ",
+                "rules": [
+                  {
+                    "label": "e → ie (sehen, lesen)",
+                    "examples": [
+                      "ich sehe",
+                      "du siehst",
+                      "er liest"
+                    ]
+                  },
+                  {
+                    "label": "a → ä (fahren, laufen)",
+                    "examples": [
+                      "du fährst",
+                      "er läuft"
+                    ]
+                  },
+                  {
+                    "label": "e → i (sprechen, nehmen)",
+                    "examples": [
+                      "du sprichst",
+                      "er nimmt"
+                    ]
+                  },
+                  {
+                    "label": "Արմատը -d/-t-ով ավարտվելիս ավելացրու -e- (arbeiten)",
+                    "examples": [
+                      "du arbeitest",
+                      "ihr arbeitet"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակ նախադասություններ",
+                "items": [
+                  {
+                    "sentence": "Ich lerne jeden Abend Deutsch.",
+                    "translation": "Ես ամեն երեկո գերմաներեն եմ սովորում։"
+                  },
+                  {
+                    "sentence": "Du arbeitest heute im Büro.",
+                    "translation": "Դու այսօր աշխատում ես գրասենյակում։"
+                  },
+                  {
+                    "sentence": "Er sieht den neuen Film im Kino.",
+                    "translation": "Նա կինոթատրոնում դիտում է նոր ֆիլմը։"
+                  },
+                  {
+                    "sentence": "Wir fahren am Wochenende nach Köln.",
+                    "translation": "Մենք հանգստյան օրերին մեկնում ենք Քյոլն։"
+                  },
+                  {
+                    "sentence": "Ihr sprecht sehr gut Deutsch.",
+                    "translation": "Դուք շատ լավ եք խոսում գերմաներեն։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Ինֆինիտիվների մեծ մասը ավարտվում է -en-ով, հեռացրու այն՝ ստանալու համար արմատը։",
+              "Ճիշտ բայերը արմատին ավելացնում են -e, -st, -t, -en, -t, -en։",
+              "Անճիշտ բայերը պահպանում են նույն վերջավորությունները, բայց du և er/sie/es ձևերում փոխում են արմատի ձայնավորը։",
+              "Արմատները, որոնք ավարտվում են -d կամ -t-ով, -st և -t վերջավորություններից առաջ ստանում են լրացուցիչ -e- հնչյունական պատճառներով։"
+            ],
+            "quiz": {
+              "title": "Ստուգիր գիտելիքդ",
+              "items": [
+                {
+                  "id": "verbs-inf-q1",
+                  "type": "multiple-choice",
+                  "question": "Wir ___ (lernen) Deutsch.",
+                  "choices": [
+                    "lerne",
+                    "lernen",
+                    "lernt"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-inf-q2",
+                  "type": "multiple-choice",
+                  "question": "Er ___ (fahren) zur Arbeit.",
+                  "choices": [
+                    "fahrt",
+                    "fährt",
+                    "fahre"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-inf-q3",
+                  "type": "text",
+                  "question": "Du ___ (arbeiten) am Samstag.",
+                  "answer": [
+                    "arbeitest"
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q4",
+                  "type": "text",
+                  "question": "Ich ___ (sehen) den Film.",
+                  "answer": [
+                    "sehe"
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q5",
+                  "type": "match",
+                  "question": "Կապիր ինֆինիտիվը ich ձևի հետ։",
+                  "pairs": [
+                    {
+                      "id": "verbs-inf-p1",
+                      "prompt": "laufen",
+                      "options": [
+                        "laufe",
+                        "läuft",
+                        "lief"
+                      ],
+                      "answer": "laufe"
+                    },
+                    {
+                      "id": "verbs-inf-p2",
+                      "prompt": "sprechen",
+                      "options": [
+                        "spreche",
+                        "spriche",
+                        "sprach"
+                      ],
+                      "answer": "spreche"
+                    },
+                    {
+                      "id": "verbs-inf-p3",
+                      "prompt": "nehmen",
+                      "options": [
+                        "nehme",
+                        "nahme",
+                        "nehmt"
+                      ],
+                      "answer": "nehme"
+                    }
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q6",
+                  "type": "multiple-choice",
+                  "question": "Որ վերջավորությունն է համապատասխան ihr անձին ճիշտ բայերում։",
+                  "choices": [
+                    "-e",
+                    "-en",
+                    "-t"
+                  ],
+                  "answer": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "sein-haben-werden",
+          "title": "sein, haben, werden բայերը",
+          "summary": "Օգտագործիր sein, haben և werden հիմնական անճիշտ բայերը առօրյա խոսքում։",
+          "lesson": {
+            "intro": "sein («լինել»), haben («ունենալ») և werden («դառնալ») բայերը անընդհատ օգտագործվում են։ Դրանք անճիշտ են և պետք է անգիր անել, քանի որ կազմում են բազմաթիվ հիմնական նախադասություններ։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Sein-ը նկարագրում է ինքնությունը և վիճակը, haben-ը արտահայտում է սեփականությունը և հարաբերությունները, իսկ werden-ը նշանակում է «դառնալ» և ծառայում է ապառնիի ու սեռականի ձևավորմանը։"
+              },
+              {
+                "type": "table",
+                "title": "Ներկա ժամանակի խոնարհում",
+                "headers": [
+                  "Անձ",
+                  "sein",
+                  "haben",
+                  "werden"
+                ],
+                "rows": [
+                  [
+                    "ich",
+                    "bin",
+                    "habe",
+                    "werde"
+                  ],
+                  [
+                    "du",
+                    "bist",
+                    "hast",
+                    "wirst"
+                  ],
+                  [
+                    "er/sie/es",
+                    "ist",
+                    "hat",
+                    "wird"
+                  ],
+                  [
+                    "wir",
+                    "sind",
+                    "haben",
+                    "werden"
+                  ],
+                  [
+                    "ihr",
+                    "seid",
+                    "habt",
+                    "werdet"
+                  ],
+                  [
+                    "sie/Sie",
+                    "sind",
+                    "haben",
+                    "werden"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Ինչպես օգտագործել",
+                "text": "Sein-ը գործածիր նկարագրությունների և գտնվելու վայրերի համար, haben-ը՝ սեփականություն կամ ընտանիք ցույց տալու, իսկ werden-ը՝ փոփոխություն ցույց տալու կամ ապառնի ու սեռական կազմելու համար։"
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակ նախադասություններ",
+                "items": [
+                  {
+                    "sentence": "Ich bin müde.",
+                    "translation": "Ես հոգնած եմ։"
+                  },
+                  {
+                    "sentence": "Wir sind heute im Büro.",
+                    "translation": "Մենք այսօր գրասենյակում ենք։"
+                  },
+                  {
+                    "sentence": "Sie hat zwei Geschwister.",
+                    "translation": "Նա ունի երկու քույր-եղբայր։"
+                  },
+                  {
+                    "sentence": "Habt ihr noch Fragen?",
+                    "translation": "Դեռ հարցեր ունե՞ք։"
+                  },
+                  {
+                    "sentence": "Er wird nächstes Jahr Lehrer.",
+                    "translation": "Նա հաջորդ տարի դառնում է ուսուցիչ։"
+                  },
+                  {
+                    "sentence": "Morgen werden wir in Berlin sein.",
+                    "translation": "Վաղը մենք Բեռլինում կլինենք։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Sein, haben, and werden are completely irregular—memorise each form.",
+              "Sein states what something is or where it is.",
+              "Haben talks about what someone owns or experiences.",
+              "Werden expresses becoming and also builds the future tense together with an infinitive."
+            ],
+            "quiz": {
+              "title": "Պարզիր այս բայերը",
+              "items": [
+                {
+                  "id": "verbs-shw-q1",
+                  "type": "multiple-choice",
+                  "question": "Er ___ müde nach der Arbeit.",
+                  "choices": [
+                    "ist",
+                    "bist",
+                    "sein"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-shw-q2",
+                  "type": "text",
+                  "question": "Wir ___ Freunde.",
+                  "answer": [
+                    "sind"
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q3",
+                  "type": "text",
+                  "question": "Ich ___ Zeit für ein Treffen.",
+                  "answer": [
+                    "habe"
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q4",
+                  "type": "multiple-choice",
+                  "question": "Sie ___ morgen Arzt.",
+                  "choices": [
+                    "werden",
+                    "werdet",
+                    "werde"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-shw-q5",
+                  "type": "match",
+                  "question": "Կապիր դերանունը համապատասխան werden ձևի հետ։",
+                  "pairs": [
+                    {
+                      "id": "verbs-shw-p1",
+                      "prompt": "ich",
+                      "options": [
+                        "werdet",
+                        "werde",
+                        "wird"
+                      ],
+                      "answer": "werde"
+                    },
+                    {
+                      "id": "verbs-shw-p2",
+                      "prompt": "du",
+                      "options": [
+                        "werdet",
+                        "wirst",
+                        "werden"
+                      ],
+                      "answer": "wirst"
+                    },
+                    {
+                      "id": "verbs-shw-p3",
+                      "prompt": "ihr",
+                      "options": [
+                        "werden",
+                        "werdet",
+                        "werde"
+                      ],
+                      "answer": "werdet"
+                    }
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q6",
+                  "type": "multiple-choice",
+                  "question": "Which sentence builds the future tense correctly?",
+                  "choices": [
+                    "Wir werden nach Hause.",
+                    "Wir werden nach Hause gehen.",
+                    "Wir gehen nach Hause."
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "word-order-simple-sentences",
+          "title": "Բառերի կարգը պարզ նախադասություններում",
+          "summary": "Keep the finite verb in second position and order time, manner, place naturally.",
+          "lesson": {
+            "intro": "German main clauses follow the verb-second rule (V2). The conjugated verb stands in second position, even if another element like time or place comes first.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "You can place information before the verb to highlight it, but the conjugated verb must stay in second position. Other verbs, infinitives, and separable prefixes go to the end of the clause."
+              },
+              {
+                "type": "rules",
+                "title": "Հուսալի կարգ",
+                "rules": [
+                  {
+                    "label": "Position 1",
+                    "examples": [
+                      "Heute",
+                      "In Berlin",
+                      "Nach der Arbeit"
+                    ]
+                  },
+                  {
+                    "label": "Position 2",
+                    "examples": [
+                      "steht das finite Verb"
+                    ]
+                  },
+                  {
+                    "label": "Mittelfeld",
+                    "examples": [
+                      "Subjekt",
+                      "Zeit",
+                      "Art",
+                      "Ort"
+                    ]
+                  },
+                  {
+                    "label": "Satzende",
+                    "examples": [
+                      "weitere Verben",
+                      "Infinitive",
+                      "Partizip"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակ նախադասություններ",
+                "items": [
+                  {
+                    "sentence": "Heute lerne ich zu Hause.",
+                    "translation": "Այսօր ես տանը եմ սովորում։"
+                  },
+                  {
+                    "sentence": "Im Sommer reisen wir oft nach Spanien.",
+                    "translation": "Ամռանը մենք հաճախ ենք մեկնում Իսպանիա։"
+                  },
+                  {
+                    "sentence": "Nach dem Essen liest er ein Buch.",
+                    "translation": "Ընթրիքից հետո նա գիրք է կարդում։"
+                  },
+                  {
+                    "sentence": "Morgens trinkt sie zuerst Kaffee.",
+                    "translation": "Առավոտյան նա առաջինը սուրճ է խմում։"
+                  },
+                  {
+                    "sentence": "Abends sehen wir einen Film.",
+                    "translation": "Երեկոյան մենք ֆիլմ ենք նայում։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "The conjugated verb always appears in second position in main clauses.",
+              "Any single element can stand before the verb for emphasis.",
+              "Other verbs and infinitives move to the end of the clause.",
+              "Use the time-manner-place order to keep sentences natural."
+            ],
+            "quiz": {
+              "title": "Կազմիր ճիշտ նախադասություններ",
+              "items": [
+                {
+                  "id": "verbs-wordorder-q1",
+                  "type": "multiple-choice",
+                  "question": "Ընտրիր ճիշտ հերթականությունը՝ Morgen / wir / fahren / nach Leipzig։",
+                  "choices": [
+                    "Wir fahren morgen nach Leipzig.",
+                    "Morgen fahren wir nach Leipzig.",
+                    "Morgen wir fahren nach Leipzig."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-wordorder-q2",
+                  "type": "text",
+                  "question": "___ spielen die Kinder im Garten. (Heute)",
+                  "answer": [
+                    "Heute"
+                  ]
+                },
+                {
+                  "id": "verbs-wordorder-q3",
+                  "type": "multiple-choice",
+                  "question": "Որտեղ պետք է լինի ինֆինիտիվը՝ «Er muss ___ das Formular.»",
+                  "choices": [
+                    "ausfüllen",
+                    "ausfüllt",
+                    "füllt aus"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-wordorder-q4",
+                  "type": "text",
+                  "question": "Im Büro ___ wir oft Meetings. (haben)",
+                  "answer": [
+                    "haben"
+                  ]
+                },
+                {
+                  "id": "verbs-wordorder-q5",
+                  "type": "match",
+                  "question": "Կապիր նախադասության սկիզբը բայը երկրորդ տեղում պահող շարունակության հետ։",
+                  "pairs": [
+                    {
+                      "id": "verbs-wordorder-p1",
+                      "prompt": "Am Abend",
+                      "options": [
+                        "lesen wir ein Buch.",
+                        "Wir lesen ein Buch.",
+                        "Ein Buch lesen wir."
+                      ],
+                      "answer": "lesen wir ein Buch."
+                    },
+                    {
+                      "id": "verbs-wordorder-p2",
+                      "prompt": "In der Stadt",
+                      "options": [
+                        "kauft sie frisches Brot.",
+                        "Sie kauft frisches Brot.",
+                        "Frisches Brot kauft sie."
+                      ],
+                      "answer": "kauft sie frisches Brot."
+                    },
+                    {
+                      "id": "verbs-wordorder-p3",
+                      "prompt": "Nach dem Training",
+                      "options": [
+                        "essen sie gemeinsam.",
+                        "Sie essen gemeinsam.",
+                        "Gemeinsam essen sie."
+                      ],
+                      "answer": "essen sie gemeinsam."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "questions-yes-no-w",
+          "title": "Այո/ոչ և W հարցեր",
+          "summary": "Այո/ոչ հարցերում բայը դրվում է առաջին տեղում, իսկ W հարցերում՝ հարցական բառը, հետո բայը երկրորդ։",
+          "lesson": {
+            "intro": "Գերմաներեն հարցերը կամ սկսվում են բայից (այո/ոչ), կամ հարցական բառից (wer, was, wo, wann, warum, wie, wohin)՝ բայը երկրորդ տեղում։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Այո/ոչ հարցերը փոխում են բայի և ենթակայի հերթականությունը։ W հարցերում հարցական բառը կանգնում է առաջինը, իսկ բայը մնում է երկրորդ։"
+              },
+              {
+                "type": "table",
+                "title": "Հարցերի սխեմաներ",
+                "headers": [
+                  "Type",
+                  "Structure",
+                  "Օրինակ"
+                ],
+                "rows": [
+                  [
+                    "Yes/no",
+                    "Verb + subject + ...?",
+                    "Kommst du heute?"
+                  ],
+                  [
+                    "W-question",
+                    "W-word + verb + subject ...?",
+                    "Wann beginnt der Kurs?"
+                  ],
+                  [
+                    "W-question with preposition",
+                    "W-word + preposition + verb + subject",
+                    "Worauf wartest du?"
+                  ],
+                  [
+                    "Wohin",
+                    "Wohin + verb + subject",
+                    "Wohin fahrt ihr?"
+                  ],
+                  [
+                    "Warum",
+                    "Warum + verb + subject",
+                    "Warum lernt er Deutsch?"
+                  ],
+                  [
+                    "Wie",
+                    "Wie + verb + subject",
+                    "Wie fühlst du dich?"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Հարցերի օրինակներ",
+                "items": [
+                  {
+                    "sentence": "Kommst du mit?",
+                    "translation": "Դու՞ էլ ես գալիս։"
+                  },
+                  {
+                    "sentence": "Hast du Zeit?",
+                    "translation": "Ժամանակ ունե՞ս։"
+                  },
+                  {
+                    "sentence": "Wer hilft dir?",
+                    "translation": "Ո՞վ է քեզ օգնում։"
+                  },
+                  {
+                    "sentence": "Wo wohnst du jetzt?",
+                    "translation": "Որտե՞ղ ես հիմա ապրում։"
+                  },
+                  {
+                    "sentence": "Wohin fährt der Bus?",
+                    "translation": "Ո՞րտեղ է գնում ավտոբուսը։"
+                  },
+                  {
+                    "sentence": "Warum lernst du Deutsch?",
+                    "translation": "Ինչո՞ւ ես սովորում գերմաներեն։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Put the conjugated verb before the subject for yes/no questions.",
+              "W-questions start with a question word and keep the verb in second position.",
+              "Combine W-words with prepositions (worauf, womit, wofür) when needed.",
+              "End questions with a rising tone in speech and a question mark in writing."
+            ],
+            "quiz": {
+              "title": "Տուր ճիշտ հարցը",
+              "items": [
+                {
+                  "id": "verbs-questions-q1",
+                  "type": "multiple-choice",
+                  "question": "Ընտրիր «du kommst morgen» արտահայտության համար ճիշտ այո/ոչ հարցը։",
+                  "choices": [
+                    "Kommst du morgen?",
+                    "Du kommst morgen?",
+                    "Morgen du kommst?"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-questions-q2",
+                  "type": "text",
+                  "question": "___ lernst du Deutsch? (Warum)",
+                  "answer": [
+                    "Warum"
+                  ]
+                },
+                {
+                  "id": "verbs-questions-q3",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր W-բառն է համապատասխանում՝ ___ arbeitet sie? (որ վայրում)",
+                  "choices": [
+                    "Wie",
+                    "Wo",
+                    "Wann"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-questions-q4",
+                  "type": "text",
+                  "question": "___ fährt ihr? (Ո՞ւր)",
+                  "answer": [
+                    "Wohin"
+                  ]
+                },
+                {
+                  "id": "verbs-questions-q5",
+                  "type": "match",
+                  "question": "Կապիր գերմաներեն հարցական բառը նրա նշանակության հետ։",
+                  "pairs": [
+                    {
+                      "id": "verbs-questions-p1",
+                      "prompt": "wer",
+                      "options": [
+                        "ով",
+                        "երբ",
+                        "where"
+                      ],
+                      "answer": "ով"
+                    },
+                    {
+                      "id": "verbs-questions-p2",
+                      "prompt": "wann",
+                      "options": [
+                        "how",
+                        "երբ",
+                        "ինչու"
+                      ],
+                      "answer": "երբ"
+                    },
+                    {
+                      "id": "verbs-questions-p3",
+                      "prompt": "warum",
+                      "options": [
+                        "ինչու",
+                        "where",
+                        "what"
+                      ],
+                      "answer": "ինչու"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "negation-nicht-kein",
+          "title": "Ժխտում (nicht, kein)",
+          "summary": "Որոշիր՝ որտեղ օգտագործել nicht, որտեղ՝ kein, և դիր ճիշտ տեղում։",
+          "lesson": {
+            "intro": "Գերմաներենում nicht-ը ժխտում է բայերը, ածականները, դերանունները կամ ամբողջ նախադասությունները, իսկ kein-ը փոխարինում է ein/eine-ին և ժխտում գոյականներ առանց հոդի։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Kein-ը գործածիր ինչպես հոդ՝ այն հոլովվում է (kein, keine, keinen, keiner, keinem)։ Nicht-ը մնացած դեպքերի համար է, սովորաբար դրվում է ժխտվող տարրից առաջ կամ նախադասության վերջում։"
+              },
+              {
+                "type": "table",
+                "title": "Երբ օգտագործել nicht և երբ՝ kein",
+                "headers": [
+                  "Use",
+                  "Օրինակ"
+                ],
+                "rows": [
+                  [
+                    "kein + գոյական",
+                    "Ich habe keinen Hund."
+                  ],
+                  [
+                    "kein + plural noun",
+                    "Wir haben keine Tickets."
+                  ],
+                  [
+                    "nicht + verb",
+                    "Ich arbeite heute nicht."
+                  ],
+                  [
+                    "nicht + adjective",
+                    "Der Kaffee ist nicht warm."
+                  ],
+                  [
+                    "nicht + adverb",
+                    "Sie kommt nicht oft."
+                  ],
+                  [
+                    "nicht + entire clause",
+                    "Nicht alle verstehen den Witz."
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակ նախադասություններ",
+                "items": [
+                  {
+                    "sentence": "Ich habe keine Zeit.",
+                    "translation": "Ես ժամանակ չունեմ։"
+                  },
+                  {
+                    "sentence": "Er isst kein Fleisch.",
+                    "translation": "Նա միս չի ուտում։"
+                  },
+                  {
+                    "sentence": "Wir fahren heute nicht nach Hause.",
+                    "translation": "Այսօր մենք տուն չենք գնա մեքենայով։"
+                  },
+                  {
+                    "sentence": "Der Film ist nicht langweilig.",
+                    "translation": "Ֆիլմը ձանձրալի չէ։"
+                  },
+                  {
+                    "sentence": "Sie singt nicht gern.",
+                    "translation": "Նա չի սիրում երգել։"
+                  },
+                  {
+                    "sentence": "Ich kaufe das Buch nicht.",
+                    "translation": "Ես այդ գիրքը չեմ գնում։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Kein-ը փոխարինում է ein/eine-ին և ժխտում է գոյականներ առանց որոշիչ հոդի։",
+              "Nicht-ը ժխտում է բայերը, ածականները, դերանունները կամ ամբողջ նախադասությունները։",
+              "Nicht-ը դիր հենց ժխտվող տարրից առաջ կամ նախադասության վերջում։",
+              "Հիշիր, որ kein-ը հոլովվում է ինչպես ein՝ kein, keine, keinen, keiner, keinem։"
+            ],
+            "quiz": {
+              "title": "Ընտրիր ճիշտ ժխտումը",
+              "items": [
+                {
+                  "id": "verbs-negation-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich habe ___ Geld.",
+                  "choices": [
+                    "nicht",
+                    "kein",
+                    "keine"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-negation-q2",
+                  "type": "text",
+                  "question": "Der Kaffee ist ___ heiß.",
+                  "answer": [
+                    "nicht"
+                  ]
+                },
+                {
+                  "id": "verbs-negation-q3",
+                  "type": "multiple-choice",
+                  "question": "Sie kauft ___ Blumen.",
+                  "choices": [
+                    "keine",
+                    "nicht",
+                    "kein"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-negation-q4",
+                  "type": "text",
+                  "question": "Wir fahren heute ___ nach München.",
+                  "answer": [
+                    "nicht"
+                  ]
+                },
+                {
+                  "id": "verbs-negation-q5",
+                  "type": "match",
+                  "question": "Կապիր նախադասությունը համապատասխան ժխտական բառի հետ։",
+                  "pairs": [
+                    {
+                      "id": "verbs-negation-p1",
+                      "prompt": "___ Zeit haben",
+                      "options": [
+                        "kein",
+                        "nicht",
+                        "keine"
+                      ],
+                      "answer": "keine"
+                    },
+                    {
+                      "id": "verbs-negation-p2",
+                      "prompt": "___ arbeiten",
+                      "options": [
+                        "nicht",
+                        "kein",
+                        "keine"
+                      ],
+                      "answer": "nicht"
+                    },
+                    {
+                      "id": "verbs-negation-p3",
+                      "prompt": "___ Auto besitzen",
+                      "options": [
+                        "kein",
+                        "nicht",
+                        "keine"
+                      ],
+                      "answer": "kein"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "modal-verbs",
+          "title": "Մոդալ բայեր",
+          "summary": "Մոդալ բայը համադրիր ինֆինիտիվի հետ և պահիր երկրորդ տեղում։",
+          "lesson": {
+            "intro": "Մոդալ բայերը լրացնում են հիմնական բային՝ արտահայտելով կարողություն, անհրաժեշտություն, թույլտվություն, ցանկություն կամ պարտավորություն։ Գլխավոր նախադասությունում մոդալ բայը խոնարհվում է և կանգնում է երկրորդ տեղում, իսկ հիմնական բայի ինֆինիտիվը տեղափոխվում է վերջ։",
+            "blocks": [
+              {
+                "type": "table",
+                "title": "Մոդալ բայերը ներկա ժամանակում",
+                "headers": [
+                  "Modal",
+                  "ich",
+                  "du",
+                  "er/sie/es"
+                ],
+                "rows": [
+                  [
+                    "können",
+                    "kann",
+                    "kannst",
+                    "kann"
+                  ],
+                  [
+                    "wollen",
+                    "will",
+                    "willst",
+                    "will"
+                  ],
+                  [
+                    "müssen",
+                    "muss",
+                    "musst",
+                    "muss"
+                  ],
+                  [
+                    "dürfen",
+                    "darf",
+                    "darfst",
+                    "darf"
+                  ],
+                  [
+                    "sollen",
+                    "soll",
+                    "sollst",
+                    "soll"
+                  ],
+                  [
+                    "mögen",
+                    "mag",
+                    "magst",
+                    "mag"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Տեղադրություն նախադասությունում",
+                "text": "Մոդալ բայերը նման են անճիշտ բայերի՝ ունեն իրենց արմատի փոփոխությունները։ Հիմնական բայը մնում է ինֆինիտիվ և տեղափոխվում է նախադասության վերջ։"
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակ նախադասություններ",
+                "items": [
+                  {
+                    "sentence": "Ich kann gut schwimmen.",
+                    "translation": "Ես լավ եմ լողում։"
+                  },
+                  {
+                    "sentence": "Wir müssen heute lange arbeiten.",
+                    "translation": "Այսօր պետք է երկար աշխատենք։"
+                  },
+                  {
+                    "sentence": "Darf ich hier parken?",
+                    "translation": "Կարելի՞ է այստեղ կայանել։"
+                  },
+                  {
+                    "sentence": "Sie will in Berlin studieren.",
+                    "translation": "Նա ցանկանում է սովորել Բեռլինում։"
+                  },
+                  {
+                    "sentence": "Ihr sollt eure Hausaufgaben machen.",
+                    "translation": "Դուք պետք է կատարեք ձեր տնայինը։"
+                  },
+                  {
+                    "sentence": "Magst du Kaffee trinken?",
+                    "translation": "Սիրու՞մ ես սուրճ խմել։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Մոդալ բայերը արտահայտում են կարողություն, ցանկություն, պարտավորություն, թույլտվություն կամ նախընտրություն։",
+              "Մոդալ բայը խոնարհվում է և գլխավոր նախադասությունում կանգնում է երկրորդ տեղում։",
+              "Հիմնական բայը մնում է ինֆինիտիվ և տեղափոխվում է նախադասության վերջ։",
+              "Շատ մոդալ բայեր du և er/sie/es ձևերում փոխում են արմատի ձայնավորը։"
+            ],
+            "quiz": {
+              "title": "Գործածիր մոդալ բայերը ճիշտ",
+              "items": [
+                {
+                  "id": "verbs-modals-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich ___ heute zu Hause bleiben. (must)",
+                  "choices": [
+                    "muss",
+                    "kann",
+                    "soll"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-modals-q2",
+                  "type": "text",
+                  "question": "Du ___ (können) gut malen.",
+                  "answer": [
+                    "kannst"
+                  ]
+                },
+                {
+                  "id": "verbs-modals-q3",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր ձևը համապատասխանում է. Wir ___ morgen kommen. (können)",
+                  "choices": [
+                    "kann",
+                    "könnt",
+                    "können"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "verbs-modals-q4",
+                  "type": "text",
+                  "question": "Er ___ (dürfen) hier nicht parken.",
+                  "answer": [
+                    "darf"
+                  ]
+                },
+                {
+                  "id": "verbs-modals-q5",
+                  "type": "match",
+                  "question": "Կապիր մոդալ բայը նրա նշանակության հետ։",
+                  "pairs": [
+                    {
+                      "id": "verbs-modals-p1",
+                      "prompt": "müssen",
+                      "options": [
+                        "կարելի է",
+                        "պետք է",
+                        "սիրել"
+                      ],
+                      "answer": "պետք է"
+                    },
+                    {
+                      "id": "verbs-modals-p2",
+                      "prompt": "dürfen",
+                      "options": [
+                        "կարելի է",
+                        "պետք է",
+                        "պետք է/արժե"
+                      ],
+                      "answer": "կարելի է"
+                    },
+                    {
+                      "id": "verbs-modals-p3",
+                      "prompt": "wollen",
+                      "options": [
+                        "ցանկանալ",
+                        "պետք է",
+                        "կարողանալ"
+                      ],
+                      "answer": "ցանկանալ"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "adjectives",
+      "title": "Ածականներ (Adjektive)",
+      "description": "Նկարագրիր մարդկանց և իրերը գերմաներեն ածականներով՝ համեմատությունից մինչև ներմուծական օգտագործում։",
+      "subtopics": [
+        {
+          "slug": "degrees-of-comparison",
+          "title": "Աստիճաններ (դրական, համեմատական, գերադրական)",
+          "summary": "Սովորիր կազմել ու կիրառել ածականների բոլոր երեք աստիճանները առօրյա նախադասություններում։",
+          "lesson": {
+            "intro": "Գերմաներեն ածականները ունեն հիմնական ձև (Positiv)։ Վերջավորություններով կամ յուրահատուկ ձևերով արտահայտվում են համեմատությունը և առավելագույն աստիճանը։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Համեմատական աստիճանի համար ածականին ավելացրու -er։ Շատ տարածված ածականներ նաև փոխում են ձայնավորները (a/o/u → ä/ö/ü)։ Գերադրականը կազմվում է am + -sten, երբ կանգնում է բայից հետո, կամ -ste՝ գոյականից առաջ։"
+              },
+              {
+                "type": "rules",
+                "title": "Ինչպես ձևավորել աստիճանները",
+                "rules": [
+                  {
+                    "label": "Համեմատական՝ + -er",
+                    "examples": [
+                      "schnell → schneller",
+                      "laut → lauter"
+                    ]
+                  },
+                  {
+                    "label": "Ումլաուտ a, o, u ձայնավորների համար",
+                    "examples": [
+                      "alt → älter",
+                      "groß → größer"
+                    ]
+                  },
+                  {
+                    "label": "Գերադրական՝ am + -sten (ասույթում)",
+                    "examples": [
+                      "am freundlichsten",
+                      "am besten"
+                    ]
+                  },
+                  {
+                    "label": "Գերադրական՝ der/die/das + -ste (գոյականից առաջ)",
+                    "examples": [
+                      "der schnellste Zug",
+                      "die schönste Aussicht"
+                    ]
+                  },
+                  {
+                    "label": "-el/-er վերջավորությամբ ձևերը կորցնում են լրացուցիչ -e",
+                    "examples": [
+                      "teuer → teurer",
+                      "dunkel → dunkler"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Օրինակային համեմատություններ",
+                "headers": [
+                  "Դրական",
+                  "Համեմատական",
+                  "Գերադրական (ասույթ)",
+                  "Գերադրական (ատրիբուտ)"
+                ],
+                "rows": [
+                  [
+                    "klein",
+                    "kleiner",
+                    "am kleinsten",
+                    "der/die/das kleinste"
+                  ],
+                  [
+                    "interessant",
+                    "interessanter",
+                    "am interessantesten",
+                    "der/die/das interessanteste"
+                  ],
+                  [
+                    "hoch",
+                    "höher",
+                    "am höchsten",
+                    "der/die/das höchste"
+                  ],
+                  [
+                    "gut",
+                    "besser",
+                    "am besten",
+                    "der/die/das beste"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Մի մոռացիր ածականների վերջավորությունները",
+                "text": "Եթե գերադրականը կանգնում է գոյականից առաջ, պետք են սովորական ածականական վերջավորությունները (ein schnellerer Bus, die beste Idee)։"
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակներ",
+                "items": [
+                  {
+                    "sentence": "Anna ist schneller als Ben.",
+                    "translation": "Anna is faster than Ben."
+                  },
+                  {
+                    "sentence": "Das ist das spannendste Kapitel im Buch.",
+                    "translation": "This is the most exciting chapter in the book."
+                  },
+                  {
+                    "sentence": "Mein Kaffee ist wärmer als deiner.",
+                    "translation": "My coffee is warmer than yours."
+                  },
+                  {
+                    "sentence": "Dieses Hotel ist am günstigsten in der Stadt.",
+                    "translation": "This hotel is the cheapest in the city."
+                  },
+                  {
+                    "sentence": "Die Übung wird immer schwieriger.",
+                    "translation": "The exercise is getting more and more difficult."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Համեմատականը հիմնականում ստանում է -er վերջավորություն։",
+              "a, o, u ձայնավորների դեպքում հնարավոր է ավելացվի ումլաուտ։",
+              "Գերադրականը բայի հետ կազմիր am + -sten ձևով։",
+              "Գոյականից առաջ պետք է հոդված և ածականական վերջավորություն։",
+              "Սովորիր ոչ կանոնավոր ձևերը, ինչպես gut → besser։"
+            ],
+            "quiz": {
+              "title": "Ստուգիր գիտելիքներըդ",
+              "intro": "Պատասխանիր հարցերին և համեմատի՛ր լուծումների հետ։",
+              "items": [
+                {
+                  "id": "adj-comp-q1",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր ձևն է ճիշտ։ Mein Bruder ist ___ als ich.",
+                  "choices": [
+                    "groß",
+                    "größer",
+                    "am größten"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "adj-comp-q2",
+                  "type": "text",
+                  "question": "Լրացրու՝ Das Rätsel ist am ___ (schwer) für die Kinder.",
+                  "answer": [
+                    "schwersten",
+                    "Schwersten"
+                  ]
+                },
+                {
+                  "id": "adj-comp-q3",
+                  "type": "multiple-choice",
+                  "question": "Ընտրիր ճիշտ համեմատականը՝ Diese Straße ist ___ als die andere.",
+                  "choices": [
+                    "kürzer",
+                    "am kürzesten",
+                    "kurze"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-comp-q4",
+                  "type": "match",
+                  "question": "Կապիր յուրաքանչյուր ածական իր համեմատականի հետ։",
+                  "pairs": [
+                    {
+                      "id": "adj-comp-p1",
+                      "prompt": "teuer",
+                      "options": [
+                        "teurer",
+                        "teueren",
+                        "teuerste"
+                      ],
+                      "answer": "teurer"
+                    },
+                    {
+                      "id": "adj-comp-p2",
+                      "prompt": "jung",
+                      "options": [
+                        "jüngste",
+                        "jünger",
+                        "jungste"
+                      ],
+                      "answer": "jünger"
+                    },
+                    {
+                      "id": "adj-comp-p3",
+                      "prompt": "ruhig",
+                      "options": [
+                        "ruhiger",
+                        "ruhigsten",
+                        "ruhiges"
+                      ],
+                      "answer": "ruhiger"
+                    }
+                  ]
+                },
+                {
+                  "id": "adj-comp-q5",
+                  "type": "text",
+                  "question": "Լրացրու բացը՝ Unsere Lehrerin erklärt es am ___ (verständlich).",
+                  "answer": [
+                    "verständlichsten",
+                    "Verständlichsten"
+                  ]
+                },
+                {
+                  "id": "adj-comp-q6",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր նախադասությունն է ճիշտ օգտագործում գերադրականը որպես ասույթ։",
+                  "choices": [
+                    "Der Kuchen schmeckt am besten.",
+                    "Die beste Kuchen schmeckt.",
+                    "Am besten der Kuchen schmeckt."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "predicate-adjectives",
+          "title": "Ածականներ որպես ասույթ (sein-ի հետո)",
+          "summary": "Օգտագործիր ածականները sein, werden, bleiben բայերից հետո առանց լրացուցիչ վերջավորության։",
+          "lesson": {
+            "intro": "Ասույթային ածականները հետևում են կապակցական բայերին և մնում են հիմնական ձևով՝ նկարագրելով ենթակային առանց վերջավորությունների։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Բայերը sein, werden, bleiben, wirken և scheinen միացնում են ենթակային ածականին։ Քանի որ ածականը չի կանգնում գոյականից առաջ, այն չի հոլովվում։"
+              },
+              {
+                "type": "rules",
+                "title": "Հաճախ օգտագործվող կապակցական բայեր",
+                "rules": [
+                  {
+                    "label": "sein",
+                    "examples": [
+                      "Das Wetter ist warm."
+                    ]
+                  },
+                  {
+                    "label": "werden",
+                    "examples": [
+                      "Die Kinder werden müde."
+                    ]
+                  },
+                  {
+                    "label": "bleiben",
+                    "examples": [
+                      "Die Situation bleibt ruhig."
+                    ]
+                  },
+                  {
+                    "label": "scheinen / wirken",
+                    "examples": [
+                      "Die Antwort scheint einfach.",
+                      "Er wirkt zufrieden."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Այսպիսի ածականները չեն ստանում հոլովային վերջավորություններ, որովհետև նկարագրում են միայն ենթակային։"
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակներ",
+                "items": [
+                  {
+                    "sentence": "Die Suppe ist heiß.",
+                    "translation": "The soup is hot."
+                  },
+                  {
+                    "sentence": "Das Meeting bleibt kurz.",
+                    "translation": "The meeting stays short."
+                  },
+                  {
+                    "sentence": "Die Kinder werden müde.",
+                    "translation": "The children become tired."
+                  },
+                  {
+                    "sentence": "Der Weg ist frei.",
+                    "translation": "The path is clear."
+                  },
+                  {
+                    "sentence": "Der Plan scheint einfach.",
+                    "translation": "The plan seems simple."
+                  }
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Ատրիբուտային ածականները վարվվում են այլ կերպ",
+                "text": "Եթե ածականը կանգնում է գոյականից առաջ (ein kalter Tag), անհրաժեշտ են սովորական վերջավորություններ։"
+              }
+            ],
+            "takeaways": [
+              "Ասույթային ածականները հետևում են sein, werden, bleiben բայերին։",
+              "Ածականը մնում է հիմնական ձևով՝ առանց վերջավորությունների։",
+              "Այդպես դու անմիջապես նկարագրում ես ենթակային։",
+              "Գոյականից առաջ պետք է վերադառնալ ածականական վերջավորություններին։"
+            ],
+            "quiz": {
+              "title": "Ստուգիր գիտելիքներըդ",
+              "intro": "Սկսիր քուիզը և համոզվիր, թե ինչպես են աշխատում ասույթային ածականները։",
+              "items": [
+                {
+                  "id": "adj-pred-q1",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր նախադասությունն է ճիշտ օգտագործում ասույթային ածականը։",
+                  "choices": [
+                    "Die Suppe ist heiß.",
+                    "Die heiße Suppe ist.",
+                    "Die Suppe ist heiße."
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-pred-q2",
+                  "type": "text",
+                  "question": "Լրացրու՝ Heute bleibt der Himmel ___ (klar).",
+                  "answer": [
+                    "klar",
+                    "Klar"
+                  ]
+                },
+                {
+                  "id": "adj-pred-q3",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր բայն է սովորաբար պահանջում ասույթային ածական առանց վերջավորության։",
+                  "choices": [
+                    "sein",
+                    "sehen",
+                    "kaufen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-pred-q4",
+                  "type": "match",
+                  "question": "Կապիր բայը համապատասխան ձևակերպման հետ։",
+                  "pairs": [
+                    {
+                      "id": "adj-pred-p1",
+                      "prompt": "werden",
+                      "options": [
+                        "wird schwierig",
+                        "wird schwierige",
+                        "wird schwierigen"
+                      ],
+                      "answer": "wird schwierig"
+                    },
+                    {
+                      "id": "adj-pred-p2",
+                      "prompt": "bleiben",
+                      "options": [
+                        "bleibt ruhig",
+                        "bleibt ruhige",
+                        "bleibt ruhigen"
+                      ],
+                      "answer": "bleibt ruhig"
+                    },
+                    {
+                      "id": "adj-pred-p3",
+                      "prompt": "sein",
+                      "options": [
+                        "ist offen",
+                        "ist offene",
+                        "ist offener"
+                      ],
+                      "answer": "ist offen"
+                    }
+                  ]
+                },
+                {
+                  "id": "adj-pred-q5",
+                  "type": "text",
+                  "question": "Լրացրու նախադասությունը՝ Die Antwort scheint ___ (einfach).",
+                  "answer": [
+                    "einfach",
+                    "Einfach"
+                  ]
+                },
+                {
+                  "id": "adj-pred-q6",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր նախադասությունն է պահանջում ածականական վերջավորություն (ատրիբուտ)։",
+                  "choices": [
+                    "Ich trinke einen kalten Saft.",
+                    "Der Saft ist kalt.",
+                    "Der Saft bleibt kalt."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "adverbs-prepositions",
+      "title": "Մակդիրներ և նախդիրներ (Adverbien und Präpositionen)",
+      "description": "Նկարագրեք, թե երբ, որտեղ և ում հետ է տեղի ունենում գործողությունը՝ կիրառելով հիմնական մակդիրներ և երկակի հոլով պահանջող նախդիրներ.",
+      "subtopics": [
+        {
+          "slug": "time-adverbs",
+          "title": "Ժամանակի մակդիրներ (heute, morgen, jetzt …)",
+          "summary": "Գերմաներեն առօրյա ժամանակային մակդիրներով պատմեք, թե երբ է տեղի ունենում գործողությունը.",
+          "lesson": {
+            "intro": "Ժամանակի մակդիրները ձեր նախադասությունը կապում են ժամանակային գծին։ Դրանք պատասխանում են «Wann?» հարցին և հեշտացնում անցյալի, ներկայի ու մոտ ապագայի նկարագրությունը.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Մակդիրը կարող եք դնել նախադասության սկզբում՝ ընդգծելու համար, կամ պահել բայի հետո միջադիր դաշտում։ Այն որոշում է պատմության ռիթմը և հարմար է ժամանակների ու ամսաթվերի հետ համադրելու համար."
+              },
+              {
+                "type": "rules",
+                "title": "Օգտակար խմբեր",
+                "rules": [
+                  {
+                    "label": "Ներկա կամ հենց հիմա՝ heute, jetzt, gleich, sofort",
+                    "examples": []
+                  },
+                  {
+                    "label": "Մոտ օրեր՝ morgen, übermorgen, am Wochenende",
+                    "examples": []
+                  },
+                  {
+                    "label": "Վերջին անցյալ՝ gestern, vorgestern, eben, neulich",
+                    "examples": []
+                  },
+                  {
+                    "label": "Հաճախականություն՝ oft, manchmal, selten, immer",
+                    "examples": []
+                  },
+                  {
+                    "label": "Օրվա հատվածներ՝ morgens, mittags, abends, nachts",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Ժամանակային մակդիրներ համատեքստում",
+                "headers": [
+                  "Մակդիր",
+                  "Նշանակություն",
+                  "Օրինակ"
+                ],
+                "rows": [
+                  [
+                    "heute",
+                    "այսօր (նույն օրը)",
+                    "Ich arbeite heute von zu Hause."
+                  ],
+                  [
+                    "jetzt",
+                    "հիմա (այս պահին)",
+                    "Wir essen jetzt zu Mittag."
+                  ],
+                  [
+                    "morgen",
+                    "վաղը (հաջորդ օր)",
+                    "Morgen besuchen wir Oma."
+                  ],
+                  [
+                    "gestern",
+                    "երեկ (նախորդ օր)",
+                    "Gestern hatte ich frei."
+                  ],
+                  [
+                    "bald",
+                    "շուտով",
+                    "Der Bus kommt bald."
+                  ],
+                  [
+                    "manchmal",
+                    "երբեմն (կրկնվող, բայց ոչ միշտ)",
+                    "Manchmal trainiere ich vor der Arbeit."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Բառերի կարգի հիշեցում",
+                "text": "Ժամանակի մակդիրները կարող են կանգնել սկզբում (Heute gehe ich …)՝ առանց խախտելու բայ-երկրորդ կանոնը։ Միջադիր դաշտում դրանք սովորաբար հայտնվում են տեղական մակդիրներից և աջ բայական փակագծից առաջ."
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակային նախադասություններ",
+                "items": [
+                  {
+                    "sentence": "Heute bleibe ich zu Hause.",
+                    "translation": "Այսօր ես մնում եմ տանը."
+                  },
+                  {
+                    "sentence": "Jetzt beginnt der Unterricht.",
+                    "translation": "Հիմա սկսվում է դասը."
+                  },
+                  {
+                    "sentence": "Morgen fahren wir nach Leipzig.",
+                    "translation": "Վաղը մենք մեկնում ենք Լայպցիգ."
+                  },
+                  {
+                    "sentence": "Gestern habe ich lange geschlafen.",
+                    "translation": "Երեկ ես երկար քնեցի."
+                  },
+                  {
+                    "sentence": "Manchmal spielt sie abends Klavier.",
+                    "translation": "Երբեմն երեկոյան նա նվագում է դաշնամուր."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Ժամանակի մակդիրները պատասխանում են «Wann?» հարցին և ձևավորում են խոսքի շրջանակը.",
+              "Նախադասության սկզբում դրանք ուժեղացնում են շեշտադրումը՝ պահելով բայը երկրորդ տեղում.",
+              "Հաճախականության մակդիրները (oft, manchmal) սովորաբար տեղադրվում են միջադիր դաշտում՝ բային մոտ.",
+              "Ժամանակային մակդիրները կարող եք միացնել ժամերի կամ օրերի հետ՝ ճշգրիտ պլանավորման համար."
+            ],
+            "quiz": {
+              "title": "Ստուգեք ձեզ",
+              "items": [
+                {
+                  "id": "adverbs-time-q1",
+                  "type": "multiple-choice",
+                  "question": "_____ gehe ich ins Kino. (այսօր)",
+                  "choices": [
+                    "Heute",
+                    "Gestern",
+                    "Morgens"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-time-q2",
+                  "type": "multiple-choice",
+                  "question": "Մենք կհանդիպենք ___ beim Frühstück. (վաղը)",
+                  "choices": [
+                    "morgen",
+                    "jetzt",
+                    "gestern"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-time-q3",
+                  "type": "text",
+                  "question": "Ich komme ___ (շուտով) nach Hause.",
+                  "answer": [
+                    "bald"
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q4",
+                  "type": "match",
+                  "question": "Զուգորդեք մակդիրը և նշանակությունը.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-time-p1",
+                      "prompt": "heute",
+                      "options": [
+                        "նույն օրը",
+                        "հաջորդ օրը",
+                        "նախօրեին"
+                      ],
+                      "answer": "նույն օրը"
+                    },
+                    {
+                      "id": "adverbs-time-p2",
+                      "prompt": "gestern",
+                      "options": [
+                        "շուտով",
+                        "նախօրեին",
+                        "միշտ"
+                      ],
+                      "answer": "նախօրեին"
+                    },
+                    {
+                      "id": "adverbs-time-p3",
+                      "prompt": "manchmal",
+                      "options": [
+                        "երբեմն",
+                        "հիմա",
+                        "երբեք"
+                      ],
+                      "answer": "երբեմն"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q5",
+                  "type": "text",
+                  "question": "___ (երեկ) habe ich meine Freunde getroffen.",
+                  "answer": [
+                    "gestern"
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q6",
+                  "type": "multiple-choice",
+                  "question": "Որ մակդի՞րն է ցույց տալիս կրկնվող գործողություն.",
+                  "choices": [
+                    "manchmal",
+                    "jetzt",
+                    "morgen"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "location-adverbs",
+          "title": "Տեղի մակդիրներ (hier, da, dort …)",
+          "summary": "Նկարագրեք, թե որտեղ է տեղի ունենում գործողությունը և որքան հեռու է այն.",
+          "lesson": {
+            "intro": "Տեղի մակդիրները պատասխանում են «Wo?» և «Wohin?» հարցերին։ Դրանք օգնում են նկարագրել միջավայրը և ուղղորդել լսողին ճիշտ վայրը.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Շատ մակդիրներ գալիս են զույգերով՝ hier/da կամ hin/her։ Դրանցով ցույց եք տալիս հեռավորություն, ուղղություն և շարժման ուղղվածությունը դեպի խոսողը կամ նրանից հեռու."
+              },
+              {
+                "type": "rules",
+                "title": "Տիպիկ հակադրություններ",
+                "rules": [
+                  {
+                    "label": "hier – հենց այստեղ, խոսողի մոտ",
+                    "examples": []
+                  },
+                  {
+                    "label": "da / dort – այնտեղ (մոտ / հեռու)",
+                    "examples": []
+                  },
+                  {
+                    "label": "drinnen vs. draußen – ներսում vs. դրսում",
+                    "examples": []
+                  },
+                  {
+                    "label": "oben, unten, vorne, hinten – տարածական կողմնորոշում",
+                    "examples": []
+                  },
+                  {
+                    "label": "hin-/her- ձևեր – hinunter, herüber, hierher, dorthin",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Տարածված տեղի մակդիրներ",
+                "headers": [
+                  "Մակդիր",
+                  "Նշանակություն",
+                  "Օրինակ"
+                ],
+                "rows": [
+                  [
+                    "hier",
+                    "այստեղ",
+                    "Hier wartet der Bus."
+                  ],
+                  [
+                    "da",
+                    "այնտեղ (մոտ)",
+                    "Da liegt mein Handy."
+                  ],
+                  [
+                    "dort",
+                    "այնտեղ (հեռու)",
+                    "Dort steht das Museum."
+                  ],
+                  [
+                    "drinnen",
+                    "ներսում",
+                    "Die Kinder spielen drinnen."
+                  ],
+                  [
+                    "draußen",
+                    "դրսում / բաց տարածքում",
+                    "Wir essen draußen."
+                  ],
+                  [
+                    "oben",
+                    "վերևում",
+                    "Dein Zimmer ist oben."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Դիրքը նախադասությունում",
+                "text": "Տեղի մակդիրները միջադիր դաշտում հաճախ հետևում են ժամանակային մակդիրներին՝ Heute bleiben wir hier։ Շարժման բայերի հետ համատեղեք ուղղությամբ՝ Komm hierher!, Geh dort hinauf!"
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակային նախադասություններ",
+                "items": [
+                  {
+                    "sentence": "Hier gibt es frisches Brot.",
+                    "translation": "Այստեղ թարմ հաց կա."
+                  },
+                  {
+                    "sentence": "Da drüben steht mein Fahrrad.",
+                    "translation": "Այն կողմում կանգնած է իմ հեծանիվը."
+                  },
+                  {
+                    "sentence": "Wir treffen uns draußen im Park.",
+                    "translation": "Մենք հանդիպում ենք դրսում, զբոսայգում."
+                  },
+                  {
+                    "sentence": "Die Katze schläft drinnen auf dem Sofa.",
+                    "translation": "Կատուն քնում է ներսում՝ բազմոցի վրա."
+                  },
+                  {
+                    "sentence": "Komm hierher und sieh dir das an.",
+                    "translation": "Գա՛ այստեղ և տես սա."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Տեղի մակդիրները պատասխանում են «Wo?» կամ «Wohin?» և նշում հեռավորություն կամ ուղղություն.",
+              "hier/hierher մատնանշում են խոսողի դիրքը, իսկ da/dort/dorthin՝ նրանից հեռու գտնվող վայր.",
+              "drinnen/draußen և oben/unten զույգերը նկարագրում են դիրքը տարածության մեջ.",
+              "hin- ձևերը ցույց են տալիս շարժումը հեռու, իսկ her- ձևերը՝ դեպի խոսողը."
+            ],
+            "quiz": {
+              "title": "Կարճ վարժություն",
+              "items": [
+                {
+                  "id": "adverbs-place-q1",
+                  "type": "multiple-choice",
+                  "question": "Der Schlüssel liegt ___ auf dem Tisch neben mir.",
+                  "choices": [
+                    "hier",
+                    "dort",
+                    "oben"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-place-q2",
+                  "type": "multiple-choice",
+                  "question": "Որ մակդի՞րն եք ընտրում, երբ ինչ-որ բան ավելի հեռու է.",
+                  "choices": [
+                    "dort",
+                    "hier",
+                    "drinnen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-place-q3",
+                  "type": "text",
+                  "question": "Wir treffen uns ___ (դրսում) vor dem Kino.",
+                  "answer": [
+                    "draußen",
+                    "draussen"
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q4",
+                  "type": "match",
+                  "question": "Կապեք մակդիրը համապատասխան գաղափարի հետ.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-place-p1",
+                      "prompt": "drinnen",
+                      "options": [
+                        "ներսում",
+                        "դրսում",
+                        "վերևում"
+                      ],
+                      "answer": "ներսում"
+                    },
+                    {
+                      "id": "adverbs-place-p2",
+                      "prompt": "oben",
+                      "options": [
+                        "ներքևում",
+                        "վերևում",
+                        "հեռու"
+                      ],
+                      "answer": "վերևում"
+                    },
+                    {
+                      "id": "adverbs-place-p3",
+                      "prompt": "hierher",
+                      "options": [
+                        "այստեղ",
+                        "դեպի այնտեղ",
+                        "ներքև"
+                      ],
+                      "answer": "այստեղ"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q5",
+                  "type": "text",
+                  "question": "Komm ___ (այստեղ), bitte!",
+                  "answer": [
+                    "hierher"
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q6",
+                  "type": "multiple-choice",
+                  "question": "Որ մակդիրը ցույց է տալիս շարժում դեպի վերև.",
+                  "choices": [
+                    "oben",
+                    "unten",
+                    "da"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "common-prepositions",
+          "title": "Տարածված նախդիրներ՝ դատվական և ուղղական հոլովներով",
+          "summary": "Ճշգրիտ կիրառեք երկակի հոլով ունեցող նախդիրները և միայն դատվական կամ ուղղական պահանջող ձևերը.",
+          "lesson": {
+            "intro": "Գերմաներեն նախդիրները որոշում են հաջորդող բառերի հոլովը։ Wechselpräpositionen-ը վերցնում են դատվականը, երբ խոսքը տեղանքի մասին է (Wo?), և ուղղականը, երբ ցուցաբերվում է ուղղություն (Wohin?).",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Հիշեք հիմնական wechselpräpositionen-ը (in, an, auf, unter, über, vor, hinter, neben, zwischen) և հաճախ կիրառվող գործընկերները՝ bei, mit, von, nach, zu, für, ohne, um."
+              },
+              {
+                "type": "rules",
+                "title": "Հոլովային օրինակներ",
+                "rules": [
+                  {
+                    "label": "Դատվական հոլով՝ որտեղ (Wo?): in, an, auf, bei, zu, nach, von, seit",
+                    "examples": []
+                  },
+                  {
+                    "label": "Ուղղական հոլով՝ ուր (Wohin?): in, an, auf, nach, zu, um",
+                    "examples": []
+                  },
+                  {
+                    "label": "Միշտ դատվական՝ mit, von, bei, nach, seit, aus",
+                    "examples": []
+                  },
+                  {
+                    "label": "Միշտ ուղղական՝ für, ohne, um, gegen",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Wechselpräpositionen գործածությամբ",
+                "headers": [
+                  "Նախդիր",
+                  "Դատվական (որտեղ)",
+                  "Ուղղական (ուր)",
+                  "Նշում"
+                ],
+                "rows": [
+                  [
+                    "in",
+                    "Ich bin in der Küche.",
+                    "Ich gehe in die Küche.",
+                    "in + դատվական՝ վայր, in + ուղղական՝ շարժում."
+                  ],
+                  [
+                    "an",
+                    "Das Bild hängt an der Wand.",
+                    "Ich hänge das Bild an die Wand.",
+                    "an-ը նկարագրում է մակերեսի հետ շփում."
+                  ],
+                  [
+                    "auf",
+                    "Die Bücher liegen auf dem Tisch.",
+                    "Ich lege die Bücher auf den Tisch.",
+                    "auf-ը օգտագործվում է հարթ մակերեսների համար."
+                  ],
+                  [
+                    "unter",
+                    "Der Hund schläft unter dem Tisch.",
+                    "Der Hund läuft unter den Tisch.",
+                    "unter-ը ցույց է տալիս ներքևում գտնվող դիրք."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Միացյալ ձևեր",
+                "text": "Հիշեք միացումները՝ in dem → im, in das → ins, an dem → am, zu dem → zum, zu der → zur։ Դրանք հնչում են բնական խոսքում."
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակային նախադասություններ",
+                "items": [
+                  {
+                    "sentence": "Wir treffen uns am Bahnhof.",
+                    "translation": "Մենք հանդիպում ենք երկաթուղային կայարանում."
+                  },
+                  {
+                    "sentence": "Er geht ins Büro.",
+                    "translation": "Նա մտնում է գրասենյակ."
+                  },
+                  {
+                    "sentence": "Nach der Arbeit fahre ich zu meiner Freundin.",
+                    "translation": "Աշխատանքից հետո ես գնում եմ ընկերուհուս տուն."
+                  },
+                  {
+                    "sentence": "Sie sitzt seit einer Stunde im Zug.",
+                    "translation": "Նա արդեն մեկ ժամ է՝ նստած է գնացքում."
+                  },
+                  {
+                    "sentence": "Ohne dich ist es hier zu ruhig.",
+                    "translation": "Քեզ բացակայությամբ այստեղ շատ հանգիստ է."
+                  },
+                  {
+                    "sentence": "Wir sprechen über den Plan am Abend.",
+                    "translation": "Մենք երեկոյան խոսում ենք ծրագրի մասին."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Wechselpräpositionen-ը դատվականով ցույց են տալիս վայր, իսկ ուղղականով՝ շարժում.",
+              "mit, von, seit և նման նախդիրները միշտ դատվական են, մինչդեռ für, ohne, um պահանջում են ուղղական.",
+              "im, zum և նման միացյալ ձևերը բնական են առօրյա խոսքում.",
+              "Հարցրեք Wo? կամ Wohin?, որպեսզի ընտրեք ճիշտ հոլովը."
+            ],
+            "quiz": {
+              "title": "Հոլովների փորձություն",
+              "items": [
+                {
+                  "id": "adverbs-prep-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich warte ___ der Haltestelle. (տեղ)",
+                  "choices": [
+                    "an",
+                    "zu",
+                    "um"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q2",
+                  "type": "multiple-choice",
+                  "question": "Շաբաթ օրը մենք գնում ենք ___ den See. (ուղղություն)",
+                  "choices": [
+                    "an",
+                    "bei",
+                    "mit"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q3",
+                  "type": "text",
+                  "question": "Wir treffen uns ___ (մոտ) dem Café.",
+                  "answer": [
+                    "bei"
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q4",
+                  "type": "match",
+                  "question": "Պատասխանեցրեք նախդիրին համապատասխան հոլովը.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-prep-p1",
+                      "prompt": "für",
+                      "options": [
+                        "ուղղական",
+                        "դատվական",
+                        "սեռական"
+                      ],
+                      "answer": "ուղղական"
+                    },
+                    {
+                      "id": "adverbs-prep-p2",
+                      "prompt": "mit",
+                      "options": [
+                        "ուղղական",
+                        "դատվական",
+                        "սեռական"
+                      ],
+                      "answer": "դատվական"
+                    },
+                    {
+                      "id": "adverbs-prep-p3",
+                      "prompt": "in (Wohin?)",
+                      "options": [
+                        "ուղղական",
+                        "դատվական",
+                        "երկուսն էլ"
+                      ],
+                      "answer": "ուղղական"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q5",
+                  "type": "text",
+                  "question": "Er kommt ___ (աշխատանքից) der Arbeit.",
+                  "answer": [
+                    "von"
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q6",
+                  "type": "multiple-choice",
+                  "question": "Որ նախդիրն է միշտ պահանջում ուղղական հոլով?",
+                  "choices": [
+                    "für",
+                    "bei",
+                    "mit"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q7",
+                  "type": "multiple-choice",
+                  "question": "Setz dich ___ den Tisch! (շարժում դեպի սեղան)",
+                  "choices": [
+                    "an",
+                    "auf",
+                    "mit"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "sentence-structure",
+      "title": "Նախադասության կառուցվածք (Satzbau)",
+      "description": "Կազմեք բնական գերմաներեն նախադասություններ՝ պահելով բայը երկրորդ դիրքում, կառուցելով հստակ հարցեր և վստահ հրամանաձևեր։",
+      "subtopics": [
+        {
+          "slug": "main-clause-word-order",
+          "title": "Բառերի կարգը գլխավոր նախադասություններում (բայը՝ երկրորդ տեղում)",
+          "summary": "Խոնարհված բայը պահեք երկրորդ դիրքում՝ շեշտելու համար տեղափոխելով մյուս անդամները։",
+          "lesson": {
+            "intro": "Գերմաներեն գլխավոր նախադասության մեջ խոնարհված բայը միշտ երկրորդն է՝ անկախ առաջին անդամից։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Առաջին դիրքում կարող է հայտնվել մեկ ամբողջական անդամ՝ ենթակա, ժամանակային արտահայտություն կամ լրացում։ Դրանից հետո անմիջապես գալիս է խոնարհված բայը, և եթե ենթական առաջինը չէր, այն վերադառնում է բայից հետո։ Մնացած տեղեկությունը՝ լրացումներ, բառերանկարիչներ, բաժանվող նախածանցներ, լրացնում են միջանկյալ դաշտը մինչև նախադասության ավարտը։"
+              },
+              {
+                "type": "rules",
+                "title": "Երկրորդ դիրքի հիմնական կանոններ",
+                "rules": [
+                  {
+                    "label": "Առաջին դիրք (Vorfeld)",
+                    "examples": [
+                      "Heute",
+                      "Mein Bruder",
+                      "Nach dem Unterricht"
+                    ]
+                  },
+                  {
+                    "label": "Երկրորդ դիրք",
+                    "examples": [
+                      "geht",
+                      "kauft",
+                      "kommt"
+                    ]
+                  },
+                  {
+                    "label": "Միջանկյալ դաշտ",
+                    "examples": [
+                      "ich ins Kino",
+                      "er frisches Brot ein",
+                      "sie um acht Uhr an"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Գլխավոր նախադասության բնորոշ սխեմա",
+                "headers": [
+                  "Դիրք",
+                  "Օրինակ",
+                  "Դեր"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Heute",
+                    "Թեմա կամ ժամանակային շեշտադրում"
+                  ],
+                  [
+                    "2",
+                    "gehe",
+                    "Խոնարհված բայ"
+                  ],
+                  [
+                    "3",
+                    "ich",
+                    "Ենթակա կամ հիմնական անդամ"
+                  ],
+                  [
+                    "4",
+                    "ins Kino",
+                    "Լրացումներ, որոշիչներ, բառերանկարիչներ"
+                  ],
+                  [
+                    "5",
+                    "ein",
+                    "Բաժանվող նախածանց կամ նախադասության եզր"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Ժամանակ, կերպ, վայր",
+                "text": "Բայից հետո սովորաբար հաջորդում են ժամանակը, ապա՝ կերպը և վայրը։ Այս ռիթմը նախադասությունը դարձնում է պարզ. Heute (ժամանակ) fahre ich mit dem Bus (կերպ) zur Arbeit (վայր)։"
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակներ",
+                "items": [
+                  {
+                    "sentence": "Heute gehe ich ins Kino.",
+                    "translation": "Այսօր ես գնում եմ կինո։"
+                  },
+                  {
+                    "sentence": "Mein Bruder kauft morgen frisches Brot ein.",
+                    "translation": "Իմ եղբայրը վաղը գնում է թարմ հաց։"
+                  },
+                  {
+                    "sentence": "In Berlin wohnt meine Tante.",
+                    "translation": "Իմ մորաքույրը ապրում է Բեռլինում։"
+                  },
+                  {
+                    "sentence": "Nach der Arbeit trinke ich zu Hause Tee.",
+                    "translation": "Աշխատանքից հետո տանը թեյ եմ խմում։"
+                  },
+                  {
+                    "sentence": "Manchmal lese ich abends noch ein Buch.",
+                    "translation": "Երբեմն երեկոյան գիրք եմ կարդում։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Գլխավոր նախադասությունում խոնարհված բայը պետք է մնա երկրորդ տեղում։",
+              "Ցանկացած մեկ անդամ կարող է սկսել նախադասությունը և ենթակային տեղափոխել բայից հետո։",
+              "Բայից հետո օգտագործեք «ժամանակ–կերպ–վայր» հաջորդականությունը։",
+              "Բաժանվող նախածանցները տեղափոխվում են վերջ, բայց չեն փոխում բայը երկրորդ տեղում լինելու կարգը։",
+              "Երկար նախաբանը մի ամբողջական անդամ է, և բայը շարունակում է լինել երկրորդ։"
+            ],
+            "quiz": {
+              "title": "Ստուգեք ձեր գիտելիքները",
+              "intro": "Ընտրեք ճիշտ բառակարգը կամ լրացրեք բաց թողնված ձևը։",
+              "items": [
+                {
+                  "id": "sentence-structure-main-q1",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր նախադասությունում բայը մնում է երկրորդ։",
+                  "choices": [
+                    "Morgen wir gehen schwimmen.",
+                    "Morgen gehen wir schwimmen.",
+                    "Wir morgen schwimmen gehen."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-main-q2",
+                  "type": "multiple-choice",
+                  "question": "Ի՞նչ կարող է կանգնել գլխավոր նախադասության առաջին դիրքում։",
+                  "choices": [
+                    "Միայն ենթական",
+                    "Մեկ շեշտադրված անդամ՝ օրինակ ժամանակ կամ լրացում",
+                    "Միայն բառերանկարիչներ"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-main-q3",
+                  "type": "text",
+                  "question": "Լրացրեք նախադասությունը․ Am Wochenende ___ ich meine Freunde. (treffen)",
+                  "answer": [
+                    "treffe"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q4",
+                  "type": "text",
+                  "question": "Տեղադրեք ճիշտ ձևը․ Nachmittags ___ die Kinder im Park. (spielen)",
+                  "answer": [
+                    "spielen"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q5",
+                  "type": "match",
+                  "question": "Կապեք նախադասության սկզբում դրված անդամը համապատասխան շեշտադրման հետ։",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-main-p1",
+                      "prompt": "Heute ...",
+                      "options": [
+                        "Ժամանակային շեշտադրում",
+                        "Տարածական շեշտադրում",
+                        "Լրացման շեշտադրում"
+                      ],
+                      "answer": "time focus"
+                    },
+                    {
+                      "id": "sentence-structure-main-p2",
+                      "prompt": "Im Garten ...",
+                      "options": [
+                        "Ժամանակային շեշտադրում",
+                        "Տարածական շեշտադրում",
+                        "Լրացման շեշտադրում"
+                      ],
+                      "answer": "place focus"
+                    },
+                    {
+                      "id": "sentence-structure-main-p3",
+                      "prompt": "Dieses Buch ...",
+                      "options": [
+                        "Ժամանակային շեշտադրում",
+                        "Տարածական շեշտադրում",
+                        "Լրացման շեշտադրում"
+                      ],
+                      "answer": "object focus"
+                    }
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q6",
+                  "type": "multiple-choice",
+                  "question": "Եթե նախադասությունը սկսում եք «In der Schule»-ով, ապա ինչն է պետք անմիջապես հաջորդի՞։",
+                  "choices": [
+                    "Ենթական",
+                    "Խոնարհված բայը",
+                    "Լրացում"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "questions-and-negation",
+          "title": "Հարցեր և ժխտում",
+          "summary": "Կազմեք այո/ոչ և W-հարցեր ու տեղադրեք nicht կամ kein ճշգրիտ վայրում։",
+          "lesson": {
+            "intro": "Գերմաներեն հարցերը կառուցվում են բայը առաջ բերելով։ Ժխտման համար ընտրեք nicht կամ kein՝ կախված ժխտվողից։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Այո/ոչ հարցերը սկսվում են հենց խոնարհված բայից։ Ենթականը հետևում է անմիջապես, ապա՝ մնացած անդամները՝ ցուցադրելով, որ սպասվում է ja կամ nein պատասխան։"
+              },
+              {
+                "type": "paragraph",
+                "text": "W-հարցերը սկսվում են հարցական բառից՝ Wer, Was, Wo, Wann, Warum կամ Wie։ Բայը շարունակում է մնալ երկրորդ տեղում, ապա՝ ենթակա և այլ տեղեկություն։"
+              },
+              {
+                "type": "table",
+                "title": "Հարցերի սխեմաներ",
+                "headers": [
+                  "Տեսակ",
+                  "Կառուցվածք",
+                  "Օրինակ"
+                ],
+                "rows": [
+                  [
+                    "Ja/Nein",
+                    "Բայ + ենթական + ...?",
+                    "Wohnst du in Leipzig?"
+                  ],
+                  [
+                    "W-Frage",
+                    "Հարցական բառ + բայ + ենթական + ...?",
+                    "Wann kommt der Zug?"
+                  ],
+                  [
+                    "Warum-Frage",
+                    "Warum + բայ + ենթական + պատճառ",
+                    "Warum lernst du Deutsch?"
+                  ],
+                  [
+                    "Wo-Frage",
+                    "Wo + բայ + ենթական + վայր",
+                    "Wo arbeitet dein Vater?"
+                  ],
+                  [
+                    "Wie-Frage",
+                    "Wie + բայ + ենթական + կերպ",
+                    "Wie fühlst du dich heute?"
+                  ],
+                  [
+                    "Ժխտում",
+                    "Subjekt + Verb + ... + nicht/kein",
+                    "Ich komme heute nicht."
+                  ],
+                  [
+                    "Kein",
+                    "kein + գոյական առանց հոդի",
+                    "Sie hat keinen Termin."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Nicht թե kein?",
+                "text": "kein օգտագործեք, երբ փոխարինում եք անորոշ հոդը կամ ժխտում գոյական հոդի բացակայության դեպքում։ nicht-ը կիրառեք բայերի, ածականների, բառերանկարիչների կամ ամբողջ նախադասության համար։"
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակներ",
+                "items": [
+                  {
+                    "sentence": "Wohnst du in Leipzig?",
+                    "translation": "Դու՞ ես ապրում Լայպցիգում։"
+                  },
+                  {
+                    "sentence": "Wann kommt der Zug?",
+                    "translation": "Ե՞րբ է գալիս գնացքը։"
+                  },
+                  {
+                    "sentence": "Warum lernst du Deutsch?",
+                    "translation": "Ինչո՞ւ ես սովորում գերմաներեն։"
+                  },
+                  {
+                    "sentence": "Ich komme heute nicht.",
+                    "translation": "Այսօր չեմ գալու։"
+                  },
+                  {
+                    "sentence": "Sie hat keinen Termin.",
+                    "translation": "Նա հանդիպում չունի։"
+                  },
+                  {
+                    "sentence": "Was macht ihr am Wochenende?",
+                    "translation": "Ի՞նչ եք անում շաբաթավերջին։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Այո/ոչ հարցերը սկսվում են խոնարհված բայից։",
+              "W-հարցերում բայը մնում է հարցական բառից հետո երկրորդ դիրքում։",
+              "kein օգտագործեք գոյականը հոդից զրկելու կամ ein/eine-ով ժխտելու համար։",
+              "nicht կիրառեք բայերի, ածականների, բառերանկարիչների կամ ամբողջ նախադասության ժխտման համար։",
+              "Nicht-ը տեղադրեք ժխտվող անդամից առաջ կամ նախադասության վերջում։"
+            ],
+            "quiz": {
+              "title": "Ստուգեք ձեր գիտելիքները",
+              "intro": "Կազմեք հարցեր և ընտրեք ճիշտ ժխտումը։",
+              "items": [
+                {
+                  "id": "sentence-structure-questions-q1",
+                  "type": "multiple-choice",
+                  "question": "Ինչպե՞ս է սկսվում այո/ոչ հարցը գերմաներենով։",
+                  "choices": [
+                    "Ենթականով",
+                    "Խոնարհված բայով",
+                    "Հարցական բառով"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-questions-q2",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր տարբերակը է ձևավորում ճիշտ W-հարց։",
+                  "choices": [
+                    "Wo du arbeitest?",
+                    "Wo arbeitest du?",
+                    "Du arbeitest wo?"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-questions-q3",
+                  "type": "text",
+                  "question": "Լրացրեք հարցը․ ___ du heute Abend Zeit? (haben)",
+                  "answer": [
+                    "Hast",
+                    "hast"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q4",
+                  "type": "text",
+                  "question": "Ընտրեք nicht կամ kein․ Wir haben ___ Brot mehr.",
+                  "answer": [
+                    "kein"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q5",
+                  "type": "match",
+                  "question": "Կապեք հարցական բառը դրա նշանակության հետ։",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-questions-p1",
+                      "prompt": "Wo?",
+                      "options": [
+                        "Որտե՞ղ",
+                        "Ե՞րբ",
+                        "Ինչո՞ւ"
+                      ],
+                      "answer": "Where?"
+                    },
+                    {
+                      "id": "sentence-structure-questions-p2",
+                      "prompt": "Wann?",
+                      "options": [
+                        "Որտե՞ղ",
+                        "Ե՞րբ",
+                        "Ինչո՞ւ"
+                      ],
+                      "answer": "When?"
+                    },
+                    {
+                      "id": "sentence-structure-questions-p3",
+                      "prompt": "Warum?",
+                      "options": [
+                        "Որտե՞ղ",
+                        "Ե՞րբ",
+                        "Ինչո՞ւ"
+                      ],
+                      "answer": "Why?"
+                    }
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q6",
+                  "type": "multiple-choice",
+                  "question": "Որտե՞ղ է սովորաբար տեղադրվում nicht-ը բայական խմբի ժխտման դեպքում։",
+                  "choices": [
+                    "Անմիջապես խոնարհված բայից առաջ",
+                    "Ժխտվող անդամից առաջ կամ նախադասության վերջում",
+                    "Նախադասության հենց սկզբում"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "imperative-commands",
+          "title": "Հրամայական եղանակ",
+          "summary": "Տվեք հստակ հրամաններ du, ihr, Sie և wir ձևերով։",
+          "lesson": {
+            "intro": "Գերմաներեն հրամայականը փոխվում է՝ կախված նրանից դիմում եք մեկ անձի, խմբի թե ցանկանում եք ներառել ձեզ քաղաքավարի ձևով։",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "du հրամանաձևում դերանունը բացակայում է և հաճախ հեռացվում է -st վերջավորությունը՝ Komm!, Arbeite!, Lies!։ -eln/-ern վերջավորությամբ բայերը պահպանում են -e՝ Sammle!, Ändere!։"
+              },
+              {
+                "type": "paragraph",
+                "text": "ihr հրամանաձևը օգտագործում է սովորական ձևը դերանունից առանց՝ Kommt!, Arbeitet!։ Վայել Sie հրամանները դնում են ինֆինիտիվը առաջ և պահպանում Sie՝ Kommen Sie!, Seien Sie vorsichtig!։"
+              },
+              {
+                "type": "table",
+                "title": "Հրամայականի ձևեր",
+                "headers": [
+                  "Ձև",
+                  "Կաղապար",
+                  "Օրինակ"
+                ],
+                "rows": [
+                  [
+                    "du",
+                    "Բայի հիմք + ! (ըստ անհրաժեշտության՝ +e)",
+                    "Komm! / Warte!"
+                  ],
+                  [
+                    "ihr",
+                    "ihr-ի ներկա ձև",
+                    "Kommt! / Lernt!"
+                  ],
+                  [
+                    "Sie",
+                    "Ինֆինիտիվ + Sie",
+                    "Kommen Sie! / Bleiben Sie ruhig!"
+                  ],
+                  [
+                    "wir",
+                    "Lasst uns + ինֆինիտիվ",
+                    "Lasst uns gehen!"
+                  ],
+                  [
+                    "sein",
+                    "ան pravidակ՝ Sei! / Seid! / Seien Sie!",
+                    "Sei leise! / Seid bereit! / Seien Sie geduldig!"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Բաժանվող բայեր",
+                "text": "Հրամայականում բաժանվող նախածանցները նույնպես տեղափոխվում են նախադասության վերջ՝ Ruf mich an!, Steh bitte auf!։"
+              },
+              {
+                "type": "examples",
+                "title": "Օրինակներ",
+                "items": [
+                  {
+                    "sentence": "Komm bitte pünktlich!",
+                    "translation": "Խնդրում եմ, եկ ժամանակին։"
+                  },
+                  {
+                    "sentence": "Öffne das Fenster!",
+                    "translation": "Բացի՛ր պատուհանը։"
+                  },
+                  {
+                    "sentence": "Kommt morgen früher!",
+                    "translation": "Վաղը եկե՛ք ավելի շուտ։"
+                  },
+                  {
+                    "sentence": "Kommen Sie herein!",
+                    "translation": "Խնդրում եմ, մտե՛ք ներս։"
+                  },
+                  {
+                    "sentence": "Lasst uns jetzt anfangen!",
+                    "translation": "Սկսե՛նք հիմա։"
+                  },
+                  {
+                    "sentence": "Steh sofort auf!",
+                    "translation": "Անմիջապես կանգնի՛ր։"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "du հրամանաձևը օգտագործում է բայի հիմքը՝ հաճախ առանց -st-ի։",
+              "ihr հրամանաձևը համընկնում է ihr ձևին՝ առանց դերանունի։",
+              "Քաղաքավարի Sie հրամաններում Sie-ն մնում է ինֆինիտիվից հետո։",
+              "wir հրամանաձևը կառուցվում է Lasst uns + ինֆինիտիվ։",
+              "Բաժանվող նախածանցները հրամայականում էլ գնում են վերջ։"
+            ],
+            "quiz": {
+              "title": "Ստուգեք ձեր գիտելիքները",
+              "intro": "Ընտրեք հրամայականի ճիշտ ձևը։",
+              "items": [
+                {
+                  "id": "sentence-structure-imperative-q1",
+                  "type": "multiple-choice",
+                  "question": "Ո՞ր du հրամանաձևն է ճիշտ։",
+                  "choices": [
+                    "Du kommst sofort!",
+                    "Komm sofort!",
+                    "Kommst du sofort!"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-imperative-q2",
+                  "type": "multiple-choice",
+                  "question": "Ընտրեք քաղաքավարի հրամանը։",
+                  "choices": [
+                    "Bleib ruhig!",
+                    "Bleibt ruhig!",
+                    "Bleiben Sie ruhig!"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "sentence-structure-imperative-q3",
+                  "type": "text",
+                  "question": "Schreib den Befehl: ___ (ihr / warten) hier!",
+                  "answer": [
+                    "Wartet",
+                    "wartet"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-imperative-q4",
+                  "type": "text",
+                  "question": "Ergänze: ___ uns anfangen!",
+                  "answer": [
+                    "Lasst",
+                    "lasst"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-imperative-q5",
+                  "type": "multiple-choice",
+                  "question": "Որտե՞ղ է հայտնվում նախածանցը «Steh ... auf!» հրամանում։",
+                  "choices": [
+                    "Մնում է բայի հետ սկզբում։",
+                    "Տեղափոխվում է նախադասության վերջում։",
+                    "Անհետանում է։"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-imperative-q6",
+                  "type": "match",
+                  "question": "Կապեք ենթական հրամայականի վերջավորության հետ։",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-imperative-p1",
+                      "prompt": "du",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "-"
+                    },
+                    {
+                      "id": "sentence-structure-imperative-p2",
+                      "prompt": "ihr",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "-t"
+                    },
+                    {
+                      "id": "sentence-structure-imperative-p3",
+                      "prompt": "Sie",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "Sie"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "menu": {
+    "library": "Գրադարան",
+    "learning": "Սովորում",
+    "about": "Մեր մասին",
+    "grammar": "Քերականություն",
+    "vocabulary": "Բառապաշար",
+    "pronunciation": "Արտասանություն",
+    "test": "Գերմաներենի թեստ",
+    "ai_teacher": "ԱԻ ուսուցիչ"
+  }
+}

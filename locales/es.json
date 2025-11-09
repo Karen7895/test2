@@ -1,0 +1,3847 @@
+{
+  "locale": "es",
+  "grammar": {
+    "title": "Estudio de Gramática",
+    "overview": {
+      "introTitle": "Domina la gramática alemana paso a paso",
+      "introBody": "Cada lección combina explicaciones claras, tablas compactas y mini cuestionarios para repasar los temas difíciles con seguridad.",
+      "highlightTitle": "Cómo funciona",
+      "highlightBody": "Elige una sección a la izquierda, lee las explicaciones y termina con el quiz para comprobar tu comprensión."
+    },
+    "breadcrumbs": {
+      "learning": "Aprendizaje",
+      "grammar": "Gramática"
+    },
+    "sidebarLabel": "Secciones",
+    "ui": {
+      "backToSections": "Volver a las secciones",
+      "startQuiz": "Iniciar quiz",
+      "checkAnswers": "Comprobar respuestas",
+      "tryAgain": "Intentar de nuevo",
+      "showSolutions": "Mostrar soluciones",
+      "closeSidebar": "Cerrar barra lateral",
+      "score": "Tu puntuación",
+      "outOf": "de",
+      "correct": "correctas",
+      "quizIntro": "Pon a prueba tus conocimientos",
+      "quizReview": "Revisa las explicaciones antes de volver a intentarlo.",
+      "lessonsLabel": "lecciones",
+      "takeawaysLabel": "Ideas clave"
+    },
+    "sections": {
+      "verbs": {
+        "slug": "verbs",
+        "title": "Verbos (Verben)",
+        "description": "Aprende cómo cambian los verbos en alemán: infinitivos, conjugación, preguntas, negación y verbos modales."
+      },
+      "adjectives": {
+        "slug": "adjectives",
+        "title": "Adjetivos (Adjektive)",
+        "description": "Describe personas y objetos con formas adjetivales: comparaciones básicas y uso predicativo."
+      },
+      "adverbsPrepositions": {
+        "slug": "adverbs-prepositions",
+        "title": "Adverbios y preposiciones (Adverbien und Präpositionen)",
+        "description": "Explora adverbios de tiempo y lugar junto con preposiciones básicas que alternan entre dativo y acusativo."
+      },
+      "sentenceStructure": {
+        "slug": "sentence-structure",
+        "title": "Estructura de la oración (Satzbau)",
+        "description": "Construye oraciones naturales en alemán con verbo en segunda posición, preguntas claras y mandatos seguros."
+      }
+    }
+  },
+  "sections": [
+    {
+      "slug": "nouns",
+      "title": "Sustantivos (Nomen)",
+      "description": "Comprende el género, las formas de plural, los casos y los posesivos que necesitas a diario.",
+      "subtopics": [
+        {
+          "slug": "gender-of-nouns",
+          "title": "Género de los sustantivos (der, die, das)",
+          "summary": "Reconoce las terminaciones fiables y aprende las excepciones más comunes.",
+          "lesson": {
+            "intro": "Cada sustantivo alemán tiene un género que controla el artículo y las terminaciones de los adjetivos. Las terminaciones frecuentes te ayudan a elegir el artículo correcto.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Muchas terminaciones apuntan claramente a un género. Aprovecha estos patrones para escoger rápidamente el artículo adecuado."
+              },
+              {
+                "type": "rules",
+                "title": "Señales frecuentes de género",
+                "rules": [
+                  {
+                    "label": "die + sustantivos terminados en -ung",
+                    "examples": [
+                      "die Wohnung",
+                      "die Bedeutung"
+                    ]
+                  },
+                  {
+                    "label": "die + terminaciones -keit / -heit",
+                    "examples": [
+                      "die Freundlichkeit",
+                      "die Freiheit"
+                    ]
+                  },
+                  {
+                    "label": "die + terminaciones -tion / -tät",
+                    "examples": [
+                      "die Situation",
+                      "die Universität"
+                    ]
+                  },
+                  {
+                    "label": "der + profesiones en -er",
+                    "examples": [
+                      "der Bäcker",
+                      "der Fahrer"
+                    ]
+                  },
+                  {
+                    "label": "der + palabras en -ismus",
+                    "examples": [
+                      "der Optimismus",
+                      "der Tourismus"
+                    ]
+                  },
+                  {
+                    "label": "das + diminutivos en -chen / -lein",
+                    "examples": [
+                      "das Mädchen",
+                      "das Häuschen"
+                    ]
+                  },
+                  {
+                    "label": "das + terminaciones -ment / -um",
+                    "examples": [
+                      "das Instrument",
+                      "das Zentrum"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Atención a las excepciones",
+                "text": "Algunas palabras se apartan del patrón. Ejemplos conocidos son das Mädchen (neutro aunque se refiere a una chica) o der Name (masculino a pesar de terminar en -e). Apréndete siempre el sustantivo con su artículo."
+              },
+              {
+                "type": "examples",
+                "title": "Frases de ejemplo",
+                "items": [
+                  {
+                    "sentence": "Der Bäcker verkauft frisches Brot.",
+                    "translation": "El panadero vende pan fresco."
+                  },
+                  {
+                    "sentence": "Die Entscheidung ist sehr wichtig.",
+                    "translation": "La decisión es muy importante."
+                  },
+                  {
+                    "sentence": "Das Instrument klingt wunderschön.",
+                    "translation": "El instrumento suena precioso."
+                  },
+                  {
+                    "sentence": "Die Universität liegt im Zentrum der Stadt.",
+                    "translation": "La universidad está en el centro de la ciudad."
+                  },
+                  {
+                    "sentence": "Das Mädchen liest eine Geschichte.",
+                    "translation": "La niña lee un cuento."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Aprende el sustantivo junto con su artículo, sobre todo si el patrón no es claro.",
+              "Terminaciones como -ung, -heit, -keit y -tion casi siempre llevan die.",
+              "Los nombres de profesión en -er suelen ser der; los diminutivos en -chen/-lein son das.",
+              "Recuerda las excepciones clásicas como das Mädchen o der See (lago)."
+            ],
+            "quiz": {
+              "title": "Elige el artículo correcto",
+              "intro": "Selecciona el artículo que corresponde a cada sustantivo.",
+              "items": [
+                {
+                  "id": "gender-q1",
+                  "type": "multiple-choice",
+                  "question": "¿Qué artículo corresponde a \"Zeitung\"?",
+                  "choices": [
+                    "der",
+                    "die",
+                    "das"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "gender-q2",
+                  "type": "multiple-choice",
+                  "question": "Completa: ___ Instrument ist neu.",
+                  "choices": [
+                    "Der",
+                    "Die",
+                    "Das"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "gender-q3",
+                  "type": "text",
+                  "question": "Escribe el artículo: ___ Bäcker öffnet um sechs Uhr.",
+                  "answer": [
+                    "Der",
+                    "der"
+                  ]
+                },
+                {
+                  "id": "gender-q4",
+                  "type": "text",
+                  "question": "Escribe el artículo: ___ Mädchen spielt im Park.",
+                  "answer": [
+                    "Das",
+                    "das"
+                  ]
+                },
+                {
+                  "id": "gender-q5",
+                  "type": "match",
+                  "question": "Relaciona el sustantivo con el artículo correcto.",
+                  "pairs": [
+                    {
+                      "id": "gender-pair-1",
+                      "prompt": "__ Freundlichkeit",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "die"
+                    },
+                    {
+                      "id": "gender-pair-2",
+                      "prompt": "__ Tourismus",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "der"
+                    },
+                    {
+                      "id": "gender-pair-3",
+                      "prompt": "__ Häuschen",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "das"
+                    }
+                  ]
+                },
+                {
+                  "id": "gender-q6",
+                  "type": "multiple-choice",
+                  "question": "¿Qué palabra es una excepción al patrón habitual?",
+                  "choices": [
+                    "die Bedeutung",
+                    "das Mädchen",
+                    "der Fahrer"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "singular-and-plural",
+          "title": "Singular y plural",
+          "summary": "Aprende las terminaciones de plural más frecuentes y practícalas en contexto.",
+          "lesson": {
+            "intro": "El plural en alemán no tiene una única terminación. Observa los patrones típicos y anota siempre el plural junto con el singular (artículo die).",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Muchos plurales usan -e, -er, -n/-en o -s. Algunos añaden umlaut. Apunta la forma plural con cada palabra nueva."
+              },
+              {
+                "type": "table",
+                "title": "Patrones comunes de plural",
+                "headers": [
+                  "Singular",
+                  "Plural",
+                  "Artículo (Nom.)"
+                ],
+                "rows": [
+                  [
+                    "der Tisch",
+                    "die Tische",
+                    "die"
+                  ],
+                  [
+                    "die Blume",
+                    "die Blumen",
+                    "die"
+                  ],
+                  [
+                    "das Buch",
+                    "die Bücher",
+                    "die"
+                  ],
+                  [
+                    "der Lehrer",
+                    "die Lehrer",
+                    "die"
+                  ],
+                  [
+                    "die Frage",
+                    "die Fragen",
+                    "die"
+                  ],
+                  [
+                    "das Kind",
+                    "die Kinder",
+                    "die"
+                  ],
+                  [
+                    "der Tourist",
+                    "die Touristen",
+                    "die"
+                  ],
+                  [
+                    "die Universität",
+                    "die Universitäten",
+                    "die"
+                  ],
+                  [
+                    "das Auto",
+                    "die Autos",
+                    "die"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Los sustantivos masculinos y neutros suelen usar -e o -er (a veces con umlaut). Los femeninos prefieren -n/-en. Los extranjerismos adoptan a menudo -s."
+              },
+              {
+                "type": "examples",
+                "title": "Plural en oraciones",
+                "items": [
+                  {
+                    "sentence": "Die Kinder spielen im Garten.",
+                    "translation": "Los niños juegan en el jardín."
+                  },
+                  {
+                    "sentence": "Wir brauchen neue Stühle für das Büro.",
+                    "translation": "Necesitamos sillas nuevas para la oficina."
+                  },
+                  {
+                    "sentence": "Im Museum hängen viele Bilder.",
+                    "translation": "En el museo cuelgan muchos cuadros."
+                  },
+                  {
+                    "sentence": "Die Studenten schreiben ihre Prüfungen.",
+                    "translation": "Los estudiantes están haciendo sus exámenes."
+                  },
+                  {
+                    "sentence": "Sie sammelt alte Bücher und Zeitungen.",
+                    "translation": "Ella colecciona libros y periódicos antiguos."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "En nominativo plural el artículo siempre es die.",
+              "Los femeninos suelen terminar en -n/-en; muchos neutros usan -er con umlaut.",
+              "Los extranjerismos y abreviaturas suelen formar el plural con -s.",
+              "Anota siempre la forma plural en tus apuntes."
+            ],
+            "quiz": {
+              "title": "Práctica de plural",
+              "intro": "Elige o forma la terminación plural adecuada.",
+              "items": [
+                {
+                  "id": "plural-q1",
+                  "type": "multiple-choice",
+                  "question": "Selecciona el plural correcto de der Tisch",
+                  "choices": [
+                    "die Tischs",
+                    "die Tische",
+                    "die Tischer"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "plural-q2",
+                  "type": "text",
+                  "question": "Completa el plural: die Blume → die _____.",
+                  "answer": [
+                    "Blumen",
+                    "blumen"
+                  ]
+                },
+                {
+                  "id": "plural-q3",
+                  "type": "multiple-choice",
+                  "question": "¿Cuál es el plural correcto de das Kind?",
+                  "choices": [
+                    "die Kinden",
+                    "die Kinder",
+                    "die Kinds"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "plural-q4",
+                  "type": "text",
+                  "question": "Completa el artículo: ___ Autos stehen vor dem Haus.",
+                  "answer": [
+                    "Die",
+                    "die"
+                  ]
+                },
+                {
+                  "id": "plural-q5",
+                  "type": "match",
+                  "question": "Relaciona el sustantivo con su terminación de plural.",
+                  "pairs": [
+                    {
+                      "id": "plural-pair-1",
+                      "prompt": "der Lehrer",
+                      "options": [
+                        "sin terminación",
+                        "-e",
+                        "-er",
+                        "-en"
+                      ],
+                      "answer": "sin terminación"
+                    },
+                    {
+                      "id": "plural-pair-2",
+                      "prompt": "die Universität",
+                      "options": [
+                        "-e",
+                        "-en",
+                        "-n",
+                        "-s"
+                      ],
+                      "answer": "-en"
+                    },
+                    {
+                      "id": "plural-pair-3",
+                      "prompt": "das Buch",
+                      "options": [
+                        "-e",
+                        "-er",
+                        "-s",
+                        "-n"
+                      ],
+                      "answer": "-er"
+                    }
+                  ]
+                },
+                {
+                  "id": "plural-q6",
+                  "type": "multiple-choice",
+                  "question": "¿Qué oración usa bien el plural?",
+                  "choices": [
+                    "Die Studenten warten vor der Bibliothek.",
+                    "Der Studenten warten vor der Bibliothek.",
+                    "Die Studentes warten vor der Bibliothek."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "declension-of-articles",
+          "title": "Declinación de los artículos",
+          "summary": "Observa cómo cambian los artículos definidos, indefinidos y negativos en cada caso.",
+          "lesson": {
+            "intro": "Los artículos muestran el género, número y caso del sustantivo. Der/die/das, ein/eine/ein y kein/keine/kein siguen tablas regulares.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "El artículo cambia según si el sustantivo es sujeto (nominativo), objeto directo (acusativo) u objeto indirecto (dativo). Memoriza las terminaciones que se repiten."
+              },
+              {
+                "type": "table",
+                "title": "Artículos definidos",
+                "headers": [
+                  "Caso",
+                  "Masculino",
+                  "Femenino",
+                  "Neutro",
+                  "Plural"
+                ],
+                "rows": [
+                  [
+                    "Nominativo",
+                    "der",
+                    "die",
+                    "das",
+                    "die"
+                  ],
+                  [
+                    "Acusativo",
+                    "den",
+                    "die",
+                    "das",
+                    "die"
+                  ],
+                  [
+                    "Dativo",
+                    "dem",
+                    "der",
+                    "dem",
+                    "den"
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Artículos indefinidos",
+                "headers": [
+                  "Caso",
+                  "Masculino",
+                  "Femenino",
+                  "Neutro"
+                ],
+                "rows": [
+                  [
+                    "Nominativo",
+                    "ein",
+                    "eine",
+                    "ein"
+                  ],
+                  [
+                    "Acusativo",
+                    "einen",
+                    "eine",
+                    "ein"
+                  ],
+                  [
+                    "Dativo",
+                    "einem",
+                    "einer",
+                    "einem"
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Negación (kein)",
+                "headers": [
+                  "Caso",
+                  "Masculino",
+                  "Femenino",
+                  "Neutro",
+                  "Plural"
+                ],
+                "rows": [
+                  [
+                    "Nominativo",
+                    "kein",
+                    "keine",
+                    "kein",
+                    "keine"
+                  ],
+                  [
+                    "Acusativo",
+                    "keinen",
+                    "keine",
+                    "kein",
+                    "keine"
+                  ],
+                  [
+                    "Dativo",
+                    "keinem",
+                    "keiner",
+                    "keinem",
+                    "keinen"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "En nominativo y acusativo el sustantivo apenas cambia. En dativo plural se añade -n al sustantivo si no termina ya en -n."
+              },
+              {
+                "type": "examples",
+                "title": "Artículos en acción",
+                "items": [
+                  {
+                    "sentence": "Der Student liest ein Buch.",
+                    "translation": "El estudiante lee un libro."
+                  },
+                  {
+                    "sentence": "Ich sehe den Bahnhof schon von hier.",
+                    "translation": "Ya veo la estación desde aquí."
+                  },
+                  {
+                    "sentence": "Wir helfen dem Kind bei den Hausaufgaben.",
+                    "translation": "Ayudamos al niño con los deberes."
+                  },
+                  {
+                    "sentence": "Sie hat keinen Termin heute.",
+                    "translation": "Ella no tiene cita hoy."
+                  },
+                  {
+                    "sentence": "Gibt es eine Frage zur Grammatik?",
+                    "translation": "¿Hay alguna pregunta sobre gramática?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Der pasa a den en acusativo y a dem en dativo.",
+              "Los artículos indefinidos y posesivos comparten las mismas terminaciones (einem, einer, keinen).",
+              "En dativo plural usamos den y el sustantivo suele recibir un -n adicional.",
+              "A menudo el sustantivo no cambia; el artículo indica el caso."
+            ],
+            "quiz": {
+              "title": "Terminaciones del artículo",
+              "intro": "Elige la forma correcta del artículo en cada frase.",
+              "items": [
+                {
+                  "id": "articles-q1",
+                  "type": "multiple-choice",
+                  "question": "___ Mann kauft ein Ticket. (Nominativ)",
+                  "choices": [
+                    "Der",
+                    "Den",
+                    "Dem"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "articles-q2",
+                  "type": "multiple-choice",
+                  "question": "Ich kenne ___ Lehrer gut. (Acusativo)",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "articles-q3",
+                  "type": "text",
+                  "question": "Completa: Wir danken ___ Frau. (Dativo)",
+                  "answer": [
+                    "der",
+                    "Der"
+                  ]
+                },
+                {
+                  "id": "articles-q4",
+                  "type": "multiple-choice",
+                  "question": "Elige la forma correcta: Wir haben ___ Zeit.",
+                  "choices": [
+                    "keinen",
+                    "kein",
+                    "keinem"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "articles-q5",
+                  "type": "match",
+                  "question": "Relaciona el caso con la forma de \"ein\" (masculino).",
+                  "pairs": [
+                    {
+                      "id": "articles-pair-1",
+                      "prompt": "Nominativo",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "ein"
+                    },
+                    {
+                      "id": "articles-pair-2",
+                      "prompt": "Acusativo",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "einen"
+                    },
+                    {
+                      "id": "articles-pair-3",
+                      "prompt": "Dativo",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "einem"
+                    }
+                  ]
+                },
+                {
+                  "id": "articles-q6",
+                  "type": "text",
+                  "question": "Completa: Sie hilft ___ Kindern. (Dativo plural)",
+                  "answer": [
+                    "den",
+                    "Den"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "case-declension-of-nouns",
+          "title": "Casos de los sustantivos",
+          "summary": "Comprende cuándo usar nominativo, acusativo y dativo con verbos frecuentes.",
+          "lesson": {
+            "intro": "Los casos muestran la función de un sustantivo. El nominativo indica el sujeto, el acusativo el objeto directo y el dativo el destinatario o beneficiario.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Identifica quién realiza la acción (nominativo), qué recibe la acción directamente (acusativo) y quién recibe algo o se beneficia (dativo). Las preposiciones también determinan el caso."
+              },
+              {
+                "type": "table",
+                "title": "Verbos frecuentes y su caso",
+                "headers": [
+                  "Verbo",
+                  "Significado",
+                  "Caso"
+                ],
+                "rows": [
+                  [
+                    "sehen",
+                    "ver",
+                    "Akkusativ"
+                  ],
+                  [
+                    "brauchen",
+                    "necesitar",
+                    "Akkusativ"
+                  ],
+                  [
+                    "haben",
+                    "tener",
+                    "Akkusativ"
+                  ],
+                  [
+                    "helfen",
+                    "ayudar",
+                    "Dativ"
+                  ],
+                  [
+                    "danken",
+                    "agradecer",
+                    "Dativ"
+                  ],
+                  [
+                    "gehören",
+                    "pertenecer",
+                    "Dativ"
+                  ],
+                  [
+                    "sein",
+                    "ser/estar",
+                    "Nominativ"
+                  ],
+                  [
+                    "heißen",
+                    "llamarse",
+                    "Nominativ"
+                  ],
+                  [
+                    "werden",
+                    "llegar a ser",
+                    "Nominativ"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Ejemplos con casos",
+                "items": [
+                  {
+                    "sentence": "Der Lehrer erklärt die Regel.",
+                    "translation": "El profesor explica la regla."
+                  },
+                  {
+                    "sentence": "Meine Schwester braucht einen neuen Laptop.",
+                    "translation": "Mi hermana necesita un portátil nuevo."
+                  },
+                  {
+                    "sentence": "Wir geben dem Freund ein Geschenk.",
+                    "translation": "Le damos un regalo al amigo."
+                  },
+                  {
+                    "sentence": "Kannst du mir bitte helfen?",
+                    "translation": "¿Puedes ayudarme, por favor?"
+                  },
+                  {
+                    "sentence": "Das Kind heißt Lukas.",
+                    "translation": "El niño se llama Lukas."
+                  },
+                  {
+                    "sentence": "Die Blumen gehören der Nachbarin.",
+                    "translation": "Las flores pertenecen a la vecina."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Usa nominativo para el sujeto y para el atributo tras sein, werden, heißen.",
+              "Muchos verbos de acción toman objeto acusativo (sehen, brauchen, kaufen).",
+              "El dativo marca al destinatario, frecuente con geben, helfen, danken, gehören.",
+              "Preposiciones como mit, zu, nach exigen dativo; durch, für exigen acusativo."
+            ],
+            "quiz": {
+              "title": "Elige el caso correcto",
+              "intro": "Decide qué caso y qué artículo necesitas.",
+              "items": [
+                {
+                  "id": "cases-q1",
+                  "type": "multiple-choice",
+                  "question": "¿Qué forma es correcta? Ich sehe ___ Film.",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "cases-q2",
+                  "type": "text",
+                  "question": "Completa: Wir helfen ___ Nachbarn.",
+                  "answer": [
+                    "dem",
+                    "Dem"
+                  ]
+                },
+                {
+                  "id": "cases-q3",
+                  "type": "multiple-choice",
+                  "question": "¿Qué caso sigue a \"mit\"?",
+                  "choices": [
+                    "Nominativ",
+                    "Akkusativ",
+                    "Dativ"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "cases-q4",
+                  "type": "text",
+                  "question": "Completa: Sie bedankt sich bei ___ Lehrerin.",
+                  "answer": [
+                    "der",
+                    "Der"
+                  ]
+                },
+                {
+                  "id": "cases-q5",
+                  "type": "match",
+                  "question": "Relaciona el verbo con su caso.",
+                  "pairs": [
+                    {
+                      "id": "cases-pair-1",
+                      "prompt": "helfen",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Dativ"
+                    },
+                    {
+                      "id": "cases-pair-2",
+                      "prompt": "sehen",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Akkusativ"
+                    },
+                    {
+                      "id": "cases-pair-3",
+                      "prompt": "sein",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Nominativ"
+                    }
+                  ]
+                },
+                {
+                  "id": "cases-q6",
+                  "type": "multiple-choice",
+                  "question": "¿Qué opción es correcta? Wir schenken ___ Kind ein Buch.",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "possessive-pronouns",
+          "title": "Pronombres posesivos",
+          "summary": "Usa mein, dein, sein, ihr y demás con las terminaciones correctas.",
+          "lesson": {
+            "intro": "Los posesivos se comportan como el artículo indefinido ein. Cambian las terminaciones según género, caso y número.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Añade las mismas terminaciones que conoces de ein/eine/ein. Fíjate en la forma base (mein, dein, sein, ihr, unser, euer, Ihr)."
+              },
+              {
+                "type": "table",
+                "title": "Terminaciones posesivas (ejemplo: mein)",
+                "headers": [
+                  "Caso",
+                  "Masculino",
+                  "Femenino",
+                  "Neutro",
+                  "Plural"
+                ],
+                "rows": [
+                  [
+                    "Nominativo",
+                    "mein",
+                    "meine",
+                    "mein",
+                    "meine"
+                  ],
+                  [
+                    "Acusativo",
+                    "meinen",
+                    "meine",
+                    "mein",
+                    "meine"
+                  ],
+                  [
+                    "Dativo",
+                    "meinem",
+                    "meiner",
+                    "meinem",
+                    "meinen"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Posesivos en contexto",
+                "items": [
+                  {
+                    "sentence": "Mein Bruder arbeitet in Berlin.",
+                    "translation": "Mi hermano trabaja en Berlín."
+                  },
+                  {
+                    "sentence": "Ich sehe deine Tasche nicht.",
+                    "translation": "No veo tu bolso."
+                  },
+                  {
+                    "sentence": "Wir helfen unserem Freund beim Umzug.",
+                    "translation": "Ayudamos a nuestro amigo con la mudanza."
+                  },
+                  {
+                    "sentence": "Ihre Eltern kommen morgen zu Besuch.",
+                    "translation": "Sus padres vienen de visita mañana."
+                  },
+                  {
+                    "sentence": "Ist das euer Auto vor der Tür?",
+                    "translation": "¿Es vuestro coche el que está delante de la puerta?"
+                  },
+                  {
+                    "sentence": "Ich telefoniere mit meiner Schwester.",
+                    "translation": "Hablo por teléfono con mi hermana."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Los posesivos comparten terminaciones con las palabras tipo ein (ein, kein, mein).",
+              "En acusativo masculino añaden -en; en dativo se usan -em/-er/-en.",
+              "Euer pierde la segunda e antes de las terminaciones: euer → euren, eurem, eurer.",
+              "El formal Ihr siempre se escribe con mayúscula (Ihre, Ihren...)."
+            ],
+            "quiz": {
+              "title": "Terminaciones posesivas",
+              "intro": "Completa las oraciones con la forma posesiva correcta.",
+              "items": [
+                {
+                  "id": "possessive-q1",
+                  "type": "multiple-choice",
+                  "question": "___ Bruder studiert in Múnich. (mein)",
+                  "choices": [
+                    "Mein",
+                    "Meine",
+                    "Meinen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "possessive-q2",
+                  "type": "text",
+                  "question": "Escribe la forma correcta: Wir besuchen ___ Großeltern. (unser)",
+                  "answer": [
+                    "unsere",
+                    "Unsere"
+                  ]
+                },
+                {
+                  "id": "possessive-q3",
+                  "type": "multiple-choice",
+                  "question": "Siehst du ___ Freundin? (sein)",
+                  "choices": [
+                    "seine",
+                    "sein",
+                    "seiner"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "possessive-q4",
+                  "type": "text",
+                  "question": "Completa: Ich gebe ___ Bruder das Buch zurück. (dein)",
+                  "answer": [
+                    "deinem",
+                    "Deinem"
+                  ]
+                },
+                {
+                  "id": "possessive-q5",
+                  "type": "match",
+                  "question": "Relaciona la persona con su pronombre posesivo.",
+                  "pairs": [
+                    {
+                      "id": "possessive-pair-1",
+                      "prompt": "wir",
+                      "options": [
+                        "mein",
+                        "dein",
+                        "sein",
+                        "unser"
+                      ],
+                      "answer": "unser"
+                    },
+                    {
+                      "id": "possessive-pair-2",
+                      "prompt": "sie (singular)",
+                      "options": [
+                        "ihr",
+                        "sein",
+                        "euer",
+                        "Ihr"
+                      ],
+                      "answer": "ihr"
+                    },
+                    {
+                      "id": "possessive-pair-3",
+                      "prompt": "Sie (formal)",
+                      "options": [
+                        "mein",
+                        "Ihr",
+                        "euer",
+                        "sein"
+                      ],
+                      "answer": "Ihr"
+                    }
+                  ]
+                },
+                {
+                  "id": "possessive-q6",
+                  "type": "multiple-choice",
+                  "question": "¿Qué forma es correcta? Wir danken ___ Lehrerin.",
+                  "choices": [
+                    "unser",
+                    "unserer",
+                    "unserem"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "verbs",
+      "title": "Verbos (Verben)",
+      "description": "Aprende cómo cambian los verbos en alemán en frases cotidianas: infinitivos, conjugación, preguntas, negación y verbos modales.",
+      "subtopics": [
+        {
+          "slug": "infinitive-and-conjugation",
+          "title": "Infinitivo y conjugación de verbos regulares e irregulares",
+          "summary": "Reconoce los infinitivos y los patrones de presente más habituales de los verbos regulares e irregulares.",
+          "lesson": {
+            "intro": "Los infinitivos alemanes suelen terminar en -en o -n. En presente, los verbos regulares siguen terminaciones predecibles, mientras que un grupo menor cambia la vocal del radical en algunas formas.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Para conjugar un verbo regular, quita la terminación -en del infinitivo y añade las terminaciones personales. Los verbos irregulares mantienen las mismas terminaciones, pero pueden cambiar la vocal del radical o añadir una consonante extra en las formas de du y er/sie/es."
+              },
+              {
+                "type": "table",
+                "title": "Terminaciones regulares con spielen",
+                "headers": [
+                  "Persona",
+                  "Terminación",
+                  "Ejemplo"
+                ],
+                "rows": [
+                  [
+                    "ich",
+                    "-e",
+                    "ich spiele"
+                  ],
+                  [
+                    "du",
+                    "-st",
+                    "du spielst"
+                  ],
+                  [
+                    "er/sie/es",
+                    "-t",
+                    "er spielt"
+                  ],
+                  [
+                    "wir",
+                    "-en",
+                    "wir spielen"
+                  ],
+                  [
+                    "ihr",
+                    "-t",
+                    "ihr spielt"
+                  ],
+                  [
+                    "sie/Sie",
+                    "-en",
+                    "sie spielen"
+                  ]
+                ]
+              },
+              {
+                "type": "rules",
+                "title": "Cambios frecuentes de la raíz",
+                "rules": [
+                  {
+                    "label": "e → ie (sehen, lesen)",
+                    "examples": [
+                      "ich sehe",
+                      "du siehst",
+                      "er liest"
+                    ]
+                  },
+                  {
+                    "label": "a → ä (fahren, laufen)",
+                    "examples": [
+                      "du fährst",
+                      "er läuft"
+                    ]
+                  },
+                  {
+                    "label": "e → i (sprechen, nehmen)",
+                    "examples": [
+                      "du sprichst",
+                      "er nimmt"
+                    ]
+                  },
+                  {
+                    "label": "Añade -e- si la raíz termina en -d/-t (arbeiten)",
+                    "examples": [
+                      "du arbeitest",
+                      "ihr arbeitet"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Frases de ejemplo",
+                "items": [
+                  {
+                    "sentence": "Ich lerne jeden Abend Deutsch.",
+                    "translation": "Estudio alemán cada noche."
+                  },
+                  {
+                    "sentence": "Du arbeitest heute im Büro.",
+                    "translation": "Hoy trabajas en la oficina."
+                  },
+                  {
+                    "sentence": "Er sieht den neuen Film im Kino.",
+                    "translation": "Él ve la nueva película en el cine."
+                  },
+                  {
+                    "sentence": "Wir fahren am Wochenende nach Köln.",
+                    "translation": "Viajamos a Colonia el fin de semana."
+                  },
+                  {
+                    "sentence": "Ihr sprecht sehr gut Deutsch.",
+                    "translation": "Ustedes hablan alemán muy bien."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "La mayoría de los infinitivos terminan en -en; quítalo para encontrar la raíz.",
+              "Los verbos regulares añaden -e, -st, -t, -en, -t, -en al radical.",
+              "Los verbos irregulares mantienen las terminaciones, pero cambian la vocal en las formas du/er/sie/es.",
+              "Las raíces que terminan en -d o -t insertan una -e- antes de -st y -t para facilitar la pronunciación."
+            ],
+            "quiz": {
+              "title": "Comprueba tu comprensión",
+              "items": [
+                {
+                  "id": "verbs-inf-q1",
+                  "type": "multiple-choice",
+                  "question": "Wir ___ (lernen) Deutsch.",
+                  "choices": [
+                    "lerne",
+                    "lernen",
+                    "lernt"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-inf-q2",
+                  "type": "multiple-choice",
+                  "question": "Er ___ (fahren) zur Arbeit.",
+                  "choices": [
+                    "fahrt",
+                    "fährt",
+                    "fahre"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-inf-q3",
+                  "type": "text",
+                  "question": "Du ___ (arbeiten) am Samstag.",
+                  "answer": [
+                    "arbeitest"
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q4",
+                  "type": "text",
+                  "question": "Ich ___ (sehen) den Film.",
+                  "answer": [
+                    "sehe"
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q5",
+                  "type": "match",
+                  "question": "Relaciona el infinitivo con la forma de ich.",
+                  "pairs": [
+                    {
+                      "id": "verbs-inf-p1",
+                      "prompt": "laufen",
+                      "options": [
+                        "laufe",
+                        "läuft",
+                        "lief"
+                      ],
+                      "answer": "laufe"
+                    },
+                    {
+                      "id": "verbs-inf-p2",
+                      "prompt": "sprechen",
+                      "options": [
+                        "spreche",
+                        "spriche",
+                        "sprach"
+                      ],
+                      "answer": "spreche"
+                    },
+                    {
+                      "id": "verbs-inf-p3",
+                      "prompt": "nehmen",
+                      "options": [
+                        "nehme",
+                        "nahme",
+                        "nehmt"
+                      ],
+                      "answer": "nehme"
+                    }
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q6",
+                  "type": "multiple-choice",
+                  "question": "¿Qué terminación corresponde a ihr en los verbos regulares?",
+                  "choices": [
+                    "-e",
+                    "-en",
+                    "-t"
+                  ],
+                  "answer": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "sein-haben-werden",
+          "title": "Los verbos sein, haben, werden",
+          "summary": "Utiliza con seguridad los verbos irregulares sein, haben y werden en situaciones cotidianas.",
+          "lesson": {
+            "intro": "Los verbos sein (ser/estar), haben (tener) y werden (llegar a ser) se usan constantemente. Son irregulares y hay que memorizarlos, pero sostienen muchas frases básicas.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Sein describe identidad y estados, haben expresa posesión y relaciones, y werden puede significar “llegar a ser” o actuar como auxiliar para el futuro y la voz pasiva."
+              },
+              {
+                "type": "table",
+                "title": "Conjugación en presente",
+                "headers": [
+                  "Persona",
+                  "sein",
+                  "haben",
+                  "werden"
+                ],
+                "rows": [
+                  [
+                    "ich",
+                    "bin",
+                    "habe",
+                    "werde"
+                  ],
+                  [
+                    "du",
+                    "bist",
+                    "hast",
+                    "wirst"
+                  ],
+                  [
+                    "er/sie/es",
+                    "ist",
+                    "hat",
+                    "wird"
+                  ],
+                  [
+                    "wir",
+                    "sind",
+                    "haben",
+                    "werden"
+                  ],
+                  [
+                    "ihr",
+                    "seid",
+                    "habt",
+                    "werdet"
+                  ],
+                  [
+                    "sie/Sie",
+                    "sind",
+                    "haben",
+                    "werden"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Cómo se usan",
+                "text": "Usa sein para descripciones y lugares, haben para posesiones y relaciones, y werden para hablar de cambios o como auxiliar del futuro y del pasivo."
+              },
+              {
+                "type": "examples",
+                "title": "Frases de ejemplo",
+                "items": [
+                  {
+                    "sentence": "Ich bin müde.",
+                    "translation": "Estoy cansado/a."
+                  },
+                  {
+                    "sentence": "Wir sind heute im Büro.",
+                    "translation": "Hoy estamos en la oficina."
+                  },
+                  {
+                    "sentence": "Sie hat zwei Geschwister.",
+                    "translation": "Ella tiene dos hermanos."
+                  },
+                  {
+                    "sentence": "Habt ihr noch Fragen?",
+                    "translation": "¿Todavía tienen preguntas?"
+                  },
+                  {
+                    "sentence": "Er wird nächstes Jahr Lehrer.",
+                    "translation": "Él se convertirá en profesor el año que viene."
+                  },
+                  {
+                    "sentence": "Morgen werden wir in Berlin sein.",
+                    "translation": "Mañana estaremos en Berlín."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Sein, haben, and werden are completely irregular—memorise each form.",
+              "Sein states what something is or where it is.",
+              "Haben talks about what someone owns or experiences.",
+              "Werden expresses becoming and also builds the future tense together with an infinitive."
+            ],
+            "quiz": {
+              "title": "Practica los verbos clave",
+              "items": [
+                {
+                  "id": "verbs-shw-q1",
+                  "type": "multiple-choice",
+                  "question": "Er ___ müde nach der Arbeit.",
+                  "choices": [
+                    "ist",
+                    "bist",
+                    "sein"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-shw-q2",
+                  "type": "text",
+                  "question": "Wir ___ Freunde.",
+                  "answer": [
+                    "sind"
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q3",
+                  "type": "text",
+                  "question": "Ich ___ Zeit für ein Treffen.",
+                  "answer": [
+                    "habe"
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q4",
+                  "type": "multiple-choice",
+                  "question": "Sie ___ morgen Arzt.",
+                  "choices": [
+                    "werden",
+                    "werdet",
+                    "werde"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-shw-q5",
+                  "type": "match",
+                  "question": "Relaciona el pronombre con la forma correcta de werden.",
+                  "pairs": [
+                    {
+                      "id": "verbs-shw-p1",
+                      "prompt": "ich",
+                      "options": [
+                        "werdet",
+                        "werde",
+                        "wird"
+                      ],
+                      "answer": "werde"
+                    },
+                    {
+                      "id": "verbs-shw-p2",
+                      "prompt": "du",
+                      "options": [
+                        "werdet",
+                        "wirst",
+                        "werden"
+                      ],
+                      "answer": "wirst"
+                    },
+                    {
+                      "id": "verbs-shw-p3",
+                      "prompt": "ihr",
+                      "options": [
+                        "werden",
+                        "werdet",
+                        "werde"
+                      ],
+                      "answer": "werdet"
+                    }
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q6",
+                  "type": "multiple-choice",
+                  "question": "Which sentence builds the future tense correctly?",
+                  "choices": [
+                    "Wir werden nach Hause.",
+                    "Wir werden nach Hause gehen.",
+                    "Wir gehen nach Hause."
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "word-order-simple-sentences",
+          "title": "Orden de palabras en oraciones simples",
+          "summary": "Keep the finite verb in second position and order time, manner, place naturally.",
+          "lesson": {
+            "intro": "German main clauses follow the verb-second rule (V2). The conjugated verb stands in second position, even if another element like time or place comes first.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "You can place information before the verb to highlight it, but the conjugated verb must stay in second position. Other verbs, infinitives, and separable prefixes go to the end of the clause."
+              },
+              {
+                "type": "rules",
+                "title": "Orden fiable de la información",
+                "rules": [
+                  {
+                    "label": "Position 1",
+                    "examples": [
+                      "Heute",
+                      "In Berlin",
+                      "Nach der Arbeit"
+                    ]
+                  },
+                  {
+                    "label": "Position 2",
+                    "examples": [
+                      "steht das finite Verb"
+                    ]
+                  },
+                  {
+                    "label": "Mittelfeld",
+                    "examples": [
+                      "Subjekt",
+                      "Zeit",
+                      "Art",
+                      "Ort"
+                    ]
+                  },
+                  {
+                    "label": "Satzende",
+                    "examples": [
+                      "weitere Verben",
+                      "Infinitive",
+                      "Partizip"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Frases de ejemplo",
+                "items": [
+                  {
+                    "sentence": "Heute lerne ich zu Hause.",
+                    "translation": "Hoy estudio en casa."
+                  },
+                  {
+                    "sentence": "Im Sommer reisen wir oft nach Spanien.",
+                    "translation": "En verano viajamos a menudo a España."
+                  },
+                  {
+                    "sentence": "Nach dem Essen liest er ein Buch.",
+                    "translation": "Después de cenar él lee un libro."
+                  },
+                  {
+                    "sentence": "Morgens trinkt sie zuerst Kaffee.",
+                    "translation": "Por la mañana ella toma café primero."
+                  },
+                  {
+                    "sentence": "Abends sehen wir einen Film.",
+                    "translation": "Por la noche vemos una película."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "The conjugated verb always appears in second position in main clauses.",
+              "Any single element can stand before the verb for emphasis.",
+              "Other verbs and infinitives move to the end of the clause.",
+              "Use the time-manner-place order to keep sentences natural."
+            ],
+            "quiz": {
+              "title": "Construye oraciones correctas",
+              "items": [
+                {
+                  "id": "verbs-wordorder-q1",
+                  "type": "multiple-choice",
+                  "question": "Elige el orden correcto: Morgen / wir / fahren / nach Leipzig.",
+                  "choices": [
+                    "Wir fahren morgen nach Leipzig.",
+                    "Morgen fahren wir nach Leipzig.",
+                    "Morgen wir fahren nach Leipzig."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-wordorder-q2",
+                  "type": "text",
+                  "question": "___ spielen die Kinder im Garten. (Heute)",
+                  "answer": [
+                    "Heute"
+                  ]
+                },
+                {
+                  "id": "verbs-wordorder-q3",
+                  "type": "multiple-choice",
+                  "question": "¿Dónde va el infinitivo? «Er muss ___ das Formular.»",
+                  "choices": [
+                    "ausfüllen",
+                    "ausfüllt",
+                    "füllt aus"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-wordorder-q4",
+                  "type": "text",
+                  "question": "Im Büro ___ wir oft Meetings. (haben)",
+                  "answer": [
+                    "haben"
+                  ]
+                },
+                {
+                  "id": "verbs-wordorder-q5",
+                  "type": "match",
+                  "question": "Relaciona el primer elemento con la continuación correcta en orden verbo-segundo.",
+                  "pairs": [
+                    {
+                      "id": "verbs-wordorder-p1",
+                      "prompt": "Am Abend",
+                      "options": [
+                        "lesen wir ein Buch.",
+                        "Wir lesen ein Buch.",
+                        "Ein Buch lesen wir."
+                      ],
+                      "answer": "lesen wir ein Buch."
+                    },
+                    {
+                      "id": "verbs-wordorder-p2",
+                      "prompt": "In der Stadt",
+                      "options": [
+                        "kauft sie frisches Brot.",
+                        "Sie kauft frisches Brot.",
+                        "Frisches Brot kauft sie."
+                      ],
+                      "answer": "kauft sie frisches Brot."
+                    },
+                    {
+                      "id": "verbs-wordorder-p3",
+                      "prompt": "Nach dem Training",
+                      "options": [
+                        "essen sie gemeinsam.",
+                        "Sie essen gemeinsam.",
+                        "Gemeinsam essen sie."
+                      ],
+                      "answer": "essen sie gemeinsam."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "questions-yes-no-w",
+          "title": "Preguntas de sí/no y con W",
+          "summary": "Formula preguntas de sí/no con el verbo al inicio y preguntas con W con una palabra interrogativa seguida del verbo.",
+          "lesson": {
+            "intro": "Las preguntas alemanas comienzan con el verbo conjugado (preguntas de sí/no) o con una palabra interrogativa (wer, was, wo, wann, warum, wie, wohin) seguida del verbo en segunda posición.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "En las preguntas de sí/no se invierten verbo y sujeto. Las preguntas con W colocan la palabra interrogativa en primera posición y mantienen el verbo en segunda."
+              },
+              {
+                "type": "table",
+                "title": "Modelos de preguntas",
+                "headers": [
+                  "Type",
+                  "Structure",
+                  "Ejemplo"
+                ],
+                "rows": [
+                  [
+                    "Yes/no",
+                    "Verb + subject + ...?",
+                    "Kommst du heute?"
+                  ],
+                  [
+                    "W-question",
+                    "W-word + verb + subject ...?",
+                    "Wann beginnt der Kurs?"
+                  ],
+                  [
+                    "W-question with preposition",
+                    "W-word + preposition + verb + subject",
+                    "Worauf wartest du?"
+                  ],
+                  [
+                    "Wohin",
+                    "Wohin + verb + subject",
+                    "Wohin fahrt ihr?"
+                  ],
+                  [
+                    "Warum",
+                    "Warum + verb + subject",
+                    "Warum lernt er Deutsch?"
+                  ],
+                  [
+                    "Wie",
+                    "Wie + verb + subject",
+                    "Wie fühlst du dich?"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Preguntas de ejemplo",
+                "items": [
+                  {
+                    "sentence": "Kommst du mit?",
+                    "translation": "¿Vienes?"
+                  },
+                  {
+                    "sentence": "Hast du Zeit?",
+                    "translation": "¿Tienes tiempo?"
+                  },
+                  {
+                    "sentence": "Wer hilft dir?",
+                    "translation": "¿Quién te ayuda?"
+                  },
+                  {
+                    "sentence": "Wo wohnst du jetzt?",
+                    "translation": "¿Dónde vives ahora?"
+                  },
+                  {
+                    "sentence": "Wohin fährt der Bus?",
+                    "translation": "¿Adónde va el autobús?"
+                  },
+                  {
+                    "sentence": "Warum lernst du Deutsch?",
+                    "translation": "¿Por qué aprendes alemán?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Put the conjugated verb before the subject for yes/no questions.",
+              "W-questions start with a question word and keep the verb in second position.",
+              "Combine W-words with prepositions (worauf, womit, wofür) when needed.",
+              "End questions with a rising tone in speech and a question mark in writing."
+            ],
+            "quiz": {
+              "title": "Haz la pregunta correcta",
+              "items": [
+                {
+                  "id": "verbs-questions-q1",
+                  "type": "multiple-choice",
+                  "question": "Elige la pregunta de sí/no correcta para «du kommst morgen».",
+                  "choices": [
+                    "Kommst du morgen?",
+                    "Du kommst morgen?",
+                    "Morgen du kommst?"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-questions-q2",
+                  "type": "text",
+                  "question": "___ lernst du Deutsch? (Warum)",
+                  "answer": [
+                    "Warum"
+                  ]
+                },
+                {
+                  "id": "verbs-questions-q3",
+                  "type": "multiple-choice",
+                  "question": "¿Qué palabra con W encaja? ___ arbeitet sie? (¿en qué lugar?)",
+                  "choices": [
+                    "Wie",
+                    "Wo",
+                    "Wann"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-questions-q4",
+                  "type": "text",
+                  "question": "___ fährt ihr? (¿Adónde?)",
+                  "answer": [
+                    "Wohin"
+                  ]
+                },
+                {
+                  "id": "verbs-questions-q5",
+                  "type": "match",
+                  "question": "Relaciona la palabra interrogativa en alemán con su significado.",
+                  "pairs": [
+                    {
+                      "id": "verbs-questions-p1",
+                      "prompt": "wer",
+                      "options": [
+                        "quién",
+                        "cuándo",
+                        "where"
+                      ],
+                      "answer": "quién"
+                    },
+                    {
+                      "id": "verbs-questions-p2",
+                      "prompt": "wann",
+                      "options": [
+                        "how",
+                        "cuándo",
+                        "por qué"
+                      ],
+                      "answer": "cuándo"
+                    },
+                    {
+                      "id": "verbs-questions-p3",
+                      "prompt": "warum",
+                      "options": [
+                        "por qué",
+                        "where",
+                        "what"
+                      ],
+                      "answer": "por qué"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "negation-nicht-kein",
+          "title": "Negación (nicht, kein)",
+          "summary": "Decide si usar nicht o kein y colócalos en el lugar correcto.",
+          "lesson": {
+            "intro": "El alemán usa nicht para negar verbos, adjetivos, adverbios o toda la oración, y kein para reemplazar un artículo indefinido o negar sustantivos sin artículo.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Usa kein como un artículo: se declina (kein, keine, keinen, keiner, keinem). Usa nicht para el resto y colócalo antes del elemento que niegas o al final de la oración."
+              },
+              {
+                "type": "table",
+                "title": "Cuándo usar nicht vs. kein",
+                "headers": [
+                  "Use",
+                  "Ejemplo"
+                ],
+                "rows": [
+                  [
+                    "kein + sustantivo",
+                    "Ich habe keinen Hund."
+                  ],
+                  [
+                    "kein + plural noun",
+                    "Wir haben keine Tickets."
+                  ],
+                  [
+                    "nicht + verb",
+                    "Ich arbeite heute nicht."
+                  ],
+                  [
+                    "nicht + adjective",
+                    "Der Kaffee ist nicht warm."
+                  ],
+                  [
+                    "nicht + adverb",
+                    "Sie kommt nicht oft."
+                  ],
+                  [
+                    "nicht + entire clause",
+                    "Nicht alle verstehen den Witz."
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Frases de ejemplo",
+                "items": [
+                  {
+                    "sentence": "Ich habe keine Zeit.",
+                    "translation": "No tengo tiempo."
+                  },
+                  {
+                    "sentence": "Er isst kein Fleisch.",
+                    "translation": "Él no come carne."
+                  },
+                  {
+                    "sentence": "Wir fahren heute nicht nach Hause.",
+                    "translation": "Hoy no vamos a casa."
+                  },
+                  {
+                    "sentence": "Der Film ist nicht langweilig.",
+                    "translation": "La película no es aburrida."
+                  },
+                  {
+                    "sentence": "Sie singt nicht gern.",
+                    "translation": "A ella no le gusta cantar."
+                  },
+                  {
+                    "sentence": "Ich kaufe das Buch nicht.",
+                    "translation": "No compro el libro."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Kein sustituye a ein/una y niega sustantivos sin artículo definido.",
+              "Nicht niega verbos, adjetivos, adverbios o toda la oración.",
+              "Coloca nicht justo antes del elemento que quieres negar o al final de la oración.",
+              "Recuerda que kein se flexiona como ein: kein, keine, keinen, keiner, keinem."
+            ],
+            "quiz": {
+              "title": "Elige la negación correcta",
+              "items": [
+                {
+                  "id": "verbs-negation-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich habe ___ Geld.",
+                  "choices": [
+                    "nicht",
+                    "kein",
+                    "keine"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-negation-q2",
+                  "type": "text",
+                  "question": "Der Kaffee ist ___ heiß.",
+                  "answer": [
+                    "nicht"
+                  ]
+                },
+                {
+                  "id": "verbs-negation-q3",
+                  "type": "multiple-choice",
+                  "question": "Sie kauft ___ Blumen.",
+                  "choices": [
+                    "keine",
+                    "nicht",
+                    "kein"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-negation-q4",
+                  "type": "text",
+                  "question": "Wir fahren heute ___ nach München.",
+                  "answer": [
+                    "nicht"
+                  ]
+                },
+                {
+                  "id": "verbs-negation-q5",
+                  "type": "match",
+                  "question": "Relaciona la frase con la palabra de negación adecuada.",
+                  "pairs": [
+                    {
+                      "id": "verbs-negation-p1",
+                      "prompt": "___ Zeit haben",
+                      "options": [
+                        "kein",
+                        "nicht",
+                        "keine"
+                      ],
+                      "answer": "keine"
+                    },
+                    {
+                      "id": "verbs-negation-p2",
+                      "prompt": "___ arbeiten",
+                      "options": [
+                        "nicht",
+                        "kein",
+                        "keine"
+                      ],
+                      "answer": "nicht"
+                    },
+                    {
+                      "id": "verbs-negation-p3",
+                      "prompt": "___ Auto besitzen",
+                      "options": [
+                        "kein",
+                        "nicht",
+                        "keine"
+                      ],
+                      "answer": "kein"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "modal-verbs",
+          "title": "Verbos modales",
+          "summary": "Combina los verbos modales con infinitivos y mantén el modal en segunda posición.",
+          "lesson": {
+            "intro": "Los verbos modales modifican al verbo principal: expresan capacidad, necesidad, permiso, deseo u obligación. En una oración principal, el verbo modal se conjuga y se sitúa en segunda posición, mientras que el infinitivo del verbo principal se desplaza al final.",
+            "blocks": [
+              {
+                "type": "table",
+                "title": "Verbos modales en presente",
+                "headers": [
+                  "Modal",
+                  "ich",
+                  "du",
+                  "er/sie/es"
+                ],
+                "rows": [
+                  [
+                    "können",
+                    "kann",
+                    "kannst",
+                    "kann"
+                  ],
+                  [
+                    "wollen",
+                    "will",
+                    "willst",
+                    "will"
+                  ],
+                  [
+                    "müssen",
+                    "muss",
+                    "musst",
+                    "muss"
+                  ],
+                  [
+                    "dürfen",
+                    "darf",
+                    "darfst",
+                    "darf"
+                  ],
+                  [
+                    "sollen",
+                    "soll",
+                    "sollst",
+                    "soll"
+                  ],
+                  [
+                    "mögen",
+                    "mag",
+                    "magst",
+                    "mag"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Posición en la oración",
+                "text": "Los verbos modales se comportan como irregulares con cambios en la raíz. El verbo principal permanece en infinitivo y se coloca al final de la oración."
+              },
+              {
+                "type": "examples",
+                "title": "Frases de ejemplo",
+                "items": [
+                  {
+                    "sentence": "Ich kann gut schwimmen.",
+                    "translation": "Puedo nadar bien."
+                  },
+                  {
+                    "sentence": "Wir müssen heute lange arbeiten.",
+                    "translation": "Tenemos que trabajar muchas horas hoy."
+                  },
+                  {
+                    "sentence": "Darf ich hier parken?",
+                    "translation": "¿Puedo aparcar aquí?"
+                  },
+                  {
+                    "sentence": "Sie will in Berlin studieren.",
+                    "translation": "Ella quiere estudiar en Berlín."
+                  },
+                  {
+                    "sentence": "Ihr sollt eure Hausaufgaben machen.",
+                    "translation": "Ustedes deberían hacer los deberes."
+                  },
+                  {
+                    "sentence": "Magst du Kaffee trinken?",
+                    "translation": "¿Te gusta tomar café?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Los verbos modales expresan capacidad, deseo, obligación, permiso o gusto.",
+              "El verbo modal se conjuga y permanece en segunda posición en las oraciones principales.",
+              "El verbo principal permanece en infinitivo y va al final de la oración.",
+              "Muchos modales cambian la vocal del radical en las formas du y er/sie/es."
+            ],
+            "quiz": {
+              "title": "Usa correctamente los verbos modales",
+              "items": [
+                {
+                  "id": "verbs-modals-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich ___ heute zu Hause bleiben. (must)",
+                  "choices": [
+                    "muss",
+                    "kann",
+                    "soll"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-modals-q2",
+                  "type": "text",
+                  "question": "Du ___ (können) gut malen.",
+                  "answer": [
+                    "kannst"
+                  ]
+                },
+                {
+                  "id": "verbs-modals-q3",
+                  "type": "multiple-choice",
+                  "question": "¿Qué forma corresponde? Wir ___ morgen kommen. (können)",
+                  "choices": [
+                    "kann",
+                    "könnt",
+                    "können"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "verbs-modals-q4",
+                  "type": "text",
+                  "question": "Er ___ (dürfen) hier nicht parken.",
+                  "answer": [
+                    "darf"
+                  ]
+                },
+                {
+                  "id": "verbs-modals-q5",
+                  "type": "match",
+                  "question": "Relaciona el verbo modal con su significado.",
+                  "pairs": [
+                    {
+                      "id": "verbs-modals-p1",
+                      "prompt": "müssen",
+                      "options": [
+                        "poder",
+                        "deber",
+                        "gustar"
+                      ],
+                      "answer": "deber"
+                    },
+                    {
+                      "id": "verbs-modals-p2",
+                      "prompt": "dürfen",
+                      "options": [
+                        "poder",
+                        "deber",
+                        "debería"
+                      ],
+                      "answer": "poder"
+                    },
+                    {
+                      "id": "verbs-modals-p3",
+                      "prompt": "wollen",
+                      "options": [
+                        "querer",
+                        "deber",
+                        "poder"
+                      ],
+                      "answer": "querer"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "adjectives",
+      "title": "Adjetivos (Adjektive)",
+      "description": "Describe personas y objetos con formas adjetivales: comparaciones básicas y uso predicativo.",
+      "subtopics": [
+        {
+          "slug": "degrees-of-comparison",
+          "title": "Grados de comparación (positivo, comparativo, superlativo)",
+          "summary": "Forma y emplea el positivo, comparativo y superlativo en situaciones cotidianas.",
+          "lesson": {
+            "intro": "Los adjetivos alemanes tienen una forma base (positiva). Con terminaciones o formas irregulares expresas comparaciones y el grado máximo.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Para el comparativo añade -er al adjetivo. Muchos adjetivos frecuentes cambian la vocal (a/o/u → ä/ö/ü). El superlativo usa am + -sten en posición predicativa o -ste con artículo delante del sustantivo."
+              },
+              {
+                "type": "rules",
+                "title": "Cómo formar los grados",
+                "rules": [
+                  {
+                    "label": "Comparativo: añade -er",
+                    "examples": [
+                      "schnell → schneller",
+                      "laut → lauter"
+                    ]
+                  },
+                  {
+                    "label": "Umlaut cuando es posible (a, o, u)",
+                    "examples": [
+                      "alt → älter",
+                      "groß → größer"
+                    ]
+                  },
+                  {
+                    "label": "Superlativo predicativo: am + -sten",
+                    "examples": [
+                      "am freundlichsten",
+                      "am besten"
+                    ]
+                  },
+                  {
+                    "label": "Superlativo atributivo: der/die/das + -ste",
+                    "examples": [
+                      "der schnellste Zug",
+                      "die schönste Aussicht"
+                    ]
+                  },
+                  {
+                    "label": "Terminaciones en -el/-er suelen perder la -e",
+                    "examples": [
+                      "teuer → teurer",
+                      "dunkel → dunkler"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Comparaciones de ejemplo",
+                "headers": [
+                  "Positivo",
+                  "Comparativo",
+                  "Superlativo (predicativo)",
+                  "Superlativo (atributivo)"
+                ],
+                "rows": [
+                  [
+                    "klein",
+                    "kleiner",
+                    "am kleinsten",
+                    "der/die/das kleinste"
+                  ],
+                  [
+                    "interessant",
+                    "interessanter",
+                    "am interessantesten",
+                    "der/die/das interessanteste"
+                  ],
+                  [
+                    "hoch",
+                    "höher",
+                    "am höchsten",
+                    "der/die/das höchste"
+                  ],
+                  [
+                    "gut",
+                    "besser",
+                    "am besten",
+                    "der/die/das beste"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Recuerda las terminaciones",
+                "text": "Delante de un sustantivo, los adjetivos en comparativo y superlativo llevan las terminaciones habituales (ein schnellerer Bus, die beste Idee)."
+              },
+              {
+                "type": "examples",
+                "title": "Ejemplos",
+                "items": [
+                  {
+                    "sentence": "Anna ist schneller als Ben.",
+                    "translation": "Anna is faster than Ben."
+                  },
+                  {
+                    "sentence": "Das ist das spannendste Kapitel im Buch.",
+                    "translation": "This is the most exciting chapter in the book."
+                  },
+                  {
+                    "sentence": "Mein Kaffee ist wärmer als deiner.",
+                    "translation": "My coffee is warmer than yours."
+                  },
+                  {
+                    "sentence": "Dieses Hotel ist am günstigsten in der Stadt.",
+                    "translation": "This hotel is the cheapest in the city."
+                  },
+                  {
+                    "sentence": "Die Übung wird immer schwieriger.",
+                    "translation": "The exercise is getting more and more difficult."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "El comparativo suele añadir -er a la base.",
+              "Añade umlaut a a, o, u cuando sea posible.",
+              "Usa am + -sten para superlativos predicativos.",
+              "Ante sustantivos combina el superlativo con der/die/das y terminación.",
+              "Memoriza formas irregulares como gut → besser."
+            ],
+            "quiz": {
+              "title": "Comprueba tu comprensión",
+              "intro": "Responde y revisa las soluciones para confirmar tus respuestas.",
+              "items": [
+                {
+                  "id": "adj-comp-q1",
+                  "type": "multiple-choice",
+                  "question": "¿Qué forma encaja? Mein Bruder ist ___ als ich.",
+                  "choices": [
+                    "groß",
+                    "größer",
+                    "am größten"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "adj-comp-q2",
+                  "type": "text",
+                  "question": "Completa la frase: Das Rätsel ist am ___ (schwer) für die Kinder.",
+                  "answer": [
+                    "schwersten",
+                    "Schwersten"
+                  ]
+                },
+                {
+                  "id": "adj-comp-q3",
+                  "type": "multiple-choice",
+                  "question": "Elige el comparativo correcto: Diese Straße ist ___ als die andere.",
+                  "choices": [
+                    "kürzer",
+                    "am kürzesten",
+                    "kurze"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-comp-q4",
+                  "type": "match",
+                  "question": "Relaciona cada adjetivo con su comparativo.",
+                  "pairs": [
+                    {
+                      "id": "adj-comp-p1",
+                      "prompt": "teuer",
+                      "options": [
+                        "teurer",
+                        "teueren",
+                        "teuerste"
+                      ],
+                      "answer": "teurer"
+                    },
+                    {
+                      "id": "adj-comp-p2",
+                      "prompt": "jung",
+                      "options": [
+                        "jüngste",
+                        "jünger",
+                        "jungste"
+                      ],
+                      "answer": "jünger"
+                    },
+                    {
+                      "id": "adj-comp-p3",
+                      "prompt": "ruhig",
+                      "options": [
+                        "ruhiger",
+                        "ruhigsten",
+                        "ruhiges"
+                      ],
+                      "answer": "ruhiger"
+                    }
+                  ]
+                },
+                {
+                  "id": "adj-comp-q5",
+                  "type": "text",
+                  "question": "Rellena el hueco: Unsere Lehrerin erklärt es am ___ (verständlich).",
+                  "answer": [
+                    "verständlichsten",
+                    "Verständlichsten"
+                  ]
+                },
+                {
+                  "id": "adj-comp-q6",
+                  "type": "multiple-choice",
+                  "question": "¿Qué oración usa correctamente el superlativo predicativo?",
+                  "choices": [
+                    "Der Kuchen schmeckt am besten.",
+                    "Die beste Kuchen schmeckt.",
+                    "Am besten der Kuchen schmeckt."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "predicate-adjectives",
+          "title": "Adjetivos predicativos (después de sein)",
+          "summary": "Emplea adjetivos tras sein, werden o bleiben sin terminaciones adicionales.",
+          "lesson": {
+            "intro": "Los adjetivos predicativos siguen a verbos copulativos y permanecen en su forma base. Describen al sujeto sin necesitar terminaciones.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Verbos como sein, werden, bleiben, wirken y scheinen enlazan el sujeto con un adjetivo. Como el adjetivo no va delante de un sustantivo, no se declina."
+              },
+              {
+                "type": "rules",
+                "title": "Verbos copulativos frecuentes",
+                "rules": [
+                  {
+                    "label": "sein",
+                    "examples": [
+                      "Das Wetter ist warm."
+                    ]
+                  },
+                  {
+                    "label": "werden",
+                    "examples": [
+                      "Die Kinder werden müde."
+                    ]
+                  },
+                  {
+                    "label": "bleiben",
+                    "examples": [
+                      "Die Situation bleibt ruhig."
+                    ]
+                  },
+                  {
+                    "label": "scheinen / wirken",
+                    "examples": [
+                      "Die Antwort scheint einfach.",
+                      "Er wirkt zufrieden."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Los adjetivos predicativos no llevan terminaciones de caso, género ni número porque describen directamente al sujeto."
+              },
+              {
+                "type": "examples",
+                "title": "Ejemplos",
+                "items": [
+                  {
+                    "sentence": "Die Suppe ist heiß.",
+                    "translation": "The soup is hot."
+                  },
+                  {
+                    "sentence": "Das Meeting bleibt kurz.",
+                    "translation": "The meeting stays short."
+                  },
+                  {
+                    "sentence": "Die Kinder werden müde.",
+                    "translation": "The children become tired."
+                  },
+                  {
+                    "sentence": "Der Weg ist frei.",
+                    "translation": "The path is clear."
+                  },
+                  {
+                    "sentence": "Der Plan scheint einfach.",
+                    "translation": "The plan seems simple."
+                  }
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Los adjetivos atributivos son distintos",
+                "text": "Si el adjetivo va antes del sustantivo (ein kalter Tag), añade la terminación habitual."
+              }
+            ],
+            "takeaways": [
+              "Los adjetivos predicativos siguen a verbos como sein, werden y bleiben.",
+              "El adjetivo permanece en su forma base, sin terminaciones.",
+              "Sirven para describir directamente al sujeto.",
+              "Si va antes del sustantivo, aplica las terminaciones atributivas."
+            ],
+            "quiz": {
+              "title": "Comprueba tu comprensión",
+              "intro": "Inicia el quiz y confirma cómo funcionan los adjetivos predicativos.",
+              "items": [
+                {
+                  "id": "adj-pred-q1",
+                  "type": "multiple-choice",
+                  "question": "¿Qué oración usa correctamente un adjetivo predicativo?",
+                  "choices": [
+                    "Die Suppe ist heiß.",
+                    "Die heiße Suppe ist.",
+                    "Die Suppe ist heiße."
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-pred-q2",
+                  "type": "text",
+                  "question": "Completa: Heute bleibt der Himmel ___ (klar).",
+                  "answer": [
+                    "klar",
+                    "Klar"
+                  ]
+                },
+                {
+                  "id": "adj-pred-q3",
+                  "type": "multiple-choice",
+                  "question": "¿Qué verbo suele llevar un adjetivo predicativo sin terminación?",
+                  "choices": [
+                    "sein",
+                    "sehen",
+                    "kaufen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-pred-q4",
+                  "type": "match",
+                  "question": "Relaciona el verbo con una terminación predicativa correcta.",
+                  "pairs": [
+                    {
+                      "id": "adj-pred-p1",
+                      "prompt": "werden",
+                      "options": [
+                        "wird schwierig",
+                        "wird schwierige",
+                        "wird schwierigen"
+                      ],
+                      "answer": "wird schwierig"
+                    },
+                    {
+                      "id": "adj-pred-p2",
+                      "prompt": "bleiben",
+                      "options": [
+                        "bleibt ruhig",
+                        "bleibt ruhige",
+                        "bleibt ruhigen"
+                      ],
+                      "answer": "bleibt ruhig"
+                    },
+                    {
+                      "id": "adj-pred-p3",
+                      "prompt": "sein",
+                      "options": [
+                        "ist offen",
+                        "ist offene",
+                        "ist offener"
+                      ],
+                      "answer": "ist offen"
+                    }
+                  ]
+                },
+                {
+                  "id": "adj-pred-q5",
+                  "type": "text",
+                  "question": "Completa la frase: Die Antwort scheint ___ (einfach).",
+                  "answer": [
+                    "einfach",
+                    "Einfach"
+                  ]
+                },
+                {
+                  "id": "adj-pred-q6",
+                  "type": "multiple-choice",
+                  "question": "¿Qué oración necesita terminación adjetival (uso atributivo)?",
+                  "choices": [
+                    "Ich trinke einen kalten Saft.",
+                    "Der Saft ist kalt.",
+                    "Der Saft bleibt kalt."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "adverbs-prepositions",
+      "title": "Adverbios y preposiciones (Adverbien und Präpositionen)",
+      "description": "Habla sobre cuándo, dónde y con quién ocurre algo con adverbios esenciales y preposiciones clave que alternan entre dativo y acusativo.",
+      "subtopics": [
+        {
+          "slug": "time-adverbs",
+          "title": "Adverbios de tiempo (heute, morgen, jetzt …)",
+          "summary": "Describe cuándo sucede algo con adverbios temporales del alemán cotidiano.",
+          "lesson": {
+            "intro": "Los adverbios de tiempo anclan la frase en la línea temporal. Responden a la pregunta “¿Cuándo?” y te permiten hablar del pasado, el presente y el futuro cercano con claridad.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Coloca los adverbios temporales al principio para dar énfasis o en el campo medio después del verbo. Marcan el ritmo del relato y se combinan bien con horas y fechas."
+              },
+              {
+                "type": "rules",
+                "title": "Grupos útiles",
+                "rules": [
+                  {
+                    "label": "Presente o ahora mismo: heute, jetzt, gleich, sofort",
+                    "examples": []
+                  },
+                  {
+                    "label": "Días próximos: morgen, übermorgen, am Wochenende",
+                    "examples": []
+                  },
+                  {
+                    "label": "Pasado reciente: gestern, vorgestern, eben, neulich",
+                    "examples": []
+                  },
+                  {
+                    "label": "Frecuencia: oft, manchmal, selten, immer",
+                    "examples": []
+                  },
+                  {
+                    "label": "Momentos del día: morgens, mittags, abends, nachts",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Adverbios temporales frecuentes en contexto",
+                "headers": [
+                  "Adverbio",
+                  "Significado",
+                  "Ejemplo"
+                ],
+                "rows": [
+                  [
+                    "heute",
+                    "hoy (el mismo día)",
+                    "Ich arbeite heute von zu Hause."
+                  ],
+                  [
+                    "jetzt",
+                    "ahora (en este momento)",
+                    "Wir essen jetzt zu Mittag."
+                  ],
+                  [
+                    "morgen",
+                    "mañana (día siguiente)",
+                    "Morgen besuchen wir Oma."
+                  ],
+                  [
+                    "gestern",
+                    "ayer (día anterior)",
+                    "Gestern hatte ich frei."
+                  ],
+                  [
+                    "bald",
+                    "pronto",
+                    "Der Bus kommt bald."
+                  ],
+                  [
+                    "manchmal",
+                    "a veces (con regularidad)",
+                    "Manchmal trainiere ich vor der Arbeit."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Consejo de orden",
+                "text": "Un adverbio de tiempo puede abrir la oración (Heute gehe ich …) para resaltar la información. En el campo medio suele ir antes de los datos de lugar y antes del segundo verbo."
+              },
+              {
+                "type": "examples",
+                "title": "Oraciones de ejemplo",
+                "items": [
+                  {
+                    "sentence": "Heute bleibe ich zu Hause.",
+                    "translation": "Hoy me quedo en casa."
+                  },
+                  {
+                    "sentence": "Jetzt beginnt der Unterricht.",
+                    "translation": "La clase empieza ahora."
+                  },
+                  {
+                    "sentence": "Morgen fahren wir nach Leipzig.",
+                    "translation": "Mañana vamos a Leipzig."
+                  },
+                  {
+                    "sentence": "Gestern habe ich lange geschlafen.",
+                    "translation": "Ayer dormí mucho tiempo."
+                  },
+                  {
+                    "sentence": "Manchmal spielt sie abends Klavier.",
+                    "translation": "A veces toca el piano por la noche."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Los adverbios temporales responden a “¿Cuándo?” y enmarcan el mensaje.",
+              "Pueden iniciar la oración sin romper el orden verbo en segunda posición.",
+              "Los adverbios de frecuencia como oft o manchmal van cerca del verbo en el campo medio.",
+              "Combínalos con horas o fechas para aportar precisión."
+            ],
+            "quiz": {
+              "title": "Comprueba tu comprensión",
+              "items": [
+                {
+                  "id": "adverbs-time-q1",
+                  "type": "multiple-choice",
+                  "question": "_____ gehe ich ins Kino. (hoy)",
+                  "choices": [
+                    "Heute",
+                    "Gestern",
+                    "Morgens"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-time-q2",
+                  "type": "multiple-choice",
+                  "question": "Nos vemos ___ beim Frühstück. (mañana)",
+                  "choices": [
+                    "morgen",
+                    "jetzt",
+                    "gestern"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-time-q3",
+                  "type": "text",
+                  "question": "Ich komme ___ (pronto) nach Hause.",
+                  "answer": [
+                    "bald"
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q4",
+                  "type": "match",
+                  "question": "Relaciona el adverbio con su significado.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-time-p1",
+                      "prompt": "heute",
+                      "options": [
+                        "el mismo día",
+                        "al día siguiente",
+                        "el día anterior"
+                      ],
+                      "answer": "el mismo día"
+                    },
+                    {
+                      "id": "adverbs-time-p2",
+                      "prompt": "gestern",
+                      "options": [
+                        "pronto",
+                        "el día anterior",
+                        "siempre"
+                      ],
+                      "answer": "el día anterior"
+                    },
+                    {
+                      "id": "adverbs-time-p3",
+                      "prompt": "manchmal",
+                      "options": [
+                        "a veces",
+                        "ahora mismo",
+                        "nunca"
+                      ],
+                      "answer": "a veces"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q5",
+                  "type": "text",
+                  "question": "___ (ayer) habe ich meine Freunde getroffen.",
+                  "answer": [
+                    "gestern"
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q6",
+                  "type": "multiple-choice",
+                  "question": "¿Qué adverbio expresa una acción repetida?",
+                  "choices": [
+                    "manchmal",
+                    "jetzt",
+                    "morgen"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "location-adverbs",
+          "title": "Adverbios de lugar (hier, da, dort …)",
+          "summary": "Indica dónde ocurre algo y cuán lejos está.",
+          "lesson": {
+            "intro": "Los adverbios de lugar responden a “¿Dónde?” y “¿Adónde?”. Te permiten describir el entorno y orientar a quien te escucha.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Muchos adverbios aparecen en pares opuestos como hier/da o hin/her. Con ellos muestras distancia, dirección y si el movimiento va hacia el hablante o se aleja."
+              },
+              {
+                "type": "rules",
+                "title": "Contrastes típicos",
+                "rules": [
+                  {
+                    "label": "hier – justo donde está el hablante",
+                    "examples": []
+                  },
+                  {
+                    "label": "da / dort – ahí (cerca) / allí (más lejos)",
+                    "examples": []
+                  },
+                  {
+                    "label": "drinnen vs. draußen – dentro vs. fuera",
+                    "examples": []
+                  },
+                  {
+                    "label": "oben, unten, vorne, hinten – orientación en el espacio",
+                    "examples": []
+                  },
+                  {
+                    "label": "combinaciones hin-/her- – hinunter, herüber, hierher, dorthin",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Adverbios de lugar frecuentes",
+                "headers": [
+                  "Adverbio",
+                  "Significado",
+                  "Ejemplo"
+                ],
+                "rows": [
+                  [
+                    "hier",
+                    "aquí (conmigo)",
+                    "Hier wartet der Bus."
+                  ],
+                  [
+                    "da",
+                    "ahí (cerca)",
+                    "Da liegt mein Handy."
+                  ],
+                  [
+                    "dort",
+                    "allí (más lejos)",
+                    "Dort steht das Museum."
+                  ],
+                  [
+                    "drinnen",
+                    "dentro",
+                    "Die Kinder spielen drinnen."
+                  ],
+                  [
+                    "draußen",
+                    "fuera / al aire libre",
+                    "Wir essen draußen."
+                  ],
+                  [
+                    "oben",
+                    "arriba",
+                    "Dein Zimmer ist oben."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Posición en la frase",
+                "text": "Los adverbios de lugar suelen seguir al elemento temporal en el campo medio: Heute bleiben wir hier. Con verbos de movimiento combínalos con la dirección: Komm hierher!, Geh dort hinauf!"
+              },
+              {
+                "type": "examples",
+                "title": "Oraciones de ejemplo",
+                "items": [
+                  {
+                    "sentence": "Hier gibt es frisches Brot.",
+                    "translation": "Aquí hay pan fresco."
+                  },
+                  {
+                    "sentence": "Da drüben steht mein Fahrrad.",
+                    "translation": "Mi bicicleta está ahí enfrente."
+                  },
+                  {
+                    "sentence": "Wir treffen uns draußen im Park.",
+                    "translation": "Quedamos fuera en el parque."
+                  },
+                  {
+                    "sentence": "Die Katze schläft drinnen auf dem Sofa.",
+                    "translation": "El gato duerme dentro en el sofá."
+                  },
+                  {
+                    "sentence": "Komm hierher und sieh dir das an.",
+                    "translation": "Ven aquí y mira esto."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Los adverbios de lugar responden a “¿Dónde?” o “¿Adónde?” y marcan distancia o dirección.",
+              "hier/hierher señalan la posición del hablante; da/dort/dorthin apuntan lejos.",
+              "Pares como drinnen/draußen u oben/unten describen la relación espacial.",
+              "Las formas con hin- muestran movimiento que se aleja, las de her- indican movimiento hacia el hablante."
+            ],
+            "quiz": {
+              "title": "Pequeña prueba",
+              "items": [
+                {
+                  "id": "adverbs-place-q1",
+                  "type": "multiple-choice",
+                  "question": "Der Schlüssel liegt ___ auf dem Tisch neben mir.",
+                  "choices": [
+                    "hier",
+                    "dort",
+                    "oben"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-place-q2",
+                  "type": "multiple-choice",
+                  "question": "¿Qué adverbio usas cuando algo está más lejos?",
+                  "choices": [
+                    "dort",
+                    "hier",
+                    "drinnen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-place-q3",
+                  "type": "text",
+                  "question": "Nos vemos ___ (fuera) vor dem Kino.",
+                  "answer": [
+                    "draußen",
+                    "draussen"
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q4",
+                  "type": "match",
+                  "question": "Relaciona el adverbio con la idea correcta.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-place-p1",
+                      "prompt": "drinnen",
+                      "options": [
+                        "dentro",
+                        "fuera",
+                        "arriba"
+                      ],
+                      "answer": "dentro"
+                    },
+                    {
+                      "id": "adverbs-place-p2",
+                      "prompt": "oben",
+                      "options": [
+                        "abajo",
+                        "arriba",
+                        "lejos"
+                      ],
+                      "answer": "arriba"
+                    },
+                    {
+                      "id": "adverbs-place-p3",
+                      "prompt": "hierher",
+                      "options": [
+                        "hacia mí",
+                        "hacia allí",
+                        "hacia abajo"
+                      ],
+                      "answer": "hacia mí"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q5",
+                  "type": "text",
+                  "question": "¡Komm ___ (aquí), bitte!",
+                  "answer": [
+                    "hierher"
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q6",
+                  "type": "multiple-choice",
+                  "question": "¿Qué adverbio encaja con un movimiento hacia arriba?",
+                  "choices": [
+                    "oben",
+                    "unten",
+                    "da"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "common-prepositions",
+          "title": "Preposiciones frecuentes con dativo/acusativo",
+          "summary": "Usa correctamente las preposiciones variables y las que siempre llevan dativo o acusativo.",
+          "lesson": {
+            "intro": "Las preposiciones en alemán determinan el caso del grupo nominal que las sigue. Las wechselpräpositionen toman dativo para el lugar (Wo?) y acusativo para la dirección (Wohin?).",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Aprende el conjunto básico de wechselpräpositionen (in, an, auf, unter, über, vor, hinter, neben, zwischen) junto con socios habituales como bei, mit, von, nach, zu, für, ohne, um."
+              },
+              {
+                "type": "rules",
+                "title": "Patrones de caso",
+                "rules": [
+                  {
+                    "label": "Dativo para lugar (Wo?): in, an, auf, bei, zu, nach, von, seit",
+                    "examples": []
+                  },
+                  {
+                    "label": "Acusativo para dirección (Wohin?): in, an, auf, nach, zu, um",
+                    "examples": []
+                  },
+                  {
+                    "label": "Siempre dativo: mit, von, bei, nach, seit, aus",
+                    "examples": []
+                  },
+                  {
+                    "label": "Siempre acusativo: für, ohne, um, gegen",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Wechselpräpositionen en acción",
+                "headers": [
+                  "Preposición",
+                  "Dativo (lugar)",
+                  "Acusativo (dirección)",
+                  "Nota"
+                ],
+                "rows": [
+                  [
+                    "in",
+                    "Ich bin in der Küche.",
+                    "Ich gehe in die Küche.",
+                    "con dativo indica lugar; con acusativo, movimiento."
+                  ],
+                  [
+                    "an",
+                    "Das Bild hängt an der Wand.",
+                    "Ich hänge das Bild an die Wand.",
+                    "an describe contacto en un lado."
+                  ],
+                  [
+                    "auf",
+                    "Die Bücher liegen auf dem Tisch.",
+                    "Ich lege die Bücher auf den Tisch.",
+                    "auf se usa para superficies."
+                  ],
+                  [
+                    "unter",
+                    "Der Hund schläft unter dem Tisch.",
+                    "Der Hund läuft unter den Tisch.",
+                    "unter expresa posición inferior."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Contracciones frecuentes",
+                "text": "Recuerda combinaciones comunes: in dem → im, in das → ins, an dem → am, zu dem → zum, zu der → zur. Suenan naturales en el habla cotidiana."
+              },
+              {
+                "type": "examples",
+                "title": "Oraciones de ejemplo",
+                "items": [
+                  {
+                    "sentence": "Wir treffen uns am Bahnhof.",
+                    "translation": "Nos vemos en la estación."
+                  },
+                  {
+                    "sentence": "Er geht ins Büro.",
+                    "translation": "Él entra a la oficina."
+                  },
+                  {
+                    "sentence": "Nach der Arbeit fahre ich zu meiner Freundin.",
+                    "translation": "Después del trabajo voy a casa de mi novia."
+                  },
+                  {
+                    "sentence": "Sie sitzt seit einer Stunde im Zug.",
+                    "translation": "Lleva una hora sentada en el tren."
+                  },
+                  {
+                    "sentence": "Ohne dich ist es hier zu ruhig.",
+                    "translation": "Sin ti está demasiado tranquilo."
+                  },
+                  {
+                    "sentence": "Wir sprechen über den Plan am Abend.",
+                    "translation": "Hablamos del plan por la tarde."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Las wechselpräpositionen usan dativo para lugares y acusativo para movimientos.",
+              "Preposiciones como mit, von o seit van siempre con dativo; für, ohne u um exigen acusativo.",
+              "Contracciones como im o zum unen preposición y artículo de forma natural.",
+              "Pregunta Wo? o Wohin? para decidir el caso correcto."
+            ],
+            "quiz": {
+              "title": "Revisión de casos",
+              "items": [
+                {
+                  "id": "adverbs-prep-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich warte ___ der Haltestelle. (lugar)",
+                  "choices": [
+                    "an",
+                    "zu",
+                    "um"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q2",
+                  "type": "multiple-choice",
+                  "question": "El sábado vamos ___ den See. (dirección)",
+                  "choices": [
+                    "an",
+                    "bei",
+                    "mit"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q3",
+                  "type": "text",
+                  "question": "Nos encontramos ___ (en) dem Café.",
+                  "answer": [
+                    "bei"
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q4",
+                  "type": "match",
+                  "question": "Relaciona la preposición con su categoría.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-prep-p1",
+                      "prompt": "für",
+                      "options": [
+                        "acusativo",
+                        "dativo",
+                        "genitivo"
+                      ],
+                      "answer": "acusativo"
+                    },
+                    {
+                      "id": "adverbs-prep-p2",
+                      "prompt": "mit",
+                      "options": [
+                        "acusativo",
+                        "dativo",
+                        "genitivo"
+                      ],
+                      "answer": "dativo"
+                    },
+                    {
+                      "id": "adverbs-prep-p3",
+                      "prompt": "in (Wohin?)",
+                      "options": [
+                        "acusativo",
+                        "dativo",
+                        "ambos"
+                      ],
+                      "answer": "acusativo"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q5",
+                  "type": "text",
+                  "question": "Él viene ___ (de) der Arbeit.",
+                  "answer": [
+                    "von"
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q6",
+                  "type": "multiple-choice",
+                  "question": "¿Qué preposición exige siempre acusativo?",
+                  "choices": [
+                    "für",
+                    "bei",
+                    "mit"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q7",
+                  "type": "multiple-choice",
+                  "question": "¡Siéntate ___ den Tisch! (movimiento hacia la mesa)",
+                  "choices": [
+                    "an",
+                    "auf",
+                    "mit"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "sentence-structure",
+      "title": "Estructura de la oración (Satzbau)",
+      "description": "Construye oraciones naturales en alemán con verbo en segunda posición, preguntas claras y mandatos seguros.",
+      "subtopics": [
+        {
+          "slug": "main-clause-word-order",
+          "title": "Orden de palabras en oraciones principales (verbo en 2. posición)",
+          "summary": "Mantén el verbo conjugado en segunda posición y mueve otros elementos para dar énfasis.",
+          "lesson": {
+            "intro": "En las oraciones principales en alemán el verbo conjugado ocupa siempre la segunda posición, sin importar qué elemento abra la frase.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Cualquier elemento único puede ocupar la primera posición: el sujeto, una expresión temporal o un objeto. El verbo conjugado lo sigue de inmediato y el sujeto vuelve justo después del verbo si no estaba primero. El resto —objetos, adverbios, prefijos separables— llena el campo medio antes de cerrar la oración."
+              },
+              {
+                "type": "rules",
+                "title": "Claves de la posición dos",
+                "rules": [
+                  {
+                    "label": "Primera posición (Vorfeld)",
+                    "examples": [
+                      "Heute",
+                      "Mein Bruder",
+                      "Nach dem Unterricht"
+                    ]
+                  },
+                  {
+                    "label": "Segunda posición",
+                    "examples": [
+                      "geht",
+                      "kauft",
+                      "kommt"
+                    ]
+                  },
+                  {
+                    "label": "Campo medio",
+                    "examples": [
+                      "ich ins Kino",
+                      "er frisches Brot ein",
+                      "sie um acht Uhr an"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Esquema típico de un enunciado principal",
+                "headers": [
+                  "Posición",
+                  "Ejemplo",
+                  "Función"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Heute",
+                    "Tema o énfasis temporal"
+                  ],
+                  [
+                    "2",
+                    "gehe",
+                    "Verbo conjugado"
+                  ],
+                  [
+                    "3",
+                    "ich",
+                    "Sujeto o elemento central"
+                  ],
+                  [
+                    "4",
+                    "ins Kino",
+                    "Objetos, complementos, adverbios"
+                  ],
+                  [
+                    "5",
+                    "ein",
+                    "Prefijo separable o cierre de la oración"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Tiempo, modo y lugar",
+                "text": "Tras el verbo suele venir primero el tiempo, luego el modo y finalmente el lugar. Ese ritmo mantiene la oración clara: Heute (tiempo) fahre ich mit dem Bus (modo) zur Arbeit (lugar)."
+              },
+              {
+                "type": "examples",
+                "title": "Ejemplos",
+                "items": [
+                  {
+                    "sentence": "Heute gehe ich ins Kino.",
+                    "translation": "Hoy voy al cine."
+                  },
+                  {
+                    "sentence": "Mein Bruder kauft morgen frisches Brot ein.",
+                    "translation": "Mi hermano comprará pan fresco mañana."
+                  },
+                  {
+                    "sentence": "In Berlin wohnt meine Tante.",
+                    "translation": "Mi tía vive en Berlín."
+                  },
+                  {
+                    "sentence": "Nach der Arbeit trinke ich zu Hause Tee.",
+                    "translation": "Después del trabajo tomo té en casa."
+                  },
+                  {
+                    "sentence": "Manchmal lese ich abends noch ein Buch.",
+                    "translation": "A veces leo un libro por la noche."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "En las oraciones principales el verbo conjugado debe permanecer en segunda posición.",
+              "Cualquier elemento puede abrir la oración y colocar el sujeto detrás del verbo.",
+              "Usa el orden tiempo–modo–lugar para organizar la información tras el verbo.",
+              "Los prefijos separables van al final sin alterar la posición del verbo.",
+              "Un elemento introductorio largo cuenta como una sola unidad; el verbo sigue ocupando la segunda posición."
+            ],
+            "quiz": {
+              "title": "Comprueba tu comprensión",
+              "intro": "Elige el orden correcto o completa la forma que falta.",
+              "items": [
+                {
+                  "id": "sentence-structure-main-q1",
+                  "type": "multiple-choice",
+                  "question": "¿Qué oración mantiene el verbo en segunda posición?",
+                  "choices": [
+                    "Morgen wir gehen schwimmen.",
+                    "Morgen gehen wir schwimmen.",
+                    "Wir morgen schwimmen gehen."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-main-q2",
+                  "type": "multiple-choice",
+                  "question": "¿Qué puede ocupar la primera posición en una oración principal?",
+                  "choices": [
+                    "Solo el sujeto",
+                    "Un único elemento destacado como tiempo u objeto",
+                    "Solo adverbios"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-main-q3",
+                  "type": "text",
+                  "question": "Completa la oración: Am Wochenende ___ ich meine Freunde. (treffen)",
+                  "answer": [
+                    "treffe"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q4",
+                  "type": "text",
+                  "question": "Inserta la forma correcta: Nachmittags ___ die Kinder im Park. (spielen)",
+                  "answer": [
+                    "spielen"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q5",
+                  "type": "match",
+                  "question": "Relaciona el elemento inicial con su enfoque.",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-main-p1",
+                      "prompt": "Heute ...",
+                      "options": [
+                        "énfasis temporal",
+                        "énfasis locativo",
+                        "énfasis en el objeto"
+                      ],
+                      "answer": "time focus"
+                    },
+                    {
+                      "id": "sentence-structure-main-p2",
+                      "prompt": "Im Garten ...",
+                      "options": [
+                        "énfasis temporal",
+                        "énfasis locativo",
+                        "énfasis en el objeto"
+                      ],
+                      "answer": "place focus"
+                    },
+                    {
+                      "id": "sentence-structure-main-p3",
+                      "prompt": "Dieses Buch ...",
+                      "options": [
+                        "énfasis temporal",
+                        "énfasis locativo",
+                        "énfasis en el objeto"
+                      ],
+                      "answer": "object focus"
+                    }
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q6",
+                  "type": "multiple-choice",
+                  "question": "Si empiezas con \"In der Schule\", ¿qué debe ir inmediatamente después?",
+                  "choices": [
+                    "El sujeto",
+                    "El verbo conjugado",
+                    "Un objeto"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "questions-and-negation",
+          "title": "Preguntas y negación",
+          "summary": "Forma preguntas de sí/no y W y coloca correctamente nicht o kein.",
+          "lesson": {
+            "intro": "Las preguntas en alemán se basan en mover el verbo conjugado. Para negar se usa nicht o kein según lo que se niegue.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Las preguntas de sí/no comienzan directamente con el verbo conjugado. El sujeto aparece justo después y luego el resto de la oración; esta inversión indica que esperas una respuesta ja o nein."
+              },
+              {
+                "type": "paragraph",
+                "text": "Las preguntas W comienzan con un interrogativo como Wer, Was, Wo, Wann, Warum o Wie. El verbo conjugado sigue en segunda posición, seguido del sujeto y demás información."
+              },
+              {
+                "type": "table",
+                "title": "Patrones de pregunta",
+                "headers": [
+                  "Tipo",
+                  "Estructura",
+                  "Ejemplo"
+                ],
+                "rows": [
+                  [
+                    "Ja/Nein",
+                    "Verbo + sujeto + ...?",
+                    "Wohnst du in Leipzig?"
+                  ],
+                  [
+                    "W-Frage",
+                    "Interrogativo + verbo + sujeto + ...?",
+                    "Wann kommt der Zug?"
+                  ],
+                  [
+                    "Warum-Frage",
+                    "Warum + verbo + sujeto + motivo",
+                    "Warum lernst du Deutsch?"
+                  ],
+                  [
+                    "Wo-Frage",
+                    "Wo + verbo + sujeto + lugar",
+                    "Wo arbeitet dein Vater?"
+                  ],
+                  [
+                    "Wie-Frage",
+                    "Wie + verbo + sujeto + modo",
+                    "Wie fühlst du dich heute?"
+                  ],
+                  [
+                    "Negación",
+                    "Subjekt + Verb + ... + nicht/kein",
+                    "Ich komme heute nicht."
+                  ],
+                  [
+                    "Kein",
+                    "kein + sustantivo sin artículo",
+                    "Sie hat keinen Termin."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "¿Nicht o kein?",
+                "text": "Emplea kein para sustituir el artículo indefinido (ein/eine) o negar un sustantivo sin artículo. Usa nicht para negar verbos, adjetivos, adverbios o toda la oración."
+              },
+              {
+                "type": "examples",
+                "title": "Ejemplos",
+                "items": [
+                  {
+                    "sentence": "Wohnst du in Leipzig?",
+                    "translation": "¿Vives en Leipzig?"
+                  },
+                  {
+                    "sentence": "Wann kommt der Zug?",
+                    "translation": "¿Cuándo llega el tren?"
+                  },
+                  {
+                    "sentence": "Warum lernst du Deutsch?",
+                    "translation": "¿Por qué estudias alemán?"
+                  },
+                  {
+                    "sentence": "Ich komme heute nicht.",
+                    "translation": "No voy a venir hoy."
+                  },
+                  {
+                    "sentence": "Sie hat keinen Termin.",
+                    "translation": "Ella no tiene ninguna cita."
+                  },
+                  {
+                    "sentence": "Was macht ihr am Wochenende?",
+                    "translation": "¿Qué hacéis el fin de semana?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Las preguntas de sí/no empiezan con el verbo conjugado.",
+              "Las preguntas W mantienen el verbo en segunda posición tras el interrogativo.",
+              "Usa kein para negar un sustantivo sin artículo o con ein/eine.",
+              "Usa nicht para negar verbos, adjetivos, adverbios o frases completas.",
+              "Coloca nicht antes del elemento que quieras negar o al final de la oración."
+            ],
+            "quiz": {
+              "title": "Comprueba tu comprensión",
+              "intro": "Forma preguntas y elige la negación adecuada.",
+              "items": [
+                {
+                  "id": "sentence-structure-questions-q1",
+                  "type": "multiple-choice",
+                  "question": "¿Cómo comienza una pregunta de sí/no en alemán?",
+                  "choices": [
+                    "Con el sujeto",
+                    "Con el verbo conjugado",
+                    "Con un interrogativo"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-questions-q2",
+                  "type": "multiple-choice",
+                  "question": "¿Qué opción forma una W-Frage correcta?",
+                  "choices": [
+                    "Wo du arbeitest?",
+                    "Wo arbeitest du?",
+                    "Du arbeitest wo?"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-questions-q3",
+                  "type": "text",
+                  "question": "Completa la pregunta: ___ du heute Abend Zeit? (haben)",
+                  "answer": [
+                    "Hast",
+                    "hast"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q4",
+                  "type": "text",
+                  "question": "Inserta nicht o kein: Wir haben ___ Brot mehr.",
+                  "answer": [
+                    "kein"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q5",
+                  "type": "match",
+                  "question": "Relaciona el interrogativo con su significado.",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-questions-p1",
+                      "prompt": "Wo?",
+                      "options": [
+                        "¿Dónde?",
+                        "¿Cuándo?",
+                        "¿Por qué?"
+                      ],
+                      "answer": "Where?"
+                    },
+                    {
+                      "id": "sentence-structure-questions-p2",
+                      "prompt": "Wann?",
+                      "options": [
+                        "¿Dónde?",
+                        "¿Cuándo?",
+                        "¿Por qué?"
+                      ],
+                      "answer": "When?"
+                    },
+                    {
+                      "id": "sentence-structure-questions-p3",
+                      "prompt": "Warum?",
+                      "options": [
+                        "¿Dónde?",
+                        "¿Cuándo?",
+                        "¿Por qué?"
+                      ],
+                      "answer": "Why?"
+                    }
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q6",
+                  "type": "multiple-choice",
+                  "question": "¿Dónde se coloca normalmente nicht al negar un grupo verbal?",
+                  "choices": [
+                    "Justo antes del verbo conjugado",
+                    "Antes del elemento negado o al final",
+                    "Al inicio de la oración"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "imperative-commands",
+          "title": "Imperativo (mandatos)",
+          "summary": "Da instrucciones claras con las formas du, ihr, Sie y wir.",
+          "lesson": {
+            "intro": "El imperativo alemán cambia según hables a una persona, a varias o quieras incluirte de forma cortés.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "En los mandatos con du se omite el pronombre y normalmente la terminación -st: Komm!, Arbeite!, Lies!. Si el verbo termina en -eln o -ern, se conserva la -e: Sammle!, Ändere!."
+              },
+              {
+                "type": "paragraph",
+                "text": "Los mandatos con ihr emplean la forma habitual sin el pronombre: Kommt!, Arbeitet!. Para Sie se coloca el infinitivo delante y se mantiene Sie: Kommen Sie!, Seien Sie vorsichtig!."
+              },
+              {
+                "type": "table",
+                "title": "Formas del imperativo",
+                "headers": [
+                  "Forma",
+                  "Modelo",
+                  "Ejemplo"
+                ],
+                "rows": [
+                  [
+                    "du",
+                    "Raíz verbal + ! (opcional + e)",
+                    "Komm! / Warte!"
+                  ],
+                  [
+                    "ihr",
+                    "Forma de ihr en presente",
+                    "Kommt! / Lernt!"
+                  ],
+                  [
+                    "Sie",
+                    "Infinitivo + Sie",
+                    "Kommen Sie! / Bleiben Sie ruhig!"
+                  ],
+                  [
+                    "wir",
+                    "Lasst uns + infinitivo",
+                    "Lasst uns gehen!"
+                  ],
+                  [
+                    "sein",
+                    "irregular: Sei! / Seid! / Seien Sie!",
+                    "Sei leise! / Seid bereit! / Seien Sie geduldig!"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Verbos separables",
+                "text": "En el imperativo los prefijos separables siguen yendo al final: Ruf mich an!, Steh bitte auf!."
+              },
+              {
+                "type": "examples",
+                "title": "Ejemplos",
+                "items": [
+                  {
+                    "sentence": "Komm bitte pünktlich!",
+                    "translation": "¡Ven puntual, por favor!"
+                  },
+                  {
+                    "sentence": "Öffne das Fenster!",
+                    "translation": "¡Abre la ventana!"
+                  },
+                  {
+                    "sentence": "Kommt morgen früher!",
+                    "translation": "¡Venid más temprano mañana!"
+                  },
+                  {
+                    "sentence": "Kommen Sie herein!",
+                    "translation": "¡Pase, por favor!"
+                  },
+                  {
+                    "sentence": "Lasst uns jetzt anfangen!",
+                    "translation": "¡Empecemos ahora!"
+                  },
+                  {
+                    "sentence": "Steh sofort auf!",
+                    "translation": "¡Levántate enseguida!"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Los mandatos con du usan la raíz verbal, a menudo sin -st.",
+              "Los mandatos con ihr coinciden con la forma ihr sin el pronombre.",
+              "Los mandatos con Sie mantienen Sie tras el infinitivo.",
+              "Los mandatos con wir emplean Lasst uns + infinitivo.",
+              "Los prefijos separables van al final incluso en los mandatos."
+            ],
+            "quiz": {
+              "title": "Comprueba tu comprensión",
+              "intro": "Elige la forma imperativa correcta.",
+              "items": [
+                {
+                  "id": "sentence-structure-imperative-q1",
+                  "type": "multiple-choice",
+                  "question": "¿Qué mandato con du es correcto?",
+                  "choices": [
+                    "Du kommst sofort!",
+                    "Komm sofort!",
+                    "Kommst du sofort!"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-imperative-q2",
+                  "type": "multiple-choice",
+                  "question": "Elige el mandato cortés.",
+                  "choices": [
+                    "Bleib ruhig!",
+                    "Bleibt ruhig!",
+                    "Bleiben Sie ruhig!"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "sentence-structure-imperative-q3",
+                  "type": "text",
+                  "question": "Schreib den Befehl: ___ (ihr / warten) hier!",
+                  "answer": [
+                    "Wartet",
+                    "wartet"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-imperative-q4",
+                  "type": "text",
+                  "question": "Ergänze: ___ uns anfangen!",
+                  "answer": [
+                    "Lasst",
+                    "lasst"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-imperative-q5",
+                  "type": "multiple-choice",
+                  "question": "¿Dónde va el prefijo en el mandato \"Steh ... auf!\"?",
+                  "choices": [
+                    "Permanece con el verbo al inicio.",
+                    "Se desplaza al final de la oración.",
+                    "Desaparece."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-imperative-q6",
+                  "type": "match",
+                  "question": "Relaciona el sujeto con la terminación del imperativo.",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-imperative-p1",
+                      "prompt": "du",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "-"
+                    },
+                    {
+                      "id": "sentence-structure-imperative-p2",
+                      "prompt": "ihr",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "-t"
+                    },
+                    {
+                      "id": "sentence-structure-imperative-p3",
+                      "prompt": "Sie",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "Sie"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "menu": {
+    "library": "Biblioteca",
+    "learning": "Aprendizaje",
+    "about": "Acerca de",
+    "grammar": "Gramática",
+    "vocabulary": "Vocabulario",
+    "pronunciation": "Pronunciación",
+    "test": "Examen de alemán",
+    "ai_teacher": "Profesor IA"
+  }
+}

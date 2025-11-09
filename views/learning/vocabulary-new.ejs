@@ -1,0 +1,64 @@
+<%- include('../partials/head', { pageTitle: 'Neues Vokabelthema' }) %>
+<%- include('../partials/header') %>
+
+<main class="main-content">
+  <section class="page-hero">
+    <div class="container container-narrow">
+      <span class="eyebrow">Redaktion</span>
+      <h1>Neues Vokabelthema erstellen</h1>
+      <p>
+        Kuratiere eine thematische Sammlung von W&ouml;rtern. Nutzer entdecken hier passende Begriffe, die sie visuell und im
+        Kontext lernen k&ouml;nnen.
+      </p>
+    </div>
+  </section>
+
+  <section class="form-section">
+    <div class="container container-narrow">
+      <% if (error) { %>
+        <div class="alert alert-error"><%= error %></div>
+      <% } %>
+      <% if (success) { %>
+        <div class="alert alert-success"><%= success %></div>
+      <% } %>
+
+      <form method="post" action="/learning/vocabulary" class="form-card">
+        <div class="form-field">
+          <label class="form-label" for="name">Themenname</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="form-input"
+            value="<%= values.name %>"
+            required
+          />
+        </div>
+
+        <div class="form-field">
+          <label class="form-label" for="description">Kurzbeschreibung</label>
+          <textarea
+            id="description"
+            name="description"
+            class="form-textarea"
+            rows="4"
+          ><%= values.description %></textarea>
+          <p class="help-text">
+            Optional: Beschreibe kurz, welche Art von W&ouml;rtern Lernende hier erwartet.
+          </p>
+        </div>
+
+        <div class="form-actions">
+          <a href="/learning/vocabulary" class="button button-ghost">
+            Abbrechen
+          </a>
+          <button type="submit" class="button button-primary">
+            Thema speichern
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<%- include('../partials/footer') %>

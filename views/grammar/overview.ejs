@@ -1,0 +1,75 @@
+<%- include('../partials/head', { pageTitle: grammar.title || 'Grammatik' }) %>
+<%- include('../partials/header') %>
+
+<main class="main-content">
+  <section class="page-hero">
+    <div class="container container-narrow">
+      <span class="eyebrow"><%= grammar.title %></span>
+      <h1><%= overview.introTitle %></h1>
+      <p><%= overview.introBody %></p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <% breadcrumbs.forEach(function(crumb, index) { %>
+          <li>
+            <% if (crumb.url && !crumb.current) { %>
+              <a href="<%= crumb.url %>"><%= crumb.label %></a>
+            <% } else { %>
+              <span <%= crumb.current ? 'aria-current="page"' : '' %>><%= crumb.label %></span>
+            <% } %>
+          </li>
+        <% }) %>
+      </ol>
+    </div>
+  </div>
+
+  <div class="container">
+    <button type="button" class="grammar-sidebar__menu-toggle" data-grammar-sidebar-toggle>
+      <span><%= sidebarLabel %></span>
+    </button>
+  </div>
+
+  <div class="container grammar-container">
+    <div class="grammar-layout" data-grammar-layout>
+      <%- include('../partials/grammar-sidebar', {
+        sections: sections,
+        currentSectionSlug: null,
+        currentSubtopicSlug: null,
+        sidebarLabel: sidebarLabel,
+        ui: ui,
+        locale: locale
+      }) %>
+
+      <div class="grammar-content">
+        <article class="lesson-card lesson-card--intro">
+          <h2 class="lesson-card__title"><%= overview.highlightTitle %></h2>
+          <p class="lesson-card__meta"><%= overview.highlightBody %></p>
+        </article>
+
+        <section class="grammar-sections">
+          <% sections.forEach(function(section) { %>
+            <a class="lesson-card lesson-card--section" href="/learning/grammar/<%= section.slug %>">
+              <h3 class="lesson-card__title"><%= section.title %></h3>
+              <% if (section.description) { %>
+                <p class="lesson-card__meta"><%= section.description %></p>
+              <% } %>
+              <div class="lesson-card__stats">
+                <span>
+                  <%= section.subtopics && section.subtopics.length ? section.subtopics.length : 0 %>
+                  <%= (ui.lessonsLabel || 'lessons') %>
+                </span>
+              </div>
+            </a>
+          <% }) %>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="/js/grammar-sidebar.js" defer></script>
+<script src="/js/grammar-quiz.js" defer></script>
+<%- include('../partials/footer') %>

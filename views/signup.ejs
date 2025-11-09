@@ -1,0 +1,80 @@
+<%- include('partials/head') %>
+<%- include('partials/header') %>
+
+<main class="auth">
+  <div class="auth-card" role="form">
+    <h1 class="auth-card__title" data-i18n-key="auth.signupTitle">Create an account</h1>
+    <p class="auth-card__subtitle" data-i18n-key="auth.signupSubtitle">Join the library to save your progress.</p>
+
+    <% if (error) { %>
+      <div class="auth-error" role="alert"><%= error %></div>
+    <% } %>
+
+    <form method="post" action="/signup" class="auth-form" novalidate>
+      <div class="auth-field">
+        <label for="email" class="auth-label" data-i18n-key="auth.emailLabel">Email address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="auth-input"
+          value="<%= values.email %>"
+          required
+          autocomplete="email"
+          aria-invalid="<%= error ? 'true' : 'false' %>"
+        />
+      </div>
+
+      <div class="auth-field">
+        <label for="password" class="auth-label" data-i18n-key="auth.passwordLabel">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="auth-input"
+          minlength="8"
+          required
+          autocomplete="new-password"
+        />
+      </div>
+
+      <div class="auth-field">
+        <label for="confirmPassword" class="auth-label" data-i18n-key="auth.confirmLabel">Confirm password</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          class="auth-input"
+          minlength="8"
+          required
+          autocomplete="new-password"
+        />
+      </div>
+
+      <button type="submit" class="auth-btn" data-i18n-key="auth.signupButton">Create account</button>
+    </form>
+
+    <div class="auth-divider" role="separator" aria-label="or">
+      <span data-i18n-key="auth.or">or</span>
+    </div>
+
+    <a class="auth-google" href="/auth/google">
+      <span class="auth-google__icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+          <path fill="#EA4335" d="M24 9.5c3.54 0 6 1.54 7.38 2.83l5.4-5.26C33.68 3.58 29.5 1.5 24 1.5 14.96 1.5 7.37 7.42 4.44 15.35l6.68 5.18C12.45 15.31 17.69 9.5 24 9.5z" />
+          <path fill="#4285F4" d="M46.5 24.5c0-1.57-.14-3.08-.41-4.5H24v9h12.7c-.55 2.8-2.17 5.17-4.62 6.77l7.07 5.47C43.97 37.89 46.5 31.7 46.5 24.5z" />
+          <path fill="#FBBC05" d="M11.12 28.9A14.49 14.49 0 0 1 10 24c0-1.7.29-3.34.79-4.9L4.1 13.9A23.924 23.924 0 0 0 1.5 24c0 3.77.9 7.32 2.6 10.45l6.98-5.55z" />
+          <path fill="#34A853" d="M24 46.5c6.48 0 11.91-2.13 15.88-5.82l-7.07-5.47C30.71 37.25 27.61 38.5 24 38.5c-6.31 0-11.56-5.81-12.88-12.01l-6.68 5.18C7.37 40.58 14.96 46.5 24 46.5z" />
+        </svg>
+      </span>
+      <span data-i18n-key="auth.continueWithGoogle">Continue with Google</span>
+    </a>
+
+    <div class="auth-footer">
+      <span data-i18n-key="auth.signupSwitchPrompt">Already registered?</span>
+      <a href="/login" data-i18n-key="auth.signupSwitchAction">Log in</a>
+    </div>
+  </div>
+</main>
+
+<%- include('partials/footer') %>

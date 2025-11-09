@@ -1,0 +1,98 @@
+<%- include('../partials/head', { pageTitle: 'Vokabeln' }) %>
+<%- include('../partials/header') %>
+
+<main class="main-content">
+  <% const topicPlaceholder = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120"%3E%3Crect width="160" height="120" rx="8" fill="%231f2937"/%3E%3C/svg%3E'; %>
+  <section class="page-hero">
+    <div class="container container-narrow">
+      <span class="eyebrow" data-i18n-key="learning.heroEyebrow">Lernen</span>
+      <h1 data-i18n-key="learning.vocabulary.title">Vokabelwerkstatt</h1>
+      <p data-i18n-key="learning.vocabulary.intro">
+        Entdecke neue W&ouml;rter mit Beispiels&auml;tzen, die du sofort in deinen Geschichten wiederfinden kannst.
+      </p>
+      <% if (isAdmin) { %>
+        <div class="hero-actions">
+          <a href="/learning/vocabulary/new" class="button button-secondary">
+            Neues Thema erstellen
+          </a>
+        </div>
+      <% } %>
+    </div>
+  </section>
+
+  <section class="learning-section">
+    <div class="container">
+      <form class="vocabulary-toolbar" method="get" action="/learning/vocabulary">
+        <label class="searchbar">
+          <span class="sr-only">Themen durchsuchen</span>
+          <input
+            type="search"
+            name="q"
+            value="<%= query %>"
+            placeholder="Themen durchsuchen"
+            aria-label="Themen durchsuchen"
+          />
+        </label>
+        <label class="sort">
+          <span class="sr-only">Sortieren</span>
+          <select name="sort" aria-label="Sortieren">
+            <% sortOptions.forEach(function(option) { %>
+              <option value="<%= option.value %>" <%= selectedSort === option.value ? 'selected' : '' %>>
+                <%= option.label %>
+              </option>
+            <% }) %>
+          </select>
+        </label>
+        <button type="submit" class="button button-secondary vocabulary-toolbar__submit">
+          Anwenden
+        </button>
+      </form>
+
+      <% if (topics.length === 0) { %>
+        <div class="empty-state">
+          <h2 data-i18n-key="learning.vocabulary.emptyTitle">Noch keine Eintr&auml;ge</h2>
+          <p data-i18n-key="learning.vocabulary.emptyCopy">
+            Sobald neue Vokabeln ver&ouml;ffentlicht werden, erscheinen sie hier mit &Uuml;bersetzung und Beispielsatz.
+          </p>
+        </div>
+      <% } else { %>
+        <div class="topics-grid" role="list">
+          <% topics.forEach(function(topic) { %>
+            <% const previewWord = topic.words && topic.words.length > 0 ? topic.words[0] : null; %>
+            <% const previewSrc = previewWord && previewWord.photoPath ? ('/' + previewWord.photoPath) : topicPlaceholder; %>
+            <a
+              class="topic-card"
+              href="/learning/vocabulary/<%= topic.slug %>"
+              role="listitem"
+            >
+              <div class="topic-card__thumb" aria-hidden="true">
+                <img
+                  src="<%= previewSrc %>"
+                  alt="<%= topic.name %>"
+                  loading="lazy"
+                  decoding="async"
+                  width="160"
+                  height="120"
+                />
+              </div>
+              <div class="topic-card__body">
+                <h2 class="topic-card__title"><%= topic.name %></h2>
+                <% if (topic.description) { %>
+                  <p class="topic-card__description"><%= topic.description %></p>
+                <% } %>
+                <div class="topic-card__meta">
+                  <span class="topic-card__badge">
+                    <%= topic.wordCount === 1 ? '1 Wort' : topic.wordCount + ' W&ouml;rter' %>
+                  </span>
+                  <span class="topic-card__date">Seit <%= topic.createdAt %></span>
+                </div>
+              </div>
+            </a>
+          <% }) %>
+        </div>
+      <% } %>
+    </div>
+  </section>
+</main>
+
+<%- include('../partials/footer') %>

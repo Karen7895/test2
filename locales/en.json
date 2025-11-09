@@ -1,0 +1,3847 @@
+{
+  "locale": "en",
+  "grammar": {
+    "title": "Grammar Studio",
+    "overview": {
+      "introTitle": "Master German grammar step by step",
+      "introBody": "Each lesson combines clear explanations, compact tables, and short quizzes so you can revisit tricky topics quickly.",
+      "highlightTitle": "How it works",
+      "highlightBody": "Choose a section on the left, read the explanations, and finish with the quiz to see what to review."
+    },
+    "breadcrumbs": {
+      "learning": "Learning",
+      "grammar": "Grammar"
+    },
+    "sidebarLabel": "Sections",
+    "ui": {
+      "backToSections": "Back to sections",
+      "startQuiz": "Start quiz",
+      "checkAnswers": "Check answers",
+      "tryAgain": "Try again",
+      "showSolutions": "Show solutions",
+      "closeSidebar": "Close sidebar",
+      "score": "Your score",
+      "outOf": "out of",
+      "correct": "correct",
+      "quizIntro": "Test yourself",
+      "quizReview": "Review the explanations above before trying again.",
+      "lessonsLabel": "lessons",
+      "takeawaysLabel": "Key takeaways"
+    },
+    "sections": {
+      "verbs": {
+        "slug": "verbs",
+        "title": "Verbs (Verben)",
+        "description": "Learn how German verbs change in everyday sentences: infinitives, conjugation, questions, negation, and modal combinations."
+      },
+      "adjectives": {
+        "slug": "adjectives",
+        "title": "Adjectives (Adjektive)",
+        "description": "Describe people and things with adjective forms, from basic comparisons to predicate use."
+      },
+      "adverbsPrepositions": {
+        "slug": "adverbs-prepositions",
+        "title": "Adverbs & Prepositions (Adverbien und Präpositionen)",
+        "description": "Explore time and place adverbs plus core prepositions that switch between Dative and Accusative."
+      },
+      "sentenceStructure": {
+        "slug": "sentence-structure",
+        "title": "Sentence Structure (Satzbau)",
+        "description": "Build natural German sentences with verb-second order, clear questions, and confident commands."
+      }
+    }
+  },
+  "sections": [
+    {
+      "slug": "nouns",
+      "title": "Nouns (Nomen)",
+      "description": "Understand gender, plural patterns, cases, and possessive forms for everyday communication.",
+      "subtopics": [
+        {
+          "slug": "gender-of-nouns",
+          "title": "Gender of nouns (der, die, das)",
+          "summary": "Spot reliable endings and memorize the most frequent exceptions.",
+          "lesson": {
+            "intro": "Every German noun has a gender that controls the article and adjective endings around it. Learn common endings and patterns so you can guess the article correctly.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Many noun endings strongly point to a specific gender. Use these patterns to choose the correct article quickly."
+              },
+              {
+                "type": "rules",
+                "title": "Frequent gender clues",
+                "rules": [
+                  {
+                    "label": "die + nouns ending in -ung",
+                    "examples": [
+                      "die Wohnung",
+                      "die Bedeutung"
+                    ]
+                  },
+                  {
+                    "label": "die + nouns ending in -keit / -heit",
+                    "examples": [
+                      "die Freundlichkeit",
+                      "die Freiheit"
+                    ]
+                  },
+                  {
+                    "label": "die + nouns ending in -tion / -tät",
+                    "examples": [
+                      "die Situation",
+                      "die Universität"
+                    ]
+                  },
+                  {
+                    "label": "der + persons ending in -er (agent)",
+                    "examples": [
+                      "der Bäcker",
+                      "der Fahrer"
+                    ]
+                  },
+                  {
+                    "label": "der + nouns ending in -ismus",
+                    "examples": [
+                      "der Optimismus",
+                      "der Tourismus"
+                    ]
+                  },
+                  {
+                    "label": "das + diminutives ending in -chen / -lein",
+                    "examples": [
+                      "das Mädchen",
+                      "das Häuschen"
+                    ]
+                  },
+                  {
+                    "label": "das + nouns ending in -ment / -um",
+                    "examples": [
+                      "das Instrument",
+                      "das Zentrum"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Watch the exceptions",
+                "text": "Some words look like one pattern but follow another. Classic examples are das Mädchen (neuter despite referring to a girl) or der Name (masculine even with the -e ending). Always check the article when you learn a new noun."
+              },
+              {
+                "type": "examples",
+                "title": "Sample sentences",
+                "items": [
+                  {
+                    "sentence": "Der Bäcker verkauft frisches Brot.",
+                    "translation": "The baker sells fresh bread."
+                  },
+                  {
+                    "sentence": "Die Entscheidung ist sehr wichtig.",
+                    "translation": "The decision is very important."
+                  },
+                  {
+                    "sentence": "Das Instrument klingt wunderschön.",
+                    "translation": "The instrument sounds wonderful."
+                  },
+                  {
+                    "sentence": "Die Universität liegt im Zentrum der Stadt.",
+                    "translation": "The university is located in the center of the city."
+                  },
+                  {
+                    "sentence": "Das Mädchen liest eine Geschichte.",
+                    "translation": "The girl is reading a story."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Learn noun + article together, especially when a pattern is unclear.",
+              "Endings such as -ung, -heit, -keit and -tion nearly always take die.",
+              "Agent nouns ending in -er prefer der, while diminutives in -chen or -lein take das.",
+              "Note classic exceptions like das Mädchen or der See (lake)."
+            ],
+            "quiz": {
+              "title": "Check article choices",
+              "intro": "Decide which article or form fits each noun.",
+              "items": [
+                {
+                  "id": "gender-q1",
+                  "type": "multiple-choice",
+                  "question": "Which article is correct for “Zeitung”?",
+                  "choices": [
+                    "der",
+                    "die",
+                    "das"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "gender-q2",
+                  "type": "multiple-choice",
+                  "question": "Choose the right article: ___ Instrument ist neu.",
+                  "choices": [
+                    "Der",
+                    "Die",
+                    "Das"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "gender-q3",
+                  "type": "text",
+                  "question": "Fill in the article: ___ Bäcker öffnet um sechs Uhr.",
+                  "answer": [
+                    "Der",
+                    "der"
+                  ]
+                },
+                {
+                  "id": "gender-q4",
+                  "type": "text",
+                  "question": "Fill in the article: ___ Mädchen spielt im Park.",
+                  "answer": [
+                    "Das",
+                    "das"
+                  ]
+                },
+                {
+                  "id": "gender-q5",
+                  "type": "match",
+                  "question": "Match each noun with the correct article.",
+                  "pairs": [
+                    {
+                      "id": "gender-pair-1",
+                      "prompt": "__ Freundlichkeit",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "die"
+                    },
+                    {
+                      "id": "gender-pair-2",
+                      "prompt": "__ Tourismus",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "der"
+                    },
+                    {
+                      "id": "gender-pair-3",
+                      "prompt": "__ Häuschen",
+                      "options": [
+                        "der",
+                        "die",
+                        "das"
+                      ],
+                      "answer": "das"
+                    }
+                  ]
+                },
+                {
+                  "id": "gender-q6",
+                  "type": "multiple-choice",
+                  "question": "Which word is an exception to the typical gender rule?",
+                  "choices": [
+                    "die Bedeutung",
+                    "das Mädchen",
+                    "der Fahrer"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "singular-and-plural",
+          "title": "Singular and plural",
+          "summary": "Learn the most frequent plural endings and practice them in context.",
+          "lesson": {
+            "intro": "German plurals are not formed with one single ending. Pay attention to typical patterns and memorize the article in the plural (die).",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Most plurals use endings like -e, -er, -n/-en, or -s. Some add an umlaut to the stem vowel. Always note the plural form together with the singular."
+              },
+              {
+                "type": "table",
+                "title": "Common plural patterns",
+                "headers": [
+                  "Singular",
+                  "Plural",
+                  "Article (Nom.)"
+                ],
+                "rows": [
+                  [
+                    "der Tisch",
+                    "die Tische",
+                    "die"
+                  ],
+                  [
+                    "die Blume",
+                    "die Blumen",
+                    "die"
+                  ],
+                  [
+                    "das Buch",
+                    "die Bücher",
+                    "die"
+                  ],
+                  [
+                    "der Lehrer",
+                    "die Lehrer",
+                    "die"
+                  ],
+                  [
+                    "die Frage",
+                    "die Fragen",
+                    "die"
+                  ],
+                  [
+                    "das Kind",
+                    "die Kinder",
+                    "die"
+                  ],
+                  [
+                    "der Tourist",
+                    "die Touristen",
+                    "die"
+                  ],
+                  [
+                    "die Universität",
+                    "die Universitäten",
+                    "die"
+                  ],
+                  [
+                    "das Auto",
+                    "die Autos",
+                    "die"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Masculine and neuter nouns often take -e or -er (sometimes with Umlaut). Feminine nouns tend toward -n/-en. Loanwords frequently add -s."
+              },
+              {
+                "type": "examples",
+                "title": "Plural sentences",
+                "items": [
+                  {
+                    "sentence": "Die Kinder spielen im Garten.",
+                    "translation": "The children are playing in the garden."
+                  },
+                  {
+                    "sentence": "Wir brauchen neue Stühle für das Büro.",
+                    "translation": "We need new chairs for the office."
+                  },
+                  {
+                    "sentence": "Im Museum hängen viele Bilder.",
+                    "translation": "Many pictures hang in the museum."
+                  },
+                  {
+                    "sentence": "Die Studenten schreiben ihre Prüfungen.",
+                    "translation": "The students are taking their exams."
+                  },
+                  {
+                    "sentence": "Sie sammelt alte Bücher und Zeitungen.",
+                    "translation": "She collects old books and newspapers."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Plurals always use the article die in the nominative.",
+              "Feminine nouns prefer -n or -en, neuter often takes -er with umlaut.",
+              "Loanwords and abbreviations usually form the plural with -s.",
+              "Always write the plural form in your vocabulary notes."
+            ],
+            "quiz": {
+              "title": "Plural practice",
+              "intro": "Choose or build the correct plural form.",
+              "items": [
+                {
+                  "id": "plural-q1",
+                  "type": "multiple-choice",
+                  "question": "Select the correct plural: der Tisch",
+                  "choices": [
+                    "die Tischs",
+                    "die Tische",
+                    "die Tischer"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "plural-q2",
+                  "type": "text",
+                  "question": "Fill in the plural: die Blume → die _____.",
+                  "answer": [
+                    "Blumen",
+                    "blumen"
+                  ]
+                },
+                {
+                  "id": "plural-q3",
+                  "type": "multiple-choice",
+                  "question": "Which plural form is correct for das Kind?",
+                  "choices": [
+                    "die Kinden",
+                    "die Kinder",
+                    "die Kinds"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "plural-q4",
+                  "type": "text",
+                  "question": "Fill in the plural article: ___ Autos stehen vor dem Haus.",
+                  "answer": [
+                    "Die",
+                    "die"
+                  ]
+                },
+                {
+                  "id": "plural-q5",
+                  "type": "match",
+                  "question": "Match the noun with its plural ending.",
+                  "pairs": [
+                    {
+                      "id": "plural-pair-1",
+                      "prompt": "der Lehrer",
+                      "options": [
+                        "no ending",
+                        "-e",
+                        "-er",
+                        "-en"
+                      ],
+                      "answer": "no ending"
+                    },
+                    {
+                      "id": "plural-pair-2",
+                      "prompt": "die Universität",
+                      "options": [
+                        "-e",
+                        "-en",
+                        "-n",
+                        "-s"
+                      ],
+                      "answer": "-en"
+                    },
+                    {
+                      "id": "plural-pair-3",
+                      "prompt": "das Buch",
+                      "options": [
+                        "-e",
+                        "-er",
+                        "-s",
+                        "-n"
+                      ],
+                      "answer": "-er"
+                    }
+                  ]
+                },
+                {
+                  "id": "plural-q6",
+                  "type": "multiple-choice",
+                  "question": "Which sentence uses the plural correctly?",
+                  "choices": [
+                    "Die Studenten warten vor der Bibliothek.",
+                    "Der Studenten warten vor der Bibliothek.",
+                    "Die Studentes warten vor der Bibliothek."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "declension-of-articles",
+          "title": "Declension of articles",
+          "summary": "See how definite, indefinite, and negative articles change in each case.",
+          "lesson": {
+            "intro": "Articles show the gender, number, and case of a noun. Definite articles (der/die/das), indefinite articles (ein/eine/ein), and their negative forms (kein/keine/kein) follow predictable tables.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "The article changes form depending on whether the noun is the subject (nominative), direct object (accusative), or indirect object (dative). Memorize the tables and notice the repeating endings."
+              },
+              {
+                "type": "table",
+                "title": "Definite articles",
+                "headers": [
+                  "Case",
+                  "Masculine",
+                  "Feminine",
+                  "Neuter",
+                  "Plural"
+                ],
+                "rows": [
+                  [
+                    "Nominative",
+                    "der",
+                    "die",
+                    "das",
+                    "die"
+                  ],
+                  [
+                    "Accusative",
+                    "den",
+                    "die",
+                    "das",
+                    "die"
+                  ],
+                  [
+                    "Dative",
+                    "dem",
+                    "der",
+                    "dem",
+                    "den"
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Indefinite articles",
+                "headers": [
+                  "Case",
+                  "Masculine",
+                  "Feminine",
+                  "Neuter"
+                ],
+                "rows": [
+                  [
+                    "Nominative",
+                    "ein",
+                    "eine",
+                    "ein"
+                  ],
+                  [
+                    "Accusative",
+                    "einen",
+                    "eine",
+                    "ein"
+                  ],
+                  [
+                    "Dative",
+                    "einem",
+                    "einer",
+                    "einem"
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Negative articles (kein)",
+                "headers": [
+                  "Case",
+                  "Masculine",
+                  "Feminine",
+                  "Neuter",
+                  "Plural"
+                ],
+                "rows": [
+                  [
+                    "Nominative",
+                    "kein",
+                    "keine",
+                    "kein",
+                    "keine"
+                  ],
+                  [
+                    "Accusative",
+                    "keinen",
+                    "keine",
+                    "kein",
+                    "keine"
+                  ],
+                  [
+                    "Dative",
+                    "keinem",
+                    "keiner",
+                    "keinem",
+                    "keinen"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "In the nominative and accusative, the noun itself rarely changes. In the dative plural, add -n to the noun if it does not already end in -n."
+              },
+              {
+                "type": "examples",
+                "title": "Articles in action",
+                "items": [
+                  {
+                    "sentence": "Der Student liest ein Buch.",
+                    "translation": "The student is reading a book."
+                  },
+                  {
+                    "sentence": "Ich sehe den Bahnhof schon von hier.",
+                    "translation": "I can already see the station from here."
+                  },
+                  {
+                    "sentence": "Wir helfen dem Kind bei den Hausaufgaben.",
+                    "translation": "We help the child with the homework."
+                  },
+                  {
+                    "sentence": "Sie hat keinen Termin heute.",
+                    "translation": "She has no appointment today."
+                  },
+                  {
+                    "sentence": "Gibt es eine Frage zur Grammatik?",
+                    "translation": "Is there a question about grammar?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Der goes to den in the accusative and dem in the dative.",
+              "Indefinite and possessive articles share the same endings (einem, einer, keinen).",
+              "Plural dative adds -n to the article and usually to the noun.",
+              "The noun often stays the same; the article shows the case."
+            ],
+            "quiz": {
+              "title": "Article endings",
+              "intro": "Pick the correct article form for each sentence.",
+              "items": [
+                {
+                  "id": "articles-q1",
+                  "type": "multiple-choice",
+                  "question": "___ Mann kauft ein Ticket. (Nominative)",
+                  "choices": [
+                    "Der",
+                    "Den",
+                    "Dem"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "articles-q2",
+                  "type": "multiple-choice",
+                  "question": "Ich kenne ___ Lehrer gut. (Accusative)",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "articles-q3",
+                  "type": "text",
+                  "question": "Füllen Sie die Lücke: Wir danken ___ Frau. (Dative)",
+                  "answer": [
+                    "der",
+                    "Der"
+                  ]
+                },
+                {
+                  "id": "articles-q4",
+                  "type": "multiple-choice",
+                  "question": "Wählen Sie die richtige Form: Wir haben ___ Zeit.",
+                  "choices": [
+                    "keinen",
+                    "kein",
+                    "keinem"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "articles-q5",
+                  "type": "match",
+                  "question": "Verbinden Sie den Fall mit dem richtigen Artikel von 'ein' (maskulin).",
+                  "pairs": [
+                    {
+                      "id": "articles-pair-1",
+                      "prompt": "Nominativ",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "ein"
+                    },
+                    {
+                      "id": "articles-pair-2",
+                      "prompt": "Akkusativ",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "einen"
+                    },
+                    {
+                      "id": "articles-pair-3",
+                      "prompt": "Dativ",
+                      "options": [
+                        "ein",
+                        "einen",
+                        "einem"
+                      ],
+                      "answer": "einem"
+                    }
+                  ]
+                },
+                {
+                  "id": "articles-q6",
+                  "type": "text",
+                  "question": "Setzen Sie ein: Sie hilft ___ Kindern. (Dative plural)",
+                  "answer": [
+                    "den",
+                    "Den"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "case-declension-of-nouns",
+          "title": "Case declension of nouns",
+          "summary": "Understand when to use nominative, accusative, and dative with typical verbs.",
+          "lesson": {
+            "intro": "Cases show the function of a noun in the sentence. The nominative marks the subject, the accusative the direct object, and the dative the indirect object or receiver.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Identify the role of each noun: who is doing the action (nominative), what is affected directly (accusative), and who receives something (dative). Prepositions can also trigger specific cases."
+              },
+              {
+                "type": "table",
+                "title": "Common verbs and their cases",
+                "headers": [
+                  "Verb",
+                  "Meaning",
+                  "Case"
+                ],
+                "rows": [
+                  [
+                    "sehen",
+                    "to see",
+                    "Akkusativ"
+                  ],
+                  [
+                    "brauchen",
+                    "to need",
+                    "Akkusativ"
+                  ],
+                  [
+                    "haben",
+                    "to have",
+                    "Akkusativ"
+                  ],
+                  [
+                    "helfen",
+                    "to help",
+                    "Dativ"
+                  ],
+                  [
+                    "danken",
+                    "to thank",
+                    "Dativ"
+                  ],
+                  [
+                    "gehören",
+                    "to belong",
+                    "Dativ"
+                  ],
+                  [
+                    "sein",
+                    "to be",
+                    "Nominativ"
+                  ],
+                  [
+                    "heißen",
+                    "to be called",
+                    "Nominativ"
+                  ],
+                  [
+                    "werden",
+                    "to become",
+                    "Nominativ"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Case examples",
+                "items": [
+                  {
+                    "sentence": "Der Lehrer erklärt die Regel.",
+                    "translation": "The teacher explains the rule."
+                  },
+                  {
+                    "sentence": "Meine Schwester braucht einen neuen Laptop.",
+                    "translation": "My sister needs a new laptop."
+                  },
+                  {
+                    "sentence": "Wir geben dem Freund ein Geschenk.",
+                    "translation": "We give the friend a present."
+                  },
+                  {
+                    "sentence": "Kannst du mir bitte helfen?",
+                    "translation": "Can you help me, please?"
+                  },
+                  {
+                    "sentence": "Das Kind heißt Lukas.",
+                    "translation": "The child is called Lukas."
+                  },
+                  {
+                    "sentence": "Die Blumen gehören der Nachbarin.",
+                    "translation": "The flowers belong to the neighbor (female)."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Use the nominative for subjects and predicates after sein, werden, heißen.",
+              "Most action verbs take an accusative object (sehen, brauchen, kaufen).",
+              "Dative marks the receiver, often with geben, helfen, danken, gehören.",
+              "Prepositions like mit, zu, nach require the dative; durch, für demand the accusative."
+            ],
+            "quiz": {
+              "title": "Choose the correct case",
+              "intro": "Decide which case and article are needed.",
+              "items": [
+                {
+                  "id": "cases-q1",
+                  "type": "multiple-choice",
+                  "question": "Welche Form passt? Ich sehe ___ Film.",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "cases-q2",
+                  "type": "text",
+                  "question": "Füllen Sie ein: Wir helfen ___ Nachbarn.",
+                  "answer": [
+                    "dem",
+                    "Dem"
+                  ]
+                },
+                {
+                  "id": "cases-q3",
+                  "type": "multiple-choice",
+                  "question": "Welcher Fall folgt nach 'mit'?",
+                  "choices": [
+                    "Nominativ",
+                    "Akkusativ",
+                    "Dativ"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "cases-q4",
+                  "type": "text",
+                  "question": "Setzen Sie ein: Sie bedankt sich bei ___ Lehrerin.",
+                  "answer": [
+                    "der",
+                    "Der"
+                  ]
+                },
+                {
+                  "id": "cases-q5",
+                  "type": "match",
+                  "question": "Ordnen Sie Verb und Fall zu.",
+                  "pairs": [
+                    {
+                      "id": "cases-pair-1",
+                      "prompt": "helfen",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Dativ"
+                    },
+                    {
+                      "id": "cases-pair-2",
+                      "prompt": "sehen",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Akkusativ"
+                    },
+                    {
+                      "id": "cases-pair-3",
+                      "prompt": "sein",
+                      "options": [
+                        "Nominativ",
+                        "Akkusativ",
+                        "Dativ"
+                      ],
+                      "answer": "Nominativ"
+                    }
+                  ]
+                },
+                {
+                  "id": "cases-q6",
+                  "type": "multiple-choice",
+                  "question": "Welche Option ist korrekt? Wir schenken ___ Kind ein Buch.",
+                  "choices": [
+                    "der",
+                    "den",
+                    "dem"
+                  ],
+                  "answer": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "possessive-pronouns",
+          "title": "Possessive pronouns",
+          "summary": "Use mein, dein, sein, ihr and others with the right endings.",
+          "lesson": {
+            "intro": "Possessive pronouns behave like the indefinite article ein. They change endings according to gender, case, and number.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Attach the same endings you know from ein/eine/ein. Pay attention to the base form (mein, dein, sein, ihr, unser, euer, Ihr)."
+              },
+              {
+                "type": "table",
+                "title": "Possessive endings (example: mein)",
+                "headers": [
+                  "Case",
+                  "Masculine",
+                  "Feminine",
+                  "Neuter",
+                  "Plural"
+                ],
+                "rows": [
+                  [
+                    "Nominative",
+                    "mein",
+                    "meine",
+                    "mein",
+                    "meine"
+                  ],
+                  [
+                    "Accusative",
+                    "meinen",
+                    "meine",
+                    "mein",
+                    "meine"
+                  ],
+                  [
+                    "Dative",
+                    "meinem",
+                    "meiner",
+                    "meinem",
+                    "meinen"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Possessives in context",
+                "items": [
+                  {
+                    "sentence": "Mein Bruder arbeitet in Berlin.",
+                    "translation": "My brother works in Berlin."
+                  },
+                  {
+                    "sentence": "Ich sehe deine Tasche nicht.",
+                    "translation": "I don’t see your bag."
+                  },
+                  {
+                    "sentence": "Wir helfen unserem Freund beim Umzug.",
+                    "translation": "We help our friend with the move."
+                  },
+                  {
+                    "sentence": "Ihre Eltern kommen morgen zu Besuch.",
+                    "translation": "Her parents are coming to visit tomorrow."
+                  },
+                  {
+                    "sentence": "Ist das euer Auto vor der Tür?",
+                    "translation": "Is that your car in front of the door?"
+                  },
+                  {
+                    "sentence": "Ich telefoniere mit meiner Schwester.",
+                    "translation": "I am calling my sister."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Possessive pronouns share endings with ein-words (mein, kein, kein).",
+              "In the accusative masculine adds -en; in the dative add -em/-er/-en.",
+              "Euer drops the second e before endings: euer → euren, eurem, eurer.",
+              "Formal Ihr is always capitalized (Ihre, Ihren…)."
+            ],
+            "quiz": {
+              "title": "Possessive endings",
+              "intro": "Complete the sentences with the correct possessive form.",
+              "items": [
+                {
+                  "id": "possessive-q1",
+                  "type": "multiple-choice",
+                  "question": "___ Bruder studiert in München. (my)",
+                  "choices": [
+                    "Mein",
+                    "Meine",
+                    "Meinen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "possessive-q2",
+                  "type": "text",
+                  "question": "Schreib die richtige Form: Wir besuchen ___ (our) Großeltern.",
+                  "answer": [
+                    "unsere",
+                    "Unsere"
+                  ]
+                },
+                {
+                  "id": "possessive-q3",
+                  "type": "multiple-choice",
+                  "question": "Siehst du ___ Freundin? (his)",
+                  "choices": [
+                    "seine",
+                    "sein",
+                    "seiner"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "possessive-q4",
+                  "type": "text",
+                  "question": "Fülle ein: Ich gebe ___ Bruder das Buch zurück. (your, informal singular)",
+                  "answer": [
+                    "deinem",
+                    "Deinem"
+                  ]
+                },
+                {
+                  "id": "possessive-q5",
+                  "type": "match",
+                  "question": "Ordne die Personen dem Possessivpronomen zu.",
+                  "pairs": [
+                    {
+                      "id": "possessive-pair-1",
+                      "prompt": "wir",
+                      "options": [
+                        "mein",
+                        "dein",
+                        "sein",
+                        "unser"
+                      ],
+                      "answer": "unser"
+                    },
+                    {
+                      "id": "possessive-pair-2",
+                      "prompt": "sie (singular)",
+                      "options": [
+                        "ihr",
+                        "sein",
+                        "euer",
+                        "Ihr"
+                      ],
+                      "answer": "ihr"
+                    },
+                    {
+                      "id": "possessive-pair-3",
+                      "prompt": "Sie (formal)",
+                      "options": [
+                        "mein",
+                        "Ihr",
+                        "euer",
+                        "sein"
+                      ],
+                      "answer": "Ihr"
+                    }
+                  ]
+                },
+                {
+                  "id": "possessive-q6",
+                  "type": "multiple-choice",
+                  "question": "Welche Form passt? Wir danken ___ Lehrerin.",
+                  "choices": [
+                    "unser",
+                    "unserer",
+                    "unserem"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "verbs",
+      "title": "Verbs (Verben)",
+      "description": "Learn how German verbs change in everyday sentences: infinitives, conjugation, questions, negation, and modal combinations.",
+      "subtopics": [
+        {
+          "slug": "infinitive-and-conjugation",
+          "title": "Infinitive and conjugation of regular and irregular verbs",
+          "summary": "Recognize infinitives and the most common present-tense patterns for regular and irregular verbs.",
+          "lesson": {
+            "intro": "German infinitives usually end in -en or -n. In the present tense, regular verbs follow a predictable set of endings, while a smaller group changes the stem vowel in some forms.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "To conjugate a regular verb, remove the -en ending from the infinitive and add the personal endings. Irregular verbs keep the same endings but may change the stem vowel or add an extra consonant in the du and er/sie/es forms."
+              },
+              {
+                "type": "table",
+                "title": "Regular endings with spielen",
+                "headers": [
+                  "Person",
+                  "Ending",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "ich",
+                    "-e",
+                    "ich spiele"
+                  ],
+                  [
+                    "du",
+                    "-st",
+                    "du spielst"
+                  ],
+                  [
+                    "er/sie/es",
+                    "-t",
+                    "er spielt"
+                  ],
+                  [
+                    "wir",
+                    "-en",
+                    "wir spielen"
+                  ],
+                  [
+                    "ihr",
+                    "-t",
+                    "ihr spielt"
+                  ],
+                  [
+                    "sie/Sie",
+                    "-en",
+                    "sie spielen"
+                  ]
+                ]
+              },
+              {
+                "type": "rules",
+                "title": "Frequent stem changes",
+                "rules": [
+                  {
+                    "label": "e → ie (sehen, lesen)",
+                    "examples": [
+                      "ich sehe",
+                      "du siehst",
+                      "er liest"
+                    ]
+                  },
+                  {
+                    "label": "a → ä (fahren, laufen)",
+                    "examples": [
+                      "du fährst",
+                      "er läuft"
+                    ]
+                  },
+                  {
+                    "label": "e → i (sprechen, nehmen)",
+                    "examples": [
+                      "du sprichst",
+                      "er nimmt"
+                    ]
+                  },
+                  {
+                    "label": "Add -e- for stems ending in -d/-t (arbeiten)",
+                    "examples": [
+                      "du arbeitest",
+                      "ihr arbeitet"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Sample sentences",
+                "items": [
+                  {
+                    "sentence": "Ich lerne jeden Abend Deutsch.",
+                    "translation": "I study German every evening."
+                  },
+                  {
+                    "sentence": "Du arbeitest heute im Büro.",
+                    "translation": "You are working at the office today."
+                  },
+                  {
+                    "sentence": "Er sieht den neuen Film im Kino.",
+                    "translation": "He is watching the new film at the cinema."
+                  },
+                  {
+                    "sentence": "Wir fahren am Wochenende nach Köln.",
+                    "translation": "We are driving to Cologne at the weekend."
+                  },
+                  {
+                    "sentence": "Ihr sprecht sehr gut Deutsch.",
+                    "translation": "You (plural) speak German very well."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Most infinitives end in -en; remove it to find the stem.",
+              "Regular verbs add -e, -st, -t, -en, -t, -en to the stem.",
+              "Irregular verbs keep the same endings but change the stem vowel in du/er/sie/es.",
+              "Stems ending in -d or -t insert an extra -e- before -st and -t for pronunciation."
+            ],
+            "quiz": {
+              "title": "Check your understanding",
+              "items": [
+                {
+                  "id": "verbs-inf-q1",
+                  "type": "multiple-choice",
+                  "question": "Wir ___ (lernen) Deutsch.",
+                  "choices": [
+                    "lerne",
+                    "lernen",
+                    "lernt"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-inf-q2",
+                  "type": "multiple-choice",
+                  "question": "Er ___ (fahren) zur Arbeit.",
+                  "choices": [
+                    "fahrt",
+                    "fährt",
+                    "fahre"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-inf-q3",
+                  "type": "text",
+                  "question": "Du ___ (arbeiten) am Samstag.",
+                  "answer": [
+                    "arbeitest"
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q4",
+                  "type": "text",
+                  "question": "Ich ___ (sehen) den Film.",
+                  "answer": [
+                    "sehe"
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q5",
+                  "type": "match",
+                  "question": "Match the infinitive with the ich-form.",
+                  "pairs": [
+                    {
+                      "id": "verbs-inf-p1",
+                      "prompt": "laufen",
+                      "options": [
+                        "laufe",
+                        "läuft",
+                        "lief"
+                      ],
+                      "answer": "laufe"
+                    },
+                    {
+                      "id": "verbs-inf-p2",
+                      "prompt": "sprechen",
+                      "options": [
+                        "spreche",
+                        "spriche",
+                        "sprach"
+                      ],
+                      "answer": "spreche"
+                    },
+                    {
+                      "id": "verbs-inf-p3",
+                      "prompt": "nehmen",
+                      "options": [
+                        "nehme",
+                        "nahme",
+                        "nehmt"
+                      ],
+                      "answer": "nehme"
+                    }
+                  ]
+                },
+                {
+                  "id": "verbs-inf-q6",
+                  "type": "multiple-choice",
+                  "question": "Which ending belongs to ihr for regular verbs?",
+                  "choices": [
+                    "-e",
+                    "-en",
+                    "-t"
+                  ],
+                  "answer": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "sein-haben-werden",
+          "title": "The verbs sein, haben, werden",
+          "summary": "Use the key irregular verbs sein, haben, and werden in everyday sentences.",
+          "lesson": {
+            "intro": "The verbs sein (to be), haben (to have), and werden (to become) are used constantly. They are irregular and must be memorised, but they set the tone for many basic sentences.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Sein describes identity and states, haben expresses possession and relationships, and werden can mean 'to become' or acts as the future/passive auxiliary."
+              },
+              {
+                "type": "table",
+                "title": "Conjugation in the present tense",
+                "headers": [
+                  "Person",
+                  "sein",
+                  "haben",
+                  "werden"
+                ],
+                "rows": [
+                  [
+                    "ich",
+                    "bin",
+                    "habe",
+                    "werde"
+                  ],
+                  [
+                    "du",
+                    "bist",
+                    "hast",
+                    "wirst"
+                  ],
+                  [
+                    "er/sie/es",
+                    "ist",
+                    "hat",
+                    "wird"
+                  ],
+                  [
+                    "wir",
+                    "sind",
+                    "haben",
+                    "werden"
+                  ],
+                  [
+                    "ihr",
+                    "seid",
+                    "habt",
+                    "werdet"
+                  ],
+                  [
+                    "sie/Sie",
+                    "sind",
+                    "haben",
+                    "werden"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "How we use them",
+                "text": "Use sein for descriptions and locations, haben for possessions and family, and werden either for becoming something or together with another verb to talk about the future or passive voice."
+              },
+              {
+                "type": "examples",
+                "title": "Sample sentences",
+                "items": [
+                  {
+                    "sentence": "Ich bin müde.",
+                    "translation": "I am tired."
+                  },
+                  {
+                    "sentence": "Wir sind heute im Büro.",
+                    "translation": "We are at the office today."
+                  },
+                  {
+                    "sentence": "Sie hat zwei Geschwister.",
+                    "translation": "She has two siblings."
+                  },
+                  {
+                    "sentence": "Habt ihr noch Fragen?",
+                    "translation": "Do you still have questions?"
+                  },
+                  {
+                    "sentence": "Er wird nächstes Jahr Lehrer.",
+                    "translation": "He is becoming a teacher next year."
+                  },
+                  {
+                    "sentence": "Morgen werden wir in Berlin sein.",
+                    "translation": "Tomorrow we will be in Berlin."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Sein, haben, and werden are completely irregular—memorise each form.",
+              "Sein states what something is or where it is.",
+              "Haben talks about what someone owns or experiences.",
+              "Werden expresses becoming and also builds the future tense together with an infinitive."
+            ],
+            "quiz": {
+              "title": "Practice the key verbs",
+              "items": [
+                {
+                  "id": "verbs-shw-q1",
+                  "type": "multiple-choice",
+                  "question": "Er ___ müde nach der Arbeit.",
+                  "choices": [
+                    "ist",
+                    "bist",
+                    "sein"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-shw-q2",
+                  "type": "text",
+                  "question": "Wir ___ Freunde.",
+                  "answer": [
+                    "sind"
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q3",
+                  "type": "text",
+                  "question": "Ich ___ Zeit für ein Treffen.",
+                  "answer": [
+                    "habe"
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q4",
+                  "type": "multiple-choice",
+                  "question": "Sie ___ morgen Arzt.",
+                  "choices": [
+                    "werden",
+                    "werdet",
+                    "werde"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-shw-q5",
+                  "type": "match",
+                  "question": "Match the pronoun with the correct werden-form.",
+                  "pairs": [
+                    {
+                      "id": "verbs-shw-p1",
+                      "prompt": "ich",
+                      "options": [
+                        "werdet",
+                        "werde",
+                        "wird"
+                      ],
+                      "answer": "werde"
+                    },
+                    {
+                      "id": "verbs-shw-p2",
+                      "prompt": "du",
+                      "options": [
+                        "werdet",
+                        "wirst",
+                        "werden"
+                      ],
+                      "answer": "wirst"
+                    },
+                    {
+                      "id": "verbs-shw-p3",
+                      "prompt": "ihr",
+                      "options": [
+                        "werden",
+                        "werdet",
+                        "werde"
+                      ],
+                      "answer": "werdet"
+                    }
+                  ]
+                },
+                {
+                  "id": "verbs-shw-q6",
+                  "type": "multiple-choice",
+                  "question": "Which sentence builds the future tense correctly?",
+                  "choices": [
+                    "Wir werden nach Hause.",
+                    "Wir werden nach Hause gehen.",
+                    "Wir gehen nach Hause."
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "word-order-simple-sentences",
+          "title": "Word order in simple sentences",
+          "summary": "Keep the finite verb in second position and order time, manner, place naturally.",
+          "lesson": {
+            "intro": "German main clauses follow the verb-second rule (V2). The conjugated verb stands in second position, even if another element like time or place comes first.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "You can place information before the verb to highlight it, but the conjugated verb must stay in second position. Other verbs, infinitives, and separable prefixes go to the end of the clause."
+              },
+              {
+                "type": "rules",
+                "title": "Reliable order",
+                "rules": [
+                  {
+                    "label": "Position 1",
+                    "examples": [
+                      "Heute",
+                      "In Berlin",
+                      "Nach der Arbeit"
+                    ]
+                  },
+                  {
+                    "label": "Position 2",
+                    "examples": [
+                      "steht das finite Verb"
+                    ]
+                  },
+                  {
+                    "label": "Mittelfeld",
+                    "examples": [
+                      "Subjekt",
+                      "Zeit",
+                      "Art",
+                      "Ort"
+                    ]
+                  },
+                  {
+                    "label": "Satzende",
+                    "examples": [
+                      "weitere Verben",
+                      "Infinitive",
+                      "Partizip"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Sample sentences",
+                "items": [
+                  {
+                    "sentence": "Heute lerne ich zu Hause.",
+                    "translation": "Today I study at home."
+                  },
+                  {
+                    "sentence": "Im Sommer reisen wir oft nach Spanien.",
+                    "translation": "In summer we often travel to Spain."
+                  },
+                  {
+                    "sentence": "Nach dem Essen liest er ein Buch.",
+                    "translation": "After dinner he reads a book."
+                  },
+                  {
+                    "sentence": "Morgens trinkt sie zuerst Kaffee.",
+                    "translation": "In the morning she drinks coffee first."
+                  },
+                  {
+                    "sentence": "Abends sehen wir einen Film.",
+                    "translation": "In the evening we watch a film."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "The conjugated verb always appears in second position in main clauses.",
+              "Any single element can stand before the verb for emphasis.",
+              "Other verbs and infinitives move to the end of the clause.",
+              "Use the time-manner-place order to keep sentences natural."
+            ],
+            "quiz": {
+              "title": "Build correct sentences",
+              "items": [
+                {
+                  "id": "verbs-wordorder-q1",
+                  "type": "multiple-choice",
+                  "question": "Choose the correct order: Morgen / wir / fahren / nach Leipzig.",
+                  "choices": [
+                    "Wir fahren morgen nach Leipzig.",
+                    "Morgen fahren wir nach Leipzig.",
+                    "Morgen wir fahren nach Leipzig."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-wordorder-q2",
+                  "type": "text",
+                  "question": "___ spielen die Kinder im Garten. (Heute)",
+                  "answer": [
+                    "Heute"
+                  ]
+                },
+                {
+                  "id": "verbs-wordorder-q3",
+                  "type": "multiple-choice",
+                  "question": "Where does the infinitive belong? 'Er muss ___ das Formular.'",
+                  "choices": [
+                    "ausfüllen",
+                    "ausfüllt",
+                    "füllt aus"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-wordorder-q4",
+                  "type": "text",
+                  "question": "Im Büro ___ wir oft Meetings. (haben)",
+                  "answer": [
+                    "haben"
+                  ]
+                },
+                {
+                  "id": "verbs-wordorder-q5",
+                  "type": "match",
+                  "question": "Match the first element with the correct verb-second continuation.",
+                  "pairs": [
+                    {
+                      "id": "verbs-wordorder-p1",
+                      "prompt": "Am Abend",
+                      "options": [
+                        "lesen wir ein Buch.",
+                        "Wir lesen ein Buch.",
+                        "Ein Buch lesen wir."
+                      ],
+                      "answer": "lesen wir ein Buch."
+                    },
+                    {
+                      "id": "verbs-wordorder-p2",
+                      "prompt": "In der Stadt",
+                      "options": [
+                        "kauft sie frisches Brot.",
+                        "Sie kauft frisches Brot.",
+                        "Frisches Brot kauft sie."
+                      ],
+                      "answer": "kauft sie frisches Brot."
+                    },
+                    {
+                      "id": "verbs-wordorder-p3",
+                      "prompt": "Nach dem Training",
+                      "options": [
+                        "essen sie gemeinsam.",
+                        "Sie essen gemeinsam.",
+                        "Gemeinsam essen sie."
+                      ],
+                      "answer": "essen sie gemeinsam."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "questions-yes-no-w",
+          "title": "Yes/no and W-questions",
+          "summary": "Form yes/no questions with the verb first and W-questions with a W-word plus verb.",
+          "lesson": {
+            "intro": "German questions either start with the conjugated verb (yes/no questions) or with a question word (wer, was, wo, wann, warum, wie, wohin) followed by the verb in second position.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Yes/no questions invert the verb and subject. W-questions place the question word in first position and keep the verb in second."
+              },
+              {
+                "type": "table",
+                "title": "Question patterns",
+                "headers": [
+                  "Type",
+                  "Structure",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "Yes/no",
+                    "Verb + subject + ...?",
+                    "Kommst du heute?"
+                  ],
+                  [
+                    "W-question",
+                    "W-word + verb + subject ...?",
+                    "Wann beginnt der Kurs?"
+                  ],
+                  [
+                    "W-question with preposition",
+                    "W-word + preposition + verb + subject",
+                    "Worauf wartest du?"
+                  ],
+                  [
+                    "Wohin",
+                    "Wohin + verb + subject",
+                    "Wohin fahrt ihr?"
+                  ],
+                  [
+                    "Warum",
+                    "Warum + verb + subject",
+                    "Warum lernt er Deutsch?"
+                  ],
+                  [
+                    "Wie",
+                    "Wie + verb + subject",
+                    "Wie fühlst du dich?"
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Sample questions",
+                "items": [
+                  {
+                    "sentence": "Kommst du mit?",
+                    "translation": "Are you coming along?"
+                  },
+                  {
+                    "sentence": "Hast du Zeit?",
+                    "translation": "Do you have time?"
+                  },
+                  {
+                    "sentence": "Wer hilft dir?",
+                    "translation": "Who helps you?"
+                  },
+                  {
+                    "sentence": "Wo wohnst du jetzt?",
+                    "translation": "Where do you live now?"
+                  },
+                  {
+                    "sentence": "Wohin fährt der Bus?",
+                    "translation": "Where is the bus going?"
+                  },
+                  {
+                    "sentence": "Warum lernst du Deutsch?",
+                    "translation": "Why are you learning German?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Put the conjugated verb before the subject for yes/no questions.",
+              "W-questions start with a question word and keep the verb in second position.",
+              "Combine W-words with prepositions (worauf, womit, wofür) when needed.",
+              "End questions with a rising tone in speech and a question mark in writing."
+            ],
+            "quiz": {
+              "title": "Ask the right question",
+              "items": [
+                {
+                  "id": "verbs-questions-q1",
+                  "type": "multiple-choice",
+                  "question": "Choose the correct yes/no question for 'du kommst morgen'.",
+                  "choices": [
+                    "Kommst du morgen?",
+                    "Du kommst morgen?",
+                    "Morgen du kommst?"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-questions-q2",
+                  "type": "text",
+                  "question": "___ lernst du Deutsch? (Warum)",
+                  "answer": [
+                    "Warum"
+                  ]
+                },
+                {
+                  "id": "verbs-questions-q3",
+                  "type": "multiple-choice",
+                  "question": "Which W-word fits: ___ arbeitet sie? (at what place)",
+                  "choices": [
+                    "Wie",
+                    "Wo",
+                    "Wann"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-questions-q4",
+                  "type": "text",
+                  "question": "___ fährt ihr? (Wohin)",
+                  "answer": [
+                    "Wohin"
+                  ]
+                },
+                {
+                  "id": "verbs-questions-q5",
+                  "type": "match",
+                  "question": "Match the German question word with its meaning.",
+                  "pairs": [
+                    {
+                      "id": "verbs-questions-p1",
+                      "prompt": "wer",
+                      "options": [
+                        "who",
+                        "when",
+                        "where"
+                      ],
+                      "answer": "who"
+                    },
+                    {
+                      "id": "verbs-questions-p2",
+                      "prompt": "wann",
+                      "options": [
+                        "how",
+                        "when",
+                        "why"
+                      ],
+                      "answer": "when"
+                    },
+                    {
+                      "id": "verbs-questions-p3",
+                      "prompt": "warum",
+                      "options": [
+                        "why",
+                        "where",
+                        "what"
+                      ],
+                      "answer": "why"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "negation-nicht-kein",
+          "title": "Negation (nicht, kein)",
+          "summary": "Decide whether to use nicht or kein and place them in the correct spot.",
+          "lesson": {
+            "intro": "German uses nicht to negate verbs, adjectives, adverbs, or whole clauses, and kein to replace an indefinite article (ein/eine) or to negate nouns without an article.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Use kein like an article: it declines (kein, keine, keinen, keiner, keinem). Use nicht for everything else and usually place it before the element you negate or at the end of the clause."
+              },
+              {
+                "type": "table",
+                "title": "When to use nicht vs. kein",
+                "headers": [
+                  "Use",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "kein + noun",
+                    "Ich habe keinen Hund."
+                  ],
+                  [
+                    "kein + plural noun",
+                    "Wir haben keine Tickets."
+                  ],
+                  [
+                    "nicht + verb",
+                    "Ich arbeite heute nicht."
+                  ],
+                  [
+                    "nicht + adjective",
+                    "Der Kaffee ist nicht warm."
+                  ],
+                  [
+                    "nicht + adverb",
+                    "Sie kommt nicht oft."
+                  ],
+                  [
+                    "nicht + entire clause",
+                    "Nicht alle verstehen den Witz."
+                  ]
+                ]
+              },
+              {
+                "type": "examples",
+                "title": "Sample sentences",
+                "items": [
+                  {
+                    "sentence": "Ich habe keine Zeit.",
+                    "translation": "I have no time."
+                  },
+                  {
+                    "sentence": "Er isst kein Fleisch.",
+                    "translation": "He does not eat meat."
+                  },
+                  {
+                    "sentence": "Wir fahren heute nicht nach Hause.",
+                    "translation": "We are not driving home today."
+                  },
+                  {
+                    "sentence": "Der Film ist nicht langweilig.",
+                    "translation": "The film is not boring."
+                  },
+                  {
+                    "sentence": "Sie singt nicht gern.",
+                    "translation": "She does not like to sing."
+                  },
+                  {
+                    "sentence": "Ich kaufe das Buch nicht.",
+                    "translation": "I am not buying the book."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Kein replaces ein/eine and negates nouns without a definite article.",
+              "Nicht negates verbs, adjectives, adverbs, or whole clauses.",
+              "Place nicht directly before the element you negate or near the end of the clause.",
+              "Remember that kein declines like ein: kein, keine, keinen, keiner, keinem."
+            ],
+            "quiz": {
+              "title": "Choose the correct negation",
+              "items": [
+                {
+                  "id": "verbs-negation-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich habe ___ Geld.",
+                  "choices": [
+                    "nicht",
+                    "kein",
+                    "keine"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "verbs-negation-q2",
+                  "type": "text",
+                  "question": "Der Kaffee ist ___ heiß.",
+                  "answer": [
+                    "nicht"
+                  ]
+                },
+                {
+                  "id": "verbs-negation-q3",
+                  "type": "multiple-choice",
+                  "question": "Sie kauft ___ Blumen.",
+                  "choices": [
+                    "keine",
+                    "nicht",
+                    "kein"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-negation-q4",
+                  "type": "text",
+                  "question": "Wir fahren heute ___ nach München.",
+                  "answer": [
+                    "nicht"
+                  ]
+                },
+                {
+                  "id": "verbs-negation-q5",
+                  "type": "match",
+                  "question": "Match the sentence with the correct negation word.",
+                  "pairs": [
+                    {
+                      "id": "verbs-negation-p1",
+                      "prompt": "___ Zeit haben",
+                      "options": [
+                        "kein",
+                        "nicht",
+                        "keine"
+                      ],
+                      "answer": "keine"
+                    },
+                    {
+                      "id": "verbs-negation-p2",
+                      "prompt": "___ arbeiten",
+                      "options": [
+                        "nicht",
+                        "kein",
+                        "keine"
+                      ],
+                      "answer": "nicht"
+                    },
+                    {
+                      "id": "verbs-negation-p3",
+                      "prompt": "___ Auto besitzen",
+                      "options": [
+                        "kein",
+                        "nicht",
+                        "keine"
+                      ],
+                      "answer": "kein"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "modal-verbs",
+          "title": "Modal verbs",
+          "summary": "Combine modal verbs with infinitives and keep the modal in second position.",
+          "lesson": {
+            "intro": "Modal verbs modify the main verb: they express ability, necessity, permission, desire, or obligation. In a main clause, the modal verb is conjugated and sits in second position, while the infinitive of the main verb moves to the end.",
+            "blocks": [
+              {
+                "type": "table",
+                "title": "Modal verbs in the present",
+                "headers": [
+                  "Modal",
+                  "ich",
+                  "du",
+                  "er/sie/es"
+                ],
+                "rows": [
+                  [
+                    "können",
+                    "kann",
+                    "kannst",
+                    "kann"
+                  ],
+                  [
+                    "wollen",
+                    "will",
+                    "willst",
+                    "will"
+                  ],
+                  [
+                    "müssen",
+                    "muss",
+                    "musst",
+                    "muss"
+                  ],
+                  [
+                    "dürfen",
+                    "darf",
+                    "darfst",
+                    "darf"
+                  ],
+                  [
+                    "sollen",
+                    "soll",
+                    "sollst",
+                    "soll"
+                  ],
+                  [
+                    "mögen",
+                    "mag",
+                    "magst",
+                    "mag"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Sentence position",
+                "text": "Modal verbs behave like irregular verbs with their own stem changes. The main verb stays in the infinitive and moves to the end of the clause."
+              },
+              {
+                "type": "examples",
+                "title": "Sample sentences",
+                "items": [
+                  {
+                    "sentence": "Ich kann gut schwimmen.",
+                    "translation": "I can swim well."
+                  },
+                  {
+                    "sentence": "Wir müssen heute lange arbeiten.",
+                    "translation": "We have to work long hours today."
+                  },
+                  {
+                    "sentence": "Darf ich hier parken?",
+                    "translation": "May I park here?"
+                  },
+                  {
+                    "sentence": "Sie will in Berlin studieren.",
+                    "translation": "She wants to study in Berlin."
+                  },
+                  {
+                    "sentence": "Ihr sollt eure Hausaufgaben machen.",
+                    "translation": "You (plural) should do your homework."
+                  },
+                  {
+                    "sentence": "Magst du Kaffee trinken?",
+                    "translation": "Do you like to drink coffee?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Modal verbs express ability, desire, obligation, permission, or liking.",
+              "The modal verb is conjugated and stands in second position in main clauses.",
+              "The main verb stays in the infinitive and moves to the clause ending.",
+              "Many modals change their stem vowel in the du and er/sie/es forms."
+            ],
+            "quiz": {
+              "title": "Use modal verbs correctly",
+              "items": [
+                {
+                  "id": "verbs-modals-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich ___ heute zu Hause bleiben. (must)",
+                  "choices": [
+                    "muss",
+                    "kann",
+                    "soll"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "verbs-modals-q2",
+                  "type": "text",
+                  "question": "Du ___ (können) gut malen.",
+                  "answer": [
+                    "kannst"
+                  ]
+                },
+                {
+                  "id": "verbs-modals-q3",
+                  "type": "multiple-choice",
+                  "question": "Which form fits? Wir ___ morgen kommen. (can)",
+                  "choices": [
+                    "kann",
+                    "könnt",
+                    "können"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "verbs-modals-q4",
+                  "type": "text",
+                  "question": "Er ___ (dürfen) hier nicht parken.",
+                  "answer": [
+                    "darf"
+                  ]
+                },
+                {
+                  "id": "verbs-modals-q5",
+                  "type": "match",
+                  "question": "Match the modal verb with its meaning.",
+                  "pairs": [
+                    {
+                      "id": "verbs-modals-p1",
+                      "prompt": "müssen",
+                      "options": [
+                        "may",
+                        "must",
+                        "like"
+                      ],
+                      "answer": "must"
+                    },
+                    {
+                      "id": "verbs-modals-p2",
+                      "prompt": "dürfen",
+                      "options": [
+                        "may",
+                        "must",
+                        "should"
+                      ],
+                      "answer": "may"
+                    },
+                    {
+                      "id": "verbs-modals-p3",
+                      "prompt": "wollen",
+                      "options": [
+                        "want",
+                        "must",
+                        "can"
+                      ],
+                      "answer": "want"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "adjectives",
+      "title": "Adjectives (Adjektive)",
+      "description": "Describe people and things with adjective forms, from basic comparisons to predicate use.",
+      "subtopics": [
+        {
+          "slug": "degrees-of-comparison",
+          "title": "Degrees of comparison (positive, comparative, superlative)",
+          "summary": "Form and use positive, comparative, and superlative adjectives in everyday sentences.",
+          "lesson": {
+            "intro": "German adjectives have a base (positive) form. You add endings or use irregular forms to express comparisons and the highest degree.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "To make the comparative, add -er to the adjective. Many common adjectives also change their vowel (a/o/u → ä/ö/ü). Superlatives use am + -sten in predicate position or -ste with an article before a noun."
+              },
+              {
+                "type": "rules",
+                "title": "How to build the degrees",
+                "rules": [
+                  {
+                    "label": "Comparative: add -er",
+                    "examples": [
+                      "schnell → schneller",
+                      "laut → lauter"
+                    ]
+                  },
+                  {
+                    "label": "Umlaut for a, o, u when possible",
+                    "examples": [
+                      "alt → älter",
+                      "groß → größer"
+                    ]
+                  },
+                  {
+                    "label": "Predicate superlative: am + -sten",
+                    "examples": [
+                      "am freundlichsten",
+                      "am besten"
+                    ]
+                  },
+                  {
+                    "label": "Attributive superlative: der/die/das + -ste",
+                    "examples": [
+                      "der schnellste Zug",
+                      "die schönste Aussicht"
+                    ]
+                  },
+                  {
+                    "label": "-el/-er verbs drop the extra -e",
+                    "examples": [
+                      "teuer → teurer",
+                      "dunkel → dunkler"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Sample comparisons",
+                "headers": [
+                  "Positive",
+                  "Comparative",
+                  "Superlative (predicate)",
+                  "Superlative (attributive)"
+                ],
+                "rows": [
+                  [
+                    "klein",
+                    "kleiner",
+                    "am kleinsten",
+                    "der/die/das kleinste"
+                  ],
+                  [
+                    "interessant",
+                    "interessanter",
+                    "am interessantesten",
+                    "der/die/das interessanteste"
+                  ],
+                  [
+                    "hoch",
+                    "höher",
+                    "am höchsten",
+                    "der/die/das höchste"
+                  ],
+                  [
+                    "gut",
+                    "besser",
+                    "am besten",
+                    "der/die/das beste"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Remember adjective endings",
+                "text": "Before a noun, comparative and superlative adjectives still need the usual adjective endings (ein schnellerer Bus, die beste Idee)."
+              },
+              {
+                "type": "examples",
+                "title": "Examples",
+                "items": [
+                  {
+                    "sentence": "Anna ist schneller als Ben.",
+                    "translation": "Anna is faster than Ben."
+                  },
+                  {
+                    "sentence": "Das ist das spannendste Kapitel im Buch.",
+                    "translation": "This is the most exciting chapter in the book."
+                  },
+                  {
+                    "sentence": "Mein Kaffee ist wärmer als deiner.",
+                    "translation": "My coffee is warmer than yours."
+                  },
+                  {
+                    "sentence": "Dieses Hotel ist am günstigsten in der Stadt.",
+                    "translation": "This hotel is the cheapest in the city."
+                  },
+                  {
+                    "sentence": "Die Übung wird immer schwieriger.",
+                    "translation": "The exercise is getting more and more difficult."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Comparatives usually add -er to the base form.",
+              "Add an umlaut to a, o, u when possible.",
+              "Use am + -sten for predicate superlatives.",
+              "Before nouns, combine the superlative with der/die/das and adjective endings.",
+              "Memorize irregular patterns like gut → besser."
+            ],
+            "quiz": {
+              "title": "Check your understanding",
+              "intro": "Answer the questions and compare your answers with the solutions.",
+              "items": [
+                {
+                  "id": "adj-comp-q1",
+                  "type": "multiple-choice",
+                  "question": "Which form fits? Mein Bruder ist ___ als ich.",
+                  "choices": [
+                    "groß",
+                    "größer",
+                    "am größten"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "adj-comp-q2",
+                  "type": "text",
+                  "question": "Complete the sentence: Das Rätsel ist am ___ (schwer) für die Kinder.",
+                  "answer": [
+                    "schwersten",
+                    "Schwersten"
+                  ]
+                },
+                {
+                  "id": "adj-comp-q3",
+                  "type": "multiple-choice",
+                  "question": "Choose the correct comparative: Diese Straße ist ___ als die andere.",
+                  "choices": [
+                    "kürzer",
+                    "am kürzesten",
+                    "kurze"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-comp-q4",
+                  "type": "match",
+                  "question": "Match each adjective with its comparative form.",
+                  "pairs": [
+                    {
+                      "id": "adj-comp-p1",
+                      "prompt": "teuer",
+                      "options": [
+                        "teurer",
+                        "teueren",
+                        "teuerste"
+                      ],
+                      "answer": "teurer"
+                    },
+                    {
+                      "id": "adj-comp-p2",
+                      "prompt": "jung",
+                      "options": [
+                        "jüngste",
+                        "jünger",
+                        "jungste"
+                      ],
+                      "answer": "jünger"
+                    },
+                    {
+                      "id": "adj-comp-p3",
+                      "prompt": "ruhig",
+                      "options": [
+                        "ruhiger",
+                        "ruhigsten",
+                        "ruhiges"
+                      ],
+                      "answer": "ruhiger"
+                    }
+                  ]
+                },
+                {
+                  "id": "adj-comp-q5",
+                  "type": "text",
+                  "question": "Fill in the blank: Unsere Lehrerin erklärt es am ___ (verständlich).",
+                  "answer": [
+                    "verständlichsten",
+                    "Verständlichsten"
+                  ]
+                },
+                {
+                  "id": "adj-comp-q6",
+                  "type": "multiple-choice",
+                  "question": "Which sentence correctly uses the predicate superlative?",
+                  "choices": [
+                    "Der Kuchen schmeckt am besten.",
+                    "Die beste Kuchen schmeckt.",
+                    "Am besten der Kuchen schmeckt."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "predicate-adjectives",
+          "title": "Predicate adjectives (after sein)",
+          "summary": "Use adjectives after verbs like sein, werden, and bleiben without extra endings.",
+          "lesson": {
+            "intro": "Predicate adjectives follow linking verbs and stay in their base form. They describe the subject without needing endings.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Linking verbs such as sein, werden, bleiben, wirken, and scheinen connect the subject with an adjective. The adjective stays uninflected because it does not stand before a noun."
+              },
+              {
+                "type": "rules",
+                "title": "Common linking verbs",
+                "rules": [
+                  {
+                    "label": "sein (to be)",
+                    "examples": [
+                      "Das Wetter ist warm."
+                    ]
+                  },
+                  {
+                    "label": "werden (to become)",
+                    "examples": [
+                      "Die Kinder werden müde."
+                    ]
+                  },
+                  {
+                    "label": "bleiben (to stay)",
+                    "examples": [
+                      "Die Situation bleibt ruhig."
+                    ]
+                  },
+                  {
+                    "label": "scheinen / wirken",
+                    "examples": [
+                      "Die Antwort scheint einfach.",
+                      "Er wirkt zufrieden."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Because predicate adjectives describe the subject directly, they never take gender, number, or case endings."
+              },
+              {
+                "type": "examples",
+                "title": "Examples",
+                "items": [
+                  {
+                    "sentence": "Die Suppe ist heiß.",
+                    "translation": "The soup is hot."
+                  },
+                  {
+                    "sentence": "Das Meeting bleibt kurz.",
+                    "translation": "The meeting stays short."
+                  },
+                  {
+                    "sentence": "Die Kinder werden müde.",
+                    "translation": "The children become tired."
+                  },
+                  {
+                    "sentence": "Der Weg ist frei.",
+                    "translation": "The path is clear."
+                  },
+                  {
+                    "sentence": "Der Plan scheint einfach.",
+                    "translation": "The plan seems simple."
+                  }
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Attributive adjectives behave differently",
+                "text": "If the adjective comes before a noun (ein kalter Tag), add the normal adjective ending."
+              }
+            ],
+            "takeaways": [
+              "Predicate adjectives follow linking verbs like sein, werden, and bleiben.",
+              "The adjective stays in its base form without endings.",
+              "Use predicate adjectives to describe the subject directly.",
+              "Switch to attributive endings when the adjective stands before a noun."
+            ],
+            "quiz": {
+              "title": "Check your understanding",
+              "intro": "Start the quiz and test how predicate adjectives work.",
+              "items": [
+                {
+                  "id": "adj-pred-q1",
+                  "type": "multiple-choice",
+                  "question": "Choose the correct predicate adjective sentence.",
+                  "choices": [
+                    "Die Suppe ist heiß.",
+                    "Die heiße Suppe ist.",
+                    "Die Suppe ist heiße."
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-pred-q2",
+                  "type": "text",
+                  "question": "Fill in the blank: Heute bleibt der Himmel ___ (klar).",
+                  "answer": [
+                    "klar",
+                    "Klar"
+                  ]
+                },
+                {
+                  "id": "adj-pred-q3",
+                  "type": "multiple-choice",
+                  "question": "Which verb typically needs a predicate adjective without endings?",
+                  "choices": [
+                    "sein",
+                    "sehen",
+                    "kaufen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adj-pred-q4",
+                  "type": "match",
+                  "question": "Match the verb with a correct predicate ending.",
+                  "pairs": [
+                    {
+                      "id": "adj-pred-p1",
+                      "prompt": "werden",
+                      "options": [
+                        "wird schwierig",
+                        "wird schwierige",
+                        "wird schwierigen"
+                      ],
+                      "answer": "wird schwierig"
+                    },
+                    {
+                      "id": "adj-pred-p2",
+                      "prompt": "bleiben",
+                      "options": [
+                        "bleibt ruhig",
+                        "bleibt ruhige",
+                        "bleibt ruhigen"
+                      ],
+                      "answer": "bleibt ruhig"
+                    },
+                    {
+                      "id": "adj-pred-p3",
+                      "prompt": "sein",
+                      "options": [
+                        "ist offen",
+                        "ist offene",
+                        "ist offener"
+                      ],
+                      "answer": "ist offen"
+                    }
+                  ]
+                },
+                {
+                  "id": "adj-pred-q5",
+                  "type": "text",
+                  "question": "Complete the sentence: Die Antwort scheint ___ (einfach).",
+                  "answer": [
+                    "einfach",
+                    "Einfach"
+                  ]
+                },
+                {
+                  "id": "adj-pred-q6",
+                  "type": "multiple-choice",
+                  "question": "Which sentence needs adjective endings instead (attributive use)?",
+                  "choices": [
+                    "Ich trinke einen kalten Saft.",
+                    "Der Saft ist kalt.",
+                    "Der Saft bleibt kalt."
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "adverbs-prepositions",
+      "title": "Adverbs & Prepositions (Adverbien und Präpositionen)",
+      "description": "Talk about when, where, and with whom actions happen using essential adverbs and core two-way prepositions.",
+      "subtopics": [
+        {
+          "slug": "time-adverbs",
+          "title": "Time adverbs (heute, morgen, jetzt …)",
+          "summary": "Describe when something happens with everyday German time adverbs.",
+          "lesson": {
+            "intro": "Time adverbs anchor your sentence in the timeline. They answer the question \"Wann?\" and make it easy to talk about the past, present, and near future.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Use time adverbs to open a sentence for emphasis or place them after the verb in the middle field. They set the rhythm of your narration and combine well with clock times and dates."
+              },
+              {
+                "type": "rules",
+                "title": "Useful groups",
+                "rules": [
+                  {
+                    "label": "Present or right now: heute, jetzt, gleich, sofort",
+                    "examples": []
+                  },
+                  {
+                    "label": "Upcoming days: morgen, übermorgen, am Wochenende",
+                    "examples": []
+                  },
+                  {
+                    "label": "Recent past: gestern, vorgestern, eben, neulich",
+                    "examples": []
+                  },
+                  {
+                    "label": "Frequency: oft, manchmal, selten, immer",
+                    "examples": []
+                  },
+                  {
+                    "label": "Time of day: morgens, mittags, abends, nachts",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Common time adverbs in context",
+                "headers": [
+                  "Adverb",
+                  "Meaning",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "heute",
+                    "today",
+                    "Ich arbeite heute von zu Hause."
+                  ],
+                  [
+                    "jetzt",
+                    "now",
+                    "Wir essen jetzt zu Mittag."
+                  ],
+                  [
+                    "morgen",
+                    "tomorrow",
+                    "Morgen besuchen wir Oma."
+                  ],
+                  [
+                    "gestern",
+                    "yesterday",
+                    "Gestern hatte ich frei."
+                  ],
+                  [
+                    "bald",
+                    "soon",
+                    "Der Bus kommt bald."
+                  ],
+                  [
+                    "manchmal",
+                    "sometimes",
+                    "Manchmal trainiere ich vor der Arbeit."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Word order tip",
+                "text": "Time adverbs can stand first (Heute gehe ich …) to shift the focus. In the middle field they usually stand before place expressions and before the main verb bracket."
+              },
+              {
+                "type": "examples",
+                "title": "Sample sentences",
+                "items": [
+                  {
+                    "sentence": "Heute bleibe ich zu Hause.",
+                    "translation": "Today I am staying at home."
+                  },
+                  {
+                    "sentence": "Jetzt beginnt der Unterricht.",
+                    "translation": "The class starts now."
+                  },
+                  {
+                    "sentence": "Morgen fahren wir nach Leipzig.",
+                    "translation": "Tomorrow we are driving to Leipzig."
+                  },
+                  {
+                    "sentence": "Gestern habe ich lange geschlafen.",
+                    "translation": "Yesterday I slept for a long time."
+                  },
+                  {
+                    "sentence": "Manchmal spielt sie abends Klavier.",
+                    "translation": "Sometimes she plays the piano in the evening."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Time adverbs answer the question \"Wann?\" and frame your message.",
+              "They can open a sentence for emphasis without breaking verb-second order.",
+              "Frequency adverbs such as oft or manchmal sit near the verb in the middle field.",
+              "Combine time adverbs with dates or clock times for precise scheduling."
+            ],
+            "quiz": {
+              "title": "Check your understanding",
+              "items": [
+                {
+                  "id": "adverbs-time-q1",
+                  "type": "multiple-choice",
+                  "question": "_____ gehe ich ins Kino. (today)",
+                  "choices": [
+                    "Heute",
+                    "Gestern",
+                    "Morgens"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-time-q2",
+                  "type": "multiple-choice",
+                  "question": "Wir sehen uns ___ beim Frühstück. (tomorrow)",
+                  "choices": [
+                    "morgen",
+                    "jetzt",
+                    "gestern"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-time-q3",
+                  "type": "text",
+                  "question": "Ich komme ___ (soon) nach Hause.",
+                  "answer": [
+                    "bald"
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q4",
+                  "type": "match",
+                  "question": "Match the adverb with its meaning.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-time-p1",
+                      "prompt": "heute",
+                      "options": [
+                        "today",
+                        "tomorrow",
+                        "yesterday"
+                      ],
+                      "answer": "today"
+                    },
+                    {
+                      "id": "adverbs-time-p2",
+                      "prompt": "gestern",
+                      "options": [
+                        "soon",
+                        "yesterday",
+                        "always"
+                      ],
+                      "answer": "yesterday"
+                    },
+                    {
+                      "id": "adverbs-time-p3",
+                      "prompt": "manchmal",
+                      "options": [
+                        "sometimes",
+                        "now",
+                        "never"
+                      ],
+                      "answer": "sometimes"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q5",
+                  "type": "text",
+                  "question": "___ (yesterday) habe ich meine Freunde getroffen.",
+                  "answer": [
+                    "gestern"
+                  ]
+                },
+                {
+                  "id": "adverbs-time-q6",
+                  "type": "multiple-choice",
+                  "question": "Which adverb expresses repeated activity?",
+                  "choices": [
+                    "manchmal",
+                    "jetzt",
+                    "morgen"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "location-adverbs",
+          "title": "Location adverbs (hier, da, dort …)",
+          "summary": "Point out where actions happen and how far away something is.",
+          "lesson": {
+            "intro": "Location adverbs answer the questions \"Wo?\" and \"Wohin?\". They help you describe the setting and direct listeners to the right place.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Many adverbs come in contrasting pairs like hier/da or hin/her. Use them to show distance, direction, or whether movement goes toward or away from the speaker."
+              },
+              {
+                "type": "rules",
+                "title": "Typical contrasts",
+                "rules": [
+                  {
+                    "label": "hier – right here with the speaker",
+                    "examples": []
+                  },
+                  {
+                    "label": "da / dort – there (nearby / further away)",
+                    "examples": []
+                  },
+                  {
+                    "label": "drinnen vs. draußen – inside vs. outside",
+                    "examples": []
+                  },
+                  {
+                    "label": "oben, unten, vorne, hinten – orientation in space",
+                    "examples": []
+                  },
+                  {
+                    "label": "hin/her combinations – hinunter, herüber, hierher, dorthin",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Common location adverbs",
+                "headers": [
+                  "Adverb",
+                  "Meaning",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "hier",
+                    "here",
+                    "Hier wartet der Bus."
+                  ],
+                  [
+                    "da",
+                    "there (nearby)",
+                    "Da liegt mein Handy."
+                  ],
+                  [
+                    "dort",
+                    "over there",
+                    "Dort steht das Museum."
+                  ],
+                  [
+                    "drinnen",
+                    "inside",
+                    "Die Kinder spielen drinnen."
+                  ],
+                  [
+                    "draußen",
+                    "outside",
+                    "Wir essen draußen."
+                  ],
+                  [
+                    "oben",
+                    "upstairs / above",
+                    "Dein Zimmer ist oben."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Position in the sentence",
+                "text": "Place adverbs often follow time adverbs in the middle field: Heute bleiben wir hier. With movement verbs, combine them with direction: Komm hierher!, Geh dort hinauf!"
+              },
+              {
+                "type": "examples",
+                "title": "Sample sentences",
+                "items": [
+                  {
+                    "sentence": "Hier gibt es frisches Brot.",
+                    "translation": "There is fresh bread here."
+                  },
+                  {
+                    "sentence": "Da drüben steht mein Fahrrad.",
+                    "translation": "My bike is standing over there."
+                  },
+                  {
+                    "sentence": "Wir treffen uns draußen im Park.",
+                    "translation": "We meet outside in the park."
+                  },
+                  {
+                    "sentence": "Die Katze schläft drinnen auf dem Sofa.",
+                    "translation": "The cat sleeps inside on the sofa."
+                  },
+                  {
+                    "sentence": "Komm hierher und sieh dir das an.",
+                    "translation": "Come over here and look at this."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Location adverbs answer \"Wo?\" or \"Wohin?\" and signal distance or direction.",
+              "hier/hierher refer to the speaker’s place; da/dort/dorthin point away.",
+              "Pairs like drinnen/draußen or oben/unten describe position relative to a space.",
+              "hin- forms show movement away, while her- forms show movement toward the speaker."
+            ],
+            "quiz": {
+              "title": "Try these questions",
+              "items": [
+                {
+                  "id": "adverbs-place-q1",
+                  "type": "multiple-choice",
+                  "question": "Der Schlüssel liegt ___ auf dem Tisch neben mir.",
+                  "choices": [
+                    "hier",
+                    "dort",
+                    "oben"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-place-q2",
+                  "type": "multiple-choice",
+                  "question": "Welches Adverb benutzt du, wenn etwas weiter weg ist?",
+                  "choices": [
+                    "dort",
+                    "hier",
+                    "drinnen"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-place-q3",
+                  "type": "text",
+                  "question": "Wir treffen uns ___ (outside) vor dem Kino.",
+                  "answer": [
+                    "draußen",
+                    "draussen"
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q4",
+                  "type": "match",
+                  "question": "Match the adverb with its idea.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-place-p1",
+                      "prompt": "drinnen",
+                      "options": [
+                        "inside",
+                        "outside",
+                        "upstairs"
+                      ],
+                      "answer": "inside"
+                    },
+                    {
+                      "id": "adverbs-place-p2",
+                      "prompt": "oben",
+                      "options": [
+                        "downstairs",
+                        "outside",
+                        "upstairs"
+                      ],
+                      "answer": "upstairs"
+                    },
+                    {
+                      "id": "adverbs-place-p3",
+                      "prompt": "hierher",
+                      "options": [
+                        "to here",
+                        "to there",
+                        "away"
+                      ],
+                      "answer": "to here"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q5",
+                  "type": "text",
+                  "question": "Komm ___ (over here), bitte!",
+                  "answer": [
+                    "hierher"
+                  ]
+                },
+                {
+                  "id": "adverbs-place-q6",
+                  "type": "multiple-choice",
+                  "question": "Welches Adverb passt zu einer Bewegung nach oben?",
+                  "choices": [
+                    "oben",
+                    "unten",
+                    "da"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "common-prepositions",
+          "title": "Common prepositions with Dative/Akkusativ",
+          "summary": "Use key two-way prepositions and always-dative or always-accusative forms correctly.",
+          "lesson": {
+            "intro": "German prepositions control the case of the noun phrase that follows. Two-way prepositions use Dative for location (Wo?) and Accusative for direction (Wohin?).",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Learn the core set of Wechselpräpositionen (in, an, auf, unter, über, vor, hinter, neben, zwischen) along with common partners like bei, mit, von, nach, zu, für, ohne, um."
+              },
+              {
+                "type": "rules",
+                "title": "Case patterns",
+                "rules": [
+                  {
+                    "label": "Dative for location (Wo?): in, an, auf, bei, zu, nach, von, seit",
+                    "examples": []
+                  },
+                  {
+                    "label": "Accusative for destination (Wohin?): in, an, auf, nach, zu, um",
+                    "examples": []
+                  },
+                  {
+                    "label": "Always Dative: mit, von, bei, nach, seit, aus",
+                    "examples": []
+                  },
+                  {
+                    "label": "Always Accusative: für, ohne, um, gegen",
+                    "examples": []
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Two-way prepositions in action",
+                "headers": [
+                  "Preposition",
+                  "Dative (location)",
+                  "Accusative (direction)",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "in",
+                    "Ich bin in der Küche.",
+                    "Ich gehe in die Küche.",
+                    "in + Dativ zeigt Ort, in + Akkusativ Bewegung."
+                  ],
+                  [
+                    "an",
+                    "Das Bild hängt an der Wand.",
+                    "Ich hänge das Bild an die Wand.",
+                    "an beschreibt Kontakt an einer Seite."
+                  ],
+                  [
+                    "auf",
+                    "Die Bücher liegen auf dem Tisch.",
+                    "Ich lege die Bücher auf den Tisch.",
+                    "auf benutzt man für Flächen."
+                  ],
+                  [
+                    "unter",
+                    "Der Hund schläft unter dem Tisch.",
+                    "Der Hund läuft unter den Tisch.",
+                    "unter zeigt eine Position darunter."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Article contractions",
+                "text": "Remember common contractions: in dem → im, in das → ins, an dem → am, zu dem → zum, zu der → zur. They keep the preposition and article flowing smoothly."
+              },
+              {
+                "type": "examples",
+                "title": "Sample sentences",
+                "items": [
+                  {
+                    "sentence": "Wir treffen uns am Bahnhof.",
+                    "translation": "We meet at the station."
+                  },
+                  {
+                    "sentence": "Er geht ins Büro.",
+                    "translation": "He goes into the office."
+                  },
+                  {
+                    "sentence": "Nach der Arbeit fahre ich zu meiner Freundin.",
+                    "translation": "After work I drive to my girlfriend."
+                  },
+                  {
+                    "sentence": "Sie sitzt seit einer Stunde im Zug.",
+                    "translation": "She has been sitting on the train for an hour."
+                  },
+                  {
+                    "sentence": "Ohne dich ist es hier zu ruhig.",
+                    "translation": "Without you it is too quiet here."
+                  },
+                  {
+                    "sentence": "Wir sprechen über den Plan am Abend.",
+                    "translation": "We talk about the plan in the evening."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Two-way prepositions choose Dative for location and Accusative for movement.",
+              "Some prepositions are fixed with the Dative (mit, von, seit) or Accusative (für, ohne, um).",
+              "Contractions like im or zum combine preposition and article in natural speech.",
+              "Check the question (Wo? or Wohin?) to decide the correct case."
+            ],
+            "quiz": {
+              "title": "Case check",
+              "items": [
+                {
+                  "id": "adverbs-prep-q1",
+                  "type": "multiple-choice",
+                  "question": "Ich warte ___ der Haltestelle. (location)",
+                  "choices": [
+                    "an",
+                    "zu",
+                    "um"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q2",
+                  "type": "multiple-choice",
+                  "question": "Am Samstag fahren wir ___ den See. (destination)",
+                  "choices": [
+                    "an",
+                    "bei",
+                    "mit"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q3",
+                  "type": "text",
+                  "question": "Wir treffen uns ___ (at) dem Café.",
+                  "answer": [
+                    "bei"
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q4",
+                  "type": "match",
+                  "question": "Ordne die Präposition der richtigen Kategorie zu.",
+                  "pairs": [
+                    {
+                      "id": "adverbs-prep-p1",
+                      "prompt": "für",
+                      "options": [
+                        "Akkusativ",
+                        "Dativ",
+                        "Genitiv"
+                      ],
+                      "answer": "Akkusativ"
+                    },
+                    {
+                      "id": "adverbs-prep-p2",
+                      "prompt": "mit",
+                      "options": [
+                        "Akkusativ",
+                        "Dativ",
+                        "Genitiv"
+                      ],
+                      "answer": "Dativ"
+                    },
+                    {
+                      "id": "adverbs-prep-p3",
+                      "prompt": "in (Wohin?)",
+                      "options": [
+                        "Akkusativ",
+                        "Dativ",
+                        "Beides"
+                      ],
+                      "answer": "Akkusativ"
+                    }
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q5",
+                  "type": "text",
+                  "question": "Er kommt ___ (from) der Arbeit.",
+                  "answer": [
+                    "von"
+                  ]
+                },
+                {
+                  "id": "adverbs-prep-q6",
+                  "type": "multiple-choice",
+                  "question": "Welche Präposition verlangt immer den Akkusativ?",
+                  "choices": [
+                    "für",
+                    "bei",
+                    "mit"
+                  ],
+                  "answer": 0
+                },
+                {
+                  "id": "adverbs-prep-q7",
+                  "type": "multiple-choice",
+                  "question": "Setz dich ___ den Tisch! (movement toward the table)",
+                  "choices": [
+                    "an",
+                    "auf",
+                    "mit"
+                  ],
+                  "answer": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "sentence-structure",
+      "title": "Sentence Structure (Satzbau)",
+      "description": "Build natural German sentences with verb-second order, clear questions, and confident commands.",
+      "subtopics": [
+        {
+          "slug": "main-clause-word-order",
+          "title": "Word order in main clauses (verb in 2nd position)",
+          "summary": "Keep the conjugated verb in second position while moving other elements for emphasis.",
+          "lesson": {
+            "intro": "German main clauses always place the conjugated verb in second position, no matter which element opens the sentence.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Any single element can appear in the first slot: the subject, a time phrase, or an object. The conjugated verb immediately follows, and the subject returns right after the verb if it was not first. The remaining information — objects, adverbs, separable prefixes — fills the middle field before the verb bracket closes."
+              },
+              {
+                "type": "rules",
+                "title": "Second-position essentials",
+                "rules": [
+                  {
+                    "label": "First position (Vorfeld)",
+                    "examples": [
+                      "Heute",
+                      "Mein Bruder",
+                      "Nach dem Unterricht"
+                    ]
+                  },
+                  {
+                    "label": "Second position",
+                    "examples": [
+                      "geht",
+                      "kauft",
+                      "kommt"
+                    ]
+                  },
+                  {
+                    "label": "Middle field",
+                    "examples": [
+                      "ich ins Kino",
+                      "er frisches Brot ein",
+                      "sie um acht Uhr an"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Typical main-clause frame",
+                "headers": [
+                  "Position",
+                  "Example",
+                  "Role"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Heute",
+                    "Topic or time focus"
+                  ],
+                  [
+                    "2",
+                    "gehe",
+                    "Conjugated verb"
+                  ],
+                  [
+                    "3",
+                    "ich",
+                    "Subject or core element"
+                  ],
+                  [
+                    "4",
+                    "ins Kino",
+                    "Objects, complements, adverbs"
+                  ],
+                  [
+                    "5",
+                    "ein",
+                    "Separable prefix or sentence bracket"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Time, manner, place",
+                "text": "After the verb you often place time, then manner, then place. This rhythm keeps sentences clear: Heute (time) fahre ich mit dem Bus (manner) zur Arbeit (place)."
+              },
+              {
+                "type": "examples",
+                "title": "Examples",
+                "items": [
+                  {
+                    "sentence": "Heute gehe ich ins Kino.",
+                    "translation": "Today I am going to the cinema."
+                  },
+                  {
+                    "sentence": "Mein Bruder kauft morgen frisches Brot ein.",
+                    "translation": "My brother is buying fresh bread tomorrow."
+                  },
+                  {
+                    "sentence": "In Berlin wohnt meine Tante.",
+                    "translation": "My aunt lives in Berlin."
+                  },
+                  {
+                    "sentence": "Nach der Arbeit trinke ich zu Hause Tee.",
+                    "translation": "After work I drink tea at home."
+                  },
+                  {
+                    "sentence": "Manchmal lese ich abends noch ein Buch.",
+                    "translation": "Sometimes I read a book in the evening."
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "The conjugated verb must stay in second position in main clauses.",
+              "Any single element can open the sentence and push the subject behind the verb.",
+              "Use the time–manner–place order to stack information after the verb.",
+              "Separable prefixes move to the end but do not change verb-second order.",
+              "Long openers count as one element; the verb still comes second."
+            ],
+            "quiz": {
+              "title": "Check your understanding",
+              "intro": "Choose the correct word order or supply the missing form.",
+              "items": [
+                {
+                  "id": "sentence-structure-main-q1",
+                  "type": "multiple-choice",
+                  "question": "Which sentence keeps the verb in second position?",
+                  "choices": [
+                    "Morgen wir gehen schwimmen.",
+                    "Morgen gehen wir schwimmen.",
+                    "Wir morgen schwimmen gehen."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-main-q2",
+                  "type": "multiple-choice",
+                  "question": "What can stand in the first position of a main clause?",
+                  "choices": [
+                    "Only the subject",
+                    "A single emphasized element such as time or object",
+                    "Only adverbs"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-main-q3",
+                  "type": "text",
+                  "question": "Complete the sentence: Am Wochenende ___ ich meine Freunde. (treffen)",
+                  "answer": [
+                    "treffe"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q4",
+                  "type": "text",
+                  "question": "Setze die richtige Form ein: Nachmittags ___ die Kinder im Park. (spielen)",
+                  "answer": [
+                    "spielen"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q5",
+                  "type": "match",
+                  "question": "Match the fronted element with its focus.",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-main-p1",
+                      "prompt": "Heute ...",
+                      "options": [
+                        "time focus",
+                        "place focus",
+                        "object focus"
+                      ],
+                      "answer": "time focus"
+                    },
+                    {
+                      "id": "sentence-structure-main-p2",
+                      "prompt": "Im Garten ...",
+                      "options": [
+                        "time focus",
+                        "place focus",
+                        "object focus"
+                      ],
+                      "answer": "place focus"
+                    },
+                    {
+                      "id": "sentence-structure-main-p3",
+                      "prompt": "Dieses Buch ...",
+                      "options": [
+                        "time focus",
+                        "place focus",
+                        "object focus"
+                      ],
+                      "answer": "object focus"
+                    }
+                  ]
+                },
+                {
+                  "id": "sentence-structure-main-q6",
+                  "type": "multiple-choice",
+                  "question": "If you start with \"In der Schule\", what must follow immediately?",
+                  "choices": [
+                    "The subject",
+                    "The conjugated verb",
+                    "An object"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "questions-and-negation",
+          "title": "Questions and negation",
+          "summary": "Form yes/no and W-questions and place nicht or kein correctly.",
+          "lesson": {
+            "intro": "German questions rely on moving the conjugated verb. Negation uses nicht or kein depending on what you deny.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Yes/no questions begin directly with the conjugated verb. The subject stands right after it and the rest of the sentence follows. This inversion signals that you expect a ja or nein answer."
+              },
+              {
+                "type": "paragraph",
+                "text": "W-questions start with a question word such as Wer, Was, Wo, Wann, Warum, or Wie. The conjugated verb still holds the second position, followed by the subject and other information."
+              },
+              {
+                "type": "table",
+                "title": "Question patterns",
+                "headers": [
+                  "Type",
+                  "Structure",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "Ja/Nein",
+                    "Verb + subject + ...?",
+                    "Wohnst du in Leipzig?"
+                  ],
+                  [
+                    "W-Frage",
+                    "Question word + verb + subject + ...?",
+                    "Wann kommt der Zug?"
+                  ],
+                  [
+                    "Warum-Frage",
+                    "Warum + verb + subject + reason",
+                    "Warum lernst du Deutsch?"
+                  ],
+                  [
+                    "Wo-Frage",
+                    "Wo + verb + subject + place",
+                    "Wo arbeitet dein Vater?"
+                  ],
+                  [
+                    "Wie-Frage",
+                    "Wie + verb + subject + manner",
+                    "Wie fühlst du dich heute?"
+                  ],
+                  [
+                    "Negation",
+                    "Subjekt + Verb + ... + nicht/kein",
+                    "Ich komme heute nicht."
+                  ],
+                  [
+                    "Kein",
+                    "kein + Nomen ohne Artikel",
+                    "Sie hat keinen Termin."
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Nicht oder kein?",
+                "text": "Use kein to replace an indefinite article (ein/eine) or to negate a noun with no article. Use nicht to negate verbs, adjectives, adverbs, or the whole clause."
+              },
+              {
+                "type": "examples",
+                "title": "Examples",
+                "items": [
+                  {
+                    "sentence": "Wohnst du in Leipzig?",
+                    "translation": "Do you live in Leipzig?"
+                  },
+                  {
+                    "sentence": "Wann kommt der Zug?",
+                    "translation": "When does the train arrive?"
+                  },
+                  {
+                    "sentence": "Warum lernst du Deutsch?",
+                    "translation": "Why are you learning German?"
+                  },
+                  {
+                    "sentence": "Ich komme heute nicht.",
+                    "translation": "I am not coming today."
+                  },
+                  {
+                    "sentence": "Sie hat keinen Termin.",
+                    "translation": "She has no appointment."
+                  },
+                  {
+                    "sentence": "Was macht ihr am Wochenende?",
+                    "translation": "What are you doing at the weekend?"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Yes/no questions begin with the conjugated verb.",
+              "W-questions still keep the verb in second position after the question word.",
+              "Use kein to negate a noun with no article or with ein/eine.",
+              "Use nicht to negate verbs, adjectives, adverbs, or whole clauses.",
+              "Place nicht before the element you want to negate or at the end of the clause."
+            ],
+            "quiz": {
+              "title": "Check your understanding",
+              "intro": "Build questions and pick the correct negation.",
+              "items": [
+                {
+                  "id": "sentence-structure-questions-q1",
+                  "type": "multiple-choice",
+                  "question": "How does a yes/no question start in German?",
+                  "choices": [
+                    "With the subject",
+                    "With the conjugated verb",
+                    "With a question word"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-questions-q2",
+                  "type": "multiple-choice",
+                  "question": "Which option forms a correct W-question?",
+                  "choices": [
+                    "Wo du arbeitest?",
+                    "Wo arbeitest du?",
+                    "Du arbeitest wo?"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-questions-q3",
+                  "type": "text",
+                  "question": "Ergänze die Frage: ___ du heute Abend Zeit? (haben)",
+                  "answer": [
+                    "Hast",
+                    "hast"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q4",
+                  "type": "text",
+                  "question": "Setze nicht oder kein ein: Wir haben ___ Brot mehr.",
+                  "answer": [
+                    "kein"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q5",
+                  "type": "match",
+                  "question": "Match the question word with its meaning.",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-questions-p1",
+                      "prompt": "Wo?",
+                      "options": [
+                        "Where?",
+                        "When?",
+                        "Why?"
+                      ],
+                      "answer": "Where?"
+                    },
+                    {
+                      "id": "sentence-structure-questions-p2",
+                      "prompt": "Wann?",
+                      "options": [
+                        "Where?",
+                        "When?",
+                        "Why?"
+                      ],
+                      "answer": "When?"
+                    },
+                    {
+                      "id": "sentence-structure-questions-p3",
+                      "prompt": "Warum?",
+                      "options": [
+                        "Where?",
+                        "When?",
+                        "Why?"
+                      ],
+                      "answer": "Why?"
+                    }
+                  ]
+                },
+                {
+                  "id": "sentence-structure-questions-q6",
+                  "type": "multiple-choice",
+                  "question": "Where do you usually place nicht when negating a verb phrase?",
+                  "choices": [
+                    "Directly before the conjugated verb",
+                    "Before the element you negate or at the end",
+                    "At the very beginning of the sentence"
+                  ],
+                  "answer": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "slug": "imperative-commands",
+          "title": "Imperative (commands)",
+          "summary": "Give clear commands with du, ihr, Sie, and wir forms.",
+          "lesson": {
+            "intro": "The German imperative changes form depending on whether you address one person, several people, or want to include yourself politely.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "For du-commands, drop the pronoun and usually remove the -st ending: Komm!, Arbeite!, Lies!. With verbs ending in -eln or -ern, keep the -e: Sammle!, Ändere!."
+              },
+              {
+                "type": "paragraph",
+                "text": "Ihr-commands use the regular ihr form without the pronoun: Kommt!, Arbeitet!. Polite Sie-commands place the infinitive first and keep Sie: Kommen Sie!, Seien Sie vorsichtig!."
+              },
+              {
+                "type": "table",
+                "title": "Imperative forms",
+                "headers": [
+                  "Form",
+                  "Pattern",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "du",
+                    "Verb stem + ! (optionally + e)",
+                    "Komm! / Warte!"
+                  ],
+                  [
+                    "ihr",
+                    "Present ihr form",
+                    "Kommt! / Lernt!"
+                  ],
+                  [
+                    "Sie",
+                    "Infinitive + Sie",
+                    "Kommen Sie! / Bleiben Sie ruhig!"
+                  ],
+                  [
+                    "wir",
+                    "Lasst uns + infinitive",
+                    "Lasst uns gehen!"
+                  ],
+                  [
+                    "sein",
+                    "irregular: Sei! / Seid! / Seien Sie!",
+                    "Sei leise! / Seid bereit! / Seien Sie geduldig!"
+                  ]
+                ]
+              },
+              {
+                "type": "note",
+                "title": "Separable verbs",
+                "text": "In the imperative, separable prefixes still move to the end: Ruf mich an!, Steh bitte auf!."
+              },
+              {
+                "type": "examples",
+                "title": "Examples",
+                "items": [
+                  {
+                    "sentence": "Komm bitte pünktlich!",
+                    "translation": "Come on time, please!"
+                  },
+                  {
+                    "sentence": "Öffne das Fenster!",
+                    "translation": "Open the window!"
+                  },
+                  {
+                    "sentence": "Kommt morgen früher!",
+                    "translation": "Come earlier tomorrow!"
+                  },
+                  {
+                    "sentence": "Kommen Sie herein!",
+                    "translation": "Please come in!"
+                  },
+                  {
+                    "sentence": "Lasst uns jetzt anfangen!",
+                    "translation": "Let’s start now!"
+                  },
+                  {
+                    "sentence": "Steh sofort auf!",
+                    "translation": "Stand up right away!"
+                  }
+                ]
+              }
+            ],
+            "takeaways": [
+              "Du-commands use the verb stem, often without -st.",
+              "Ihr-commands match the ihr-form without the pronoun.",
+              "Polite Sie-commands keep Sie after the infinitive.",
+              "Wir-commands use Lasst uns + infinitive.",
+              "Separable prefixes move to the end even in commands."
+            ],
+            "quiz": {
+              "title": "Check your understanding",
+              "intro": "Choose the correct imperative form.",
+              "items": [
+                {
+                  "id": "sentence-structure-imperative-q1",
+                  "type": "multiple-choice",
+                  "question": "Which du-command is correct?",
+                  "choices": [
+                    "Du kommst sofort!",
+                    "Komm sofort!",
+                    "Kommst du sofort!"
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-imperative-q2",
+                  "type": "multiple-choice",
+                  "question": "Choose the polite command.",
+                  "choices": [
+                    "Bleib ruhig!",
+                    "Bleibt ruhig!",
+                    "Bleiben Sie ruhig!"
+                  ],
+                  "answer": 2
+                },
+                {
+                  "id": "sentence-structure-imperative-q3",
+                  "type": "text",
+                  "question": "Schreib den Befehl: ___ (ihr / warten) hier!",
+                  "answer": [
+                    "Wartet",
+                    "wartet"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-imperative-q4",
+                  "type": "text",
+                  "question": "Ergänze: ___ uns anfangen!",
+                  "answer": [
+                    "Lasst",
+                    "lasst"
+                  ]
+                },
+                {
+                  "id": "sentence-structure-imperative-q5",
+                  "type": "multiple-choice",
+                  "question": "Where does the prefix go in the command \"Steh ... auf!\"?",
+                  "choices": [
+                    "It stays with the verb at the start.",
+                    "It moves to the end of the sentence.",
+                    "It disappears."
+                  ],
+                  "answer": 1
+                },
+                {
+                  "id": "sentence-structure-imperative-q6",
+                  "type": "match",
+                  "question": "Match the subject with the imperative ending.",
+                  "pairs": [
+                    {
+                      "id": "sentence-structure-imperative-p1",
+                      "prompt": "du",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "-"
+                    },
+                    {
+                      "id": "sentence-structure-imperative-p2",
+                      "prompt": "ihr",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "-t"
+                    },
+                    {
+                      "id": "sentence-structure-imperative-p3",
+                      "prompt": "Sie",
+                      "options": [
+                        "-",
+                        "-t",
+                        "Sie"
+                      ],
+                      "answer": "Sie"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "menu": {
+    "library": "Library",
+    "learning": "Learning",
+    "about": "About",
+    "grammar": "Grammar",
+    "vocabulary": "Vocabulary",
+    "pronunciation": "Pronunciation",
+    "test": "German Test",
+    "ai_teacher": "AI Teacher"
+  }
+}
